@@ -1,270 +1,270 @@
 {
   "Adams": {
-    "dateStr": "3/21/21",
-    "cases": 7745,
+    "dateStr": "3/23/21",
+    "cases": 7774,
     "deaths": 158,
     "recovered": 0,
-    "new": 21,
+    "new": 16,
     "newDeaths": 0
   },
   "Allegheny": {
-    "dateStr": "3/21/21",
-    "cases": 81912,
-    "deaths": 1780,
+    "dateStr": "3/23/21",
+    "cases": 82444,
+    "deaths": 1783,
     "recovered": 0,
-    "new": 257,
-    "newDeaths": 1
+    "new": 364,
+    "newDeaths": 3
   },
   "Armstrong": {
-    "dateStr": "3/21/21",
-    "cases": 5054,
+    "dateStr": "3/23/21",
+    "cases": 5067,
     "deaths": 118,
     "recovered": 0,
-    "new": 3,
+    "new": 8,
     "newDeaths": 0
   },
   "Beaver": {
-    "dateStr": "3/21/21",
-    "cases": 12797,
+    "dateStr": "3/23/21",
+    "cases": 12850,
     "deaths": 356,
     "recovered": 0,
-    "new": 13,
+    "new": 44,
     "newDeaths": 0
   },
   "Bedford": {
-    "dateStr": "3/21/21",
-    "cases": 3914,
+    "dateStr": "3/23/21",
+    "cases": 3920,
     "deaths": 130,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  "Berks": {
+    "dateStr": "3/23/21",
+    "cases": 38374,
+    "deaths": 920,
+    "recovered": 0,
+    "new": 148,
+    "newDeaths": 0
+  },
+  "Blair": {
+    "dateStr": "3/23/21",
+    "cases": 10941,
+    "deaths": 310,
+    "recovered": 0,
+    "new": 22,
+    "newDeaths": 1
+  },
+  "Bradford": {
+    "dateStr": "3/23/21",
+    "cases": 4630,
+    "deaths": 83,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 1
+  },
+  "Bucks": {
+    "dateStr": "3/23/21",
+    "cases": 48801,
+    "deaths": 1166,
+    "recovered": 0,
+    "new": 168,
+    "newDeaths": 1
+  },
+  "Butler": {
+    "dateStr": "3/23/21",
+    "cases": 14795,
+    "deaths": 383,
+    "recovered": 0,
+    "new": 65,
+    "newDeaths": 1
+  },
+  "Cambria": {
+    "dateStr": "3/23/21",
+    "cases": 12086,
+    "deaths": 403,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 0
+  },
+  "Cameron": {
+    "dateStr": "3/23/21",
+    "cases": 271,
+    "deaths": 7,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
-  "Berks": {
-    "dateStr": "3/21/21",
-    "cases": 38174,
-    "deaths": 920,
+  "Carbon": {
+    "dateStr": "3/23/21",
+    "cases": 5195,
+    "deaths": 156,
     "recovered": 0,
-    "new": 90,
+    "new": 43,
+    "newDeaths": 0
+  },
+  "Centre": {
+    "dateStr": "3/23/21",
+    "cases": 13975,
+    "deaths": 214,
+    "recovered": 0,
+    "new": 66,
+    "newDeaths": 0
+  },
+  "Chester": {
+    "dateStr": "3/23/21",
+    "cases": 30259,
+    "deaths": 740,
+    "recovered": 0,
+    "new": 110,
+    "newDeaths": 0
+  },
+  "Clarion": {
+    "dateStr": "3/23/21",
+    "cases": 2778,
+    "deaths": 87,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  "Clearfield": {
+    "dateStr": "3/23/21",
+    "cases": 6894,
+    "deaths": 125,
+    "recovered": 0,
+    "new": 45,
     "newDeaths": 1
   },
-  "Blair": {
-    "dateStr": "3/21/21",
-    "cases": 10911,
-    "deaths": 309,
+  "Clinton": {
+    "dateStr": "3/23/21",
+    "cases": 2996,
+    "deaths": 57,
     "recovered": 0,
-    "new": 13,
+    "new": 4,
     "newDeaths": 0
   },
-  "Bradford": {
-    "dateStr": "3/21/21",
-    "cases": 4607,
-    "deaths": 82,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  "Bucks": {
-    "dateStr": "3/21/21",
-    "cases": 48532,
-    "deaths": 1165,
-    "recovered": 0,
-    "new": 174,
-    "newDeaths": 1
-  },
-  "Butler": {
-    "dateStr": "3/21/21",
-    "cases": 14708,
-    "deaths": 382,
-    "recovered": 0,
-    "new": 24,
-    "newDeaths": 0
-  },
-  "Cambria": {
-    "dateStr": "3/21/21",
-    "cases": 12059,
-    "deaths": 403,
+  "Columbia": {
+    "dateStr": "3/23/21",
+    "cases": 4843,
+    "deaths": 125,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
   },
-  "Cameron": {
-    "dateStr": "3/21/21",
-    "cases": 267,
-    "deaths": 7,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Carbon": {
-    "dateStr": "3/21/21",
-    "cases": 5145,
-    "deaths": 156,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  "Centre": {
-    "dateStr": "3/21/21",
-    "cases": 13895,
-    "deaths": 214,
-    "recovered": 0,
-    "new": 61,
-    "newDeaths": 0
-  },
-  "Chester": {
-    "dateStr": "3/21/21",
-    "cases": 29863,
-    "deaths": 739,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Clarion": {
-    "dateStr": "3/21/21",
-    "cases": 2774,
-    "deaths": 87,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Clearfield": {
-    "dateStr": "3/21/21",
-    "cases": 6833,
-    "deaths": 124,
-    "recovered": 0,
-    "new": 22,
-    "newDeaths": 0
-  },
-  "Clinton": {
-    "dateStr": "3/21/21",
-    "cases": 2985,
-    "deaths": 57,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Columbia": {
-    "dateStr": "3/21/21",
-    "cases": 4828,
-    "deaths": 125,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
   "Crawford": {
-    "dateStr": "3/21/21",
-    "cases": 6596,
+    "dateStr": "3/23/21",
+    "cases": 6612,
     "deaths": 141,
     "recovered": 0,
-    "new": 6,
+    "new": 15,
     "newDeaths": 0
   },
   "Cumberland": {
-    "dateStr": "3/21/21",
-    "cases": 17465,
-    "deaths": 491,
+    "dateStr": "3/23/21",
+    "cases": 17522,
+    "deaths": 492,
     "recovered": 0,
-    "new": 37,
-    "newDeaths": 0
-  },
-  "Dauphin": {
-    "dateStr": "3/21/21",
-    "cases": 21701,
-    "deaths": 511,
-    "recovered": 0,
-    "new": 33,
-    "newDeaths": 0
-  },
-  "Delaware": {
-    "dateStr": "3/21/21",
-    "cases": 43191,
-    "deaths": 1272,
-    "recovered": 0,
-    "new": 110,
+    "new": 47,
     "newDeaths": 1
   },
+  "Dauphin": {
+    "dateStr": "3/23/21",
+    "cases": 21792,
+    "deaths": 512,
+    "recovered": 0,
+    "new": 66,
+    "newDeaths": 1
+  },
+  "Delaware": {
+    "dateStr": "3/23/21",
+    "cases": 43357,
+    "deaths": 1274,
+    "recovered": 0,
+    "new": 109,
+    "newDeaths": 2
+  },
   "Elk": {
-    "dateStr": "3/21/21",
-    "cases": 2427,
+    "dateStr": "3/23/21",
+    "cases": 2446,
     "deaths": 36,
     "recovered": 0,
-    "new": 20,
+    "new": 10,
     "newDeaths": 0
   },
   "Erie": {
-    "dateStr": "3/21/21",
-    "cases": 18324,
-    "deaths": 389,
+    "dateStr": "3/23/21",
+    "cases": 18374,
+    "deaths": 391,
     "recovered": 0,
-    "new": 17,
-    "newDeaths": 0
+    "new": 33,
+    "newDeaths": 2
   },
   "Fayette": {
-    "dateStr": "3/21/21",
-    "cases": 10944,
-    "deaths": 282,
+    "dateStr": "3/23/21",
+    "cases": 10983,
+    "deaths": 285,
     "recovered": 0,
-    "new": 29,
-    "newDeaths": 0
+    "new": 26,
+    "newDeaths": 3
   },
   "Forest": {
-    "dateStr": "3/21/21",
-    "cases": 1387,
+    "dateStr": "3/23/21",
+    "cases": 1390,
     "deaths": 21,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Franklin": {
-    "dateStr": "3/21/21",
-    "cases": 13119,
-    "deaths": 337,
+    "dateStr": "3/23/21",
+    "cases": 13182,
+    "deaths": 338,
     "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
+    "new": 59,
+    "newDeaths": 1
   },
   "Fulton": {
-    "dateStr": "3/21/21",
-    "cases": 1165,
+    "dateStr": "3/23/21",
+    "cases": 1167,
     "deaths": 15,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Greene": {
-    "dateStr": "3/21/21",
-    "cases": 2775,
-    "deaths": 35,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Huntingdon": {
-    "dateStr": "3/21/21",
-    "cases": 4490,
-    "deaths": 126,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Indiana": {
-    "dateStr": "3/21/21",
-    "cases": 5248,
-    "deaths": 160,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Jefferson": {
-    "dateStr": "3/21/21",
-    "cases": 2903,
-    "deaths": 90,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
+  "Greene": {
+    "dateStr": "3/23/21",
+    "cases": 2782,
+    "deaths": 36,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 1
+  },
+  "Huntingdon": {
+    "dateStr": "3/23/21",
+    "cases": 4496,
+    "deaths": 126,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Indiana": {
+    "dateStr": "3/23/21",
+    "cases": 5259,
+    "deaths": 160,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  "Jefferson": {
+    "dateStr": "3/23/21",
+    "cases": 2922,
+    "deaths": 91,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 1
+  },
   "Juniata": {
-    "dateStr": "3/21/21",
+    "dateStr": "3/23/21",
     "cases": 1871,
     "deaths": 81,
     "recovered": 0,
@@ -272,127 +272,127 @@
     "newDeaths": 0
   },
   "Lackawanna": {
-    "dateStr": "3/21/21",
-    "cases": 14889,
+    "dateStr": "3/23/21",
+    "cases": 14976,
     "deaths": 430,
     "recovered": 0,
-    "new": 32,
+    "new": 68,
     "newDeaths": 0
   },
   "Lancaster": {
-    "dateStr": "3/21/21",
-    "cases": 46207,
+    "dateStr": "3/23/21",
+    "cases": 46403,
     "deaths": 1073,
     "recovered": 0,
-    "new": 82,
+    "new": 128,
     "newDeaths": 0
   },
   "Lawrence": {
-    "dateStr": "3/21/21",
-    "cases": 6386,
-    "deaths": 193,
+    "dateStr": "3/23/21",
+    "cases": 6420,
+    "deaths": 194,
     "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
+    "new": 20,
+    "newDeaths": 1
   },
   "Lebanon": {
-    "dateStr": "3/21/21",
-    "cases": 13411,
+    "dateStr": "3/23/21",
+    "cases": 13469,
     "deaths": 264,
     "recovered": 0,
-    "new": 17,
+    "new": 37,
     "newDeaths": 0
   },
   "Lehigh": {
-    "dateStr": "3/21/21",
-    "cases": 32603,
-    "deaths": 799,
+    "dateStr": "3/23/21",
+    "cases": 32828,
+    "deaths": 800,
     "recovered": 0,
-    "new": 75,
-    "newDeaths": 2
+    "new": 157,
+    "newDeaths": 1
   },
   "Luzerne": {
-    "dateStr": "3/21/21",
-    "cases": 26158,
+    "dateStr": "3/23/21",
+    "cases": 26254,
     "deaths": 756,
     "recovered": 0,
-    "new": 66,
+    "new": 50,
     "newDeaths": 0
   },
   "Lycoming": {
-    "dateStr": "3/21/21",
-    "cases": 9836,
-    "deaths": 257,
+    "dateStr": "3/23/21",
+    "cases": 9881,
+    "deaths": 259,
     "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
+    "new": 35,
+    "newDeaths": 2
   },
   "McKean": {
-    "dateStr": "3/21/21",
-    "cases": 3118,
+    "dateStr": "3/23/21",
+    "cases": 3125,
     "deaths": 65,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Mercer": {
-    "dateStr": "3/21/21",
-    "cases": 8409,
-    "deaths": 245,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  "Mifflin": {
-    "dateStr": "3/21/21",
-    "cases": 4702,
-    "deaths": 174,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
-  "Monroe": {
-    "dateStr": "3/21/21",
-    "cases": 10738,
-    "deaths": 283,
+  "Mercer": {
+    "dateStr": "3/23/21",
+    "cases": 8418,
+    "deaths": 246,
     "recovered": 0,
-    "new": 50,
+    "new": 7,
     "newDeaths": 1
   },
-  "Montgomery": {
-    "dateStr": "3/21/21",
-    "cases": 57547,
-    "deaths": 1593,
+  "Mifflin": {
+    "dateStr": "3/23/21",
+    "cases": 4707,
+    "deaths": 175,
     "recovered": 0,
-    "new": 160,
-    "newDeaths": 2
+    "new": 4,
+    "newDeaths": 0
+  },
+  "Monroe": {
+    "dateStr": "3/23/21",
+    "cases": 10824,
+    "deaths": 283,
+    "recovered": 0,
+    "new": 63,
+    "newDeaths": 0
+  },
+  "Montgomery": {
+    "dateStr": "3/23/21",
+    "cases": 57799,
+    "deaths": 1596,
+    "recovered": 0,
+    "new": 144,
+    "newDeaths": 3
   },
   "Montour": {
-    "dateStr": "3/21/21",
-    "cases": 1801,
+    "dateStr": "3/23/21",
+    "cases": 1802,
     "deaths": 60,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Northampton": {
-    "dateStr": "3/21/21",
-    "cases": 28907,
-    "deaths": 669,
+    "dateStr": "3/23/21",
+    "cases": 29150,
+    "deaths": 671,
     "recovered": 0,
-    "new": 85,
-    "newDeaths": 1
+    "new": 195,
+    "newDeaths": 2
   },
   "Northumberland": {
-    "dateStr": "3/21/21",
-    "cases": 8352,
-    "deaths": 330,
+    "dateStr": "3/23/21",
+    "cases": 8382,
+    "deaths": 331,
     "recovered": 0,
-    "new": 12,
-    "newDeaths": 0
+    "new": 22,
+    "newDeaths": 1
   },
   "Out of PA": {
-    "dateStr": "3/21/21",
+    "dateStr": "3/23/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -400,15 +400,15 @@
     "newDeaths": 0
   },
   "Perry": {
-    "dateStr": "3/21/21",
-    "cases": 3096,
+    "dateStr": "3/23/21",
+    "cases": 3108,
     "deaths": 88,
     "recovered": 0,
-    "new": 12,
+    "new": 8,
     "newDeaths": 0
   },
   "Philadelphia": {
-    "dateStr": "3/21/21",
+    "dateStr": "3/23/21",
     "cases": 124489,
     "deaths": 3246,
     "recovered": 0,
@@ -416,71 +416,71 @@
     "newDeaths": 0
   },
   "Pike": {
-    "dateStr": "3/21/21",
-    "cases": 2901,
+    "dateStr": "3/23/21",
+    "cases": 2934,
     "deaths": 50,
     "recovered": 0,
-    "new": 12,
-    "newDeaths": 1
-  },
-  "Potter": {
-    "dateStr": "3/21/21",
-    "cases": 972,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 1,
+    "new": 22,
     "newDeaths": 0
   },
+  "Potter": {
+    "dateStr": "3/23/21",
+    "cases": 972,
+    "deaths": 22,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 1
+  },
   "Schuylkill": {
-    "dateStr": "3/21/21",
-    "cases": 12484,
+    "dateStr": "3/23/21",
+    "cases": 12543,
     "deaths": 378,
     "recovered": 0,
-    "new": 25,
+    "new": 33,
     "newDeaths": 0
   },
   "Snyder": {
-    "dateStr": "3/21/21",
-    "cases": 3219,
+    "dateStr": "3/23/21",
+    "cases": 3229,
     "deaths": 82,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  "Somerset": {
-    "dateStr": "3/21/21",
-    "cases": 6855,
-    "deaths": 187,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Sullivan": {
-    "dateStr": "3/21/21",
-    "cases": 338,
-    "deaths": 20,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Susquehanna": {
-    "dateStr": "3/21/21",
-    "cases": 1848,
-    "deaths": 54,
     "recovered": 0,
     "new": 7,
     "newDeaths": 0
   },
+  "Somerset": {
+    "dateStr": "3/23/21",
+    "cases": 6875,
+    "deaths": 187,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 0
+  },
+  "Sullivan": {
+    "dateStr": "3/23/21",
+    "cases": 339,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  "Susquehanna": {
+    "dateStr": "3/23/21",
+    "cases": 1857,
+    "deaths": 54,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
   "Tioga": {
-    "dateStr": "3/21/21",
-    "cases": 2526,
+    "dateStr": "3/23/21",
+    "cases": 2534,
     "deaths": 94,
     "recovered": 0,
-    "new": 3,
+    "new": 5,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "3/21/21",
+    "dateStr": "3/23/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -488,67 +488,67 @@
     "newDeaths": 0
   },
   "Union": {
-    "dateStr": "3/21/21",
-    "cases": 5369,
+    "dateStr": "3/23/21",
+    "cases": 5372,
     "deaths": 84,
     "recovered": 0,
-    "new": 10,
+    "new": 3,
     "newDeaths": 0
   },
   "Venango": {
-    "dateStr": "3/21/21",
-    "cases": 3491,
+    "dateStr": "3/23/21",
+    "cases": 3494,
     "deaths": 89,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Warren": {
-    "dateStr": "3/21/21",
-    "cases": 2247,
+    "dateStr": "3/23/21",
+    "cases": 2251,
     "deaths": 98,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   "Washington": {
-    "dateStr": "3/21/21",
-    "cases": 14468,
+    "dateStr": "3/23/21",
+    "cases": 14564,
     "deaths": 271,
     "recovered": 0,
-    "new": 34,
+    "new": 80,
     "newDeaths": 0
   },
   "Wayne": {
-    "dateStr": "3/21/21",
-    "cases": 3263,
+    "dateStr": "3/23/21",
+    "cases": 3271,
     "deaths": 69,
     "recovered": 0,
-    "new": 10,
+    "new": 6,
     "newDeaths": 0
   },
   "Westmoreland": {
-    "dateStr": "3/21/21",
-    "cases": 28171,
-    "deaths": 698,
+    "dateStr": "3/23/21",
+    "cases": 28326,
+    "deaths": 699,
     "recovered": 0,
-    "new": 77,
-    "newDeaths": 2
+    "new": 105,
+    "newDeaths": 1
   },
   "Wyoming": {
-    "dateStr": "3/21/21",
-    "cases": 1282,
+    "dateStr": "3/23/21",
+    "cases": 1297,
     "deaths": 42,
     "recovered": 0,
-    "new": 7,
+    "new": 11,
     "newDeaths": 0
   },
   "York": {
-    "dateStr": "3/21/21",
-    "cases": 37964,
-    "deaths": 743,
+    "dateStr": "3/23/21",
+    "cases": 38120,
+    "deaths": 744,
     "recovered": 0,
-    "new": 83,
-    "newDeaths": 0
+    "new": 93,
+    "newDeaths": 1
   }
 }
