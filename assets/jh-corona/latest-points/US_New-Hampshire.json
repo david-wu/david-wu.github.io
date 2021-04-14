@@ -1,62 +1,62 @@
 {
   "Belknap": {
-    "dateStr": "4/10/21",
-    "cases": 3534,
+    "dateStr": "4/13/21",
+    "cases": 3600,
     "deaths": 96,
+    "recovered": 0,
+    "new": 25,
+    "newDeaths": 0
+  },
+  "Carroll": {
+    "dateStr": "4/13/21",
+    "cases": 2128,
+    "deaths": 8,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  "Cheshire": {
+    "dateStr": "4/13/21",
+    "cases": 3290,
+    "deaths": 33,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  "Coos": {
+    "dateStr": "4/13/21",
+    "cases": 1583,
+    "deaths": 39,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  "Grafton": {
+    "dateStr": "4/13/21",
+    "cases": 3410,
+    "deaths": 21,
+    "recovered": 0,
+    "new": 21,
+    "newDeaths": 0
+  },
+  "Hillsborough": {
+    "dateStr": "4/13/21",
+    "cases": 33115,
+    "deaths": 610,
+    "recovered": 0,
+    "new": 112,
+    "newDeaths": 0
+  },
+  "Merrimack": {
+    "dateStr": "4/13/21",
+    "cases": 8726,
+    "deaths": 111,
     "recovered": 0,
     "new": 26,
     "newDeaths": 0
   },
-  "Carroll": {
-    "dateStr": "4/10/21",
-    "cases": 2103,
-    "deaths": 8,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  "Cheshire": {
-    "dateStr": "4/10/21",
-    "cases": 3258,
-    "deaths": 33,
-    "recovered": 0,
-    "new": 15,
-    "newDeaths": 0
-  },
-  "Coos": {
-    "dateStr": "4/10/21",
-    "cases": 1567,
-    "deaths": 39,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 1
-  },
-  "Grafton": {
-    "dateStr": "4/10/21",
-    "cases": 3342,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 49,
-    "newDeaths": 0
-  },
-  "Hillsborough": {
-    "dateStr": "4/10/21",
-    "cases": 32756,
-    "deaths": 610,
-    "recovered": 0,
-    "new": 135,
-    "newDeaths": 0
-  },
-  "Merrimack": {
-    "dateStr": "4/10/21",
-    "cases": 8638,
-    "deaths": 111,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 1
-  },
   "Out of NH": {
-    "dateStr": "4/10/21",
+    "dateStr": "4/13/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -64,31 +64,31 @@
     "newDeaths": 0
   },
   "Rockingham": {
-    "dateStr": "4/10/21",
-    "cases": 21960,
-    "deaths": 233,
+    "dateStr": "4/13/21",
+    "cases": 22247,
+    "deaths": 234,
     "recovered": 0,
-    "new": 113,
-    "newDeaths": 1
+    "new": 103,
+    "newDeaths": 0
   },
   "Strafford": {
-    "dateStr": "4/10/21",
-    "cases": 8591,
+    "dateStr": "4/13/21",
+    "cases": 8739,
     "deaths": 76,
     "recovered": 0,
-    "new": 58,
+    "new": 44,
     "newDeaths": 0
   },
   "Sullivan": {
-    "dateStr": "4/10/21",
-    "cases": 1509,
+    "dateStr": "4/13/21",
+    "cases": 1524,
     "deaths": 23,
     "recovered": 0,
-    "new": 10,
+    "new": 2,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "4/10/21",
+    "dateStr": "4/13/21",
     "cases": 2837,
     "deaths": 64,
     "recovered": 0,
