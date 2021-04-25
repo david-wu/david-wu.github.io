@@ -3649,10 +3649,26 @@
   },
   {
     "dateStr": "4/22/21",
-    "cases": 43301,
-    "deaths": 377,
+    "cases": 43346,
+    "deaths": 380,
+    "recovered": 0,
+    "new": 45,
+    "newDeaths": 16
+  },
+  {
+    "dateStr": "4/23/21",
+    "cases": 43346,
+    "deaths": 380,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 13
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/24/21",
+    "cases": 43366,
+    "deaths": 380,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
   }
 ]
