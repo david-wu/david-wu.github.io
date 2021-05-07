@@ -1,14 +1,14 @@
 {
   "Bernalillo": {
-    "dateStr": "5/4/21",
-    "cases": 57211,
-    "deaths": 931,
+    "dateStr": "5/6/21",
+    "cases": 57352,
+    "deaths": 933,
     "recovered": 0,
-    "new": 90,
-    "newDeaths": 0
+    "new": 78,
+    "newDeaths": 1
   },
   "Catron": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 92,
     "deaths": 5,
     "recovered": 0,
@@ -16,39 +16,39 @@
     "newDeaths": 0
   },
   "Chaves": {
-    "dateStr": "5/4/21",
-    "cases": 8929,
+    "dateStr": "5/6/21",
+    "cases": 8934,
     "deaths": 170,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  "Cibola": {
+    "dateStr": "5/6/21",
+    "cases": 2865,
+    "deaths": 111,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 1
+  },
+  "Colfax": {
+    "dateStr": "5/6/21",
+    "cases": 756,
+    "deaths": 47,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Cibola": {
-    "dateStr": "5/4/21",
-    "cases": 2864,
-    "deaths": 110,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Colfax": {
-    "dateStr": "5/4/21",
-    "cases": 754,
-    "deaths": 47,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
   "Curry": {
-    "dateStr": "5/4/21",
-    "cases": 5131,
+    "dateStr": "5/6/21",
+    "cases": 5147,
     "deaths": 78,
     "recovered": 0,
-    "new": 15,
-    "newDeaths": 2
+    "new": 11,
+    "newDeaths": 0
   },
   "De Baca": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 146,
     "deaths": 1,
     "recovered": 0,
@@ -56,39 +56,39 @@
     "newDeaths": 0
   },
   "Dona Ana": {
-    "dateStr": "5/4/21",
-    "cases": 24643,
-    "deaths": 451,
+    "dateStr": "5/6/21",
+    "cases": 24677,
+    "deaths": 452,
     "recovered": 0,
-    "new": 9,
-    "newDeaths": 3
+    "new": 23,
+    "newDeaths": 1
   },
   "Eddy": {
-    "dateStr": "5/4/21",
-    "cases": 6820,
+    "dateStr": "5/6/21",
+    "cases": 6825,
     "deaths": 129,
     "recovered": 0,
-    "new": 3,
+    "new": 2,
     "newDeaths": 0
   },
   "Grant": {
-    "dateStr": "5/4/21",
-    "cases": 1702,
+    "dateStr": "5/6/21",
+    "cases": 1704,
     "deaths": 36,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Guadalupe": {
-    "dateStr": "5/4/21",
-    "cases": 380,
+    "dateStr": "5/6/21",
+    "cases": 381,
     "deaths": 9,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Harding": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 10,
     "deaths": 0,
     "recovered": 0,
@@ -96,7 +96,7 @@
     "newDeaths": 0
   },
   "Hidalgo": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 361,
     "deaths": 9,
     "recovered": 0,
@@ -104,47 +104,47 @@
     "newDeaths": 0
   },
   "Lea": {
-    "dateStr": "5/4/21",
-    "cases": 8272,
+    "dateStr": "5/6/21",
+    "cases": 8273,
     "deaths": 167,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 3
+    "newDeaths": 0
   },
   "Lincoln": {
-    "dateStr": "5/4/21",
-    "cases": 1671,
+    "dateStr": "5/6/21",
+    "cases": 1679,
     "deaths": 19,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Los Alamos": {
-    "dateStr": "5/4/21",
-    "cases": 519,
-    "deaths": 6,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Luna": {
-    "dateStr": "5/4/21",
-    "cases": 3316,
-    "deaths": 85,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "McKinley": {
-    "dateStr": "5/4/21",
-    "cases": 12244,
-    "deaths": 465,
     "recovered": 0,
     "new": 6,
     "newDeaths": 0
   },
+  "Los Alamos": {
+    "dateStr": "5/6/21",
+    "cases": 524,
+    "deaths": 6,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Luna": {
+    "dateStr": "5/6/21",
+    "cases": 3318,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  "McKinley": {
+    "dateStr": "5/6/21",
+    "cases": 12251,
+    "deaths": 465,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
   "Mora": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 170,
     "deaths": 6,
     "recovered": 0,
@@ -152,15 +152,15 @@
     "newDeaths": 0
   },
   "Otero": {
-    "dateStr": "5/4/21",
-    "cases": 3832,
+    "dateStr": "5/6/21",
+    "cases": 3862,
     "deaths": 75,
     "recovered": 0,
-    "new": 3,
+    "new": 15,
     "newDeaths": 0
   },
   "Out of NM": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -168,95 +168,95 @@
     "newDeaths": 0
   },
   "Quay": {
-    "dateStr": "5/4/21",
-    "cases": 465,
+    "dateStr": "5/6/21",
+    "cases": 480,
     "deaths": 8,
     "recovered": 0,
-    "new": 6,
+    "new": 9,
     "newDeaths": 0
   },
   "Rio Arriba": {
-    "dateStr": "5/4/21",
-    "cases": 3596,
+    "dateStr": "5/6/21",
+    "cases": 3601,
     "deaths": 76,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
   "Roosevelt": {
-    "dateStr": "5/4/21",
-    "cases": 1928,
-    "deaths": 55,
+    "dateStr": "5/6/21",
+    "cases": 1937,
+    "deaths": 56,
     "recovered": 0,
-    "new": 7,
+    "new": 8,
     "newDeaths": 0
   },
   "San Juan": {
-    "dateStr": "5/4/21",
-    "cases": 14663,
+    "dateStr": "5/6/21",
+    "cases": 14750,
     "deaths": 469,
     "recovered": 0,
-    "new": 38,
-    "newDeaths": 1
+    "new": 47,
+    "newDeaths": 0
   },
   "San Miguel": {
-    "dateStr": "5/4/21",
-    "cases": 1346,
+    "dateStr": "5/6/21",
+    "cases": 1349,
     "deaths": 17,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Sandoval": {
-    "dateStr": "5/4/21",
-    "cases": 11892,
+    "dateStr": "5/6/21",
+    "cases": 11916,
     "deaths": 228,
     "recovered": 0,
-    "new": 0,
+    "new": 12,
     "newDeaths": 0
   },
   "Santa Fe": {
-    "dateStr": "5/4/21",
-    "cases": 10142,
+    "dateStr": "5/6/21",
+    "cases": 10184,
     "deaths": 145,
     "recovered": 0,
-    "new": 9,
+    "new": 22,
     "newDeaths": 0
   },
   "Sierra": {
-    "dateStr": "5/4/21",
-    "cases": 750,
+    "dateStr": "5/6/21",
+    "cases": 754,
     "deaths": 49,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Socorro": {
-    "dateStr": "5/4/21",
-    "cases": 1310,
+    "dateStr": "5/6/21",
+    "cases": 1312,
     "deaths": 56,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Taos": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1659,
-    "deaths": 51,
+    "deaths": 52,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "Torrance": {
-    "dateStr": "5/4/21",
-    "cases": 728,
+    "dateStr": "5/6/21",
+    "cases": 738,
     "deaths": 13,
     "recovered": 0,
-    "new": 8,
+    "new": 1,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4229,
     "deaths": 16,
     "recovered": 0,
@@ -264,7 +264,7 @@
     "newDeaths": 0
   },
   "Union": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 250,
     "deaths": 9,
     "recovered": 0,
@@ -272,11 +272,11 @@
     "newDeaths": 0
   },
   "Valencia": {
-    "dateStr": "5/4/21",
-    "cases": 6673,
+    "dateStr": "5/6/21",
+    "cases": 6685,
     "deaths": 108,
     "recovered": 0,
-    "new": 4,
-    "newDeaths": 1
+    "new": 9,
+    "newDeaths": 0
   }
 }

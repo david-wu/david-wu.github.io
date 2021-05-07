@@ -3745,10 +3745,26 @@
   },
   {
     "dateStr": "5/4/21",
-    "cases": 9815,
+    "cases": 9823,
     "deaths": 81,
     "recovered": 0,
-    "new": 4,
+    "new": 12,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/5/21",
+    "cases": 9824,
+    "deaths": 81,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/6/21",
+    "cases": 9833,
+    "deaths": 81,
+    "recovered": 0,
+    "new": 9,
     "newDeaths": 0
   }
 ]

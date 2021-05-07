@@ -3714,10 +3714,10 @@
   {
     "dateStr": "4/30/21",
     "cases": 32346971,
-    "deaths": 576366,
+    "deaths": 576056,
     "recovered": 6298082,
     "new": 57922,
-    "newDeaths": 1038
+    "newDeaths": 728
   },
   {
     "dateStr": "5/1/21",
@@ -3725,7 +3725,7 @@
     "deaths": 576760,
     "recovered": 6298082,
     "new": 45303,
-    "newDeaths": 394
+    "newDeaths": 704
   },
   {
     "dateStr": "5/2/21",
@@ -3745,10 +3745,26 @@
   },
   {
     "dateStr": "5/4/21",
-    "cases": 32512575,
-    "deaths": 578481,
+    "cases": 32512934,
+    "deaths": 578499,
     "recovered": 6298082,
-    "new": 40374,
-    "newDeaths": 915
+    "new": 40733,
+    "newDeaths": 933
+  },
+  {
+    "dateStr": "5/5/21",
+    "cases": 32557444,
+    "deaths": 579275,
+    "recovered": 6298082,
+    "new": 44510,
+    "newDeaths": 776
+  },
+  {
+    "dateStr": "5/6/21",
+    "cases": 32604810,
+    "deaths": 580064,
+    "recovered": 6298082,
+    "new": 47366,
+    "newDeaths": 789
   }
 ]

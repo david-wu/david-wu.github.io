@@ -1,14 +1,14 @@
 {
   "Anderson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 6129,
     "deaths": 121,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 1
+    "newDeaths": 0
   },
   "Andrews": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1816,
     "deaths": 47,
     "recovered": 0,
@@ -16,7 +16,7 @@
     "newDeaths": 0
   },
   "Angelina": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 8545,
     "deaths": 279,
     "recovered": 0,
@@ -24,23 +24,23 @@
     "newDeaths": 0
   },
   "Aransas": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1248,
-    "deaths": 39,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  "Archer": {
+    "dateStr": "5/6/21",
+    "cases": 803,
+    "deaths": 12,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Archer": {
-    "dateStr": "5/4/21",
-    "cases": 802,
-    "deaths": 12,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
   "Armstrong": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 183,
     "deaths": 6,
     "recovered": 0,
@@ -48,7 +48,7 @@
     "newDeaths": 0
   },
   "Atascosa": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 5760,
     "deaths": 150,
     "recovered": 0,
@@ -56,15 +56,15 @@
     "newDeaths": 0
   },
   "Austin": {
-    "dateStr": "5/4/21",
-    "cases": 2145,
+    "dateStr": "5/6/21",
+    "cases": 2147,
     "deaths": 34,
     "recovered": 0,
-    "new": 6,
+    "new": 0,
     "newDeaths": 0
   },
   "Bailey": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 821,
     "deaths": 19,
     "recovered": 0,
@@ -72,7 +72,7 @@
     "newDeaths": 0
   },
   "Bandera": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1399,
     "deaths": 27,
     "recovered": 0,
@@ -80,15 +80,15 @@
     "newDeaths": 0
   },
   "Bastrop": {
-    "dateStr": "5/4/21",
-    "cases": 9384,
+    "dateStr": "5/6/21",
+    "cases": 9396,
     "deaths": 92,
     "recovered": 0,
-    "new": 3,
-    "newDeaths": 1
+    "new": 1,
+    "newDeaths": 0
   },
   "Baylor": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 298,
     "deaths": 12,
     "recovered": 0,
@@ -96,7 +96,7 @@
     "newDeaths": 0
   },
   "Bee": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 3494,
     "deaths": 72,
     "recovered": 0,
@@ -104,23 +104,23 @@
     "newDeaths": 0
   },
   "Bell": {
-    "dateStr": "5/4/21",
-    "cases": 22401,
-    "deaths": 417,
+    "dateStr": "5/6/21",
+    "cases": 22436,
+    "deaths": 419,
     "recovered": 0,
-    "new": 90,
-    "newDeaths": 1
+    "new": 10,
+    "newDeaths": 2
   },
   "Bexar": {
-    "dateStr": "5/4/21",
-    "cases": 218712,
-    "deaths": 3489,
+    "dateStr": "5/6/21",
+    "cases": 219008,
+    "deaths": 3498,
     "recovered": 0,
-    "new": 165,
+    "new": 189,
     "newDeaths": 4
   },
   "Blanco": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 733,
     "deaths": 20,
     "recovered": 0,
@@ -128,7 +128,7 @@
     "newDeaths": 0
   },
   "Borden": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 31,
     "deaths": 2,
     "recovered": 0,
@@ -136,39 +136,39 @@
     "newDeaths": 0
   },
   "Bosque": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1666,
     "deaths": 33,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Bowie": {
-    "dateStr": "5/4/21",
-    "cases": 6947,
-    "deaths": 213,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 1
-  },
-  "Brazoria": {
-    "dateStr": "5/4/21",
-    "cases": 37345,
-    "deaths": 488,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
+  "Bowie": {
+    "dateStr": "5/6/21",
+    "cases": 6959,
+    "deaths": 214,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Brazoria": {
+    "dateStr": "5/6/21",
+    "cases": 37455,
+    "deaths": 493,
+    "recovered": 0,
+    "new": 33,
+    "newDeaths": 1
+  },
   "Brazos": {
-    "dateStr": "5/4/21",
-    "cases": 26425,
+    "dateStr": "5/6/21",
+    "cases": 26496,
     "deaths": 249,
     "recovered": 0,
-    "new": 50,
+    "new": 51,
     "newDeaths": 0
   },
   "Brewster": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 976,
     "deaths": 16,
     "recovered": 0,
@@ -176,7 +176,7 @@
     "newDeaths": 0
   },
   "Briscoe": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 169,
     "deaths": 5,
     "recovered": 0,
@@ -184,7 +184,7 @@
     "newDeaths": 0
   },
   "Brooks": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 801,
     "deaths": 36,
     "recovered": 0,
@@ -192,23 +192,23 @@
     "newDeaths": 0
   },
   "Brown": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4235,
-    "deaths": 118,
+    "deaths": 119,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 1
+  },
+  "Burleson": {
+    "dateStr": "5/6/21",
+    "cases": 2398,
+    "deaths": 46,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Burleson": {
-    "dateStr": "5/4/21",
-    "cases": 2398,
-    "deaths": 46,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
   "Burnet": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4737,
     "deaths": 64,
     "recovered": 0,
@@ -216,15 +216,15 @@
     "newDeaths": 0
   },
   "Caldwell": {
-    "dateStr": "5/4/21",
-    "cases": 5591,
+    "dateStr": "5/6/21",
+    "cases": 5593,
     "deaths": 97,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 1
+    "newDeaths": 0
   },
   "Calhoun": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2294,
     "deaths": 23,
     "recovered": 0,
@@ -232,71 +232,71 @@
     "newDeaths": 0
   },
   "Callahan": {
-    "dateStr": "5/4/21",
-    "cases": 1187,
+    "dateStr": "5/6/21",
+    "cases": 1188,
     "deaths": 39,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Cameron": {
-    "dateStr": "5/4/21",
-    "cases": 40489,
-    "deaths": 1629,
-    "recovered": 0,
-    "new": 128,
-    "newDeaths": 0
-  },
-  "Camp": {
-    "dateStr": "5/4/21",
-    "cases": 1244,
-    "deaths": 42,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Carson": {
-    "dateStr": "5/4/21",
-    "cases": 521,
-    "deaths": 14,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Cass": {
-    "dateStr": "5/4/21",
-    "cases": 1915,
-    "deaths": 81,
+  "Cameron": {
+    "dateStr": "5/6/21",
+    "cases": 40551,
+    "deaths": 1634,
     "recovered": 0,
-    "new": 3,
+    "new": 44,
+    "newDeaths": 0
+  },
+  "Camp": {
+    "dateStr": "5/6/21",
+    "cases": 1248,
+    "deaths": 42,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  "Carson": {
+    "dateStr": "5/6/21",
+    "cases": 523,
+    "deaths": 14,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Cass": {
+    "dateStr": "5/6/21",
+    "cases": 1920,
+    "deaths": 82,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Castro": {
-    "dateStr": "5/4/21",
-    "cases": 984,
+    "dateStr": "5/6/21",
+    "cases": 985,
     "deaths": 32,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Chambers": {
-    "dateStr": "5/4/21",
-    "cases": 4944,
+    "dateStr": "5/6/21",
+    "cases": 4956,
     "deaths": 26,
     "recovered": 0,
-    "new": 11,
+    "new": 4,
     "newDeaths": 0
   },
   "Cherokee": {
-    "dateStr": "5/4/21",
-    "cases": 4153,
+    "dateStr": "5/6/21",
+    "cases": 4185,
     "deaths": 140,
     "recovered": 0,
-    "new": 0,
+    "new": 18,
     "newDeaths": 0
   },
   "Childress": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1397,
     "deaths": 17,
     "recovered": 0,
@@ -304,15 +304,15 @@
     "newDeaths": 0
   },
   "Clay": {
-    "dateStr": "5/4/21",
-    "cases": 1029,
+    "dateStr": "5/6/21",
+    "cases": 1030,
     "deaths": 16,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Cochran": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 306,
     "deaths": 15,
     "recovered": 0,
@@ -320,7 +320,7 @@
     "newDeaths": 0
   },
   "Coke": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 472,
     "deaths": 12,
     "recovered": 0,
@@ -328,7 +328,7 @@
     "newDeaths": 0
   },
   "Coleman": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 749,
     "deaths": 32,
     "recovered": 0,
@@ -336,15 +336,15 @@
     "newDeaths": 0
   },
   "Collin": {
-    "dateStr": "5/4/21",
-    "cases": 90162,
-    "deaths": 822,
+    "dateStr": "5/6/21",
+    "cases": 90318,
+    "deaths": 826,
     "recovered": 0,
-    "new": 6,
-    "newDeaths": 2
+    "new": 45,
+    "newDeaths": 4
   },
   "Collingsworth": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 323,
     "deaths": 9,
     "recovered": 0,
@@ -352,23 +352,23 @@
     "newDeaths": 0
   },
   "Colorado": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1720,
     "deaths": 30,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   "Comal": {
-    "dateStr": "5/4/21",
-    "cases": 10359,
-    "deaths": 295,
+    "dateStr": "5/6/21",
+    "cases": 10423,
+    "deaths": 296,
     "recovered": 0,
-    "new": 55,
+    "new": 29,
     "newDeaths": 0
   },
   "Comanche": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1554,
     "deaths": 51,
     "recovered": 0,
@@ -376,31 +376,31 @@
     "newDeaths": 0
   },
   "Concho": {
-    "dateStr": "5/4/21",
-    "cases": 378,
+    "dateStr": "5/6/21",
+    "cases": 379,
     "deaths": 8,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Cooke": {
-    "dateStr": "5/4/21",
-    "cases": 3712,
+    "dateStr": "5/6/21",
+    "cases": 3721,
     "deaths": 72,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  "Coryell": {
+    "dateStr": "5/6/21",
+    "cases": 7250,
+    "deaths": 86,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
   },
-  "Coryell": {
-    "dateStr": "5/4/21",
-    "cases": 7240,
-    "deaths": 86,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
   "Cottle": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 190,
     "deaths": 7,
     "recovered": 0,
@@ -408,7 +408,7 @@
     "newDeaths": 0
   },
   "Crane": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 591,
     "deaths": 12,
     "recovered": 0,
@@ -416,7 +416,7 @@
     "newDeaths": 0
   },
   "Crockett": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 575,
     "deaths": 15,
     "recovered": 0,
@@ -424,7 +424,7 @@
     "newDeaths": 0
   },
   "Crosby": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 654,
     "deaths": 29,
     "recovered": 0,
@@ -432,7 +432,7 @@
     "newDeaths": 0
   },
   "Culberson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 362,
     "deaths": 11,
     "recovered": 0,
@@ -440,31 +440,31 @@
     "newDeaths": 0
   },
   "Dallam": {
-    "dateStr": "5/4/21",
-    "cases": 964,
+    "dateStr": "5/6/21",
+    "cases": 967,
     "deaths": 24,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Dallas": {
-    "dateStr": "5/4/21",
-    "cases": 299581,
-    "deaths": 3988,
+    "dateStr": "5/6/21",
+    "cases": 300029,
+    "deaths": 3998,
     "recovered": 0,
-    "new": 170,
-    "newDeaths": 1
+    "new": 239,
+    "newDeaths": 3
   },
   "Dawson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1735,
-    "deaths": 68,
+    "deaths": 69,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "DeWitt": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1932,
     "deaths": 59,
     "recovered": 0,
@@ -472,31 +472,31 @@
     "newDeaths": 0
   },
   "Deaf Smith": {
-    "dateStr": "5/4/21",
-    "cases": 2808,
+    "dateStr": "5/6/21",
+    "cases": 2810,
     "deaths": 66,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Delta": {
-    "dateStr": "5/4/21",
-    "cases": 319,
-    "deaths": 11,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Denton": {
-    "dateStr": "5/4/21",
-    "cases": 74580,
-    "deaths": 748,
+  "Delta": {
+    "dateStr": "5/6/21",
+    "cases": 320,
+    "deaths": 12,
     "recovered": 0,
-    "new": 95,
+    "new": 1,
     "newDeaths": 0
   },
+  "Denton": {
+    "dateStr": "5/6/21",
+    "cases": 74791,
+    "deaths": 749,
+    "recovered": 0,
+    "new": 95,
+    "newDeaths": 1
+  },
   "Dickens": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 186,
     "deaths": 10,
     "recovered": 0,
@@ -504,15 +504,15 @@
     "newDeaths": 0
   },
   "Dimmit": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2249,
-    "deaths": 32,
+    "deaths": 33,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "Donley": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 406,
     "deaths": 15,
     "recovered": 0,
@@ -520,31 +520,31 @@
     "newDeaths": 0
   },
   "Duval": {
-    "dateStr": "5/4/21",
-    "cases": 1247,
+    "dateStr": "5/6/21",
+    "cases": 1249,
     "deaths": 41,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  "Eastland": {
+    "dateStr": "5/6/21",
+    "cases": 1352,
+    "deaths": 48,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Eastland": {
-    "dateStr": "5/4/21",
-    "cases": 1349,
-    "deaths": 48,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
   "Ector": {
-    "dateStr": "5/4/21",
-    "cases": 17191,
-    "deaths": 368,
+    "dateStr": "5/6/21",
+    "cases": 17223,
+    "deaths": 370,
     "recovered": 0,
-    "new": 44,
-    "newDeaths": 0
+    "new": 10,
+    "newDeaths": 2
   },
   "Edwards": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 248,
     "deaths": 6,
     "recovered": 0,
@@ -552,31 +552,31 @@
     "newDeaths": 0
   },
   "El Paso": {
-    "dateStr": "5/4/21",
-    "cases": 134441,
-    "deaths": 2663,
+    "dateStr": "5/6/21",
+    "cases": 134591,
+    "deaths": 2669,
     "recovered": 0,
-    "new": 49,
-    "newDeaths": 3
+    "new": 103,
+    "newDeaths": 5
   },
   "Ellis": {
-    "dateStr": "5/4/21",
-    "cases": 22720,
+    "dateStr": "5/6/21",
+    "cases": 22745,
     "deaths": 311,
     "recovered": 0,
-    "new": 43,
+    "new": 18,
     "newDeaths": 0
   },
   "Erath": {
-    "dateStr": "5/4/21",
-    "cases": 4180,
-    "deaths": 68,
+    "dateStr": "5/6/21",
+    "cases": 4187,
+    "deaths": 69,
     "recovered": 0,
-    "new": 3,
+    "new": 4,
     "newDeaths": 0
   },
   "Falls": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2087,
     "deaths": 32,
     "recovered": 0,
@@ -584,39 +584,39 @@
     "newDeaths": 0
   },
   "Fannin": {
-    "dateStr": "5/4/21",
-    "cases": 3486,
+    "dateStr": "5/6/21",
+    "cases": 3488,
     "deaths": 108,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   "Fayette": {
-    "dateStr": "5/4/21",
-    "cases": 2708,
+    "dateStr": "5/6/21",
+    "cases": 2710,
     "deaths": 61,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Fisher": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 299,
     "deaths": 14,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Floyd": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 847,
     "deaths": 30,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Foard": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 122,
     "deaths": 10,
     "recovered": 0,
@@ -624,31 +624,31 @@
     "newDeaths": 0
   },
   "Fort Bend": {
-    "dateStr": "5/4/21",
-    "cases": 67231,
-    "deaths": 662,
+    "dateStr": "5/6/21",
+    "cases": 67494,
+    "deaths": 664,
     "recovered": 0,
-    "new": 315,
-    "newDeaths": 0
+    "new": 131,
+    "newDeaths": 1
   },
   "Franklin": {
-    "dateStr": "5/4/21",
-    "cases": 723,
+    "dateStr": "5/6/21",
+    "cases": 725,
     "deaths": 26,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Freestone": {
+    "dateStr": "5/6/21",
+    "cases": 1895,
+    "deaths": 50,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Freestone": {
-    "dateStr": "5/4/21",
-    "cases": 1895,
-    "deaths": 50,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 1
-  },
   "Frio": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2827,
     "deaths": 50,
     "recovered": 0,
@@ -656,23 +656,23 @@
     "newDeaths": 0
   },
   "Gaines": {
-    "dateStr": "5/4/21",
-    "cases": 1434,
+    "dateStr": "5/6/21",
+    "cases": 1440,
     "deaths": 43,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Galveston": {
-    "dateStr": "5/4/21",
-    "cases": 39189,
-    "deaths": 412,
+    "dateStr": "5/6/21",
+    "cases": 39294,
+    "deaths": 414,
     "recovered": 0,
-    "new": 93,
-    "newDeaths": 1
+    "new": 51,
+    "newDeaths": 0
   },
   "Garza": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 488,
     "deaths": 22,
     "recovered": 0,
@@ -680,7 +680,7 @@
     "newDeaths": 0
   },
   "Gillespie": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2553,
     "deaths": 50,
     "recovered": 0,
@@ -688,7 +688,7 @@
     "newDeaths": 0
   },
   "Glasscock": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 117,
     "deaths": 2,
     "recovered": 0,
@@ -696,15 +696,15 @@
     "newDeaths": 0
   },
   "Goliad": {
-    "dateStr": "5/4/21",
-    "cases": 448,
+    "dateStr": "5/6/21",
+    "cases": 449,
     "deaths": 13,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   "Gonzales": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2739,
     "deaths": 57,
     "recovered": 0,
@@ -712,55 +712,55 @@
     "newDeaths": 0
   },
   "Gray": {
-    "dateStr": "5/4/21",
-    "cases": 2313,
+    "dateStr": "5/6/21",
+    "cases": 2316,
     "deaths": 56,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   "Grayson": {
-    "dateStr": "5/4/21",
-    "cases": 11284,
+    "dateStr": "5/6/21",
+    "cases": 11288,
     "deaths": 340,
     "recovered": 0,
-    "new": 20,
+    "new": 3,
     "newDeaths": 0
   },
   "Gregg": {
-    "dateStr": "5/4/21",
-    "cases": 11098,
+    "dateStr": "5/6/21",
+    "cases": 11120,
     "deaths": 353,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Grimes": {
-    "dateStr": "5/4/21",
-    "cases": 3690,
+    "dateStr": "5/6/21",
+    "cases": 3693,
     "deaths": 69,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Guadalupe": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 14696,
-    "deaths": 210,
+    "deaths": 211,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Hale": {
-    "dateStr": "5/4/21",
-    "cases": 6111,
+    "dateStr": "5/6/21",
+    "cases": 6116,
     "deaths": 155,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Hall": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 462,
     "deaths": 14,
     "recovered": 0,
@@ -768,7 +768,7 @@
     "newDeaths": 0
   },
   "Hamilton": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 772,
     "deaths": 27,
     "recovered": 0,
@@ -776,47 +776,47 @@
     "newDeaths": 0
   },
   "Hansford": {
-    "dateStr": "5/4/21",
-    "cases": 896,
+    "dateStr": "5/6/21",
+    "cases": 897,
     "deaths": 25,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Hardeman": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 380,
     "deaths": 12,
     "recovered": 0,
-    "new": 6,
+    "new": 0,
     "newDeaths": 0
   },
   "Hardin": {
-    "dateStr": "5/4/21",
-    "cases": 5680,
+    "dateStr": "5/6/21",
+    "cases": 5716,
     "deaths": 111,
     "recovered": 0,
-    "new": 10,
+    "new": 5,
     "newDeaths": 0
   },
   "Harris": {
-    "dateStr": "5/4/21",
-    "cases": 393587,
-    "deaths": 6230,
+    "dateStr": "5/6/21",
+    "cases": 394167,
+    "deaths": 6248,
     "recovered": 0,
-    "new": 232,
-    "newDeaths": 12
+    "new": 354,
+    "newDeaths": 6
   },
   "Harrison": {
-    "dateStr": "5/4/21",
-    "cases": 4825,
-    "deaths": 108,
+    "dateStr": "5/6/21",
+    "cases": 4834,
+    "deaths": 109,
     "recovered": 0,
-    "new": 10,
+    "new": 5,
     "newDeaths": 1
   },
   "Hartley": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 632,
     "deaths": 2,
     "recovered": 0,
@@ -824,7 +824,7 @@
     "newDeaths": 0
   },
   "Haskell": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 445,
     "deaths": 27,
     "recovered": 0,
@@ -832,15 +832,15 @@
     "newDeaths": 0
   },
   "Hays": {
-    "dateStr": "5/4/21",
-    "cases": 20495,
+    "dateStr": "5/6/21",
+    "cases": 20571,
     "deaths": 241,
     "recovered": 0,
-    "new": 46,
+    "new": 25,
     "newDeaths": 0
   },
   "Hemphill": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 586,
     "deaths": 2,
     "recovered": 0,
@@ -848,23 +848,23 @@
     "newDeaths": 0
   },
   "Henderson": {
-    "dateStr": "5/4/21",
-    "cases": 5839,
-    "deaths": 184,
+    "dateStr": "5/6/21",
+    "cases": 5864,
+    "deaths": 185,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
-  },
-  "Hidalgo": {
-    "dateStr": "5/4/21",
-    "cases": 88830,
-    "deaths": 2826,
-    "recovered": 0,
-    "new": 107,
     "newDeaths": 1
   },
+  "Hidalgo": {
+    "dateStr": "5/6/21",
+    "cases": 89147,
+    "deaths": 2832,
+    "recovered": 0,
+    "new": 110,
+    "newDeaths": 2
+  },
   "Hill": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4489,
     "deaths": 108,
     "recovered": 0,
@@ -872,47 +872,47 @@
     "newDeaths": 0
   },
   "Hockley": {
-    "dateStr": "5/4/21",
-    "cases": 2819,
-    "deaths": 102,
+    "dateStr": "5/6/21",
+    "cases": 2820,
+    "deaths": 103,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Hood": {
-    "dateStr": "5/4/21",
-    "cases": 6532,
+    "dateStr": "5/6/21",
+    "cases": 6542,
     "deaths": 129,
     "recovered": 0,
-    "new": 15,
+    "new": 8,
     "newDeaths": 0
   },
   "Hopkins": {
-    "dateStr": "5/4/21",
-    "cases": 3087,
+    "dateStr": "5/6/21",
+    "cases": 3094,
     "deaths": 109,
     "recovered": 0,
-    "new": 4,
+    "new": 6,
     "newDeaths": 0
   },
   "Houston": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1635,
     "deaths": 52,
     "recovered": 0,
-    "new": 4,
+    "new": 0,
     "newDeaths": 0
   },
   "Howard": {
-    "dateStr": "5/4/21",
-    "cases": 4637,
+    "dateStr": "5/6/21",
+    "cases": 4641,
     "deaths": 101,
     "recovered": 0,
-    "new": 2,
+    "new": 1,
     "newDeaths": 0
   },
   "Hudspeth": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 530,
     "deaths": 11,
     "recovered": 0,
@@ -920,23 +920,23 @@
     "newDeaths": 0
   },
   "Hunt": {
-    "dateStr": "5/4/21",
-    "cases": 5944,
+    "dateStr": "5/6/21",
+    "cases": 5960,
     "deaths": 168,
     "recovered": 0,
-    "new": 1,
-    "newDeaths": 1
+    "new": 5,
+    "newDeaths": 0
   },
   "Hutchinson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2012,
     "deaths": 71,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Irion": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 126,
     "deaths": 1,
     "recovered": 0,
@@ -944,15 +944,15 @@
     "newDeaths": 0
   },
   "Jack": {
-    "dateStr": "5/4/21",
-    "cases": 608,
+    "dateStr": "5/6/21",
+    "cases": 609,
     "deaths": 16,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Jackson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1822,
     "deaths": 31,
     "recovered": 0,
@@ -960,15 +960,15 @@
     "newDeaths": 0
   },
   "Jasper": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2704,
-    "deaths": 89,
+    "deaths": 90,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 1
+    "newDeaths": 0
   },
   "Jeff Davis": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 190,
     "deaths": 5,
     "recovered": 0,
@@ -976,15 +976,15 @@
     "newDeaths": 0
   },
   "Jefferson": {
-    "dateStr": "5/4/21",
-    "cases": 19641,
-    "deaths": 422,
+    "dateStr": "5/6/21",
+    "cases": 19651,
+    "deaths": 425,
     "recovered": 0,
-    "new": 68,
-    "newDeaths": 0
+    "new": 5,
+    "newDeaths": 3
   },
   "Jim Hogg": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 613,
     "deaths": 16,
     "recovered": 0,
@@ -992,23 +992,23 @@
     "newDeaths": 0
   },
   "Jim Wells": {
-    "dateStr": "5/4/21",
-    "cases": 4266,
+    "dateStr": "5/6/21",
+    "cases": 4267,
     "deaths": 101,
     "recovered": 0,
-    "new": 8,
+    "new": 1,
     "newDeaths": 0
   },
   "Johnson": {
-    "dateStr": "5/4/21",
-    "cases": 19745,
+    "dateStr": "5/6/21",
+    "cases": 19769,
     "deaths": 367,
     "recovered": 0,
-    "new": 31,
-    "newDeaths": 1
+    "new": 20,
+    "newDeaths": 0
   },
   "Jones": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2774,
     "deaths": 55,
     "recovered": 0,
@@ -1016,7 +1016,7 @@
     "newDeaths": 0
   },
   "Karnes": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2102,
     "deaths": 37,
     "recovered": 0,
@@ -1024,15 +1024,15 @@
     "newDeaths": 0
   },
   "Kaufman": {
-    "dateStr": "5/4/21",
-    "cases": 15992,
+    "dateStr": "5/6/21",
+    "cases": 16023,
     "deaths": 256,
     "recovered": 0,
-    "new": 62,
+    "new": 31,
     "newDeaths": 0
   },
   "Kendall": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 3299,
     "deaths": 72,
     "recovered": 0,
@@ -1040,7 +1040,7 @@
     "newDeaths": 0
   },
   "Kenedy": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 38,
     "deaths": 2,
     "recovered": 0,
@@ -1048,7 +1048,7 @@
     "newDeaths": 0
   },
   "Kent": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 106,
     "deaths": 2,
     "recovered": 0,
@@ -1056,7 +1056,7 @@
     "newDeaths": 0
   },
   "Kerr": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4492,
     "deaths": 88,
     "recovered": 0,
@@ -1064,7 +1064,7 @@
     "newDeaths": 0
   },
   "Kimble": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 268,
     "deaths": 6,
     "recovered": 0,
@@ -1072,7 +1072,7 @@
     "newDeaths": 0
   },
   "King": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 14,
     "deaths": 0,
     "recovered": 0,
@@ -1080,7 +1080,7 @@
     "newDeaths": 0
   },
   "Kinney": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 351,
     "deaths": 6,
     "recovered": 0,
@@ -1088,15 +1088,15 @@
     "newDeaths": 0
   },
   "Kleberg": {
-    "dateStr": "5/4/21",
-    "cases": 2637,
+    "dateStr": "5/6/21",
+    "cases": 2640,
     "deaths": 93,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Knox": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 287,
     "deaths": 17,
     "recovered": 0,
@@ -1104,7 +1104,7 @@
     "newDeaths": 0
   },
   "La Salle": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1051,
     "deaths": 28,
     "recovered": 0,
@@ -1112,31 +1112,31 @@
     "newDeaths": 0
   },
   "Lamar": {
-    "dateStr": "5/4/21",
-    "cases": 5813,
+    "dateStr": "5/6/21",
+    "cases": 5823,
     "deaths": 155,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Lamb": {
-    "dateStr": "5/4/21",
-    "cases": 2285,
+    "dateStr": "5/6/21",
+    "cases": 2287,
     "deaths": 82,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   "Lampasas": {
-    "dateStr": "5/4/21",
-    "cases": 2176,
+    "dateStr": "5/6/21",
+    "cases": 2178,
     "deaths": 32,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Lavaca": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2477,
     "deaths": 76,
     "recovered": 0,
@@ -1144,39 +1144,39 @@
     "newDeaths": 0
   },
   "Lee": {
-    "dateStr": "5/4/21",
-    "cases": 2186,
+    "dateStr": "5/6/21",
+    "cases": 2190,
     "deaths": 39,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   "Leon": {
-    "dateStr": "5/4/21",
-    "cases": 1627,
+    "dateStr": "5/6/21",
+    "cases": 1629,
     "deaths": 43,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Liberty": {
-    "dateStr": "5/4/21",
-    "cases": 7816,
+    "dateStr": "5/6/21",
+    "cases": 7826,
     "deaths": 183,
     "recovered": 0,
-    "new": 37,
-    "newDeaths": 1
+    "new": 5,
+    "newDeaths": 0
   },
   "Limestone": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2774,
     "deaths": 76,
     "recovered": 0,
-    "new": 3,
+    "new": 0,
     "newDeaths": 0
   },
   "Lipscomb": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 335,
     "deaths": 12,
     "recovered": 0,
@@ -1184,7 +1184,7 @@
     "newDeaths": 0
   },
   "Live Oak": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1129,
     "deaths": 22,
     "recovered": 0,
@@ -1192,15 +1192,15 @@
     "newDeaths": 0
   },
   "Llano": {
-    "dateStr": "5/4/21",
-    "cases": 1654,
+    "dateStr": "5/6/21",
+    "cases": 1656,
     "deaths": 51,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Loving": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2,
     "deaths": 0,
     "recovered": 0,
@@ -1208,15 +1208,15 @@
     "newDeaths": 0
   },
   "Lubbock": {
-    "dateStr": "5/4/21",
-    "cases": 48956,
-    "deaths": 784,
+    "dateStr": "5/6/21",
+    "cases": 48985,
+    "deaths": 785,
     "recovered": 0,
-    "new": 46,
+    "new": 16,
     "newDeaths": 0
   },
   "Lynn": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 618,
     "deaths": 23,
     "recovered": 0,
@@ -1224,23 +1224,23 @@
     "newDeaths": 0
   },
   "Madison": {
-    "dateStr": "5/4/21",
-    "cases": 1962,
+    "dateStr": "5/6/21",
+    "cases": 1965,
     "deaths": 29,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Marion": {
-    "dateStr": "5/4/21",
-    "cases": 539,
-    "deaths": 33,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
+  "Marion": {
+    "dateStr": "5/6/21",
+    "cases": 539,
+    "deaths": 33,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
   "Martin": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 632,
     "deaths": 18,
     "recovered": 0,
@@ -1248,31 +1248,31 @@
     "newDeaths": 0
   },
   "Mason": {
-    "dateStr": "5/4/21",
-    "cases": 396,
+    "dateStr": "5/6/21",
+    "cases": 398,
     "deaths": 6,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Matagorda": {
-    "dateStr": "5/4/21",
-    "cases": 4028,
+    "dateStr": "5/6/21",
+    "cases": 4037,
     "deaths": 109,
     "recovered": 0,
-    "new": 57,
+    "new": 0,
     "newDeaths": 0
   },
   "Maverick": {
-    "dateStr": "5/4/21",
-    "cases": 10426,
+    "dateStr": "5/6/21",
+    "cases": 10438,
     "deaths": 356,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 1
+    "new": 2,
+    "newDeaths": 0
   },
   "McCulloch": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 575,
     "deaths": 19,
     "recovered": 0,
@@ -1280,15 +1280,15 @@
     "newDeaths": 0
   },
   "McLennan": {
-    "dateStr": "5/4/21",
-    "cases": 27043,
+    "dateStr": "5/6/21",
+    "cases": 27090,
     "deaths": 470,
     "recovered": 0,
-    "new": 59,
+    "new": 47,
     "newDeaths": 0
   },
   "McMullen": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 83,
     "deaths": 5,
     "recovered": 0,
@@ -1296,7 +1296,7 @@
     "newDeaths": 0
   },
   "Medina": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4998,
     "deaths": 103,
     "recovered": 0,
@@ -1304,7 +1304,7 @@
     "newDeaths": 0
   },
   "Menard": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 208,
     "deaths": 9,
     "recovered": 0,
@@ -1312,23 +1312,23 @@
     "newDeaths": 0
   },
   "Midland": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 17433,
-    "deaths": 266,
+    "deaths": 267,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "Milam": {
-    "dateStr": "5/4/21",
-    "cases": 2525,
+    "dateStr": "5/6/21",
+    "cases": 2529,
     "deaths": 48,
     "recovered": 0,
-    "new": 3,
+    "new": 2,
     "newDeaths": 0
   },
   "Mills": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 656,
     "deaths": 21,
     "recovered": 0,
@@ -1336,47 +1336,47 @@
     "newDeaths": 0
   },
   "Mitchell": {
-    "dateStr": "5/4/21",
-    "cases": 604,
+    "dateStr": "5/6/21",
+    "cases": 605,
     "deaths": 30,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Montague": {
-    "dateStr": "5/4/21",
-    "cases": 2084,
+    "dateStr": "5/6/21",
+    "cases": 2085,
     "deaths": 71,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Montgomery": {
-    "dateStr": "5/4/21",
-    "cases": 52824,
-    "deaths": 562,
+    "dateStr": "5/6/21",
+    "cases": 52975,
+    "deaths": 565,
     "recovered": 0,
-    "new": 30,
-    "newDeaths": 0
+    "new": 37,
+    "newDeaths": 2
   },
   "Moore": {
-    "dateStr": "5/4/21",
-    "cases": 2477,
+    "dateStr": "5/6/21",
+    "cases": 2660,
     "deaths": 72,
     "recovered": 0,
-    "new": 20,
+    "new": 134,
     "newDeaths": 0
   },
   "Morris": {
-    "dateStr": "5/4/21",
-    "cases": 866,
+    "dateStr": "5/6/21",
+    "cases": 867,
     "deaths": 33,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Motley": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 115,
     "deaths": 8,
     "recovered": 0,
@@ -1384,23 +1384,23 @@
     "newDeaths": 0
   },
   "Nacogdoches": {
-    "dateStr": "5/4/21",
-    "cases": 4514,
+    "dateStr": "5/6/21",
+    "cases": 4517,
     "deaths": 169,
     "recovered": 0,
     "new": 1,
-    "newDeaths": 1
-  },
-  "Navarro": {
-    "dateStr": "5/4/21",
-    "cases": 5781,
-    "deaths": 140,
-    "recovered": 0,
-    "new": 0,
     "newDeaths": 0
   },
+  "Navarro": {
+    "dateStr": "5/6/21",
+    "cases": 5791,
+    "deaths": 141,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 1
+  },
   "Newton": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 696,
     "deaths": 35,
     "recovered": 0,
@@ -1408,31 +1408,31 @@
     "newDeaths": 0
   },
   "Nolan": {
-    "dateStr": "5/4/21",
-    "cases": 1533,
+    "dateStr": "5/6/21",
+    "cases": 1536,
     "deaths": 51,
     "recovered": 0,
-    "new": 1,
+    "new": 3,
     "newDeaths": 0
   },
   "Nueces": {
-    "dateStr": "5/4/21",
-    "cases": 41942,
+    "dateStr": "5/6/21",
+    "cases": 42050,
     "deaths": 806,
     "recovered": 0,
-    "new": 44,
-    "newDeaths": 31
+    "new": 57,
+    "newDeaths": 0
   },
   "Ochiltree": {
-    "dateStr": "5/4/21",
-    "cases": 1143,
+    "dateStr": "5/6/21",
+    "cases": 1147,
     "deaths": 27,
     "recovered": 0,
-    "new": 2,
+    "new": 4,
     "newDeaths": 0
   },
   "Oldham": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 269,
     "deaths": 4,
     "recovered": 0,
@@ -1440,15 +1440,15 @@
     "newDeaths": 0
   },
   "Orange": {
-    "dateStr": "5/4/21",
-    "cases": 8424,
+    "dateStr": "5/6/21",
+    "cases": 8460,
     "deaths": 146,
     "recovered": 0,
-    "new": 8,
+    "new": 0,
     "newDeaths": 0
   },
   "Out of TX": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -1456,39 +1456,39 @@
     "newDeaths": 0
   },
   "Palo Pinto": {
-    "dateStr": "5/4/21",
-    "cases": 2891,
+    "dateStr": "5/6/21",
+    "cases": 2893,
+    "deaths": 75,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Panola": {
+    "dateStr": "5/6/21",
+    "cases": 1605,
     "deaths": 75,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Panola": {
-    "dateStr": "5/4/21",
-    "cases": 1603,
-    "deaths": 75,
+  "Parker": {
+    "dateStr": "5/6/21",
+    "cases": 15699,
+    "deaths": 181,
     "recovered": 0,
-    "new": 3,
+    "new": 20,
     "newDeaths": 1
   },
-  "Parker": {
-    "dateStr": "5/4/21",
-    "cases": 15667,
-    "deaths": 180,
-    "recovered": 0,
-    "new": 52,
-    "newDeaths": 0
-  },
   "Parmer": {
-    "dateStr": "5/4/21",
-    "cases": 1269,
+    "dateStr": "5/6/21",
+    "cases": 1270,
     "deaths": 36,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Pecos": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1662,
     "deaths": 34,
     "recovered": 0,
@@ -1496,23 +1496,23 @@
     "newDeaths": 0
   },
   "Polk": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 3282,
     "deaths": 114,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 2
+    "newDeaths": 0
   },
   "Potter": {
-    "dateStr": "5/4/21",
-    "cases": 17351,
-    "deaths": 448,
+    "dateStr": "5/6/21",
+    "cases": 17384,
+    "deaths": 449,
     "recovered": 0,
-    "new": 28,
-    "newDeaths": 2
+    "new": 23,
+    "newDeaths": 1
   },
   "Presidio": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 817,
     "deaths": 24,
     "recovered": 0,
@@ -1520,31 +1520,31 @@
     "newDeaths": 0
   },
   "Rains": {
-    "dateStr": "5/4/21",
-    "cases": 797,
+    "dateStr": "5/6/21",
+    "cases": 798,
     "deaths": 25,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Randall": {
-    "dateStr": "5/4/21",
-    "cases": 16688,
+    "dateStr": "5/6/21",
+    "cases": 16733,
     "deaths": 279,
     "recovered": 0,
-    "new": 10,
+    "new": 19,
     "newDeaths": 0
   },
   "Reagan": {
-    "dateStr": "5/4/21",
-    "cases": 380,
+    "dateStr": "5/6/21",
+    "cases": 381,
     "deaths": 8,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Real": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 311,
     "deaths": 12,
     "recovered": 0,
@@ -1552,31 +1552,31 @@
     "newDeaths": 0
   },
   "Red River": {
-    "dateStr": "5/4/21",
-    "cases": 692,
+    "dateStr": "5/6/21",
+    "cases": 693,
     "deaths": 37,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Reeves": {
-    "dateStr": "5/4/21",
-    "cases": 1774,
+    "dateStr": "5/6/21",
+    "cases": 1780,
     "deaths": 43,
     "recovered": 0,
-    "new": 1,
+    "new": 4,
     "newDeaths": 0
   },
   "Refugio": {
-    "dateStr": "5/4/21",
-    "cases": 662,
-    "deaths": 21,
+    "dateStr": "5/6/21",
+    "cases": 664,
+    "deaths": 22,
     "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
+    "new": 2,
+    "newDeaths": 1
   },
   "Roberts": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 61,
     "deaths": 1,
     "recovered": 0,
@@ -1584,39 +1584,39 @@
     "newDeaths": 0
   },
   "Robertson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 2122,
-    "deaths": 41,
+    "deaths": 42,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 1
   },
   "Rockwall": {
-    "dateStr": "5/4/21",
-    "cases": 11479,
+    "dateStr": "5/6/21",
+    "cases": 11494,
     "deaths": 153,
     "recovered": 0,
-    "new": 33,
+    "new": 13,
     "newDeaths": 0
   },
   "Runnels": {
-    "dateStr": "5/4/21",
-    "cases": 1289,
+    "dateStr": "5/6/21",
+    "cases": 1311,
     "deaths": 37,
     "recovered": 0,
-    "new": 3,
+    "new": 20,
     "newDeaths": 0
   },
   "Rusk": {
-    "dateStr": "5/4/21",
-    "cases": 3947,
+    "dateStr": "5/6/21",
+    "cases": 3951,
     "deaths": 107,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   "Sabine": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 613,
     "deaths": 45,
     "recovered": 0,
@@ -1624,7 +1624,7 @@
     "newDeaths": 0
   },
   "San Augustine": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 573,
     "deaths": 32,
     "recovered": 0,
@@ -1632,15 +1632,15 @@
     "newDeaths": 0
   },
   "San Jacinto": {
-    "dateStr": "5/4/21",
-    "cases": 1283,
+    "dateStr": "5/6/21",
+    "cases": 1291,
     "deaths": 36,
     "recovered": 0,
-    "new": 6,
+    "new": 7,
     "newDeaths": 0
   },
   "San Patricio": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4346,
     "deaths": 148,
     "recovered": 0,
@@ -1648,7 +1648,7 @@
     "newDeaths": 0
   },
   "San Saba": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 827,
     "deaths": 23,
     "recovered": 0,
@@ -1656,7 +1656,7 @@
     "newDeaths": 0
   },
   "Schleicher": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 239,
     "deaths": 6,
     "recovered": 0,
@@ -1664,7 +1664,7 @@
     "newDeaths": 0
   },
   "Scurry": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 3381,
     "deaths": 62,
     "recovered": 0,
@@ -1672,63 +1672,63 @@
     "newDeaths": 0
   },
   "Shackelford": {
-    "dateStr": "5/4/21",
-    "cases": 271,
+    "dateStr": "5/6/21",
+    "cases": 272,
     "deaths": 5,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Shelby": {
-    "dateStr": "5/4/21",
-    "cases": 1675,
+    "dateStr": "5/6/21",
+    "cases": 1676,
     "deaths": 67,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   "Sherman": {
-    "dateStr": "5/4/21",
-    "cases": 222,
+    "dateStr": "5/6/21",
+    "cases": 223,
     "deaths": 12,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Smith": {
-    "dateStr": "5/4/21",
-    "cases": 20149,
-    "deaths": 468,
+    "dateStr": "5/6/21",
+    "cases": 20205,
+    "deaths": 469,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "Somervell": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1078,
     "deaths": 14,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   "Starr": {
-    "dateStr": "5/4/21",
-    "cases": 9496,
+    "dateStr": "5/6/21",
+    "cases": 9497,
     "deaths": 297,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  "Stephens": {
-    "dateStr": "5/4/21",
-    "cases": 788,
-    "deaths": 25,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
+  "Stephens": {
+    "dateStr": "5/6/21",
+    "cases": 794,
+    "deaths": 26,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 1
+  },
   "Sterling": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 108,
     "deaths": 4,
     "recovered": 0,
@@ -1736,7 +1736,7 @@
     "newDeaths": 0
   },
   "Stonewall": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 156,
     "deaths": 6,
     "recovered": 0,
@@ -1744,7 +1744,7 @@
     "newDeaths": 0
   },
   "Sutton": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 479,
     "deaths": 8,
     "recovered": 0,
@@ -1752,31 +1752,31 @@
     "newDeaths": 0
   },
   "Swisher": {
-    "dateStr": "5/4/21",
-    "cases": 828,
+    "dateStr": "5/6/21",
+    "cases": 829,
     "deaths": 17,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   "Tarrant": {
-    "dateStr": "5/4/21",
-    "cases": 257473,
-    "deaths": 3425,
+    "dateStr": "5/6/21",
+    "cases": 257849,
+    "deaths": 3430,
     "recovered": 0,
-    "new": 97,
-    "newDeaths": 1
+    "new": 240,
+    "newDeaths": 3
   },
   "Taylor": {
-    "dateStr": "5/4/21",
-    "cases": 15681,
-    "deaths": 406,
+    "dateStr": "5/6/21",
+    "cases": 15687,
+    "deaths": 408,
     "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
+    "new": 6,
+    "newDeaths": 1
   },
   "Terrell": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 80,
     "deaths": 2,
     "recovered": 0,
@@ -1784,7 +1784,7 @@
     "newDeaths": 0
   },
   "Terry": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1692,
     "deaths": 56,
     "recovered": 0,
@@ -1792,7 +1792,7 @@
     "newDeaths": 0
   },
   "Throckmorton": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 73,
     "deaths": 5,
     "recovered": 0,
@@ -1800,47 +1800,47 @@
     "newDeaths": 0
   },
   "Titus": {
-    "dateStr": "5/4/21",
-    "cases": 3702,
+    "dateStr": "5/6/21",
+    "cases": 3710,
     "deaths": 84,
     "recovered": 0,
-    "new": 6,
+    "new": 2,
     "newDeaths": 0
   },
   "Tom Green": {
-    "dateStr": "5/4/21",
-    "cases": 16780,
+    "dateStr": "5/6/21",
+    "cases": 16789,
     "deaths": 269,
     "recovered": 0,
-    "new": 8,
+    "new": 3,
     "newDeaths": 0
   },
   "Travis": {
-    "dateStr": "5/4/21",
-    "cases": 82566,
-    "deaths": 998,
+    "dateStr": "5/6/21",
+    "cases": 82733,
+    "deaths": 1002,
     "recovered": 0,
-    "new": 40,
-    "newDeaths": 1
+    "new": 75,
+    "newDeaths": 2
   },
   "Trinity": {
-    "dateStr": "5/4/21",
-    "cases": 750,
+    "dateStr": "5/6/21",
+    "cases": 751,
     "deaths": 26,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 1
-  },
-  "Tyler": {
-    "dateStr": "5/4/21",
-    "cases": 1440,
-    "deaths": 38,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
+  "Tyler": {
+    "dateStr": "5/6/21",
+    "cases": 1440,
+    "deaths": 39,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 1
+  },
   "Unassigned": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 43,
     "deaths": 239,
     "recovered": 0,
@@ -1848,15 +1848,15 @@
     "newDeaths": 0
   },
   "Upshur": {
-    "dateStr": "5/4/21",
-    "cases": 3257,
+    "dateStr": "5/6/21",
+    "cases": 3265,
     "deaths": 74,
     "recovered": 0,
-    "new": 9,
+    "new": 5,
     "newDeaths": 0
   },
   "Upton": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 381,
     "deaths": 10,
     "recovered": 0,
@@ -1864,47 +1864,47 @@
     "newDeaths": 0
   },
   "Uvalde": {
-    "dateStr": "5/4/21",
-    "cases": 3572,
+    "dateStr": "5/6/21",
+    "cases": 3574,
     "deaths": 72,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Val Verde": {
-    "dateStr": "5/4/21",
-    "cases": 7855,
-    "deaths": 220,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
+  "Val Verde": {
+    "dateStr": "5/6/21",
+    "cases": 7860,
+    "deaths": 220,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
   "Van Zandt": {
-    "dateStr": "5/4/21",
-    "cases": 4268,
+    "dateStr": "5/6/21",
+    "cases": 4296,
     "deaths": 117,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Victoria": {
-    "dateStr": "5/4/21",
-    "cases": 8634,
-    "deaths": 207,
+    "dateStr": "5/6/21",
+    "cases": 8713,
+    "deaths": 208,
     "recovered": 0,
-    "new": 21,
-    "newDeaths": 1
+    "new": 79,
+    "newDeaths": 0
   },
   "Walker": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 8844,
     "deaths": 126,
     "recovered": 0,
-    "new": 32,
-    "newDeaths": 1
+    "new": 0,
+    "newDeaths": 0
   },
   "Waller": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4116,
     "deaths": 46,
     "recovered": 0,
@@ -1912,23 +1912,23 @@
     "newDeaths": 0
   },
   "Ward": {
-    "dateStr": "5/4/21",
-    "cases": 1186,
+    "dateStr": "5/6/21",
+    "cases": 1188,
     "deaths": 24,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Washington": {
-    "dateStr": "5/4/21",
-    "cases": 4045,
-    "deaths": 93,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
+  "Washington": {
+    "dateStr": "5/6/21",
+    "cases": 4047,
+    "deaths": 93,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
   "Webb": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 43738,
     "deaths": 788,
     "recovered": 0,
@@ -1936,15 +1936,15 @@
     "newDeaths": 0
   },
   "Wharton": {
-    "dateStr": "5/4/21",
-    "cases": 4098,
+    "dateStr": "5/6/21",
+    "cases": 4099,
     "deaths": 115,
     "recovered": 0,
-    "new": 9,
+    "new": 1,
     "newDeaths": 0
   },
   "Wheeler": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 531,
     "deaths": 10,
     "recovered": 0,
@@ -1952,39 +1952,39 @@
     "newDeaths": 0
   },
   "Wichita": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 14971,
     "deaths": 376,
     "recovered": 0,
     "new": 0,
-    "newDeaths": 1
+    "newDeaths": 0
   },
   "Wilbarger": {
-    "dateStr": "5/4/21",
-    "cases": 1907,
+    "dateStr": "5/6/21",
+    "cases": 1910,
     "deaths": 55,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Willacy": {
-    "dateStr": "5/4/21",
-    "cases": 2959,
+    "dateStr": "5/6/21",
+    "cases": 2967,
     "deaths": 88,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Williamson": {
-    "dateStr": "5/4/21",
-    "cases": 45706,
+    "dateStr": "5/6/21",
+    "cases": 45817,
     "deaths": 464,
     "recovered": 0,
     "new": 58,
     "newDeaths": 0
   },
   "Wilson": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 4484,
     "deaths": 68,
     "recovered": 0,
@@ -1992,7 +1992,7 @@
     "newDeaths": 0
   },
   "Winkler": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 767,
     "deaths": 21,
     "recovered": 0,
@@ -2000,49 +2000,49 @@
     "newDeaths": 0
   },
   "Wise": {
-    "dateStr": "5/4/21",
-    "cases": 7311,
+    "dateStr": "5/6/21",
+    "cases": 7317,
     "deaths": 121,
     "recovered": 0,
-    "new": 11,
+    "new": 6,
     "newDeaths": 0
   },
   "Wood": {
-    "dateStr": "5/4/21",
-    "cases": 3420,
-    "deaths": 127,
+    "dateStr": "5/6/21",
+    "cases": 3424,
+    "deaths": 128,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Yoakum": {
-    "dateStr": "5/4/21",
-    "cases": 871,
+    "dateStr": "5/6/21",
+    "cases": 872,
     "deaths": 27,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   "Young": {
-    "dateStr": "5/4/21",
-    "cases": 2164,
+    "dateStr": "5/6/21",
+    "cases": 2165,
     "deaths": 44,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Zapata": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1766,
     "deaths": 36,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   "Zavala": {
-    "dateStr": "5/4/21",
+    "dateStr": "5/6/21",
     "cases": 1857,
-    "deaths": 40,
+    "deaths": 41,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
