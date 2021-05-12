@@ -1,70 +1,70 @@
 {
   "Androscoggin": {
-    "dateStr": "5/9/21",
-    "cases": 7712,
+    "dateStr": "5/11/21",
+    "cases": 7782,
     "deaths": 72,
     "recovered": 0,
-    "new": 44,
+    "new": 45,
     "newDeaths": 0
   },
   "Aroostook": {
-    "dateStr": "5/9/21",
-    "cases": 1725,
+    "dateStr": "5/11/21",
+    "cases": 1745,
     "deaths": 45,
     "recovered": 0,
-    "new": 15,
+    "new": 7,
     "newDeaths": 0
   },
   "Cumberland": {
-    "dateStr": "5/9/21",
-    "cases": 16576,
+    "dateStr": "5/11/21",
+    "cases": 16637,
     "deaths": 190,
     "recovered": 0,
-    "new": 15,
+    "new": 16,
     "newDeaths": 0
   },
   "Franklin": {
-    "dateStr": "5/9/21",
-    "cases": 1267,
+    "dateStr": "5/11/21",
+    "cases": 1276,
     "deaths": 14,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  "Hancock": {
+    "dateStr": "5/11/21",
+    "cases": 1268,
+    "deaths": 36,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Hancock": {
-    "dateStr": "5/9/21",
-    "cases": 1259,
-    "deaths": 36,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
   "Kennebec": {
-    "dateStr": "5/9/21",
-    "cases": 5975,
+    "dateStr": "5/11/21",
+    "cases": 6028,
     "deaths": 69,
     "recovered": 0,
-    "new": 37,
+    "new": 34,
     "newDeaths": 0
   },
   "Knox": {
-    "dateStr": "5/9/21",
-    "cases": 1056,
+    "dateStr": "5/11/21",
+    "cases": 1067,
     "deaths": 5,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Lincoln": {
+    "dateStr": "5/11/21",
+    "cases": 973,
+    "deaths": 2,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
   },
-  "Lincoln": {
-    "dateStr": "5/9/21",
-    "cases": 962,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
   "Out of ME": {
-    "dateStr": "5/9/21",
+    "dateStr": "5/11/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -72,47 +72,47 @@
     "newDeaths": 0
   },
   "Oxford": {
-    "dateStr": "5/9/21",
-    "cases": 3385,
+    "dateStr": "5/11/21",
+    "cases": 3416,
     "deaths": 63,
     "recovered": 0,
-    "new": 4,
+    "new": 13,
     "newDeaths": 0
   },
   "Penobscot": {
-    "dateStr": "5/9/21",
-    "cases": 5613,
+    "dateStr": "5/11/21",
+    "cases": 5674,
     "deaths": 90,
     "recovered": 0,
-    "new": 25,
+    "new": 31,
     "newDeaths": 0
   },
   "Piscataquis": {
-    "dateStr": "5/9/21",
-    "cases": 481,
+    "dateStr": "5/11/21",
+    "cases": 489,
     "deaths": 6,
     "recovered": 0,
-    "new": 2,
+    "new": 7,
     "newDeaths": 0
   },
   "Sagadahoc": {
-    "dateStr": "5/9/21",
-    "cases": 1342,
+    "dateStr": "5/11/21",
+    "cases": 1362,
     "deaths": 10,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Somerset": {
-    "dateStr": "5/9/21",
-    "cases": 2013,
-    "deaths": 29,
     "recovered": 0,
     "new": 10,
     "newDeaths": 0
   },
+  "Somerset": {
+    "dateStr": "5/11/21",
+    "cases": 2029,
+    "deaths": 30,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 1
+  },
   "Unassigned": {
-    "dateStr": "5/9/21",
+    "dateStr": "5/11/21",
     "cases": 26,
     "deaths": 3,
     "recovered": 0,
@@ -120,27 +120,27 @@
     "newDeaths": 0
   },
   "Waldo": {
-    "dateStr": "5/9/21",
-    "cases": 896,
-    "deaths": 19,
+    "dateStr": "5/11/21",
+    "cases": 907,
+    "deaths": 20,
     "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
+    "new": 7,
+    "newDeaths": 1
   },
   "Washington": {
-    "dateStr": "5/9/21",
-    "cases": 846,
+    "dateStr": "5/11/21",
+    "cases": 851,
     "deaths": 16,
     "recovered": 0,
-    "new": 1,
+    "new": 3,
     "newDeaths": 0
   },
   "York": {
-    "dateStr": "5/9/21",
-    "cases": 12875,
+    "dateStr": "5/11/21",
+    "cases": 12942,
     "deaths": 130,
     "recovered": 0,
-    "new": 43,
+    "new": 34,
     "newDeaths": 0
   }
 }
