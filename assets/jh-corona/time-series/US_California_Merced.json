@@ -3866,9 +3866,33 @@
   {
     "dateStr": "5/19/21",
     "cases": 31959,
-    "deaths": 463,
+    "deaths": 467,
     "recovered": 0,
     "new": 9,
+    "newDeaths": 4
+  },
+  {
+    "dateStr": "5/20/21",
+    "cases": 32005,
+    "deaths": 468,
+    "recovered": 0,
+    "new": 46,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "5/21/21",
+    "cases": 32028,
+    "deaths": 468,
+    "recovered": 0,
+    "new": 23,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/22/21",
+    "cases": 32028,
+    "deaths": 468,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   }
 ]
