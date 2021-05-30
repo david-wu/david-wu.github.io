@@ -3930,9 +3930,25 @@
   {
     "dateStr": "5/27/21",
     "cases": 42331,
-    "deaths": 573,
+    "deaths": 576,
     "recovered": 0,
     "new": 63,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "5/28/21",
+    "cases": 42345,
+    "deaths": 576,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/29/21",
+    "cases": 42364,
+    "deaths": 576,
+    "recovered": 0,
+    "new": 19,
     "newDeaths": 0
   }
 ]
