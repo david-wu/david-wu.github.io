@@ -4017,10 +4017,18 @@
   },
   {
     "dateStr": "6/7/21",
-    "cases": 21363,
+    "cases": 21369,
     "deaths": 261,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/8/21",
+    "cases": 21383,
+    "deaths": 261,
+    "recovered": 0,
+    "new": 14,
     "newDeaths": 0
   }
 ]
