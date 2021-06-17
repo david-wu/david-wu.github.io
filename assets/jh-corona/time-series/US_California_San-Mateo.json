@@ -4010,15 +4010,15 @@
   {
     "dateStr": "6/6/21",
     "cases": 42433,
-    "deaths": 664,
+    "deaths": 579,
     "recovered": 0,
     "new": 20,
-    "newDeaths": 85
+    "newDeaths": 0
   },
   {
     "dateStr": "6/7/21",
     "cases": 42457,
-    "deaths": 664,
+    "deaths": 579,
     "recovered": 0,
     "new": 24,
     "newDeaths": 0
@@ -4026,7 +4026,7 @@
   {
     "dateStr": "6/8/21",
     "cases": 42479,
-    "deaths": 664,
+    "deaths": 579,
     "recovered": 0,
     "new": 22,
     "newDeaths": 0
@@ -4034,7 +4034,7 @@
   {
     "dateStr": "6/9/21",
     "cases": 42488,
-    "deaths": 664,
+    "deaths": 579,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
@@ -4042,17 +4042,49 @@
   {
     "dateStr": "6/10/21",
     "cases": 42502,
-    "deaths": 666,
+    "deaths": 579,
     "recovered": 0,
     "new": 14,
-    "newDeaths": 2
+    "newDeaths": 0
   },
   {
     "dateStr": "6/11/21",
     "cases": 42562,
-    "deaths": 666,
+    "deaths": 579,
     "recovered": 0,
     "new": 60,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/12/21",
+    "cases": 42585,
+    "deaths": 581,
+    "recovered": 0,
+    "new": 23,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "6/13/21",
+    "cases": 42604,
+    "deaths": 581,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/14/21",
+    "cases": 42611,
+    "deaths": 581,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/15/21",
+    "cases": 42619,
+    "deaths": 581,
+    "recovered": 0,
+    "new": 8,
     "newDeaths": 0
   }
 ]
