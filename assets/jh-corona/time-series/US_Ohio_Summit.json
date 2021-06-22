@@ -3938,15 +3938,15 @@
   {
     "dateStr": "5/28/21",
     "cases": 48063,
-    "deaths": 998,
+    "deaths": 999,
     "recovered": 0,
     "new": 26,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   {
     "dateStr": "5/29/21",
     "cases": 48087,
-    "deaths": 998,
+    "deaths": 999,
     "recovered": 0,
     "new": 24,
     "newDeaths": 0
@@ -3954,7 +3954,7 @@
   {
     "dateStr": "5/30/21",
     "cases": 48113,
-    "deaths": 998,
+    "deaths": 999,
     "recovered": 0,
     "new": 26,
     "newDeaths": 0
@@ -3962,7 +3962,7 @@
   {
     "dateStr": "5/31/21",
     "cases": 48113,
-    "deaths": 998,
+    "deaths": 999,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
@@ -3970,7 +3970,7 @@
   {
     "dateStr": "6/1/21",
     "cases": 48160,
-    "deaths": 998,
+    "deaths": 999,
     "recovered": 0,
     "new": 47,
     "newDeaths": 0
@@ -3978,7 +3978,7 @@
   {
     "dateStr": "6/2/21",
     "cases": 48169,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 9,
     "newDeaths": 1
@@ -3986,7 +3986,7 @@
   {
     "dateStr": "6/3/21",
     "cases": 48187,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 18,
     "newDeaths": 0
@@ -3994,7 +3994,7 @@
   {
     "dateStr": "6/4/21",
     "cases": 48233,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 46,
     "newDeaths": 0
@@ -4002,7 +4002,7 @@
   {
     "dateStr": "6/5/21",
     "cases": 48256,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 23,
     "newDeaths": 0
@@ -4010,7 +4010,7 @@
   {
     "dateStr": "6/6/21",
     "cases": 48260,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
@@ -4018,7 +4018,7 @@
   {
     "dateStr": "6/7/21",
     "cases": 48265,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
@@ -4026,7 +4026,7 @@
   {
     "dateStr": "6/8/21",
     "cases": 48273,
-    "deaths": 999,
+    "deaths": 1000,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
@@ -4034,15 +4034,15 @@
   {
     "dateStr": "6/9/21",
     "cases": 48294,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 21,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   {
     "dateStr": "6/10/21",
     "cases": 48306,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 12,
     "newDeaths": 0
@@ -4050,7 +4050,7 @@
   {
     "dateStr": "6/11/21",
     "cases": 48319,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
@@ -4058,7 +4058,7 @@
   {
     "dateStr": "6/12/21",
     "cases": 48327,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
@@ -4066,7 +4066,7 @@
   {
     "dateStr": "6/13/21",
     "cases": 48339,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 12,
     "newDeaths": 0
@@ -4074,7 +4074,7 @@
   {
     "dateStr": "6/14/21",
     "cases": 48356,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 17,
     "newDeaths": 0
@@ -4082,9 +4082,57 @@
   {
     "dateStr": "6/15/21",
     "cases": 48370,
-    "deaths": 999,
+    "deaths": 1001,
     "recovered": 0,
     "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/16/21",
+    "cases": 48381,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/17/21",
+    "cases": 48395,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/18/21",
+    "cases": 48415,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/19/21",
+    "cases": 48427,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 12,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/20/21",
+    "cases": 48435,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/21/21",
+    "cases": 48440,
+    "deaths": 1001,
+    "recovered": 0,
+    "new": 5,
     "newDeaths": 0
   }
 ]
