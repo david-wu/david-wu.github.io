@@ -1084,8 +1084,8 @@
     "cases": 2147285,
     "deaths": 198115,
     "recovered": 2086086,
-    "new": 1116,
-    "newDeaths": 51
+    "new": 0,
+    "newDeaths": 0
   },
   "Philippines": {
     "dateStr": "8/29/21",
@@ -1417,19 +1417,19 @@
   },
   "Turkey": {
     "dateStr": "8/29/21",
-    "cases": 6329519,
-    "deaths": 55958,
+    "cases": 6346851,
+    "deaths": 56213,
     "recovered": 5478185,
-    "new": 0,
-    "newDeaths": 0
+    "new": 17332,
+    "newDeaths": 255
   },
   "US": {
     "dateStr": "8/29/21",
-    "cases": 38796746,
-    "deaths": 637531,
+    "cases": 38798836,
+    "deaths": 637539,
     "recovered": 6298082,
-    "new": 36383,
-    "newDeaths": 277
+    "new": 38473,
+    "newDeaths": 285
   },
   "Uganda": {
     "dateStr": "8/29/21",
@@ -1561,10 +1561,10 @@
   },
   "World": {
     "dateStr": "8/29/21",
-    "cases": 216123651,
-    "deaths": 4498385,
+    "cases": 216143073,
+    "deaths": 4498648,
     "recovered": 129365720,
-    "new": 426783,
-    "newDeaths": 6541
+    "new": 442611,
+    "newDeaths": 6720
   }
 }
