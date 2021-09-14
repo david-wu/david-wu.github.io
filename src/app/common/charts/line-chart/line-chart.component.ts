@@ -61,7 +61,7 @@ export class LineChartComponent extends BaseChartComponent {
 
   public ngOnChanges(changes) {
     if (changes.tableData && changes.tableData.firstChange && this.tableData) {
-      this.initializeSvg();
+      this.initialize();
     }
     if (changes.tableData || changes.disabledKeys || changes.xMin || changes.xMax) {
       if (this.tableData) {
@@ -89,8 +89,8 @@ export class LineChartComponent extends BaseChartComponent {
     super.ngOnDestroy();
   }
 
-  public initializeSvg() {
-    super.initializeSvg();
+  public initialize() {
+    this.initializeSvg();
     this.hoverLine = this.rootG.append('line')
       .attr('class', 'hover-line')
       .style('stroke', '#8A9A5B')
@@ -162,7 +162,7 @@ export class LineChartComponent extends BaseChartComponent {
   }
 
   public positionHoverLine() {
-    if (!this.tableData || !this.tableData.length || (this.hoverIndex === undefined)) {
+    if (!this.tableData || !this.tableData.length || (this.hoverIndex === undefined) || !this.filteredKeys) {
       return;
     }
     const tableColumnData = this.tableData[this.hoverIndex];

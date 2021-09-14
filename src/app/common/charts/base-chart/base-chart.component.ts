@@ -6,6 +6,8 @@ import ResizeSensor from 'css-element-queries/src/ResizeSensor';
 import * as d3 from 'd3';
 import { filter, last } from 'lodash';
 
+import { ChartDim } from './chart-dim';
+
 export class BaseChartComponent {
 
   public sensor;
@@ -26,6 +28,7 @@ export class BaseChartComponent {
   public indicatorsG;
   public clipPathRect;
   public mouseIn: boolean;
+  public chartDim: ChartDim;
   // public clipPathRectAxis;
 
   constructor(
@@ -34,13 +37,30 @@ export class BaseChartComponent {
     ) {}
 
   public ngAfterViewInit() {
-    this.sensor = new ResizeSensor(this.hostEl.nativeElement, () => {
-      this.render();
+    this.chartDim = new ChartDim(this.hostEl.nativeElement, this.margins);
+    this.chartDim.rootDim$.subscribe(({ width, height }) => {
+      this.svg
+        .attr('width', width)
+        .attr('height', height);
     });
+    this.chartDim.chartDim$.subscribe(({ width, height }) => {
+
+      this.clipPathRect
+        .attr('width', width)
+        .attr('height', height + this.margins.top);
+
+      this.renderFor(width, height);
+    });
+
+    // this.chartSvg = new ChartSvg(this.rootDim$);
+
+    // this.sensor = new ResizeSensor(this.hostEl.nativeElement, () => {
+    //   this.render();
+    // });
   }
 
   public ngOnDestroy() {
-    this.sensor.detach();
+    this.chartDim.destroy();
   }
 
   public initializeSvg() {
@@ -56,7 +76,9 @@ export class BaseChartComponent {
       .on('mouseenter', () => this._onMouseEnter())
       .on('mouseleave', () => this._onMouseLeave());
 
-    this.rootG = this.svg.append('g');
+    this.rootG = this.svg.append('g')
+      .attr('transform', 'translate(' + this.margins.left + ',' + this.margins.top + ')');
+
     this.yAxisG = this.rootG.append('g')
       .attr('class', 'y axis');
     this.xAxisG = this.rootG.append('g')
@@ -64,48 +86,17 @@ export class BaseChartComponent {
       .attr('clip-path', 'url(#clip)');
     this.seriesG = this.rootG.append('g')
       .attr('clip-path', 'url(#clip)');
-
     this.indicatorsG = this.rootG.append('g');
+
     // this.applyZoom(this.svg);
 
     const defs = this.svg.append('defs');
 
     this.clipPathRect = defs.append('clipPath')
-    .attr('id', 'clip')
-    .append('rect')
-    .attr('x', 0)
-    .attr('y', 0);
-
-    // this.clipPathRectAxis = defs.append('clipPath')
-    //     .attr('id', 'clipAxis')
-    //     .append('rect')
-    //     .attr('x', 0)
-    //     .attr('y', 0);
-
-  }
-
-  public touchmove() {
-    // prevents following mouse event
-    d3.event.stopPropagation();
-    const touch = d3.touches(this.svg.node());
-    const [x, y] = touch[0];
-    this.onXYHover(x, y);
-  }
-
-  public _onMouseEnter() {
-    this.mouseIn = true;
-    this.onMouseEnter();
-  }
-
-  public _onMouseLeave() {
-    this.mouseIn = false;
-    this.onMouseLeave();
-  }
-
-  public onMouseEnter() {
-  }
-
-  public onMouseLeave() {
+      .attr('id', 'clip')
+      .append('rect')
+      .attr('x', 0)
+      .attr('y', 0);
   }
 
   public onMouseMove() {
@@ -113,8 +104,27 @@ export class BaseChartComponent {
     this.mouseIn = true;
     this.onXYHover(x, y);
   }
-
+  public touchmove() {
+    // prevents following mouse event
+    d3.event.stopPropagation();
+    const touch = d3.touches(this.svg.node());
+    const [x, y] = touch[0];
+    this.onXYHover(x, y);
+  }
   public onXYHover(x: number, y: number) {
+  }
+
+  public _onMouseEnter() {
+    this.mouseIn = true;
+    this.onMouseEnter();
+  }
+  public _onMouseLeave() {
+    this.mouseIn = false;
+    this.onMouseLeave();
+  }
+  public onMouseEnter() {
+  }
+  public onMouseLeave() {
   }
 
   public renderFor(width, height) {
@@ -131,16 +141,16 @@ export class BaseChartComponent {
 
   public render() {
     const { width, height } = this.getChartDim();
-    this.svg
-      .attr('width', width + this.margins.left + this.margins.right)
-      .attr('height', height + this.margins.top + this.margins.bottom);
+    // this.svg
+    //   .attr('width', width + this.margins.left + this.margins.right)
+    //   .attr('height', height + this.margins.top + this.margins.bottom);
 
-    this.rootG
-      .attr('transform', 'translate(' + this.margins.left + ',' + this.margins.top + ')');
+    // this.rootG
+    //   .attr('transform', 'translate(' + this.margins.left + ',' + this.margins.top + ')');
 
-    this.clipPathRect
-      .attr('width', width)
-      .attr('height', height + this.margins.top);
+    // this.clipPathRect
+    //   .attr('width', width)
+    //   .attr('height', height + this.margins.top);
 
     this.renderFor(width, height);
   }
