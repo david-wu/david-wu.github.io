@@ -141,17 +141,6 @@ export class BaseChartComponent {
 
   public render() {
     const { width, height } = this.getChartDim();
-    // this.svg
-    //   .attr('width', width + this.margins.left + this.margins.right)
-    //   .attr('height', height + this.margins.top + this.margins.bottom);
-
-    // this.rootG
-    //   .attr('transform', 'translate(' + this.margins.left + ',' + this.margins.top + ')');
-
-    // this.clipPathRect
-    //   .attr('width', width)
-    //   .attr('height', height + this.margins.top);
-
     this.renderFor(width, height);
   }
 

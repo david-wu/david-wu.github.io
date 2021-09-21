@@ -4761,19 +4761,19 @@
   },
   {
     "dateStr": "9/8/21",
-    "cases": 680074,
-    "deaths": 24041,
+    "cases": 678363,
+    "deaths": 23901,
     "recovered": 530545,
-    "new": 4303,
-    "newDeaths": 140
+    "new": 2592,
+    "newDeaths": 0
   },
   {
     "dateStr": "9/9/21",
     "cases": 680074,
-    "deaths": 24041,
+    "deaths": 23993,
     "recovered": 530545,
-    "new": 0,
-    "newDeaths": 0
+    "new": 1711,
+    "newDeaths": 92
   },
   {
     "dateStr": "9/10/21",
@@ -4781,7 +4781,7 @@
     "deaths": 24086,
     "recovered": 530545,
     "new": 1590,
-    "newDeaths": 45
+    "newDeaths": 93
   },
   {
     "dateStr": "9/11/21",
@@ -4806,5 +4806,53 @@
     "recovered": 530545,
     "new": 780,
     "newDeaths": 39
+  },
+  {
+    "dateStr": "9/14/21",
+    "cases": 695406,
+    "deaths": 24274,
+    "recovered": 530545,
+    "new": 9607,
+    "newDeaths": 30
+  },
+  {
+    "dateStr": "9/15/21",
+    "cases": 696279,
+    "deaths": 24337,
+    "recovered": 530545,
+    "new": 873,
+    "newDeaths": 63
+  },
+  {
+    "dateStr": "9/16/21",
+    "cases": 697421,
+    "deaths": 24383,
+    "recovered": 530545,
+    "new": 1142,
+    "newDeaths": 46
+  },
+  {
+    "dateStr": "9/17/21",
+    "cases": 698427,
+    "deaths": 24415,
+    "recovered": 530545,
+    "new": 1006,
+    "newDeaths": 32
+  },
+  {
+    "dateStr": "9/18/21",
+    "cases": 699224,
+    "deaths": 24442,
+    "recovered": 530545,
+    "new": 797,
+    "newDeaths": 27
+  },
+  {
+    "dateStr": "9/19/21",
+    "cases": 699928,
+    "deaths": 24490,
+    "recovered": 530545,
+    "new": 704,
+    "newDeaths": 48
   }
 ]
