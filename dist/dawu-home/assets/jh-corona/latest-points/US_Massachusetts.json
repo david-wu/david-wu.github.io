@@ -1,30 +1,30 @@
 {
   "Barnstable": {
-    "dateStr": "10/14/21",
-    "cases": 17293,
-    "deaths": 513,
+    "dateStr": "10/19/21",
+    "cases": 17461,
+    "deaths": 514,
     "recovered": 0,
-    "new": 51,
+    "new": 47,
     "newDeaths": 0
   },
   "Berkshire": {
-    "dateStr": "10/14/21",
-    "cases": 8434,
-    "deaths": 316,
+    "dateStr": "10/19/21",
+    "cases": 8584,
+    "deaths": 320,
     "recovered": 0,
-    "new": 22,
-    "newDeaths": 0
+    "new": 29,
+    "newDeaths": 1
   },
   "Bristol": {
-    "dateStr": "10/14/21",
-    "cases": 79427,
-    "deaths": 1852,
+    "dateStr": "10/19/21",
+    "cases": 80082,
+    "deaths": 1859,
     "recovered": 0,
-    "new": 139,
-    "newDeaths": 0
+    "new": 225,
+    "newDeaths": 5
   },
   "Dukes": {
-    "dateStr": "10/14/21",
+    "dateStr": "10/19/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -32,55 +32,55 @@
     "newDeaths": 0
   },
   "Dukes and Nantucket": {
-    "dateStr": "10/14/21",
-    "cases": 3729,
+    "dateStr": "10/19/21",
+    "cases": 3758,
     "deaths": 7,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  "Essex": {
-    "dateStr": "10/14/21",
-    "cases": 110879,
-    "deaths": 2494,
-    "recovered": 0,
-    "new": 217,
-    "newDeaths": 6
-  },
-  "Franklin": {
-    "dateStr": "10/14/21",
-    "cases": 3348,
-    "deaths": 122,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
   },
-  "Hampden": {
-    "dateStr": "10/14/21",
-    "cases": 64303,
-    "deaths": 1640,
+  "Essex": {
+    "dateStr": "10/19/21",
+    "cases": 111618,
+    "deaths": 2497,
     "recovered": 0,
-    "new": 132,
+    "new": 229,
     "newDeaths": 2
   },
+  "Franklin": {
+    "dateStr": "10/19/21",
+    "cases": 3378,
+    "deaths": 122,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  "Hampden": {
+    "dateStr": "10/19/21",
+    "cases": 64804,
+    "deaths": 1648,
+    "recovered": 0,
+    "new": 131,
+    "newDeaths": 5
+  },
   "Hampshire": {
-    "dateStr": "10/14/21",
-    "cases": 11434,
+    "dateStr": "10/19/21",
+    "cases": 11506,
     "deaths": 318,
     "recovered": 0,
-    "new": 32,
+    "new": 18,
     "newDeaths": 0
   },
   "Middlesex": {
-    "dateStr": "10/14/21",
-    "cases": 155781,
-    "deaths": 3900,
+    "dateStr": "10/19/21",
+    "cases": 157009,
+    "deaths": 3905,
     "recovered": 0,
-    "new": 290,
-    "newDeaths": 2
+    "new": 354,
+    "newDeaths": 4
   },
   "Nantucket": {
-    "dateStr": "10/14/21",
+    "dateStr": "10/19/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -88,15 +88,15 @@
     "newDeaths": 0
   },
   "Norfolk": {
-    "dateStr": "10/14/21",
-    "cases": 63309,
+    "dateStr": "10/19/21",
+    "cases": 63813,
     "deaths": 1853,
     "recovered": 0,
-    "new": 106,
-    "newDeaths": 1
+    "new": 175,
+    "newDeaths": 0
   },
   "Out of MA": {
-    "dateStr": "10/14/21",
+    "dateStr": "10/19/21",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -104,35 +104,35 @@
     "newDeaths": 0
   },
   "Plymouth": {
-    "dateStr": "10/14/21",
-    "cases": 57917,
-    "deaths": 1508,
+    "dateStr": "10/19/21",
+    "cases": 58423,
+    "deaths": 1510,
     "recovered": 0,
-    "new": 98,
+    "new": 208,
     "newDeaths": 1
   },
   "Suffolk": {
-    "dateStr": "10/14/21",
-    "cases": 106049,
-    "deaths": 1906,
+    "dateStr": "10/19/21",
+    "cases": 106612,
+    "deaths": 1912,
+    "recovered": 0,
+    "new": 156,
+    "newDeaths": 0
+  },
+  "Unassigned": {
+    "dateStr": "10/19/21",
+    "cases": 57137,
+    "deaths": 603,
     "recovered": 0,
     "new": 160,
     "newDeaths": 0
   },
-  "Unassigned": {
-    "dateStr": "10/14/21",
-    "cases": 56664,
-    "deaths": 603,
-    "recovered": 0,
-    "new": 223,
-    "newDeaths": 0
-  },
   "Worcester": {
-    "dateStr": "10/14/21",
-    "cases": 93095,
-    "deaths": 2381,
+    "dateStr": "10/19/21",
+    "cases": 94162,
+    "deaths": 2393,
     "recovered": 0,
-    "new": 306,
-    "newDeaths": 2
+    "new": 297,
+    "newDeaths": 8
   }
 }
