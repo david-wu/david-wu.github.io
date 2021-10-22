@@ -5049,10 +5049,10 @@
   },
   {
     "dateStr": "10/14/21",
-    "cases": 12273,
+    "cases": 12295,
     "deaths": 119,
     "recovered": 0,
-    "new": 0,
+    "new": 22,
     "newDeaths": 0
   },
   {
@@ -5060,7 +5060,7 @@
     "cases": 12380,
     "deaths": 120,
     "recovered": 0,
-    "new": 107,
+    "new": 85,
     "newDeaths": 1
   },
   {
@@ -5094,5 +5094,13 @@
     "recovered": 0,
     "new": 55,
     "newDeaths": 6
+  },
+  {
+    "dateStr": "10/20/21",
+    "cases": 12732,
+    "deaths": 127,
+    "recovered": 0,
+    "new": 60,
+    "newDeaths": 1
   }
 ]
