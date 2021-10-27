@@ -5097,10 +5097,50 @@
   },
   {
     "dateStr": "10/20/21",
-    "cases": 2945056,
-    "deaths": 76179,
+    "cases": 2950616,
+    "deaths": 76254,
     "recovered": 2653981,
-    "new": 0,
+    "new": 5560,
+    "newDeaths": 75
+  },
+  {
+    "dateStr": "10/21/21",
+    "cases": 2956207,
+    "deaths": 76300,
+    "recovered": 2653981,
+    "new": 5591,
+    "newDeaths": 46
+  },
+  {
+    "dateStr": "10/22/21",
+    "cases": 2961923,
+    "deaths": 76359,
+    "recovered": 2653981,
+    "new": 5716,
+    "newDeaths": 59
+  },
+  {
+    "dateStr": "10/23/21",
+    "cases": 2968200,
+    "deaths": 76434,
+    "recovered": 2653981,
+    "new": 6277,
+    "newDeaths": 75
+  },
+  {
+    "dateStr": "10/24/21",
+    "cases": 2972927,
+    "deaths": 76447,
+    "recovered": 2653981,
+    "new": 4727,
+    "newDeaths": 13
+  },
+  {
+    "dateStr": "10/25/21",
+    "cases": 2975880,
+    "deaths": 76447,
+    "recovered": 2653981,
+    "new": 2953,
     "newDeaths": 0
   }
 ]
