@@ -5266,9 +5266,33 @@
   {
     "dateStr": "11/10/21",
     "cases": 4079,
-    "deaths": 84,
+    "deaths": 85,
     "recovered": 0,
     "new": 17,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/11/21",
+    "cases": 4109,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 30,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/12/21",
+    "cases": 4139,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 30,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/13/21",
+    "cases": 4153,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 14,
     "newDeaths": 0
   }
 ]
