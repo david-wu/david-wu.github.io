@@ -42,10 +42,10 @@ export class ResourceSelectorComponent {
 
   public onResourcesChanges(resources) {
     const files = map(resources, (resource) => {
-      return Object.assign(new File(), {
+      return {
         id: resource.id,
         label: resource.label || resource.id,
-      });
+      };
     });
     this.fileGroup.setRootChildren(files);
   }

@@ -52,10 +52,10 @@ export class ImageSourceTokensListComponent {
       this.imageTokens$.subscribe((imageTokens: any[]) => {
         this.imageTokensById = keyBy(imageTokens, 'id');
         const files = (imageTokens || []).map((imageToken) => {
-          return Object.assign(new File(), {
+          return {
             id: imageToken.id,
             label: this.getTokenLabel(imageToken),
-          });
+          };
         });
         this.fileGroup.setRootChildren(files);
       }),

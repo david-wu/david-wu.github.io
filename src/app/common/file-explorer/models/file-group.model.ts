@@ -20,8 +20,8 @@ export class FileGroup {
 
   public static createWithRoot(rootId: string) {
     const fileGroup = new FileGroup();
-    const root = fileGroup.createFile({ label: 'World' });
-    fileGroup.setRootFile(root);
+    const root = fileGroup.createFile();
+    fileGroup.rootFileId = root.id;
     return fileGroup;
   }
 
@@ -113,10 +113,6 @@ export class FileGroup {
      this.selectedFileIds = fileIds;
    }
 
-  public getSelectedFileId() {
-    return Array.from(this.selectedFileIds)[0];
-  }
-
   /**
    * setRootFile
    * @param {File} file
@@ -189,11 +185,11 @@ export class FileGroup {
    */
    public createFile(overrides: Partial<File> = {}): File {
      const uniqueId = this.getUniqueId();
-     const newFile = Object.assign(new File(), {
+     const newFile = {
        id: uniqueId,
        label: uniqueId,
        ...overrides,
-     });
+     };
      this.filesById = {
        ...this.filesById,
        [newFile.id]: newFile,
@@ -211,10 +207,11 @@ export class FileGroup {
    */
    public batchCreateFile(overrides: Partial<File> = {}): File {
      const uniqueId = this.getUniqueId();
-     const newFile = Object.assign(new File(), {
+     const newFile = {
        id: uniqueId,
        label: uniqueId,
-     }, overrides);
+       ...overrides,
+     };
      this.filesById[newFile.id] = newFile;
      return newFile;
    }

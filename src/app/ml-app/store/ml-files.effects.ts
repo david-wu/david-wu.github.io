@@ -53,10 +53,10 @@ export class MlFilesEffects {
             return from(filesRef.get()).pipe(
               map((fileRefs: any) => {
                 const files = fileRefs.docs.map((fileRef) => {
-                  return Object.assign(new File(), {
+                  return {
                     ...fileRef.data(),
                     id: fileRef.id,
-                  });
+                  };
                 });
                 return MlFilesActions.getUserFilesSuccess({
                   files

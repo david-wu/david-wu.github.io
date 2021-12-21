@@ -205,10 +205,10 @@ export class FileExplorerComponent {
     const changes = {};
     each(this.filesById, (file: File) => {
       if (includes(file.childIds, fileId1)) {
-        changes[file.id] = Object.assign(new File(), {
+        changes[file.id] = {
           ...file,
           childIds: without(file.childIds, fileId1),
-        });
+        };
       }
     });
 
@@ -217,10 +217,10 @@ export class FileExplorerComponent {
     // const insertionIndex = nextChildIds.indexOf(fileId2);
     nextChildIds.push(fileId1);
 
-    changes[insertParent.id] = Object.assign(new File(), {
+    changes[insertParent.id] = {
       ...insertParent,
       childIds: nextChildIds,
-    });
+    };
     this.filesByIdChange.emit({
       ...this.filesById,
       ...changes,
@@ -235,10 +235,10 @@ export class FileExplorerComponent {
     const changes = {};
     each(this.filesById, (file: File) => {
       if (includes(file.childIds, fileId1)) {
-        changes[file.id] = Object.assign(new File(), {
+        changes[file.id] = {
           ...file,
           childIds: without(file.childIds, fileId1),
-        });
+        };
       }
     });
 
@@ -247,10 +247,10 @@ export class FileExplorerComponent {
     const insertionIndex = nextChildIds.indexOf(fileId2);
     nextChildIds.splice(insertionIndex, 0, fileId1);
 
-    changes[insertParent.id] = Object.assign(new File(), {
+    changes[insertParent.id] = {
       ...insertParent,
       childIds: nextChildIds,
-    });
+    };
     this.filesByIdChange.emit({
       ...this.filesById,
       ...changes,
@@ -261,26 +261,26 @@ export class FileExplorerComponent {
     const changes = {};
     each(this.filesById, (file: File) => {
       if (includes(file.childIds, fileId1)) {
-        changes[file.id] = Object.assign(new File(), {
+        changes[file.id] = {
           ...file,
           childIds: without(file.childIds, fileId1),
-        });
+        };
       }
     });
 
     // empty fileId2 means insert after the last element
     if (fileId2) {
       const parentFile = this.filesById[fileId2];
-      changes[parentFile.id] = Object.assign(new File(), {
+      changes[parentFile.id] = {
         ...this.filesById[parentFile.id],
         childIds: uniq([fileId1, ...parentFile.childIds]),
-      });
+      };
     } else {
       const parentFile = this.filesById[this.rootFileId];
-      changes[parentFile.id] = Object.assign(new File(), {
+      changes[parentFile.id] = {
         ...this.filesById[parentFile.id],
         childIds: uniq([...parentFile.childIds, fileId1]),
-      });
+      };
     }
 
     this.filesByIdChange.emit({

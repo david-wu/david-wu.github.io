@@ -10,7 +10,7 @@ import {
   Store,
 } from '@ngrx/store';
 
-import { FileGroup, FileType, File } from '@file-explorer/index';
+import { FileGroup, File } from '@file-explorer/index';
 import {
   getFilesById$,
   // getMlFilesState$,

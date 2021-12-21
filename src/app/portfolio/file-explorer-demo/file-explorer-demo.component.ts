@@ -11,34 +11,34 @@ import { File } from '@file-explorer/index';
 })
 export class FileExplorerDemoComponent {
   public filesById: Record<string, File> = {
-    file1: Object.assign(new File(), {
+    file1: {
       id: 'file1',
       label: 'file1',
       childIds: ['file2', 'file3'],
-    }),
-    file2: Object.assign(new File(), {
+    },
+    file2: {
       id: 'file2',
       label: 'work stuff',
       childIds: ['file4', 'file5'],
-    }),
-    file3: Object.assign(new File(), {
+    },
+    file3: {
       id: 'file3',
       label: 'covid stuff',
       childIds: [],
-    }),
-    file4: Object.assign(new File(), {
+    },
+    file4: {
       id: 'file4',
       label: 'file4',
-    }),
-    file5: Object.assign(new File(), {
+    },
+    file5: {
       id: 'file5',
       label: 'file5',
       childIds: ['file6'],
-    }),
-    file6: Object.assign(new File(), {
+    },
+    file6: {
       id: 'file6',
       label: 'file6',
-    }),
+    },
   };
   public closedFileIds = new Set();
   public selectedFileIds = new Set();
