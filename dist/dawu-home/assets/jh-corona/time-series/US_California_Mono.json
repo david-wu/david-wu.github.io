@@ -5577,14 +5577,6 @@
   },
   {
     "dateStr": "12/19/21",
-    "cases": 1976,
-    "deaths": 5,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/20/21",
     "cases": 1988,
     "deaths": 5,
     "recovered": 0,
@@ -5592,7 +5584,7 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "12/21/21",
+    "dateStr": "12/20/21",
     "cases": 1993,
     "deaths": 5,
     "recovered": 0,
@@ -5600,11 +5592,19 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "12/22/21",
+    "dateStr": "12/21/21",
     "cases": 1999,
     "deaths": 5,
     "recovered": 0,
     "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/22/21",
+    "cases": 1999,
+    "deaths": 5,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   }
 ]
