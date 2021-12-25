@@ -5418,15 +5418,15 @@
   {
     "dateStr": "11/29/21",
     "cases": 2101,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 5,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   {
     "dateStr": "11/30/21",
     "cases": 2121,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 20,
     "newDeaths": 0
@@ -5434,7 +5434,7 @@
   {
     "dateStr": "12/1/21",
     "cases": 2144,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 23,
     "newDeaths": 0
@@ -5442,7 +5442,7 @@
   {
     "dateStr": "12/2/21",
     "cases": 2152,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
@@ -5450,7 +5450,7 @@
   {
     "dateStr": "12/3/21",
     "cases": 2169,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 17,
     "newDeaths": 0
@@ -5458,7 +5458,7 @@
   {
     "dateStr": "12/4/21",
     "cases": 2185,
-    "deaths": 39,
+    "deaths": 40,
     "recovered": 0,
     "new": 16,
     "newDeaths": 0
@@ -5466,15 +5466,15 @@
   {
     "dateStr": "12/5/21",
     "cases": 2190,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 5,
-    "newDeaths": 0
+    "newDeaths": 2
   },
   {
     "dateStr": "12/6/21",
     "cases": 2194,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
@@ -5482,7 +5482,7 @@
   {
     "dateStr": "12/7/21",
     "cases": 2204,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 10,
     "newDeaths": 0
@@ -5490,7 +5490,7 @@
   {
     "dateStr": "12/8/21",
     "cases": 2216,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 12,
     "newDeaths": 0
@@ -5498,7 +5498,7 @@
   {
     "dateStr": "12/9/21",
     "cases": 2229,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
@@ -5506,7 +5506,7 @@
   {
     "dateStr": "12/10/21",
     "cases": 2238,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
@@ -5514,7 +5514,7 @@
   {
     "dateStr": "12/11/21",
     "cases": 2249,
-    "deaths": 39,
+    "deaths": 42,
     "recovered": 0,
     "new": 11,
     "newDeaths": 0
@@ -5522,7 +5522,7 @@
   {
     "dateStr": "12/12/21",
     "cases": 2255,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 6,
     "newDeaths": 1
@@ -5530,7 +5530,7 @@
   {
     "dateStr": "12/13/21",
     "cases": 2260,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
@@ -5538,7 +5538,7 @@
   {
     "dateStr": "12/14/21",
     "cases": 2265,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
@@ -5546,7 +5546,7 @@
   {
     "dateStr": "12/15/21",
     "cases": 2270,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
@@ -5554,7 +5554,7 @@
   {
     "dateStr": "12/16/21",
     "cases": 2281,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 11,
     "newDeaths": 0
@@ -5562,7 +5562,7 @@
   {
     "dateStr": "12/17/21",
     "cases": 2289,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
@@ -5570,7 +5570,7 @@
   {
     "dateStr": "12/18/21",
     "cases": 2298,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
@@ -5578,7 +5578,7 @@
   {
     "dateStr": "12/19/21",
     "cases": 2301,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
@@ -5586,7 +5586,7 @@
   {
     "dateStr": "12/20/21",
     "cases": 2306,
-    "deaths": 40,
+    "deaths": 43,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
@@ -5597,11 +5597,19 @@
     "deaths": 43,
     "recovered": 0,
     "new": 17,
-    "newDeaths": 3
+    "newDeaths": 0
   },
   {
     "dateStr": "12/22/21",
     "cases": 2332,
+    "deaths": 43,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/23/21",
+    "cases": 2341,
     "deaths": 43,
     "recovered": 0,
     "new": 9,
