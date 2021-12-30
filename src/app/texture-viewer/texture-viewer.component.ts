@@ -13,7 +13,6 @@ import {InputStateBinder} from '@src/app/grow-game/input-state-binder';
 
 @Component({
   selector: 'dwu-texture-viewer',
-  template: '',
   templateUrl: './texture-viewer.component.html',
   styleUrls: ['./texture-viewer.component.scss']
 })

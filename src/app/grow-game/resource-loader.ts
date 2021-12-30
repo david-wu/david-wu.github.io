@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js'
-import {each, mapValues} from 'lodash';
+import {flatten, each, mapValues} from 'lodash';
 
 export class ResourceLoader {
 
@@ -8,7 +8,7 @@ export class ResourceLoader {
     const textureIndex = mapValues(textureSplitParamsIndex, (textureSplitParams, key) => {
       return ResourceLoader.splitTextureSet(resources[key].texture, textureSplitParams);
     });
-    return assetNames.map((assetName) => textureIndex[assetName]).flat();
+    return flatten(assetNames.map((assetName) => textureIndex[assetName]));
   }
 
 	static async loadResources(assetPaths = gameAssetPaths): Promise<{loader: any, resources: any}>{

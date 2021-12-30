@@ -68,19 +68,19 @@ const compactDataBySpriteType = {
 //     soundR: 50,
 //   },
 // }
-function expandSubTypes(dictionary) {
+function expandSubTypes(dictionary: Record<string, any>) {
   const allTypes = Object.keys(dictionary);
   const expandedTypes = {};
   reverseBreadthFirstBy(
     {subTypes: allTypes},
     (typeData) => {
-      return Array.from(typeData.subTypes).map((subType) => {
+      return Array.from(typeData.subTypes).map((subType: string) => {
         return dictionary[subType];
       });
     },
     (typeData) => {
       const nextSubTypes = [];
-      Array.from(typeData.subTypes).forEach((subType) => {
+      Array.from(typeData.subTypes).forEach((subType: string) => {
         const subTypeData = expandedTypes[subType];
         nextSubTypes.push(subType);
         nextSubTypes.push(...subTypeData.subTypes);
@@ -109,9 +109,9 @@ function expandSubTypes2(dictionary, types, expandedTypes = {}) {
     let typeData = dictionary[type];
 
     if(!expandedTypes[type] && typeData.subTypes.size){
-      expandSubTypes(dictionary, typeData.subTypes, expandedTypes);
+      expandSubTypes2(dictionary, typeData.subTypes, expandedTypes);
     }
-    const expandedSubTypeDataList = Array.from(typeData.subTypes).map((subType) => {
+    const expandedSubTypeDataList = Array.from(typeData.subTypes).map((subType: string) => {
       return expandedTypes[subType];
     });
     for(let i = 0; i < expandedSubTypeDataList.length; i++) {
