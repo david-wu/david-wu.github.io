@@ -17,6 +17,7 @@ import { PortfolioComponent } from '@src/app/portfolio/portfolio.component';
 import { PortfolioRoutingModule } from '@src/app/portfolio/portfolio.routes';
 import { TooltipDemoModule } from '@src/app/portfolio/tooltip-demo/tooltip-demo.module';
 import { GrowGameModule } from '@src/app/grow-game/grow-game.module';
+import { TextureViewerModule } from '@src/app/texture-viewer/texture-viewer.module';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import { GrowGameModule } from '@src/app/grow-game/grow-game.module';
     BarChartDemoModule,
     LineChartDemoModule,
     GrowGameModule,
+    TextureViewerModule,
   ],
   declarations: [
     PortfolioComponent,

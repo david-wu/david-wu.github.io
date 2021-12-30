@@ -1,10 +1,27 @@
+interface PlayerInputState {
+  up?: boolean;
+  down?: boolean;
+  right?: boolean;
+  left?: boolean;
+  dash?: boolean;
+  mouseDown?: boolean;
+  x?: number;
+  y?: number;
+  wheelYValue?: number;
+}
+
+const defaultPlayerInputState = {
+  x: 0,
+  y: 0,
+  wheelYValue: 0,
+}
 
 /**
  * Keeps playerInputState up to date with latest player inputs
  */
 export class InputStateBinder {
 
-  static bindElement(element, playerInputState = {}) {
+  static bindElement(element, playerInputState: PlayerInputState = {...defaultPlayerInputState}) {
     element.setAttribute('tabindex', 0);
     element.addEventListener('keydown', (e) => {
       e.stopPropagation();
@@ -25,6 +42,10 @@ export class InputStateBinder {
     });
     element.addEventListener('mouseup', (e) => {
       playerInputState.mouseDown = false;
+    });
+    element.addEventListener('mousewheel', (e) => {
+      playerInputState.wheelYValue = playerInputState.wheelYValue || 0;
+      playerInputState.wheelYValue -= e.deltaY;
     });
     return playerInputState;
   }

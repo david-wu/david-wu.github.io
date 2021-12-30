@@ -13,6 +13,7 @@ import { LineChartDemoComponent } from '@src/app/portfolio/line-chart-demo/line-
 import { MissingDemoComponent } from '@src/app/portfolio/missing-demo/missing-demo.component';
 import { TooltipDemoComponent } from '@src/app/portfolio/tooltip-demo/tooltip-demo.component';
 import { GrowGameComponent } from '@src/app/grow-game/grow-game.component';
+import { TextureViewerComponent } from '@src/app/texture-viewer/texture-viewer.component';
 // console.log('DemoPageWrapperComponent', DemoPageWrapperComponent)
 
 const routes: Routes = [
@@ -79,6 +80,10 @@ const routes: Routes = [
       {
         path: 'GROW_GAME',
         component: GrowGameComponent,
+      },
+      {
+        path: 'TEXTURE_VIEWER',
+        component: TextureViewerComponent,
       },
       {
         path: ':tab',

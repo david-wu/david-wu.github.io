@@ -11,7 +11,7 @@ export class SpriteStateController {
     public availableSprites,
   ) {}
 
-  addSprites(spriteInits: [string, any][]) {
+  addSprites(spriteInits: any[]) {
     for(let i = 0; i < spriteInits.length; i++) {
       const spriteInit = spriteInits[i];
       this.addSprite(spriteInit[0], spriteInit[1]);
