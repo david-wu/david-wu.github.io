@@ -12,6 +12,7 @@ import { FuzzDemoComponent } from '@src/app/portfolio/fuzz-demo/fuzz-demo.compon
 import { LineChartDemoComponent } from '@src/app/portfolio/line-chart-demo/line-chart-demo.component';
 import { MissingDemoComponent } from '@src/app/portfolio/missing-demo/missing-demo.component';
 import { TooltipDemoComponent } from '@src/app/portfolio/tooltip-demo/tooltip-demo.component';
+import { GrowGameComponent } from '@src/app/grow-game/grow-game.component';
 // console.log('DemoPageWrapperComponent', DemoPageWrapperComponent)
 
 const routes: Routes = [
@@ -74,6 +75,10 @@ const routes: Routes = [
       {
         path: 'VIRTUAL_SCROLL_GRID',
         loadChildren: () => import('./virtual-scroll-grid-demo/virtual-scroll-grid-demo.module').then(m => m.VirtualScrollGridDemoModule)
+      },
+      {
+        path: 'GROW_GAME',
+        component: GrowGameComponent,
       },
       {
         path: ':tab',

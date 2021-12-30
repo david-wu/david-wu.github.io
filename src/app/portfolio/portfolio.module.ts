@@ -16,6 +16,7 @@ import { MissingDemoModule } from '@src/app/portfolio/missing-demo/missing-demo.
 import { PortfolioComponent } from '@src/app/portfolio/portfolio.component';
 import { PortfolioRoutingModule } from '@src/app/portfolio/portfolio.routes';
 import { TooltipDemoModule } from '@src/app/portfolio/tooltip-demo/tooltip-demo.module';
+import { GrowGameModule } from '@src/app/grow-game/grow-game.module';
 
 @NgModule({
   imports: [
@@ -34,6 +35,7 @@ import { TooltipDemoModule } from '@src/app/portfolio/tooltip-demo/tooltip-demo.
     TooltipDemoModule,
     BarChartDemoModule,
     LineChartDemoModule,
+    GrowGameModule,
   ],
   declarations: [
     PortfolioComponent,
