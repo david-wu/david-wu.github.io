@@ -13,6 +13,14 @@ import {PlayerController} from './player-controller';
 import {SpriteState} from './sprite-state';
 import {SpriteStateController} from './sprite-state-controller';
 import {InputStateBinder} from './input-state-binder';
+import {MenuComponent} from './menu-component';
+
+import {GameState} from './game-state';
+
+interface Vector {
+  x: number;
+  y: number;
+}
 
 @Component({
   selector: 'dwu-grow-game',
@@ -32,22 +40,15 @@ export class GrowGameComponent {
       height: 640,
     });
     element.appendChild(app.view);
-    const playerInputState = InputStateBinder.bindElement(element);
-    const {resources} = await ResourceLoader.loadResources();
 
-    const textures = await ResourceLoader.loadTextures();
-    const tileSet = [
-      ...this.splitTextureSet(resources.hyp1.texture, 32, 30, 30),
-      ...this.splitTextureSet(resources.hyp2.texture, 32, 30, 30),
-      ...this.splitTextureSet(resources.hyp3.texture, 32, 30, 30),
-      ...this.splitTextureSet(resources.rpgItems.texture, 16, 13, 14),
-    ];
-    const availableSprites = [
-      ...this.splitTextureSet(resources.characters.texture, 32, 23, 4),
-      ...this.splitTextureSet(resources.rpgItems.texture, 16, 13, 14),
-    ];
+    const gameState = new GameState();
+    InputStateBinder.bindElement(element, gameState.playerInput);
+    const textureList = await ResourceLoader.loadTextures();
+    const overlayContainer = new PIXI.Container();
+    const worldContainer = new PIXI.Container();
 
-    const backDrop = new PIXI.TilingSprite(tileSet[20], 30 * 32, 20 * 32);
+    const backDrop = new PIXI.TilingSprite(textureList[20], 30 * 32, 20 * 32);
+    worldContainer.addChild(backDrop);
 
     const initialSpriteStateList = [
       ['player', {
@@ -65,81 +66,142 @@ export class GrowGameComponent {
         y: (app.renderer.height / 2) + 100,
       }],
     ];
-    const characterContainer = new PIXI.Container();
-    const spriteStateController = new SpriteStateController(characterContainer, availableSprites);
+
+    const spriteStateController = new SpriteStateController(new PIXI.Container(), textureList);
     spriteStateController.addSprites(initialSpriteStateList);
+    worldContainer.addChild(spriteStateController.spriteContainer);
 
     const backgroundGrid = LandGenerator.createBackgroundGrid();
-    const backgroundContainer = this.getContainer(tileSet, backgroundGrid, 32);
+    const backgroundContainer = this.getContainer(textureList, backgroundGrid, 32);
+    worldContainer.addChild(backgroundContainer);
 
-    app.stage.addChild(backDrop);
-    app.stage.addChild(characterContainer);
-    app.stage.addChild(backgroundContainer);
 
-    const playerSpriteState = spriteStateController.playerControlledSpriteState || {};
+    const menuComponent = new MenuComponent(textureList, gameState);
+    overlayContainer.addChild(menuComponent.menuContainer);
+
+    app.stage.addChild(worldContainer);
+    app.stage.addChild(overlayContainer);
+
     let tick = 0;
     app.ticker.add(() => {
       tick++;
+
       each(spriteStateController.spriteStateById, (spriteState) => {
         if (spriteState.playerControlled) {
-          PlayerController.updateCharacterData(spriteState, playerInputState, tick);
+          PlayerController.updateSpriteState(spriteState, gameState.playerInput, tick);
         }
-        if (playerInputState.mouseDown && ((tick - playerSpriteState.lastActionTick) > 100) ) {
+        if (spriteState.isActionTick) {
+          const directionalVector = {
+            x: (gameState.playerInput.x - worldContainer.x) - spriteState.x,
+            y: (gameState.playerInput.y - worldContainer.y) - spriteState.y,
+          };
+          const projectileVector = this.scaleMagnitude(directionalVector, 100);
           spriteStateController.addSprite('monster', {
-            x: playerSpriteState.x,
-            y: playerSpriteState.y,
-            vx: playerSpriteState.vx + 40,
-            vy: playerSpriteState.vy,
-            spriteNumber: 183,
+            x: spriteState.x,
+            y: spriteState.y,
+            vx: spriteState.vx + projectileVector.x,
+            vy: spriteState.vy + projectileVector.y,
+            spriteNumber: 2883,
             scaleX: 2,
             scaleY: 2,
+            expires: tick + 20,
           });
-          playerSpriteState.lastActionTick = tick;
-        }
-        if (spriteState.cameraAttractor) {
-          app.stage.x = (app.renderer.width * 0.5) - spriteState.x;
-          app.stage.y = (app.renderer.height * 0.5) - spriteState.y;
+          spriteState.lastActionTick = tick;
+          spriteState.isActionTick = false
         }
 
         // collides
 
-        // expires
 
         // moveable
+        this.applyMovement(spriteState);
+
+        // hasDrag
+        this.applyDrag(spriteState);
+
+        // hasDirection
+        this.setDirection(spriteState);
+
         const sprite = spriteStateController.spritesById[spriteState.id];
         sprite.x = spriteState.x;
         sprite.y = spriteState.y;
-        spriteState.y += (spriteState.vy * 0.1);
-        spriteState.x += (spriteState.vx * 0.1);
-        // hasDrag
-        if (spriteState.vy > 0) {
-          spriteState.vy -= 1;        
-        }
-        if (spriteState.vy < 0) {
-          spriteState.vy += 1;        
-        }
-        if (spriteState.vx > 0) {
-          spriteState.vx -= 1;        
-        }
-        if (spriteState.vx < 0) {
-          spriteState.vx += 1;        
+
+        if (spriteState.cameraAttractor) {
+          worldContainer.x = (app.renderer.width * 0.5) - spriteState.x;
+          worldContainer.y = (app.renderer.height * 0.5) - spriteState.y;
         }
 
+        const collider = spriteStateController.colliderById[spriteState.id];
+        collider.pos.x = spriteState.x;
+        collider.pos.y = spriteState.y;
+
+        // expires
+        if (spriteState.expires <= tick) {
+          spriteStateController.removeSprite(spriteState.id);
+        }
+      });
+
+      spriteStateController.collisionSystem.update();
+      spriteStateController.collisionSystem.checkAll((collision) => {
+        const spriteId1 = spriteStateController.spriteIdByCollider.get(collision.a);
+        const spriteId2 = spriteStateController.spriteIdByCollider.get(collision.b);
+        const spriteState1 = spriteStateController.spriteStateById[spriteId1];
+        const spriteState2 = spriteStateController.spriteStateById[spriteId2];
+        spriteState1.vx -= (collision.overlapV.x / 2);
+        spriteState1.vy -= (collision.overlapV.y / 2);
+        spriteState2.vx += (collision.overlapV.x / 2);
+        spriteState2.vy += (collision.overlapV.y / 2);
       });
     });
   }
 
-  splitTextureSet(tileSetImgTexture, tileSize = 16, width, height) {
-    const tileSet = [];
-    for(let i = 0; i < width * height; i++) {
-      const x = i % width;
-      const y = Math.floor(i / width);
-      tileSet[i] = new PIXI.Texture(
-        tileSetImgTexture,
-        new PIXI.Rectangle(x * tileSize, y * tileSize, tileSize, tileSize)
-      );
+  applyMovement(spriteState) {
+    spriteState.y += (spriteState.vy * 0.1);
+    spriteState.x += (spriteState.vx * 0.1);
+  }
+
+  applyDrag(spriteState, constant = 0.1, linear = 0.05) {
+    if (spriteState.vy > 0) {
+      spriteState.vy -= (spriteState.vy * linear);
+      spriteState.vy = Math.max(0, spriteState.vy - constant);
     }
-    return tileSet;
+    if (spriteState.vy < 0) {
+      spriteState.vy -= (spriteState.vy * linear);
+      spriteState.vy = Math.min(0, spriteState.vy + constant);
+    }
+    if (spriteState.vx > 0) {
+      spriteState.vx -= (spriteState.vx * linear);
+      spriteState.vx = Math.max(0, spriteState.vx - constant);
+    }
+    if (spriteState.vx < 0) {
+      spriteState.vx -= (spriteState.vx * linear);
+      spriteState.vx = Math.min(0, spriteState.vx + constant);
+    }
+  }
+
+  setDirection(spriteState) {
+    if(spriteState.vx > 0) {
+      spriteState.direction = 'right';
+    } else if(spriteState.vx < 0) {
+      spriteState.direction = 'left';
+    }
+    if (Math.abs(spriteState.vx) < Math.abs(spriteState.vy)) {
+      if(spriteState.vy > 0) {
+        spriteState.direction = 'down';
+      } else if(spriteState.vy < 0) {
+        spriteState.direction = 'up';
+      }
+    }
+  }
+
+
+  scaleMagnitude(vector: Vector, maxMag: number) {
+    const mag = Math.pow(Math.pow(vector.x, 2) + Math.pow(vector.y, 2), 0.5);
+    const magAdjustment = mag / 60;
+    return {
+      x: vector.x / magAdjustment,
+      y: vector.y / magAdjustment,      
+    };
   }
 
   getContainer(tileSet, map, tileSize = 16) {
@@ -156,6 +218,29 @@ export class GrowGameComponent {
     }
     return container;
   }
+
+
+  menuState = {
+    containerX: 0,
+    containerY: 640 - 64,
+    width: 960,
+    height: 64,
+    actionsById: {
+      shovel: {
+        textureId: 2874,
+      },
+      pickaxe: {
+        textureId: 2875,
+      },
+      hammer: {
+        textureId: 2876,
+      },
+    },
+    availableActionIds: [
+      'pickaxe',
+      'hammer',
+    ],
+  };
 
 }
 

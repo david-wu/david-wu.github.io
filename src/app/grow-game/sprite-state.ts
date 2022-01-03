@@ -16,23 +16,24 @@ const compactDataBySpriteType = {
   player: {
     type: 'player',
     subTypes: new Set(['locatable']),
-    spriteNumber: 0,
+    spriteNumber: 2700,
     playerControlled: true,
   },
   chicken: {
     type: 'chicken',
     subTypes: new Set(['monster']),
-    spriteNumber: 48,
+    spriteNumber: 2723,
   },
   monster: {
     type: 'monster',
     subTypes: new Set(['locatable']),
-    spriteNumber: 24,
+    spriteNumber: 2769,
     playerControlled: false,
   },
   locatable: {
     type: 'locatable',  
     subTypes: new Set([]),
+    expires: -1,
     x: 0,
     y: 0,
     vx: 0,
@@ -40,6 +41,7 @@ const compactDataBySpriteType = {
     latestDashTick: 0,
     anchorX: 0.5,
     anchorY: 0.5,
+    direction: 'down',
   },
 };
 // const test = {

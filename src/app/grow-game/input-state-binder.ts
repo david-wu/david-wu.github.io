@@ -1,14 +1,5 @@
-interface PlayerInputState {
-  up?: boolean;
-  down?: boolean;
-  right?: boolean;
-  left?: boolean;
-  dash?: boolean;
-  mouseDown?: boolean;
-  x?: number;
-  y?: number;
-  wheelYValue?: number;
-}
+import {PlayerInputState} from './game-state';
+
 
 const defaultPlayerInputState = {
   x: 0,
@@ -39,6 +30,7 @@ export class InputStateBinder {
     });
     element.addEventListener('mousedown', (e) => {
       playerInputState.mouseDown = true;
+      playerInputState.clickRegistered = false;
     });
     element.addEventListener('mouseup', (e) => {
       playerInputState.mouseDown = false;

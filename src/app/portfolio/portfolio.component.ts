@@ -66,11 +66,12 @@ export class PortfolioComponent {
             },
           },
         },
-        PIXIJS: {
-          label: 'PixiJs',
+        GAMES: {
+          label: 'Games',
           childrenById: {
-            GROW_GAME: { label: 'some game' },
-            TEXTURE_VIEWER: { label: 'texture Viewer' },
+            GOBBLER: { label: 'gobbler', },
+            GROW_GAME: { label: 'fighting game' },
+            TEXTURE_VIEWER: { label: 'texture-viewer' },
           },
         },
         TODOS: {
