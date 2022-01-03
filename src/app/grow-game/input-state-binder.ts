@@ -1,6 +1,5 @@
 import {PlayerInputState} from './game-state';
 
-
 const defaultPlayerInputState = {
   x: 0,
   y: 0,

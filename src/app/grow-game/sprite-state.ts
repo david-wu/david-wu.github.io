@@ -13,22 +13,32 @@ export class SpriteState {
 }
 
 const compactDataBySpriteType = {
+  dagger: {
+    type: 'dagger',
+    subTypes: ['locatable'],
+    playerControlled: false,
+    collisionRadius: 12,
+  },
   player: {
     type: 'player',
     subTypes: new Set(['locatable']),
     spriteNumber: 2700,
     playerControlled: true,
+    actionCooldown: 15,
+    collisionRadius: 12,
   },
   chicken: {
     type: 'chicken',
     subTypes: new Set(['monster']),
     spriteNumber: 2723,
+    collisionRadius: 12,
   },
   monster: {
     type: 'monster',
     subTypes: new Set(['locatable']),
     spriteNumber: 2769,
     playerControlled: false,
+    collisionRadius: 12,
   },
   locatable: {
     type: 'locatable',  
@@ -42,6 +52,7 @@ const compactDataBySpriteType = {
     anchorX: 0.5,
     anchorY: 0.5,
     direction: 'down',
+    actionCooldown: 10,
   },
 };
 // const test = {

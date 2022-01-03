@@ -49,19 +49,6 @@ export class GameState {
     y: 0,
     wheelYValue: 0,
   };
-  spriteStateList = [
-    {
-      type: 'player',
-      cameraAttractor: true,
-      lastActionTick: 0,
-    },
-    {
-      type: 'monster',
-    },
-    {
-      type: 'chicken',
-    },
-  ];
 
   public dispatch(action) {
     console.log('action', action);

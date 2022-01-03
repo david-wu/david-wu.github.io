@@ -1,5 +1,15 @@
 
 export class LandGenerator {
+	static createSeededMap() {
+		const seededMap = LandGenerator.createEmptyGrid();
+		LandGenerator.fillGrid(seededMap, 20);
+		LandGenerator.seedTiles(seededMap);
+		for(let i = 0; i < 100; i++) {
+			LandGenerator.ageTiles(seededMap);			
+		}
+		return seededMap;
+	}
+
 	static createBackgroundGrid() {
 		const backgroundGrid = LandGenerator.createEmptyGrid();
 		LandGenerator.fillGrid(backgroundGrid, 509);
@@ -11,7 +21,7 @@ export class LandGenerator {
 		return backgroundGrid;
 	}
 
-	static createEmptyGrid(height = 30, width = 20) {
+	static createEmptyGrid(height = 20, width = 30) {
 		const grid = []
 		for(let i = 0; i < height; i++) {
 			grid.push(new Array(width))
@@ -27,14 +37,84 @@ export class LandGenerator {
 		}
 	}
 
-	static insertGrid(targetGrid, insert, y, x) {
+	static insertGrid(grid, insert, y, x) {
 		for(let i = 0; i < insert.length; i++) {
 			for(let j = 0; j < insert[i].length; j++){
-				targetGrid[y+i][x+j] = insert[i][j];
+				grid[y+i][x+j] = insert[i][j];
 			}
 		}
 	}
+
+	static seedTiles(grid) {
+		for(let i = 0; i < grid.length; i++) {
+			for(let j = 0; j < grid[i].length; j++) {
+				if(Math.random() < 0.005) {
+					grid[i][j] = 207;
+				}
+				if(Math.random() < 0.005) {
+					grid[i][j] = 202;
+				}
+				if(Math.random() < 0.005) {
+					grid[i][j] = 141;
+				}
+			}
+		}
+	}
+
+	static ageTiles(grid) {
+		for(let i = 1; i < grid.length-1; i++) {
+			for(let j = 1; j < grid[i].length-1; j++) {
+				const tileValue = grid[i][j];
+				const adjacentTiles = LandGenerator.getAdjacentTiles(grid, i, j);
+				LandGenerator.spreadCardinalTileCheck(grid, i, j, 207);
+				LandGenerator.spreadCardinalTileCheck(grid, i, j, 202);
+				LandGenerator.spreadCardinalTileCheck(grid, i, j, 141);
+			}
+		}		
+	}
+
+	static spreadCardinalTileCheck(grid, i, j, tileId, spreadChance = 0.05) {
+		if(grid[i][j] === tileId) {
+			if(Math.random() < spreadChance) {
+				const cardinalTileIndex = Math.floor(Math.random() * 4);
+				const tileShift = cardinalTilePositions[cardinalTileIndex];
+				grid[i + tileShift[0]][j + tileShift[1]] = tileId;
+			}
+		}
+	}
+
+	static getAdjacentTiles(grid, i, j) {
+		return [
+			[grid[i-1][j-1], grid[i-1][j-0], grid[i-1][j+1]],
+			[grid[i][j-1], grid[i][j-0], grid[i][j+1]],
+			[grid[i+1][j-1], grid[i+1][j-0], grid[i+1][j+1]],
+		];
+	}
+
+	static getAdjacentTilePos(index: number) {
+
+	}
+
 }
+const cardinalTilePositions = [
+	[-1, 0],
+	[0, -1],
+	[0, 1],
+	[1, 0],
+];
+
+const tilePositions = [
+	[-1, -1],
+	[-1, 0],
+	[-1, 1],
+	[0, -1],
+	[0, 0],
+	[0, 1],
+	[1, -1],
+	[1, 0],
+	[1, 1],
+];
+
 
 const door = {
   image: [

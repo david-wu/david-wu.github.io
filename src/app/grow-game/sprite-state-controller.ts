@@ -41,9 +41,10 @@ export class SpriteStateController {
     this.spriteContainer.addChild(sprite);
     this.spritesById[spriteState.id] = sprite;
 
+    const collisionRadius = (spriteState.collisionRadius || Math.min(sprite.width, sprite.height) / 2);
     const circle = this.collisionSystem.createCircle(
       { x: sprite.x + (sprite.width / 2), y: sprite.y + (sprite.height / 2) },
-      (Math.min(sprite.width, sprite.height) / 2) - 0.1,
+      collisionRadius,
     );
     this.colliderById[spriteState.id] = circle;
     this.spriteIdByCollider.set(circle, spriteState.id);

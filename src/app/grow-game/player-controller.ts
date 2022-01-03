@@ -2,11 +2,11 @@
 export class PlayerController {
 
   static updateSpriteState(spriteState, playerInputState, tick, maxSpeed = 15, acceleration = 2) {
-    let dashTick = false;
+    let isDashTick = false;
     if (playerInputState.dash) {
       const timeSinceDash = tick - spriteState.latestDashTick;
-      dashTick = timeSinceDash > 100;
-      if (spriteState.isDashTick) {
+      isDashTick = timeSinceDash > 50;
+      if (isDashTick) {
         spriteState.latestDashTick = tick;        
       }
     }
@@ -14,7 +14,7 @@ export class PlayerController {
       if(spriteState.vy < maxSpeed) {
         spriteState.vy = Math.min(spriteState.vy + acceleration, maxSpeed);
       }
-      if (dashTick) {
+      if (isDashTick) {
         spriteState.vy = 30;
       }
     }
@@ -22,7 +22,7 @@ export class PlayerController {
       if(spriteState.vy > -maxSpeed) {
         spriteState.vy = Math.max(spriteState.vy - acceleration, -maxSpeed);
       }
-      if (dashTick) {
+      if (isDashTick) {
         spriteState.vy = -30;
       }
     }
@@ -30,7 +30,7 @@ export class PlayerController {
       if(spriteState.vx < maxSpeed) {
         spriteState.vx = Math.min(spriteState.vx + acceleration, maxSpeed);
       }
-      if (dashTick) {
+      if (isDashTick) {
         spriteState.vx = 30;
       }
     }
@@ -38,14 +38,14 @@ export class PlayerController {
       if(spriteState.vx > -maxSpeed) {
         spriteState.vx = Math.max(spriteState.vx - acceleration, -maxSpeed);
       }
-      if (dashTick) {
+      if (isDashTick) {
         spriteState.vx = -30;
       }
     }
     if(playerInputState.mouseDown){
-      if((tick - spriteState.lastActionTick) > 10) {
-        spriteState.isActionTick = true;
-        spriteState.lastActionTick = tick;
+      if((tick - spriteState.lastClickTick) > spriteState.actionCooldown) {
+        spriteState.isClickTick = true;
+        spriteState.lastClickTick = tick;
       }
     }
   }

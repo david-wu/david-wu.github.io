@@ -6,6 +6,7 @@ import {
   EventEmitter,
   Input,
   Output,
+  NgZone,
 } from '@angular/core';
 import {LandGenerator} from './land-generator';
 import {ResourceLoader} from './resource-loader';
@@ -30,8 +31,12 @@ interface Vector {
 export class GrowGameComponent {
   @ViewChild('gameEl', {static: true}) gameEl;
 
+  constructor(private zone: NgZone) {}
+
   ngAfterViewInit() {
-    this.mountGame(this.gameEl.nativeElement);
+    this.zone.runOutsideAngular(() => {
+      this.mountGame(this.gameEl.nativeElement);      
+    })
   }
 
   async mountGame(element) {
@@ -47,15 +52,15 @@ export class GrowGameComponent {
     const overlayContainer = new PIXI.Container();
     const worldContainer = new PIXI.Container();
 
-    const backDrop = new PIXI.TilingSprite(textureList[20], 30 * 32, 20 * 32);
-    worldContainer.addChild(backDrop);
+    // const backDrop = new PIXI.TilingSprite(textureList[20], 30 * 32, 20 * 32);
+    // worldContainer.addChild(backDrop);
 
     const initialSpriteStateList = [
       ['player', {
         x: app.renderer.width / 2,
         y: app.renderer.height / 2,
         cameraAttractor: true,
-        lastActionTick: 0,
+        lastClickTick: 0,
       }],
       ['monster', {
         x: (app.renderer.width / 2) + 50,
@@ -67,14 +72,17 @@ export class GrowGameComponent {
       }],
     ];
 
-    const spriteStateController = new SpriteStateController(new PIXI.Container(), textureList);
-    spriteStateController.addSprites(initialSpriteStateList);
-    worldContainer.addChild(spriteStateController.spriteContainer);
+    const seededMapGrid = LandGenerator.createSeededMap();
+    const seededMapContainer = this.getContainer(textureList, seededMapGrid, 32);
+    worldContainer.addChild(seededMapContainer);
 
     const backgroundGrid = LandGenerator.createBackgroundGrid();
     const backgroundContainer = this.getContainer(textureList, backgroundGrid, 32);
     worldContainer.addChild(backgroundContainer);
 
+    const spriteStateController = new SpriteStateController(new PIXI.Container(), textureList);
+    spriteStateController.addSprites(initialSpriteStateList);
+    worldContainer.addChild(spriteStateController.spriteContainer);
 
     const menuComponent = new MenuComponent(textureList, gameState);
     overlayContainer.addChild(menuComponent.menuContainer);
@@ -87,57 +95,55 @@ export class GrowGameComponent {
       tick++;
 
       each(spriteStateController.spriteStateById, (spriteState) => {
+
+        if (spriteState.expires <= tick) {
+          spriteStateController.removeSprite(spriteState.id);
+          return;
+        }
+
         if (spriteState.playerControlled) {
           PlayerController.updateSpriteState(spriteState, gameState.playerInput, tick);
         }
-        if (spriteState.isActionTick) {
-          const directionalVector = {
-            x: (gameState.playerInput.x - worldContainer.x) - spriteState.x,
-            y: (gameState.playerInput.y - worldContainer.y) - spriteState.y,
-          };
-          const projectileVector = this.scaleMagnitude(directionalVector, 100);
-          spriteStateController.addSprite('monster', {
-            x: spriteState.x,
-            y: spriteState.y,
-            vx: spriteState.vx + projectileVector.x,
-            vy: spriteState.vy + projectileVector.y,
-            spriteNumber: 2883,
-            scaleX: 2,
-            scaleY: 2,
-            expires: tick + 20,
-          });
-          spriteState.lastActionTick = tick;
-          spriteState.isActionTick = false
-        }
-
-        // collides
-
-
         // moveable
         this.applyMovement(spriteState);
-
         // hasDrag
         this.applyDrag(spriteState);
-
         // hasDirection
         this.setDirection(spriteState);
 
         const sprite = spriteStateController.spritesById[spriteState.id];
-        sprite.x = spriteState.x;
-        sprite.y = spriteState.y;
-
-        if (spriteState.cameraAttractor) {
-          worldContainer.x = (app.renderer.width * 0.5) - spriteState.x;
-          worldContainer.y = (app.renderer.height * 0.5) - spriteState.y;
-        }
+        sprite.x = Math.round(spriteState.x);
+        sprite.y = Math.round(spriteState.y);
 
         const collider = spriteStateController.colliderById[spriteState.id];
         collider.pos.x = spriteState.x;
         collider.pos.y = spriteState.y;
 
-        // expires
-        if (spriteState.expires <= tick) {
-          spriteStateController.removeSprite(spriteState.id);
+        if (spriteState.isClickTick) {
+          const directionalVector = {
+            x: (gameState.playerInput.x - worldContainer.x) - spriteState.x,
+            y: (gameState.playerInput.y - worldContainer.y) - spriteState.y,
+          };
+          const projectileVector = this.scaleMagnitude(directionalVector, 70);
+          const projectileStartingRadius = (Math.max(sprite.width, sprite.height) / 2) + 2;
+          const projectileOffsetVector = this.scaleMagnitude(directionalVector, projectileStartingRadius);
+          const daggerSprite = spriteStateController.addSprite('dagger', {
+            x: spriteState.x + projectileOffsetVector.x,
+            y: spriteState.y + projectileOffsetVector.y,
+            vx: spriteState.vx + projectileVector.x,
+            vy: spriteState.vy + projectileVector.y,
+            spriteNumber: 2883,
+            scaleX: 1.2,
+            scaleY: 1.2,
+            expires: tick + 30,
+          });
+          spriteState.lastClickTick = tick;
+          spriteState.isClickTick = false
+        }
+
+        if (spriteState.cameraAttractor) {
+          worldContainer.x = Math.round((app.renderer.width * 0.5) - spriteState.x);
+          worldContainer.y = Math.round((app.renderer.height * 0.5) - spriteState.y);
         }
       });
 
@@ -194,10 +200,9 @@ export class GrowGameComponent {
     }
   }
 
-
   scaleMagnitude(vector: Vector, maxMag: number) {
     const mag = Math.pow(Math.pow(vector.x, 2) + Math.pow(vector.y, 2), 0.5);
-    const magAdjustment = mag / 60;
+    const magAdjustment = mag / maxMag;
     return {
       x: vector.x / magAdjustment,
       y: vector.y / magAdjustment,      
@@ -218,29 +223,6 @@ export class GrowGameComponent {
     }
     return container;
   }
-
-
-  menuState = {
-    containerX: 0,
-    containerY: 640 - 64,
-    width: 960,
-    height: 64,
-    actionsById: {
-      shovel: {
-        textureId: 2874,
-      },
-      pickaxe: {
-        textureId: 2875,
-      },
-      hammer: {
-        textureId: 2876,
-      },
-    },
-    availableActionIds: [
-      'pickaxe',
-      'hammer',
-    ],
-  };
 
 }
 
