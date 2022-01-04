@@ -1,27 +1,86 @@
+import * as PIXI from 'pixi.js'
 
 export class LandGenerator {
-	static createSeededMap() {
-		const seededMap = LandGenerator.createEmptyGrid();
-		LandGenerator.fillGrid(seededMap, 20);
-		LandGenerator.seedTiles(seededMap);
+
+	containersByMapMatrix = new Map();
+
+	constructor(
+		public textureList,
+		public landContainer = new PIXI.Container(),
+	) {}
+
+	/**
+	 * Extends a seeded mapMatrix by attaching a section of the old mapMatrix to the extension and aging
+	 * Maps will get their positions adjusted later
+	 */
+	addSeededMapAttachment(mapMatrix, direction = 0) {
+		const seededMap = this.createEmptyGrid();
+		this.fillGrid(seededMap, 20);
+		this.seedTiles(seededMap);
+		if(direction === 0) {
+			const oldTopRow = [...mapMatrix[0]];
+			seededMap.push(oldTopRow);
+		}
 		for(let i = 0; i < 100; i++) {
-			LandGenerator.ageTiles(seededMap);			
+			this.ageTiles(seededMap);
+		}
+		if(direction === 0) {
+			seededMap.pop();
+		}
+		const container = this.getContainer(seededMap, 32);
+
+		const originalContainer = this.containersByMapMatrix.get(mapMatrix);
+		container.x = originalContainer.x
+		container.y = originalContainer.y - 640;
+		this.landContainer.addChild(container);
+		this.containersByMapMatrix.set(seededMap, container);
+	}
+
+	createSeededMap() {
+		const seededMapMatrix = this.createSeededMapMatrix();
+		const seededMapContainer = this.getContainer(seededMapMatrix, 32);
+		this.landContainer.addChild(seededMapContainer);
+		this.containersByMapMatrix.set(seededMapMatrix, seededMapContainer);
+		return seededMapMatrix;
+	}
+
+	createSeededMapMatrix() {
+		const seededMap = this.createEmptyGrid();
+		this.fillGrid(seededMap, 20);
+		this.seedTiles(seededMap);
+		for(let i = 0; i < 100; i++) {
+			this.ageTiles(seededMap);			
 		}
 		return seededMap;
 	}
 
-	static createBackgroundGrid() {
-		const backgroundGrid = LandGenerator.createEmptyGrid();
-		LandGenerator.fillGrid(backgroundGrid, 509);
-		LandGenerator.insertGrid(backgroundGrid, tree1.image, 3, 3);
-		LandGenerator.insertGrid(backgroundGrid, tree2.image, 8, 4);
-		LandGenerator.insertGrid(backgroundGrid, tree3.image, 12, 2);
-		LandGenerator.insertGrid(backgroundGrid, stump1.image, 12, 8);
-    LandGenerator.insertGrid(backgroundGrid, door.image, 12, 12);
+	createBackgroundGrid() {
+		const backgroundGrid = this.createEmptyGrid();
+		this.fillGrid(backgroundGrid, 509);
+		this.insertGrid(backgroundGrid, tree1.image, 3, 3);
+		this.insertGrid(backgroundGrid, tree2.image, 8, 4);
+		this.insertGrid(backgroundGrid, tree3.image, 12, 2);
+		this.insertGrid(backgroundGrid, stump1.image, 12, 8);
+    this.insertGrid(backgroundGrid, door.image, 12, 12);
 		return backgroundGrid;
 	}
 
-	static createEmptyGrid(height = 20, width = 30) {
+  getContainer(map, tileSize = 16) {
+    const container = new PIXI.Container();
+    for(let i = 0; i < map.length; i++) {
+      const row = map[i];
+      for(let j = 0; j < row.length; j++) {
+        const tileValue = map[i][j];
+        const sprite = new PIXI.Sprite(this.textureList[tileValue]);
+        sprite.y = i * tileSize;
+        sprite.x = j * tileSize;
+        container.addChild(sprite);
+      }
+    }
+    return container;
+  }
+
+	createEmptyGrid(height = 20, width = 30) {
 		const grid = []
 		for(let i = 0; i < height; i++) {
 			grid.push(new Array(width))
@@ -29,7 +88,7 @@ export class LandGenerator {
 		return grid;
 	}
 
-	static fillGrid(grid, value) {
+	fillGrid(grid, value) {
 		for(let i = 0; i < grid.length; i++) {
 			for(let j = 0; j < grid[i].length; j++) {
 				grid[i][j] = value;
@@ -37,7 +96,7 @@ export class LandGenerator {
 		}
 	}
 
-	static insertGrid(grid, insert, y, x) {
+	insertGrid(grid, insert, y, x) {
 		for(let i = 0; i < insert.length; i++) {
 			for(let j = 0; j < insert[i].length; j++){
 				grid[y+i][x+j] = insert[i][j];
@@ -45,7 +104,7 @@ export class LandGenerator {
 		}
 	}
 
-	static seedTiles(grid) {
+	seedTiles(grid) {
 		for(let i = 0; i < grid.length; i++) {
 			for(let j = 0; j < grid[i].length; j++) {
 				if(Math.random() < 0.005) {
@@ -61,19 +120,19 @@ export class LandGenerator {
 		}
 	}
 
-	static ageTiles(grid) {
+	ageTiles(grid) {
 		for(let i = 1; i < grid.length-1; i++) {
 			for(let j = 1; j < grid[i].length-1; j++) {
 				const tileValue = grid[i][j];
-				const adjacentTiles = LandGenerator.getAdjacentTiles(grid, i, j);
-				LandGenerator.spreadCardinalTileCheck(grid, i, j, 207);
-				LandGenerator.spreadCardinalTileCheck(grid, i, j, 202);
-				LandGenerator.spreadCardinalTileCheck(grid, i, j, 141);
+				const adjacentTiles = this.getAdjacentTiles(grid, i, j);
+				this.spreadCardinalTileCheck(grid, i, j, 207);
+				this.spreadCardinalTileCheck(grid, i, j, 202);
+				this.spreadCardinalTileCheck(grid, i, j, 141);
 			}
 		}		
 	}
 
-	static spreadCardinalTileCheck(grid, i, j, tileId, spreadChance = 0.05) {
+	spreadCardinalTileCheck(grid, i, j, tileId, spreadChance = 0.05) {
 		if(grid[i][j] === tileId) {
 			if(Math.random() < spreadChance) {
 				const cardinalTileIndex = Math.floor(Math.random() * 4);
@@ -83,7 +142,7 @@ export class LandGenerator {
 		}
 	}
 
-	static getAdjacentTiles(grid, i, j) {
+	getAdjacentTiles(grid, i, j) {
 		return [
 			[grid[i-1][j-1], grid[i-1][j-0], grid[i-1][j+1]],
 			[grid[i][j-1], grid[i][j-0], grid[i][j+1]],
@@ -91,7 +150,7 @@ export class LandGenerator {
 		];
 	}
 
-	static getAdjacentTilePos(index: number) {
+	getAdjacentTilePos(index: number) {
 
 	}
 

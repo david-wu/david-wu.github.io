@@ -21,7 +21,7 @@ export class MenuComponent {
   ) {
     this.menuRect = new PIXI.Graphics();
     this.menuRect.beginFill(0xFFFFFF);
-    this.menuRect.lineStyle(2, 0xFF0000);
+    this.menuRect.lineStyle(1, 0xFF0000);
     this.menuContainer.addChild(this.menuRect);
 
     this.gameState.menu$.subscribe((menuState) => this.setMenuState(menuState));
@@ -50,7 +50,7 @@ export class MenuComponent {
 
     this.menuContainer.x = menuState.containerX;
     this.menuContainer.y = menuState.containerY;
-    this.menuRect.drawRect(0, 0, menuState.width, menuState.height);
+    this.menuRect.drawRect(1, 1, menuState.width-1, menuState.height-2);
   };
 
   removeOldActionSprites(availableActionIds: string[]) {

@@ -72,11 +72,13 @@ export class GrowGameComponent {
       }],
     ];
 
-    const seededMapGrid = LandGenerator.createSeededMap();
-    const seededMapContainer = this.getContainer(textureList, seededMapGrid, 32);
-    worldContainer.addChild(seededMapContainer);
+    const landGenerator = new LandGenerator(textureList);
+    worldContainer.addChild(landGenerator.landContainer);
 
-    const backgroundGrid = LandGenerator.createBackgroundGrid();
+    const seededMap = landGenerator.createSeededMap();
+    landGenerator.addSeededMapAttachment(seededMap, 0);
+    
+    const backgroundGrid = landGenerator.createBackgroundGrid();
     const backgroundContainer = this.getContainer(textureList, backgroundGrid, 32);
     worldContainer.addChild(backgroundContainer);
 
@@ -104,11 +106,9 @@ export class GrowGameComponent {
         if (spriteState.playerControlled) {
           PlayerController.updateSpriteState(spriteState, gameState.playerInput, tick);
         }
-        // moveable
+
         this.applyMovement(spriteState);
-        // hasDrag
         this.applyDrag(spriteState);
-        // hasDirection
         this.setDirection(spriteState);
 
         const sprite = spriteStateController.spritesById[spriteState.id];
