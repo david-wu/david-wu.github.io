@@ -1,5 +1,18 @@
 import {BehaviorSubject} from 'rxjs';
 
+export interface PlayerInputState {
+  up?: boolean;
+  down?: boolean;
+  right?: boolean;
+  left?: boolean;
+  dash?: boolean;
+  mouseDown?: boolean;
+  clickRegistered?: boolean;
+  x?: number;
+  y?: number;
+  wheelYValue?: number;
+}
+
 export interface MenuState {
   containerX: number,
   containerY: number,

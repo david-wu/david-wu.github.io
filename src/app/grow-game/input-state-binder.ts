@@ -1,17 +1,4 @@
-
-export interface PlayerInputState {
-  up?: boolean;
-  down?: boolean;
-  right?: boolean;
-  left?: boolean;
-  dash?: boolean;
-  mouseDown?: boolean;
-  clickRegistered?: boolean;
-  x?: number;
-  y?: number;
-  wheelYValue?: number;
-}
-
+import {PlayerInputState} from './game-state';
 
 const defaultPlayerInputState = {
   x: 0,
