@@ -1,39 +1,130 @@
 import * as PIXI from 'pixi.js'
+import {get, set} from 'lodash';
 
 export class LandGenerator {
 
 	containersByMapMatrix = new Map();
+	mapsByGeoIndex = {};
 
 	constructor(
 		public textureList,
 		public landContainer = new PIXI.Container(),
 	) {}
 
+	ensureSeededMaps(y, x) {
+		const geoIndex = this.getMapGeoIndex(y, x);
+		const currentMap = get(this.mapsByGeoIndex, geoIndex);
+		const currentContainer = this.containersByMapMatrix.get(currentMap);
+
+		if (!get(this.mapsByGeoIndex, [geoIndex[0] - 1, geoIndex[1]])) {
+			this.addSeededMapAttachment(currentMap, 0);
+		}
+		if (!get(this.mapsByGeoIndex, [geoIndex[0], geoIndex[1] + 1])) {
+			this.addSeededMapAttachment(currentMap, 1);
+		}
+		if (!get(this.mapsByGeoIndex, [geoIndex[0] + 1, geoIndex[1]])) {
+			this.addSeededMapAttachment(currentMap, 2);
+		}
+		if (!get(this.mapsByGeoIndex, [geoIndex[0], geoIndex[1] - 1])) {
+			this.addSeededMapAttachment(currentMap, 3);
+		}
+	}
+
 	/**
 	 * Extends a seeded mapMatrix by attaching a section of the old mapMatrix to the extension and aging
 	 * Maps will get their positions adjusted later
 	 */
-	addSeededMapAttachment(mapMatrix, direction = 0) {
+	addSeededMapAttachment(mapMatrix, direction) {
+		console.log('adding seeded map', direction, this.mapsByGeoIndex);
+
 		const seededMap = this.createEmptyGrid();
 		this.fillGrid(seededMap, 20);
 		this.seedTiles(seededMap);
-		if(direction === 0) {
-			const oldTopRow = [...mapMatrix[0]];
-			seededMap.push(oldTopRow);
-		}
+
+		this.attachFirstRowOrColumn(mapMatrix, seededMap, direction);
 		for(let i = 0; i < 100; i++) {
 			this.ageTiles(seededMap);
 		}
-		if(direction === 0) {
-			seededMap.pop();
-		}
+		this.removeFirstRowOrColumn(seededMap, direction);
 		const container = this.getContainer(seededMap, 32);
-
 		const originalContainer = this.containersByMapMatrix.get(mapMatrix);
-		container.x = originalContainer.x
-		container.y = originalContainer.y - 640;
+		this.positionRelativeMapContainer(originalContainer, container, direction);
+		const geoIndex = this.getMapGeoIndex(container.y, container.x);
+
+
+		set(this.mapsByGeoIndex, geoIndex, seededMap);
+
 		this.landContainer.addChild(container);
 		this.containersByMapMatrix.set(seededMap, container);
+	}
+
+	getMapGeoIndex(y, x) {
+		return [Math.floor(y / 640), Math.floor(x / 960)];
+	}
+
+	positionRelativeMapContainer(container1, container2, direction) {
+		if (direction === 0) {
+			container2.x = container1.x;
+			container2.y = container1.y - 640;
+		}
+		if (direction === 1) {
+			container2.x = container1.x + 960;
+			container2.y = container1.y;
+		}
+		if (direction === 2) {
+			container2.x = container1.x;
+			container2.y = container1.y + 640;
+		}
+		if (direction === 3) {
+			container2.x = container1.x - 960;
+			container2.y = container1.y;
+		}				
+	}
+
+	removeFirstRowOrColumn(map, direction) {
+		if (direction === 0) {
+			map.pop();
+		}
+		if (direction === 1) {
+			map.forEach((row) => {
+				row.shift();
+			});
+		}
+		if (direction === 2) {
+			map.shift();
+		}
+		if (direction === 3) {
+			map.forEach((row) => {
+				row.pop();
+			});
+		}		
+	}
+
+	attachFirstRowOrColumn(map1, map2, direction) {
+		if(direction === 0) {
+			const targetCells = map1[0];
+			map2.push(targetCells);
+		}
+		if(direction === 1) {
+			const targetCells = map1.map((row) => {
+				return row[row.length - 1];
+			});
+			map2.forEach((row, index) => {
+				row.unshift(targetCells[index]);
+			});
+		}
+		if(direction === 2) {
+			const targetCells = map1[map1.length - 1];
+			map2.unshift(targetCells);
+		}
+		if(direction === 3) {
+			const targetCells = map1.map((row) => {
+				return row[0];
+			});
+			map2.forEach((row, index) => {
+				row.push(targetCells[index]);
+			});
+		}
 	}
 
 	createSeededMap() {
@@ -41,6 +132,10 @@ export class LandGenerator {
 		const seededMapContainer = this.getContainer(seededMapMatrix, 32);
 		this.landContainer.addChild(seededMapContainer);
 		this.containersByMapMatrix.set(seededMapMatrix, seededMapContainer);
+
+		const geoIndex = this.getMapGeoIndex(seededMapContainer.y, seededMapContainer.x);
+		set(this.mapsByGeoIndex, geoIndex, seededMapMatrix);
+
 		return seededMapMatrix;
 	}
 

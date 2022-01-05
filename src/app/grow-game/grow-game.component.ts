@@ -76,7 +76,10 @@ export class GrowGameComponent {
     worldContainer.addChild(landGenerator.landContainer);
 
     const seededMap = landGenerator.createSeededMap();
-    landGenerator.addSeededMapAttachment(seededMap, 0);
+    // landGenerator.addSeededMapAttachment(seededMap, 0);
+    // landGenerator.addSeededMapAttachment(seededMap, 1);
+    // landGenerator.addSeededMapAttachment(seededMap, 2);
+    // landGenerator.addSeededMapAttachment(seededMap, 3);
     
     const backgroundGrid = landGenerator.createBackgroundGrid();
     const backgroundContainer = this.getContainer(textureList, backgroundGrid, 32);
@@ -144,6 +147,7 @@ export class GrowGameComponent {
         if (spriteState.cameraAttractor) {
           worldContainer.x = Math.round((app.renderer.width * 0.5) - spriteState.x);
           worldContainer.y = Math.round((app.renderer.height * 0.5) - spriteState.y);
+          landGenerator.ensureSeededMaps(spriteState.y, spriteState.x);
         }
       });
 

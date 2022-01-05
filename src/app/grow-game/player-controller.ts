@@ -1,7 +1,9 @@
 
 export class PlayerController {
 
-  static updateSpriteState(spriteState, playerInputState, tick, maxSpeed = 15, acceleration = 2) {
+  static updateSpriteState(spriteState, playerInputState, tick, maxSpeed = 50, acceleration = 2) {
+    maxSpeed = 125;
+    acceleration = 5;
     let isDashTick = false;
     if (playerInputState.dash) {
       const timeSinceDash = tick - spriteState.latestDashTick;
