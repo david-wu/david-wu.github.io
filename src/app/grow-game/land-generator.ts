@@ -1,10 +1,27 @@
 import * as PIXI from 'pixi.js'
-import {get, set} from 'lodash';
+import {uniqueId, get, set} from 'lodash';
+
+// todo: instead of using new Map(), use uniqueid
+interface Map {
+	id: string;
+	grid: number[][];
+}
 
 export class LandGenerator {
 
+	containersOnMap = new Set<PIXI.Container>();
 	containersByMapMatrix = new Map();
 	mapsByGeoIndex = {};
+	readonly invertedDirections = {
+		0: 2,
+		1: 3,
+		2: 0,
+		3: 1,
+		4: 6,
+		5: 7,
+		6: 4,
+		7: 5,
+	};
 
 	constructor(
 		public textureList,
@@ -12,73 +29,162 @@ export class LandGenerator {
 	) {}
 
 	ensureSeededMaps(y, x) {
-		const geoIndex = this.getMapGeoIndex(y, x);
-		const currentMap = get(this.mapsByGeoIndex, geoIndex);
-		const currentContainer = this.containersByMapMatrix.get(currentMap);
+		const geoIndex = this.getGeoIndex(y, x);
+		const currentMap = this.getMap(geoIndex);
+		this.getAdjacentGeoIndices(geoIndex).forEach((adjacentGeoIndex) => {
+			const map = this.getMap(adjacentGeoIndex);
+			if(!map) {
+				this.createSeededMap(adjacentGeoIndex);
+			}
+		});
 
-		if (!get(this.mapsByGeoIndex, [geoIndex[0] - 1, geoIndex[1]])) {
-			this.addSeededMapAttachment(currentMap, 0);
-		}
-		if (!get(this.mapsByGeoIndex, [geoIndex[0], geoIndex[1] + 1])) {
-			this.addSeededMapAttachment(currentMap, 1);
-		}
-		if (!get(this.mapsByGeoIndex, [geoIndex[0] + 1, geoIndex[1]])) {
-			this.addSeededMapAttachment(currentMap, 2);
-		}
-		if (!get(this.mapsByGeoIndex, [geoIndex[0], geoIndex[1] - 1])) {
-			this.addSeededMapAttachment(currentMap, 3);
-		}
+		const nextContainers = [
+			...this.getAdjacentMaps(geoIndex),
+			currentMap,
+		].map((adjacentMap) => {
+			return this.containersByMapMatrix.get(adjacentMap);
+		});
+		const nextContainerSet = new Set(nextContainers);
+
+		this.containersOnMap.forEach((containerOnMap) => {
+			if(!nextContainerSet.has(containerOnMap)) {
+				this.containersOnMap.delete(containerOnMap);
+				this.landContainer.removeChild(containerOnMap);
+			}
+		});
+		nextContainerSet.forEach((nextContainer) => {
+			if(!this.containersOnMap.has(nextContainer)) {
+				this.landContainer.addChild(nextContainer);	
+				this.containersOnMap.add(nextContainer);
+			}
+		});
 	}
 
-	/**
-	 * Extends a seeded mapMatrix by attaching a section of the old mapMatrix to the extension and aging
-	 * Maps will get their positions adjusted later
-	 */
-	addSeededMapAttachment(mapMatrix, direction) {
-		console.log('adding seeded map', direction, this.mapsByGeoIndex);
-
-		const seededMap = this.createEmptyGrid();
-		this.fillGrid(seededMap, 20);
-		this.seedTiles(seededMap);
-
-		this.attachFirstRowOrColumn(mapMatrix, seededMap, direction);
-		for(let i = 0; i < 100; i++) {
-			this.ageTiles(seededMap);
-		}
-		this.removeFirstRowOrColumn(seededMap, direction);
-		const container = this.getContainer(seededMap, 32);
-		const originalContainer = this.containersByMapMatrix.get(mapMatrix);
-		this.positionRelativeMapContainer(originalContainer, container, direction);
-		const geoIndex = this.getMapGeoIndex(container.y, container.x);
-
-
-		set(this.mapsByGeoIndex, geoIndex, seededMap);
-
-		this.landContainer.addChild(container);
-		this.containersByMapMatrix.set(seededMap, container);
-	}
-
-	getMapGeoIndex(y, x) {
+	getGeoIndex(y, x) {
 		return [Math.floor(y / 640), Math.floor(x / 960)];
 	}
 
-	positionRelativeMapContainer(container1, container2, direction) {
-		if (direction === 0) {
-			container2.x = container1.x;
-			container2.y = container1.y - 640;
+	getMap(geoIndex) {
+		return get(this.mapsByGeoIndex, geoIndex);
+	}
+
+	getAdjacentGeoIndices(geoIndex, cardinalOnly = false) {
+		const adjacentGeoIndices = [];
+		for(let direction = 0; direction < (cardinalOnly ? 4 : 8); direction++) {
+			adjacentGeoIndices.push(this.getRelativeGeoIndex(geoIndex, direction));
 		}
-		if (direction === 1) {
-			container2.x = container1.x + 960;
-			container2.y = container1.y;
+		return adjacentGeoIndices;
+	}
+
+	getAdjacentMaps(geoIndex, cardinalOnly = false) {
+		return this.getAdjacentGeoIndices(geoIndex, cardinalOnly)
+			.map((adjacentGeoIndex, direction) => {
+				return this.getMap(this.getRelativeGeoIndex(geoIndex, direction));
+			});
+	}
+
+	getRelativeGeoIndex(pos, direction) {
+		switch(direction) {
+			case 0:
+				return [pos[0] - 1, pos[1]];
+			case 1:
+				return [pos[0], pos[1] + 1];
+			case 2:
+				return [pos[0] + 1, pos[1]];
+			case 3:
+				return [pos[0], pos[1] - 1];
+			case 4:
+				return [pos[0] - 1, pos[1] - 1];
+			case 5:
+				return [pos[0] - 1, pos[1] + 1];
+			case 6:
+				return [pos[0] + 1, pos[1] + 1];
+			case 7:
+				return [pos[0] + 1, pos[1] - 1];
 		}
-		if (direction === 2) {
-			container2.x = container1.x;
-			container2.y = container1.y + 640;
+	}
+
+	// Uses any adjacentMaps to seed the borders
+	// Also seeds itself
+	createSeededMap(geoIndex) {
+		console.log('createSeededMap', geoIndex);
+
+		// create map grid with a border for seeding
+		const seededMap = this.createEmptyGrid(22, 32);
+		this.fillGrid(seededMap, 20);
+		this.seedTiles(seededMap);
+
+		// map with border is larger
+		// borders will be rotated and added starting at these locations
+		const borderAttachmentPointsByDirection = {
+			0: [0, 1],
+			1: [1, 31],
+			2: [31, 30],
+			3: [30, 0],
+		};
+
+		const cardinalAdjacentMaps = this.getAdjacentMaps(geoIndex, true);
+		cardinalAdjacentMaps.forEach((adjacentMap, direction) => {
+			if(!adjacentMap) {
+				return;
+			}
+			const adjacentBorder = this.getBorder(adjacentMap, direction, true);
+			this.insertGrid(
+				seededMap,
+				adjacentBorder,
+				borderAttachmentPointsByDirection[direction],
+				direction,
+			);
+		});
+
+		for(let i = 0; i < 100; i++) {
+			this.ageTiles(seededMap);
 		}
-		if (direction === 3) {
-			container2.x = container1.x - 960;
-			container2.y = container1.y;
-		}				
+
+		for(let direction = 0; direction < 4; direction++) {
+			this.removeFirstRowOrColumn(seededMap, direction);
+		}
+
+		// inserts grid into Pixi
+		this.addMapToPixi(seededMap, geoIndex);
+
+		return seededMap;
+	}
+
+	addMapToPixi(map, geoIndex) {
+		const pos = this.getPosFromGeoIndex(geoIndex);
+		const container = this.getContainer(map, 32);
+		container.x = pos.x;
+		container.y = pos.y;
+		this.containersByMapMatrix.set(map, container);
+		set(this.mapsByGeoIndex, geoIndex, map);
+	}
+
+	getPosFromGeoIndex(geoIndex) {
+		return {
+			y: geoIndex[0] * 640,
+			x: geoIndex[1] * 960,
+		};
+	}
+
+	// Gets the border row/column of the map
+	getBorder(map, direction, invertDirections = false) {
+		direction = invertDirections ? this.invertedDirections[direction] : direction;
+		switch(direction) {
+			case 0:
+				return [...map[0]];
+			case 1:
+				return map.map((row) => {
+					return row[row.length - 1];
+				});
+			case 2:
+				return [...map[map.length - 1]];
+			case 3:
+				return map.map((row) => {
+					return row[0];
+				});
+		}
+		throw('only borders in the cardinal directions');
 	}
 
 	removeFirstRowOrColumn(map, direction) {
@@ -100,63 +206,14 @@ export class LandGenerator {
 		}		
 	}
 
-	attachFirstRowOrColumn(map1, map2, direction) {
-		if(direction === 0) {
-			const targetCells = map1[0];
-			map2.push(targetCells);
-		}
-		if(direction === 1) {
-			const targetCells = map1.map((row) => {
-				return row[row.length - 1];
-			});
-			map2.forEach((row, index) => {
-				row.unshift(targetCells[index]);
-			});
-		}
-		if(direction === 2) {
-			const targetCells = map1[map1.length - 1];
-			map2.unshift(targetCells);
-		}
-		if(direction === 3) {
-			const targetCells = map1.map((row) => {
-				return row[0];
-			});
-			map2.forEach((row, index) => {
-				row.push(targetCells[index]);
-			});
-		}
-	}
-
-	createSeededMap() {
-		const seededMapMatrix = this.createSeededMapMatrix();
-		const seededMapContainer = this.getContainer(seededMapMatrix, 32);
-		this.landContainer.addChild(seededMapContainer);
-		this.containersByMapMatrix.set(seededMapMatrix, seededMapContainer);
-
-		const geoIndex = this.getMapGeoIndex(seededMapContainer.y, seededMapContainer.x);
-		set(this.mapsByGeoIndex, geoIndex, seededMapMatrix);
-
-		return seededMapMatrix;
-	}
-
-	createSeededMapMatrix() {
-		const seededMap = this.createEmptyGrid();
-		this.fillGrid(seededMap, 20);
-		this.seedTiles(seededMap);
-		for(let i = 0; i < 100; i++) {
-			this.ageTiles(seededMap);			
-		}
-		return seededMap;
-	}
-
 	createBackgroundGrid() {
 		const backgroundGrid = this.createEmptyGrid();
 		this.fillGrid(backgroundGrid, 509);
-		this.insertGrid(backgroundGrid, tree1.image, 3, 3);
-		this.insertGrid(backgroundGrid, tree2.image, 8, 4);
-		this.insertGrid(backgroundGrid, tree3.image, 12, 2);
-		this.insertGrid(backgroundGrid, stump1.image, 12, 8);
-    this.insertGrid(backgroundGrid, door.image, 12, 12);
+		this.insertGrid(backgroundGrid, tree1.image, [3, 3]);
+		this.insertGrid(backgroundGrid, tree2.image, [8, 4]);
+		this.insertGrid(backgroundGrid, tree3.image, [12, 2]);
+		this.insertGrid(backgroundGrid, stump1.image, [12, 8]);
+    this.insertGrid(backgroundGrid, door.image, [12, 12]);
 		return backgroundGrid;
 	}
 
@@ -191,10 +248,24 @@ export class LandGenerator {
 		}
 	}
 
-	insertGrid(grid, insert, y, x) {
+	// inserts content into a grid at position [y, x]
+	// rotation can be applied to insert
+	insertGrid(grid, insert, position, rotation = 0) {
+		const [y, x] = position;
 		for(let i = 0; i < insert.length; i++) {
 			for(let j = 0; j < insert[i].length; j++){
-				grid[y+i][x+j] = insert[i][j];
+				if (rotation === 0) {
+					grid[y+i][x+j] = insert[i][j];					
+				}
+				if (rotation === 1) {
+					grid[y+j][x-i] = insert[i][j];					
+				}
+				if (rotation === 2) {
+					grid[y-i][x-j] = insert[i][j];					
+				}
+				if (rotation === 3) {
+					grid[y+j][x+i] = insert[i][j];					
+				}
 			}
 		}
 	}

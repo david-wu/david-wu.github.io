@@ -73,13 +73,8 @@ export class GrowGameComponent {
     ];
 
     const landGenerator = new LandGenerator(textureList);
+    landGenerator.createSeededMap([0,0]);
     worldContainer.addChild(landGenerator.landContainer);
-
-    const seededMap = landGenerator.createSeededMap();
-    // landGenerator.addSeededMapAttachment(seededMap, 0);
-    // landGenerator.addSeededMapAttachment(seededMap, 1);
-    // landGenerator.addSeededMapAttachment(seededMap, 2);
-    // landGenerator.addSeededMapAttachment(seededMap, 3);
     
     const backgroundGrid = landGenerator.createBackgroundGrid();
     const backgroundContainer = this.getContainer(textureList, backgroundGrid, 32);
