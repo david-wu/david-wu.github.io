@@ -9,9 +9,9 @@ interface Map {
 
 export class LandGenerator {
 
-	containersOnMap = new Set<PIXI.Container>();
-	containersByMapMatrix = new Map();
 	mapsByGeoIndex = {};
+	containersByMap = new Map<any, PIXI.Container>();
+	containersInPixi = new Set<PIXI.Container>();
 	readonly invertedDirections = {
 		0: 2,
 		1: 3,
@@ -28,39 +28,42 @@ export class LandGenerator {
 		public landContainer = new PIXI.Container(),
 	) {}
 
-	ensureSeededMaps(y, x) {
+	ensureSeededMaps(y: number, x: number) {
 		const geoIndex = this.getGeoIndex(y, x);
 		const currentMap = this.getMap(geoIndex);
 		this.getAdjacentGeoIndices(geoIndex).forEach((adjacentGeoIndex) => {
-			const map = this.getMap(adjacentGeoIndex);
-			if(!map) {
+			if(!this.getMap(adjacentGeoIndex)) {
 				this.createSeededMap(adjacentGeoIndex);
 			}
 		});
-
-		const nextContainers = [
-			...this.getAdjacentMaps(geoIndex),
+		const visibleMaps = [
 			currentMap,
-		].map((adjacentMap) => {
-			return this.containersByMapMatrix.get(adjacentMap);
-		});
-		const nextContainerSet = new Set(nextContainers);
+			...this.getAdjacentMaps(geoIndex),
+		];
+		this.setVisibleMaps(visibleMaps);
+	}
 
-		this.containersOnMap.forEach((containerOnMap) => {
+	setVisibleMaps(visibleMaps) {
+		const nextContainers = visibleMaps.map((visibleMap) => {
+			return this.containersByMap.get(visibleMap);
+		});
+		const nextContainerSet = new Set<PIXI.Container>(nextContainers);
+
+		this.containersInPixi.forEach((containerOnMap) => {
 			if(!nextContainerSet.has(containerOnMap)) {
-				this.containersOnMap.delete(containerOnMap);
+				this.containersInPixi.delete(containerOnMap);
 				this.landContainer.removeChild(containerOnMap);
 			}
 		});
 		nextContainerSet.forEach((nextContainer) => {
-			if(!this.containersOnMap.has(nextContainer)) {
+			if(!this.containersInPixi.has(nextContainer)) {
 				this.landContainer.addChild(nextContainer);	
-				this.containersOnMap.add(nextContainer);
+				this.containersInPixi.add(nextContainer);
 			}
-		});
+		});		
 	}
 
-	getGeoIndex(y, x) {
+	getGeoIndex(y: number, x: number): [number, number] {
 		return [Math.floor(y / 640), Math.floor(x / 960)];
 	}
 
@@ -156,7 +159,7 @@ export class LandGenerator {
 		const container = this.getContainer(map, 32);
 		container.x = pos.x;
 		container.y = pos.y;
-		this.containersByMapMatrix.set(map, container);
+		this.containersByMap.set(map, container);
 		set(this.mapsByGeoIndex, geoIndex, map);
 	}
 
@@ -286,6 +289,7 @@ export class LandGenerator {
 		}
 	}
 
+	// doesn't account for seeded map borders
 	ageTiles(grid) {
 		for(let i = 1; i < grid.length-1; i++) {
 			for(let j = 1; j < grid[i].length-1; j++) {
@@ -311,7 +315,7 @@ export class LandGenerator {
 	getAdjacentTiles(grid, i, j) {
 		return [
 			[grid[i-1][j-1], grid[i-1][j-0], grid[i-1][j+1]],
-			[grid[i][j-1], grid[i][j-0], grid[i][j+1]],
+			[grid[i][j-1], grid[i][j], grid[i][j+1]],
 			[grid[i+1][j-1], grid[i+1][j-0], grid[i+1][j+1]],
 		];
 	}
