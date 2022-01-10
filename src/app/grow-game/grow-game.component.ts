@@ -142,7 +142,7 @@ export class GrowGameComponent {
         if (spriteState.cameraAttractor) {
           worldContainer.x = Math.round((app.renderer.width * 0.5) - spriteState.x);
           worldContainer.y = Math.round((app.renderer.height * 0.5) - spriteState.y);
-          landGenerator.ensureSeededMaps(spriteState.y, spriteState.x);
+          landGenerator.ensureVisibleMaps(spriteState.y, spriteState.x);
         }
       });
 

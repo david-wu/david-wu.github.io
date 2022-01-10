@@ -28,7 +28,7 @@ export class LandGenerator {
 		public landContainer = new PIXI.Container(),
 	) {}
 
-	ensureSeededMaps(y: number, x: number) {
+	ensureVisibleMaps(y: number, x: number) {
 		const geoIndex = this.getGeoIndex(y, x);
 		const currentMap = this.getMap(geoIndex);
 		this.getAdjacentGeoIndices(geoIndex).forEach((adjacentGeoIndex) => {
@@ -110,7 +110,6 @@ export class LandGenerator {
 	// Uses any adjacentMaps to seed the borders
 	// Also seeds itself
 	createSeededMap(geoIndex) {
-		console.log('createSeededMap', geoIndex);
 
 		// create map grid with a border for seeding
 		const seededMap = this.createEmptyGrid(22, 32);
@@ -118,7 +117,7 @@ export class LandGenerator {
 		this.seedTiles(seededMap);
 
 		// map with border is larger
-		// borders will be rotated and added starting at these locations
+		// borders will be rotated and inserted starting at these locations
 		const borderAttachmentPointsByDirection = {
 			0: [0, 1],
 			1: [1, 31],
@@ -187,7 +186,7 @@ export class LandGenerator {
 					return row[0];
 				});
 		}
-		throw('only borders in the cardinal directions');
+		throw('only cardinal directions have borders');
 	}
 
 	removeFirstRowOrColumn(map, direction) {
@@ -210,13 +209,13 @@ export class LandGenerator {
 	}
 
 	createBackgroundGrid() {
-		const backgroundGrid = this.createEmptyGrid();
+		const backgroundGrid = this.createEmptyGrid(20, 30);
 		this.fillGrid(backgroundGrid, 509);
 		this.insertGrid(backgroundGrid, tree1.image, [3, 3]);
 		this.insertGrid(backgroundGrid, tree2.image, [8, 4]);
 		this.insertGrid(backgroundGrid, tree3.image, [12, 2]);
 		this.insertGrid(backgroundGrid, stump1.image, [12, 8]);
-    this.insertGrid(backgroundGrid, door.image, [12, 12]);
+    // this.insertGrid(backgroundGrid, door.image, [12, 12]);
 		return backgroundGrid;
 	}
 
@@ -235,7 +234,7 @@ export class LandGenerator {
     return container;
   }
 
-	createEmptyGrid(height = 20, width = 30) {
+	createEmptyGrid(height, width) {
 		const grid = []
 		for(let i = 0; i < height; i++) {
 			grid.push(new Array(width))
@@ -280,7 +279,7 @@ export class LandGenerator {
 					grid[i][j] = 207;
 				}
 				if(Math.random() < 0.005) {
-					grid[i][j] = 202;
+					grid[i][j] = 2100;
 				}
 				if(Math.random() < 0.005) {
 					grid[i][j] = 141;
@@ -289,14 +288,14 @@ export class LandGenerator {
 		}
 	}
 
+
 	// doesn't account for seeded map borders
 	ageTiles(grid) {
-		for(let i = 1; i < grid.length-1; i++) {
-			for(let j = 1; j < grid[i].length-1; j++) {
+		for(let i = 0; i < grid.length-0; i++) {
+			for(let j = 0; j < grid[i].length-0; j++) {
 				const tileValue = grid[i][j];
-				const adjacentTiles = this.getAdjacentTiles(grid, i, j);
 				this.spreadCardinalTileCheck(grid, i, j, 207);
-				this.spreadCardinalTileCheck(grid, i, j, 202);
+				this.spreadCardinalTileCheck(grid, i, j, 2100);
 				this.spreadCardinalTileCheck(grid, i, j, 141);
 			}
 		}		
@@ -307,21 +306,14 @@ export class LandGenerator {
 			if(Math.random() < spreadChance) {
 				const cardinalTileIndex = Math.floor(Math.random() * 4);
 				const tileShift = cardinalTilePositions[cardinalTileIndex];
-				grid[i + tileShift[0]][j + tileShift[1]] = tileId;
+				const nextI = i + tileShift[0];
+				const nextJ = j + tileShift[1];
+				if(!grid[nextI] || !grid[nextI][nextJ]) {
+					return;
+				}
+				grid[nextI][nextJ] = tileId;
 			}
 		}
-	}
-
-	getAdjacentTiles(grid, i, j) {
-		return [
-			[grid[i-1][j-1], grid[i-1][j-0], grid[i-1][j+1]],
-			[grid[i][j-1], grid[i][j], grid[i][j+1]],
-			[grid[i+1][j-1], grid[i+1][j-0], grid[i+1][j+1]],
-		];
-	}
-
-	getAdjacentTilePos(index: number) {
-
 	}
 
 }
@@ -331,19 +323,6 @@ const cardinalTilePositions = [
 	[0, 1],
 	[1, 0],
 ];
-
-const tilePositions = [
-	[-1, -1],
-	[-1, 0],
-	[-1, 1],
-	[0, -1],
-	[0, 0],
-	[0, 1],
-	[1, -1],
-	[1, 0],
-	[1, 1],
-];
-
 
 const door = {
   image: [
