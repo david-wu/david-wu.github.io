@@ -5449,10 +5449,10 @@
   },
   {
     "dateStr": "12/3/21",
-    "cases": 3837,
+    "cases": 3850,
     "deaths": 79,
     "recovered": 0,
-    "new": 0,
+    "new": 13,
     "newDeaths": 0
   },
   {
@@ -5460,7 +5460,7 @@
     "cases": 3850,
     "deaths": 79,
     "recovered": 0,
-    "new": 13,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -5749,6 +5749,14 @@
     "deaths": 79,
     "recovered": 0,
     "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/10/22",
+    "cases": 4326,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 55,
     "newDeaths": 0
   }
 ]
