@@ -1,22 +1,22 @@
 {
   "Alberta": {
-    "dateStr": "1/10/22",
-    "cases": 412829,
-    "deaths": 3344,
+    "dateStr": "1/11/22",
+    "cases": 417533,
+    "deaths": 3352,
     "recovered": 0,
-    "new": 17577,
-    "newDeaths": 6
+    "new": 4704,
+    "newDeaths": 8
   },
   "British Columbia": {
-    "dateStr": "1/10/22",
-    "cases": 283841,
-    "deaths": 2446,
+    "dateStr": "1/11/22",
+    "cases": 286080,
+    "deaths": 2449,
     "recovered": 0,
-    "new": 6966,
-    "newDeaths": 7
+    "new": 2239,
+    "newDeaths": 3
   },
   "Diamond Princess": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 1,
     "deaths": 1,
     "recovered": 0,
@@ -24,7 +24,7 @@
     "newDeaths": 0
   },
   "Grand Princess": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 13,
     "deaths": 0,
     "recovered": 0,
@@ -32,79 +32,79 @@
     "newDeaths": 0
   },
   "Manitoba": {
-    "dateStr": "1/10/22",
-    "cases": 101933,
+    "dateStr": "1/11/22",
+    "cases": 103935,
     "deaths": 1427,
     "recovered": 0,
-    "new": 7083,
-    "newDeaths": 19
-  },
-  "New Brunswick": {
-    "dateStr": "1/10/22",
-    "cases": 20699,
-    "deaths": 172,
-    "recovered": 0,
-    "new": 220,
+    "new": 2002,
     "newDeaths": 0
   },
+  "New Brunswick": {
+    "dateStr": "1/11/22",
+    "cases": 20890,
+    "deaths": 173,
+    "recovered": 0,
+    "new": 191,
+    "newDeaths": 1
+  },
   "Newfoundland and Labrador": {
-    "dateStr": "1/10/22",
-    "cases": 9451,
+    "dateStr": "1/11/22",
+    "cases": 10201,
     "deaths": 23,
     "recovered": 0,
-    "new": 1914,
-    "newDeaths": 2
+    "new": 750,
+    "newDeaths": 0
   },
   "Northwest Territories": {
-    "dateStr": "1/10/22",
-    "cases": 2801,
+    "dateStr": "1/11/22",
+    "cases": 3322,
     "deaths": 12,
+    "recovered": 0,
+    "new": 521,
+    "newDeaths": 0
+  },
+  "Nova Scotia": {
+    "dateStr": "1/11/22",
+    "cases": 26741,
+    "deaths": 114,
+    "recovered": 0,
+    "new": 816,
+    "newDeaths": 2
+  },
+  "Nunavut": {
+    "dateStr": "1/11/22",
+    "cases": 1033,
+    "deaths": 4,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Ontario": {
+    "dateStr": "1/11/22",
+    "cases": 908943,
+    "deaths": 10459,
+    "recovered": 0,
+    "new": 6325,
+    "newDeaths": 18
+  },
+  "Prince Edward Island": {
+    "dateStr": "1/11/22",
+    "cases": 2893,
+    "deaths": 1,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Nova Scotia": {
-    "dateStr": "1/10/22",
-    "cases": 25925,
-    "deaths": 112,
-    "recovered": 0,
-    "new": 2660,
-    "newDeaths": 1
-  },
-  "Nunavut": {
-    "dateStr": "1/10/22",
-    "cases": 1028,
-    "deaths": 4,
-    "recovered": 0,
-    "new": 51,
-    "newDeaths": 0
-  },
-  "Ontario": {
-    "dateStr": "1/10/22",
-    "cases": 902618,
-    "deaths": 10441,
-    "recovered": 0,
-    "new": 16528,
-    "newDeaths": 28
-  },
-  "Prince Edward Island": {
-    "dateStr": "1/10/22",
-    "cases": 2893,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 430,
-    "newDeaths": 0
-  },
   "Quebec": {
-    "dateStr": "1/10/22",
-    "cases": 739292,
-    "deaths": 11966,
+    "dateStr": "1/11/22",
+    "cases": 749865,
+    "deaths": 12028,
     "recovered": 0,
-    "new": 11007,
-    "newDeaths": 49
+    "new": 10573,
+    "newDeaths": 62
   },
   "Repatriated Travellers": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 13,
     "deaths": 0,
     "recovered": 0,
@@ -112,19 +112,19 @@
     "newDeaths": 0
   },
   "Saskatchewan": {
-    "dateStr": "1/10/22",
-    "cases": 92940,
+    "dateStr": "1/11/22",
+    "cases": 94080,
     "deaths": 961,
     "recovered": 0,
-    "new": 1080,
+    "new": 1140,
     "newDeaths": 0
   },
   "Yukon": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 2322,
     "deaths": 15,
     "recovered": 0,
-    "new": 197,
+    "new": 0,
     "newDeaths": 0
   }
 }

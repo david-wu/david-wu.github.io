@@ -1,134 +1,134 @@
 {
   "Adams": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 481,
     "deaths": 9,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  "Barnes": {
+    "dateStr": "1/11/22",
+    "cases": 2324,
+    "deaths": 41,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 1
+  },
+  "Benson": {
+    "dateStr": "1/11/22",
+    "cases": 1517,
+    "deaths": 22,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Billings": {
+    "dateStr": "1/11/22",
+    "cases": 122,
+    "deaths": 1,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Barnes": {
-    "dateStr": "1/10/22",
-    "cases": 2305,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Benson": {
-    "dateStr": "1/10/22",
-    "cases": 1514,
-    "deaths": 22,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Billings": {
-    "dateStr": "1/10/22",
-    "cases": 121,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
   "Bottineau": {
-    "dateStr": "1/10/22",
-    "cases": 1220,
+    "dateStr": "1/11/22",
+    "cases": 1226,
     "deaths": 24,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   "Bowman": {
-    "dateStr": "1/10/22",
-    "cases": 693,
+    "dateStr": "1/11/22",
+    "cases": 694,
     "deaths": 9,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Burke": {
-    "dateStr": "1/10/22",
-    "cases": 371,
+    "dateStr": "1/11/22",
+    "cases": 372,
     "deaths": 3,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Burleigh": {
-    "dateStr": "1/10/22",
-    "cases": 26869,
+    "dateStr": "1/11/22",
+    "cases": 27057,
     "deaths": 284,
     "recovered": 0,
-    "new": 117,
+    "new": 188,
     "newDeaths": 0
   },
   "Cass": {
-    "dateStr": "1/10/22",
-    "cases": 42840,
-    "deaths": 290,
+    "dateStr": "1/11/22",
+    "cases": 43543,
+    "deaths": 291,
     "recovered": 0,
-    "new": 131,
-    "newDeaths": 0
+    "new": 703,
+    "newDeaths": 1
   },
   "Cavalier": {
-    "dateStr": "1/10/22",
-    "cases": 610,
+    "dateStr": "1/11/22",
+    "cases": 612,
     "deaths": 7,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Dickey": {
-    "dateStr": "1/10/22",
-    "cases": 1219,
+    "dateStr": "1/11/22",
+    "cases": 1223,
     "deaths": 38,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   "Divide": {
-    "dateStr": "1/10/22",
-    "cases": 349,
+    "dateStr": "1/11/22",
+    "cases": 351,
     "deaths": 3,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Dunn": {
-    "dateStr": "1/10/22",
-    "cases": 883,
+    "dateStr": "1/11/22",
+    "cases": 886,
     "deaths": 7,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Eddy": {
-    "dateStr": "1/10/22",
-    "cases": 637,
-    "deaths": 6,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Emmons": {
-    "dateStr": "1/10/22",
-    "cases": 624,
-    "deaths": 16,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Foster": {
-    "dateStr": "1/10/22",
-    "cases": 770,
-    "deaths": 19,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
+  "Eddy": {
+    "dateStr": "1/11/22",
+    "cases": 639,
+    "deaths": 6,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Emmons": {
+    "dateStr": "1/11/22",
+    "cases": 626,
+    "deaths": 16,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Foster": {
+    "dateStr": "1/11/22",
+    "cases": 776,
+    "deaths": 19,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
   "Golden Valley": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 398,
     "deaths": 4,
     "recovered": 0,
@@ -136,119 +136,119 @@
     "newDeaths": 0
   },
   "Grand Forks": {
-    "dateStr": "1/10/22",
-    "cases": 15993,
+    "dateStr": "1/11/22",
+    "cases": 16147,
     "deaths": 105,
     "recovered": 0,
-    "new": 35,
+    "new": 154,
     "newDeaths": 0
   },
   "Grant": {
-    "dateStr": "1/10/22",
-    "cases": 407,
+    "dateStr": "1/11/22",
+    "cases": 412,
     "deaths": 11,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Griggs": {
+    "dateStr": "1/11/22",
+    "cases": 489,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  "Hettinger": {
+    "dateStr": "1/11/22",
+    "cases": 589,
+    "deaths": 7,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Griggs": {
-    "dateStr": "1/10/22",
-    "cases": 484,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Hettinger": {
-    "dateStr": "1/10/22",
-    "cases": 588,
-    "deaths": 7,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
   "Kidder": {
-    "dateStr": "1/10/22",
-    "cases": 410,
+    "dateStr": "1/11/22",
+    "cases": 415,
     "deaths": 13,
     "recovered": 0,
-    "new": 0,
+    "new": 5,
     "newDeaths": 0
   },
   "LaMoure": {
-    "dateStr": "1/10/22",
-    "cases": 808,
+    "dateStr": "1/11/22",
+    "cases": 813,
     "deaths": 18,
     "recovered": 0,
-    "new": 3,
+    "new": 5,
     "newDeaths": 0
   },
   "Logan": {
-    "dateStr": "1/10/22",
-    "cases": 365,
+    "dateStr": "1/11/22",
+    "cases": 367,
     "deaths": 11,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   "McHenry": {
-    "dateStr": "1/10/22",
-    "cases": 1094,
+    "dateStr": "1/11/22",
+    "cases": 1100,
     "deaths": 28,
     "recovered": 0,
-    "new": 3,
+    "new": 6,
     "newDeaths": 0
   },
   "McIntosh": {
-    "dateStr": "1/10/22",
-    "cases": 556,
+    "dateStr": "1/11/22",
+    "cases": 558,
     "deaths": 9,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   "McKenzie": {
-    "dateStr": "1/10/22",
-    "cases": 2785,
+    "dateStr": "1/11/22",
+    "cases": 2806,
     "deaths": 23,
     "recovered": 0,
-    "new": 4,
+    "new": 21,
     "newDeaths": 0
   },
   "McLean": {
-    "dateStr": "1/10/22",
-    "cases": 2264,
+    "dateStr": "1/11/22",
+    "cases": 2270,
     "deaths": 47,
     "recovered": 0,
-    "new": 1,
+    "new": 6,
     "newDeaths": 0
   },
   "Mercer": {
-    "dateStr": "1/10/22",
-    "cases": 2039,
+    "dateStr": "1/11/22",
+    "cases": 2046,
     "deaths": 22,
     "recovered": 0,
-    "new": 0,
+    "new": 7,
     "newDeaths": 0
   },
   "Morton": {
-    "dateStr": "1/10/22",
-    "cases": 8952,
-    "deaths": 131,
+    "dateStr": "1/11/22",
+    "cases": 8990,
+    "deaths": 132,
     "recovered": 0,
     "new": 38,
-    "newDeaths": 0
+    "newDeaths": 1
   },
   "Mountrail": {
-    "dateStr": "1/10/22",
-    "cases": 2383,
+    "dateStr": "1/11/22",
+    "cases": 2403,
     "deaths": 32,
     "recovered": 0,
-    "new": 4,
+    "new": 20,
     "newDeaths": 0
   },
   "Nelson": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 627,
     "deaths": 16,
     "recovered": 0,
@@ -256,7 +256,7 @@
     "newDeaths": 0
   },
   "Oliver": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 266,
     "deaths": 4,
     "recovered": 0,
@@ -264,7 +264,7 @@
     "newDeaths": 0
   },
   "Out of ND": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -272,39 +272,39 @@
     "newDeaths": 0
   },
   "Pembina": {
-    "dateStr": "1/10/22",
-    "cases": 1557,
+    "dateStr": "1/11/22",
+    "cases": 1573,
     "deaths": 16,
     "recovered": 0,
-    "new": 0,
+    "new": 16,
     "newDeaths": 0
   },
   "Pierce": {
-    "dateStr": "1/10/22",
-    "cases": 878,
+    "dateStr": "1/11/22",
+    "cases": 881,
     "deaths": 29,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Ramsey": {
+    "dateStr": "1/11/22",
+    "cases": 2746,
+    "deaths": 47,
+    "recovered": 0,
+    "new": 24,
+    "newDeaths": 1
+  },
+  "Ransom": {
+    "dateStr": "1/11/22",
+    "cases": 1128,
+    "deaths": 23,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
   },
-  "Ramsey": {
-    "dateStr": "1/10/22",
-    "cases": 2722,
-    "deaths": 46,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Ransom": {
-    "dateStr": "1/10/22",
-    "cases": 1119,
-    "deaths": 23,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
   "Renville": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 469,
     "deaths": 15,
     "recovered": 0,
@@ -312,31 +312,31 @@
     "newDeaths": 0
   },
   "Richland": {
-    "dateStr": "1/10/22",
-    "cases": 3107,
+    "dateStr": "1/11/22",
+    "cases": 3135,
     "deaths": 21,
     "recovered": 0,
-    "new": 5,
+    "new": 28,
     "newDeaths": 0
   },
   "Rolette": {
-    "dateStr": "1/10/22",
-    "cases": 4049,
+    "dateStr": "1/11/22",
+    "cases": 4114,
     "deaths": 36,
     "recovered": 0,
-    "new": 17,
+    "new": 65,
     "newDeaths": 0
   },
   "Sargent": {
-    "dateStr": "1/10/22",
-    "cases": 805,
+    "dateStr": "1/11/22",
+    "cases": 811,
     "deaths": 9,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   "Sheridan": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 241,
     "deaths": 6,
     "recovered": 0,
@@ -344,15 +344,15 @@
     "newDeaths": 0
   },
   "Sioux": {
-    "dateStr": "1/10/22",
-    "cases": 1058,
+    "dateStr": "1/11/22",
+    "cases": 1066,
     "deaths": 18,
     "recovered": 0,
-    "new": 15,
+    "new": 8,
     "newDeaths": 0
   },
   "Slope": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 56,
     "deaths": 0,
     "recovered": 0,
@@ -360,47 +360,47 @@
     "newDeaths": 0
   },
   "Stark": {
-    "dateStr": "1/10/22",
-    "cases": 9337,
+    "dateStr": "1/11/22",
+    "cases": 9382,
     "deaths": 80,
     "recovered": 0,
-    "new": 11,
+    "new": 45,
     "newDeaths": 0
   },
   "Steele": {
-    "dateStr": "1/10/22",
-    "cases": 309,
+    "dateStr": "1/11/22",
+    "cases": 313,
     "deaths": 2,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   "Stutsman": {
-    "dateStr": "1/10/22",
-    "cases": 5345,
+    "dateStr": "1/11/22",
+    "cases": 5370,
     "deaths": 92,
     "recovered": 0,
-    "new": 5,
+    "new": 25,
     "newDeaths": 0
   },
   "Towner": {
-    "dateStr": "1/10/22",
-    "cases": 494,
+    "dateStr": "1/11/22",
+    "cases": 497,
     "deaths": 11,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   "Traill": {
-    "dateStr": "1/10/22",
-    "cases": 1715,
+    "dateStr": "1/11/22",
+    "cases": 1725,
     "deaths": 21,
     "recovered": 0,
-    "new": 0,
+    "new": 10,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "1/10/22",
+    "dateStr": "1/11/22",
     "cases": 1,
     "deaths": 45,
     "recovered": 0,
@@ -408,35 +408,35 @@
     "newDeaths": 0
   },
   "Walsh": {
-    "dateStr": "1/10/22",
-    "cases": 2640,
+    "dateStr": "1/11/22",
+    "cases": 2656,
     "deaths": 34,
     "recovered": 0,
-    "new": 0,
+    "new": 16,
     "newDeaths": 0
   },
   "Ward": {
-    "dateStr": "1/10/22",
-    "cases": 15919,
+    "dateStr": "1/11/22",
+    "cases": 15983,
     "deaths": 235,
     "recovered": 0,
-    "new": 51,
+    "new": 64,
     "newDeaths": 0
   },
   "Wells": {
-    "dateStr": "1/10/22",
-    "cases": 874,
+    "dateStr": "1/11/22",
+    "cases": 881,
     "deaths": 11,
     "recovered": 0,
-    "new": 0,
+    "new": 7,
     "newDeaths": 0
   },
   "Williams": {
-    "dateStr": "1/10/22",
-    "cases": 8407,
-    "deaths": 63,
+    "dateStr": "1/11/22",
+    "cases": 8442,
+    "deaths": 64,
     "recovered": 0,
-    "new": 19,
-    "newDeaths": 0
+    "new": 35,
+    "newDeaths": 1
   }
 }
