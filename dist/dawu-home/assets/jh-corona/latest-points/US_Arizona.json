@@ -1,86 +1,86 @@
 {
   "Apache": {
-    "dateStr": "1/12/22",
-    "cases": 17270,
+    "dateStr": "1/13/22",
+    "cases": 17426,
     "deaths": 554,
     "recovered": 0,
-    "new": 66,
+    "new": 156,
     "newDeaths": 0
   },
   "Cochise": {
-    "dateStr": "1/12/22",
-    "cases": 21916,
+    "dateStr": "1/13/22",
+    "cases": 22080,
     "deaths": 484,
     "recovered": 0,
-    "new": 311,
+    "new": 164,
     "newDeaths": 0
   },
   "Coconino": {
-    "dateStr": "1/12/22",
-    "cases": 31885,
+    "dateStr": "1/13/22",
+    "cases": 32490,
     "deaths": 423,
     "recovered": 0,
-    "new": 645,
-    "newDeaths": 1
+    "new": 605,
+    "newDeaths": 0
   },
   "Gila": {
-    "dateStr": "1/12/22",
-    "cases": 13064,
+    "dateStr": "1/13/22",
+    "cases": 13254,
     "deaths": 317,
     "recovered": 0,
-    "new": 204,
+    "new": 190,
     "newDeaths": 0
   },
   "Graham": {
-    "dateStr": "1/12/22",
-    "cases": 9396,
+    "dateStr": "1/13/22",
+    "cases": 9449,
     "deaths": 159,
     "recovered": 0,
-    "new": 92,
+    "new": 53,
     "newDeaths": 0
   },
   "Greenlee": {
-    "dateStr": "1/12/22",
-    "cases": 1613,
+    "dateStr": "1/13/22",
+    "cases": 1647,
     "deaths": 30,
     "recovered": 0,
-    "new": 46,
+    "new": 34,
     "newDeaths": 0
   },
   "La Paz": {
-    "dateStr": "1/12/22",
-    "cases": 3904,
+    "dateStr": "1/13/22",
+    "cases": 3945,
     "deaths": 112,
     "recovered": 0,
-    "new": 38,
+    "new": 41,
     "newDeaths": 0
   },
   "Maricopa": {
-    "dateStr": "1/12/22",
-    "cases": 969741,
+    "dateStr": "1/13/22",
+    "cases": 982065,
     "deaths": 14064,
     "recovered": 0,
-    "new": 11981,
-    "newDeaths": 4
-  },
-  "Mohave": {
-    "dateStr": "1/12/22",
-    "cases": 42404,
-    "deaths": 1223,
-    "recovered": 0,
-    "new": 493,
+    "new": 12324,
     "newDeaths": 0
   },
+  "Mohave": {
+    "dateStr": "1/13/22",
+    "cases": 42924,
+    "deaths": 1230,
+    "recovered": 0,
+    "new": 520,
+    "newDeaths": 7
+  },
   "Navajo": {
-    "dateStr": "1/12/22",
-    "cases": 29283,
+    "dateStr": "1/13/22",
+    "cases": 29629,
     "deaths": 770,
     "recovered": 0,
-    "new": 229,
+    "new": 346,
     "newDeaths": 0
   },
   "Out of AZ": {
-    "dateStr": "1/12/22",
+    "dateStr": "1/13/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -88,31 +88,31 @@
     "newDeaths": 0
   },
   "Pima": {
-    "dateStr": "1/12/22",
-    "cases": 189543,
+    "dateStr": "1/13/22",
+    "cases": 191727,
     "deaths": 3273,
     "recovered": 0,
-    "new": 2000,
-    "newDeaths": 3
+    "new": 2184,
+    "newDeaths": 0
   },
   "Pinal": {
-    "dateStr": "1/12/22",
-    "cases": 96738,
+    "dateStr": "1/13/22",
+    "cases": 97878,
     "deaths": 1361,
     "recovered": 0,
-    "new": 1728,
+    "new": 1140,
     "newDeaths": 0
   },
   "Santa Cruz": {
-    "dateStr": "1/12/22",
-    "cases": 11584,
+    "dateStr": "1/13/22",
+    "cases": 11684,
     "deaths": 207,
     "recovered": 0,
-    "new": 164,
+    "new": 100,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "1/12/22",
+    "dateStr": "1/13/22",
     "cases": 35,
     "deaths": 42,
     "recovered": 0,
@@ -120,19 +120,19 @@
     "newDeaths": 0
   },
   "Yavapai": {
-    "dateStr": "1/12/22",
-    "cases": 38585,
+    "dateStr": "1/13/22",
+    "cases": 38885,
     "deaths": 1007,
     "recovered": 0,
-    "new": 310,
+    "new": 300,
     "newDeaths": 0
   },
   "Yuma": {
-    "dateStr": "1/12/22",
-    "cases": 47434,
-    "deaths": 1010,
+    "dateStr": "1/13/22",
+    "cases": 47851,
+    "deaths": 1012,
     "recovered": 0,
-    "new": 476,
-    "newDeaths": 0
+    "new": 417,
+    "newDeaths": 2
   }
 }
