@@ -5785,8 +5785,16 @@
   },
   {
     "dateStr": "1/14/22",
-    "cases": 1234,
-    "deaths": 31,
+    "cases": 1239,
+    "deaths": 32,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/15/22",
+    "cases": 1239,
+    "deaths": 32,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
