@@ -5745,14 +5745,6 @@
   },
   {
     "dateStr": "1/9/22",
-    "cases": 2358685,
-    "deaths": 203019,
-    "recovered": 2086086,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/10/22",
     "cases": 2375813,
     "deaths": 203067,
     "recovered": 2086086,
@@ -5760,12 +5752,20 @@
     "newDeaths": 48
   },
   {
+    "dateStr": "1/10/22",
+    "cases": 2388289,
+    "deaths": 203097,
+    "recovered": 2086086,
+    "new": 12476,
+    "newDeaths": 30
+  },
+  {
     "dateStr": "1/11/22",
     "cases": 2412577,
     "deaths": 203157,
     "recovered": 2086086,
-    "new": 36764,
-    "newDeaths": 90
+    "new": 24288,
+    "newDeaths": 60
   },
   {
     "dateStr": "1/12/22",
@@ -5785,18 +5785,34 @@
   },
   {
     "dateStr": "1/14/22",
-    "cases": 2473709,
-    "deaths": 203255,
+    "cases": 2512789,
+    "deaths": 203302,
     "recovered": 2086086,
-    "new": 0,
-    "newDeaths": 0
+    "new": 39080,
+    "newDeaths": 47
   },
   {
     "dateStr": "1/15/22",
-    "cases": 2496542,
-    "deaths": 203265,
+    "cases": 2562534,
+    "deaths": 203376,
     "recovered": 2086086,
-    "new": 22833,
-    "newDeaths": 10
+    "new": 49745,
+    "newDeaths": 74
+  },
+  {
+    "dateStr": "1/16/22",
+    "cases": 2606126,
+    "deaths": 203464,
+    "recovered": 2086086,
+    "new": 43592,
+    "newDeaths": 88
+  },
+  {
+    "dateStr": "1/17/22",
+    "cases": 2606126,
+    "deaths": 203464,
+    "recovered": 2086086,
+    "new": 0,
+    "newDeaths": 0
   }
 ]
