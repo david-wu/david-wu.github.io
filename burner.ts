@@ -57,7 +57,15 @@ export async function main(ns) {
         weakenBy(target, totalSecLost);
 
         const growTimeDelta = times[2] - times[1];
-        growBy(target, growthNeeded, growTimeDelta - 100);
+        // growBy(target, growthNeeded, growTimeDelta - 100);
+        ns.print('grow', getThreadsToGrow(target, growthNeeded), target, ns.getGrowTime(target), growTimeDelta);
+        runScript(
+            'hk-grow.js',
+            getThreadsToGrow(target, growthNeeded),
+            target,
+            ns.getGrowTime(target),
+            growTimeDelta - 100,
+        );
 
         const hackTimeDelta = times[2] - times[0];
         runScript('hk-hack.js', hackThreads, target, ns.getHackTime(target), hackTimeDelta - 200);
