@@ -4,9 +4,9 @@ export async function main(ns) {
 
     const host = ns.getHostname();
     const hostRam = ns.getServerMaxRam(host);
-    const hostScriptCap = Math.floor(hostRam / 1.75);
+    const scriptCap = Math.floor(hostRam / 1.75);
 
-    let availableScriptCap = hostScriptCap;
+    let availableScriptCap = scriptCap;
     let uid = 0;
     const target = ns.args[0] || 'omega-net';
 
@@ -15,101 +15,91 @@ export async function main(ns) {
         fullyWeaken(target),
         batchGrow(target),
     ]);
+    ns.print('done..');
 
     while(true){
-        while(availableScriptCap > 2000) {
-            ns.print('availableScriptCap: ', availableScriptCap);
+        while(availableScriptCap > 3000) {
+            log({
+                availableScripts: `${availableScriptCap}/${scriptCap}`,
+            }, 'batchHacking');
             printCheck(target);
             batchHack(target);
-            await ns.sleep(5000);
+            await ns.sleep(3000);
         }
         await ns.sleep(1000);
     }
 
-    function estimateBatchHackThreads() {
-        return Math.floor(3.53956835 * (0.35 / ns.hackAnalyze(target))) * 1.15;
-    }
-
-
-    async function batchHack(target) {
-        const times = [
-            ns.getHackTime(target),
-            ns.getGrowTime(target),
-            ns.getWeakenTime(target),
-        ];
-
+    function batchHack(target) {
         const hackedPerThread = ns.hackAnalyze(target);
-        const hackThreads = Math.floor(0.35 / hackedPerThread);
-
+        const hackThreads = Math.floor(0.20 / hackedPerThread);
         const currentMoney = ns.getServerMoneyAvailable(target);
-        const moneyHacked = (hackedPerThread * hackThreads) * currentMoney;
-        const maxMoney = ns.getServerMaxMoney(target);
+        const moneyHacked = hackedPerThread * hackThreads * currentMoney;
         const expectedMoney = currentMoney - moneyHacked;
-        const growthNeeded = (maxMoney / expectedMoney);
+        const growthNeeded = (ns.getServerMaxMoney(target) / expectedMoney);
         const growthThreads = getThreadsToGrow(target, growthNeeded);
 
         const securityLostFromGrowth = ns.growthAnalyzeSecurity(growthThreads);
         const securityLostFromHack = ns.hackAnalyzeSecurity(hackThreads);
         
-        // const promises = [];
+        const runTimes = {
+            weaken: ns.getWeakenTime(target),
+            grow: ns.getGrowTime(target),
+            hack: ns.getHackTime(target),
+        };
 
         const totalSecLost = securityLostFromHack + securityLostFromGrowth;
-        weakenBy(target, totalSecLost);
+        const weakenThreads = getThreadsToWeaken(totalSecLost)
+        runWeaken(target, weakenThreads);
 
-        const growTimeDelta = times[2] - times[1];
-        // growBy(target, growthNeeded, growTimeDelta - 100);
-        ns.print('grow', getThreadsToGrow(target, growthNeeded), target, ns.getGrowTime(target), growTimeDelta);
-        runScript(
-            'hk-grow.js',
-            getThreadsToGrow(target, growthNeeded),
-            target,
-            ns.getGrowTime(target),
-            growTimeDelta - 100,
-        );
+        const growTimeDelta = runTimes.weaken - runTimes.grow - 50;
+        runGrow(target, growthThreads, growTimeDelta);
 
-        const hackTimeDelta = times[2] - times[0];
-        runScript('hk-hack.js', hackThreads, target, ns.getHackTime(target), hackTimeDelta - 200);
-
-        await Promise.all(promises);
+        const hackTimeDelta = runTimes.weaken - runTimes.hack - 100;
+        runHack(target, hackThreads, hackTimeDelta);
     }
 
-    function printCheck(target) {
-        const cashRatio = ns.getServerMoneyAvailable(target) / ns.getServerMaxMoney(target);
-        const secOverMin = ns.getServerSecurityLevel(target) - ns.getServerMinSecurityLevel(target)
-        ns.print('printCheck:')
-        ns.print(`    cashRatio: ${cashRatio}`);
-        ns.print(`    secOverMin: ${secOverMin}`);
-    }
 
     // grow an amount without consequences by first doing a weaken
-    async function batchGrow(target, growthNeeded) {
-        growthNeeded = growthNeeded || growthNeededToFullyGrow(target);
-        const times = [
-            ns.getHackTime(target),
-            ns.getGrowTime(target),
-            ns.getWeakenTime(target),
-        ];
-
+    async function batchGrow(target) {
+        const growthNeeded =  growthNeededToFullyGrow(target);
         if(!growthNeeded) {
             return;
         }
-        const growthThreads = getThreadsToGrow(target, growthNeeded);
+
+        const threadsToFullyGrow = getThreadsToGrow(target, growthNeeded);
+        const willFullyGrow = (threadsToFullyGrow <= availableScriptCap * 0.5);
+        const growthThreads = Math.min(
+            threadsToFullyGrow,
+            availableScriptCap * 0.5,
+        );
         const securityIncreased = ns.growthAnalyzeSecurity(growthThreads);
+        const weakenThreads = getThreadsToWeaken(securityIncreased);
+        const timeDelta = ns.getWeakenTime(target) - ns.getGrowTime(target) - 100;
 
-        const timeDelta = times[2] - times[1];
+        log({
+            growthNeeded,
+            growthThreads,
+            securityIncreased,
+            willFullyGrow,
+        }, 'batchGrow');
 
-        ns.print(`batchGrow ${growthNeeded}, ${growthThreads}, ${securityIncreased}, ${timeDelta}`);
-
-        weakenBy(target, securityIncreased);
-        await ns.sleep(timeDelta - 100);
-        await growBy(target, growthNeeded);
+        runWeaken(target, weakenThreads);
+        await runGrow(target, growthThreads, timeDelta);
+        if(!willFullyGrow) {
+            await batchGrow(target);
+        }
     }
 
-
-    async function fullyGrow(target) {
-        const growthToMax = growthNeededToFullyGrow(target);
-        await growBy(target, growthToMax);
+    async function runHack(target, hackThreads, delay = 0) {
+        await runScript(
+            'hk-hack.js',
+            hackThreads,
+            target,
+            ns.getHackTime(target),
+            delay,
+        );
     }
+
     function growthNeededToFullyGrow(target) {
         const maxMoney = ns.getServerMaxMoney(target);
         if(maxMoney === 0) {
@@ -121,17 +111,11 @@ export async function main(ns) {
         }
         return 1 / (serverMoney / maxMoney);
     }
-    async function growBy(target, growAmount, delay = 0) {
-        // const desiredThreads = getThreadsToGrow(target, growAmount);
-        // let ranThreads = 0;
-        // while(ranThreads < desiredThreads) {
-            // const growThreads = Math.min(availableScriptCap, desiredThreads);
-            // ranThreads += growThreads;
-        //     await runScript('hk-grow.js', growThreads, target, ns.getGrowTime(target), delay);
-        // }
+
+    async function runGrow(target, growThreads, delay = 0) {
         await runScript(
             'hk-grow.js',
-            getThreadsToGrow(target, growAmount),
+            growThreads,
             target,
             ns.getGrowTime(target),
             delay,
@@ -144,31 +128,23 @@ export async function main(ns) {
         return Math.ceil(ns.growthAnalyze(target, growAmount));
     }
 
-
     async function fullyWeaken(target) {
-        const weakenNeeded = getWeakenNeeded(target);
-        await weakenBy(target, weakenNeeded);
+        const weakenNeeded = ns.getServerSecurityLevel(target) - ns.getServerMinSecurityLevel(target);
+        if(!weakenNeeded) {
+            return;
+        }
+        const weakenThreads = getThreadsToWeaken(weakenNeeded);
+        await runWeaken(target, weakenThreads);
     }
-    function getWeakenNeeded(target) {
-        return ns.getServerSecurityLevel(target) - ns.getServerMinSecurityLevel(target);
-    }
-    async function weakenBy(target, amountToWeaken, delay = 0) {
-        // const desiredThreads = getThreadsToWeaken(amountToWeaken)
-        // let ranThreads = 0;
-        // while(ranThreads < desiredThreads) {
-        //     const weakenThreads = Math.min(availableScriptCap, desiredThreads);
-        //     ranThreads += weakenThreads;
-            // await runScript('hk-weaken.js', weakenThreads, target, ns.getWeakenTime(target), delay)
-        // }
-
+    async function runWeaken(target, threads, delay = 0) {
         await runScript(
             'hk-weaken.js',
-            getThreadsToWeaken(amountToWeaken),
+            threads,
             target,
             ns.getWeakenTime(target),
             delay,
         );
-    }
+    } 
     function getThreadsToWeaken(amountToWeaken, minT = 0, maxT = 100000) {
         let i = 0
         while(i++ < 50) {
@@ -188,10 +164,10 @@ export async function main(ns) {
         }
     }
 
-
     function runScript(scriptName, threads, target, timeout, delay = 0) {
+        const now = ns.getTimeSinceLastAug();
         return new Promise((resolve) => {
-            ns.exec(scriptName, host, threads, target, delay, uid++);
+            ns.exec(scriptName, host, threads, target, delay, now+delay, uid++);
             availableScriptCap -= threads;
             // includes a 50ms buffer
             setTimeout(resolve, timeout + delay + 50);
@@ -199,6 +175,24 @@ export async function main(ns) {
             .then(() => {
                 availableScriptCap += threads;
             });
+    }
+
+    function printCheck(target) {
+        const cashRatio = ns.getServerMoneyAvailable(target) / ns.getServerMaxMoney(target);
+        const secOverMin = ns.getServerSecurityLevel(target) - ns.getServerMinSecurityLevel(target)
+        log({
+            cashRatio,
+            secOverMin,
+        }, 'printCheck')
+    }
+
+    function log(attrs, title) {
+        if(title) {
+            ns.print(`${title}:`);
+        }
+        Object.keys(attrs).forEach((key) => {
+            ns.print(`    ${key}: ${attrs[key]}`);
+        });
     }
 
 }
