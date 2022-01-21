@@ -18,7 +18,10 @@ export async function main(ns) {
     ns.print('done..');
 
     while(true){
-        while(availableScriptCap > 3000) {
+        log({
+            availableScripts: `${availableScriptCap}/${scriptCap}`,
+        }, 'batchHacking');
+        while(availableScriptCap > 2000) {
             log({
                 availableScripts: `${availableScriptCap}/${scriptCap}`,
             }, 'batchHacking');
