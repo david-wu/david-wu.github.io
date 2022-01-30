@@ -1,66 +1,66 @@
 {
   "Australian Capital Territory": {
-    "dateStr": "1/27/22",
-    "cases": 34418,
+    "dateStr": "1/29/22",
+    "cases": 35520,
     "deaths": 26,
     "recovered": 121,
-    "new": 485,
-    "newDeaths": 1
+    "new": 544,
+    "newDeaths": 0
   },
   "New South Wales": {
-    "dateStr": "1/27/22",
-    "cases": 1083622,
-    "deaths": 1231,
+    "dateStr": "1/29/22",
+    "cases": 1121481,
+    "deaths": 1366,
     "recovered": 2997,
-    "new": 50258,
-    "newDeaths": 35
+    "new": 18262,
+    "newDeaths": 51
   },
   "Northern Territory": {
-    "dateStr": "1/27/22",
-    "cases": 12309,
+    "dateStr": "1/29/22",
+    "cases": 21764,
     "deaths": 3,
     "recovered": 193,
-    "new": 954,
+    "new": 2848,
     "newDeaths": 0
   },
   "Queensland": {
-    "dateStr": "1/27/22",
-    "cases": 369936,
-    "deaths": 153,
+    "dateStr": "1/29/22",
+    "cases": 402656,
+    "deaths": 196,
     "recovered": 1727,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "South Australia": {
-    "dateStr": "1/27/22",
-    "cases": 110332,
-    "deaths": 100,
-    "recovered": 841,
-    "new": 777,
+    "new": 12550,
     "newDeaths": 13
   },
+  "South Australia": {
+    "dateStr": "1/29/22",
+    "cases": 117002,
+    "deaths": 111,
+    "recovered": 841,
+    "new": 1704,
+    "newDeaths": 1
+  },
   "Tasmania": {
-    "dateStr": "1/27/22",
-    "cases": 27983,
-    "deaths": 17,
+    "dateStr": "1/29/22",
+    "cases": 29319,
+    "deaths": 18,
     "recovered": 221,
-    "new": 627,
-    "newDeaths": 0
+    "new": 635,
+    "newDeaths": 1
   },
   "Victoria": {
-    "dateStr": "1/27/22",
-    "cases": 817360,
-    "deaths": 1939,
+    "dateStr": "1/29/22",
+    "cases": 841276,
+    "deaths": 1990,
     "recovered": 20061,
-    "new": 13239,
-    "newDeaths": 39
+    "new": 10672,
+    "newDeaths": 20
   },
   "Western Australia": {
-    "dateStr": "1/27/22",
-    "cases": 1454,
+    "dateStr": "1/29/22",
+    "cases": 1505,
     "deaths": 10,
     "recovered": 1039,
-    "new": 12,
+    "new": 43,
     "newDeaths": 0
   }
 }
