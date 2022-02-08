@@ -1,66 +1,66 @@
 {
   "Australian Capital Territory": {
-    "dateStr": "2/3/22",
-    "cases": 37875,
-    "deaths": 27,
+    "dateStr": "2/7/22",
+    "cases": 38698,
+    "deaths": 29,
     "recovered": 121,
-    "new": 449,
-    "newDeaths": 1
+    "new": 0,
+    "newDeaths": 0
   },
   "New South Wales": {
-    "dateStr": "2/3/22",
-    "cases": 1139787,
-    "deaths": 1518,
+    "dateStr": "2/7/22",
+    "cases": 1154133,
+    "deaths": 1596,
     "recovered": 2997,
-    "new": 0,
-    "newDeaths": 31
+    "new": 9385,
+    "newDeaths": 18
   },
   "Northern Territory": {
-    "dateStr": "2/3/22",
+    "dateStr": "2/7/22",
     "cases": 25512,
-    "deaths": 4,
+    "deaths": 5,
     "recovered": 193,
     "new": 0,
-    "newDeaths": 1
+    "newDeaths": 0
   },
   "Queensland": {
-    "dateStr": "2/3/22",
-    "cases": 438716,
-    "deaths": 247,
+    "dateStr": "2/7/22",
+    "cases": 462761,
+    "deaths": 308,
     "recovered": 1727,
-    "new": 6857,
-    "newDeaths": 13
+    "new": 5178,
+    "newDeaths": 12
   },
   "South Australia": {
-    "dateStr": "2/3/22",
-    "cases": 124839,
-    "deaths": 125,
+    "dateStr": "2/7/22",
+    "cases": 131898,
+    "deaths": 137,
     "recovered": 841,
-    "new": 1300,
-    "newDeaths": 3
+    "new": 1296,
+    "newDeaths": 4
   },
   "Tasmania": {
-    "dateStr": "2/3/22",
+    "dateStr": "2/7/22",
     "cases": 32537,
-    "deaths": 19,
+    "deaths": 20,
     "recovered": 221,
-    "new": 570,
+    "new": 0,
     "newDeaths": 0
   },
   "Victoria": {
-    "dateStr": "2/3/22",
-    "cases": 900950,
-    "deaths": 2124,
+    "dateStr": "2/7/22",
+    "cases": 933989,
+    "deaths": 2198,
     "recovered": 20061,
-    "new": 11240,
-    "newDeaths": 36
+    "new": 9785,
+    "newDeaths": 20
   },
   "Western Australia": {
-    "dateStr": "2/3/22",
-    "cases": 1609,
+    "dateStr": "2/7/22",
+    "cases": 1748,
     "deaths": 10,
     "recovered": 1039,
-    "new": 0,
+    "new": 36,
     "newDeaths": 0
   }
 }
