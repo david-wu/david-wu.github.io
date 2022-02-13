@@ -1,34 +1,34 @@
 {
   "Aruba": {
-    "dateStr": "2/7/22",
-    "cases": 33328,
-    "deaths": 195,
+    "dateStr": "2/12/22",
+    "cases": 33483,
+    "deaths": 198,
     "recovered": 11259,
+    "new": 28,
+    "newDeaths": 2
+  },
+  "Bonaire, Sint Eustatius and Saba": {
+    "dateStr": "2/12/22",
+    "cases": 7393,
+    "deaths": 31,
+    "recovered": 1673,
     "new": 26,
     "newDeaths": 0
   },
-  "Bonaire, Sint Eustatius and Saba": {
-    "dateStr": "2/7/22",
-    "cases": 7237,
-    "deaths": 30,
-    "recovered": 1673,
-    "new": 28,
-    "newDeaths": 1
-  },
   "Curacao": {
-    "dateStr": "2/7/22",
-    "cases": 37854,
-    "deaths": 247,
+    "dateStr": "2/12/22",
+    "cases": 38336,
+    "deaths": 254,
     "recovered": 13157,
-    "new": 45,
+    "new": 69,
     "newDeaths": 1
   },
   "Sint Maarten": {
-    "dateStr": "2/7/22",
-    "cases": 9407,
-    "deaths": 82,
+    "dateStr": "2/12/22",
+    "cases": 9483,
+    "deaths": 83,
     "recovered": 2682,
-    "new": 11,
-    "newDeaths": 1
+    "new": 8,
+    "newDeaths": 0
   }
 }
