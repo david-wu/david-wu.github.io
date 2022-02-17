@@ -6017,18 +6017,42 @@
   },
   {
     "dateStr": "2/12/22",
-    "cases": 41353,
+    "cases": 41352,
     "deaths": 347,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "2/13/22",
-    "cases": 41353,
+    "cases": 41696,
     "deaths": 347,
     "recovered": 0,
-    "new": 0,
+    "new": 344,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/14/22",
+    "cases": 41836,
+    "deaths": 347,
+    "recovered": 0,
+    "new": 140,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/15/22",
+    "cases": 41837,
+    "deaths": 353,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 6
+  },
+  {
+    "dateStr": "2/16/22",
+    "cases": 41903,
+    "deaths": 353,
+    "recovered": 0,
+    "new": 66,
     "newDeaths": 0
   }
 ]

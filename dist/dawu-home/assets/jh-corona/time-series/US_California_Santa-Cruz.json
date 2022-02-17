@@ -6025,10 +6025,34 @@
   },
   {
     "dateStr": "2/13/22",
-    "cases": 46488,
+    "cases": 46928,
     "deaths": 240,
     "recovered": 0,
+    "new": 440,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/14/22",
+    "cases": 47083,
+    "deaths": 249,
+    "recovered": 0,
+    "new": 155,
+    "newDeaths": 9
+  },
+  {
+    "dateStr": "2/15/22",
+    "cases": 47083,
+    "deaths": 250,
+    "recovered": 0,
     "new": 0,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/16/22",
+    "cases": 47212,
+    "deaths": 250,
+    "recovered": 0,
+    "new": 129,
     "newDeaths": 0
   }
 ]
