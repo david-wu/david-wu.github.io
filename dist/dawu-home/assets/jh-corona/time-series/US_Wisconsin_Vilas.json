@@ -6049,10 +6049,18 @@
   },
   {
     "dateStr": "2/16/22",
-    "cases": 5118,
-    "deaths": 84,
+    "cases": 5122,
+    "deaths": 85,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/17/22",
+    "cases": 5132,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 10,
     "newDeaths": 0
   }
 ]

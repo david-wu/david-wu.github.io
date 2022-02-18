@@ -5953,24 +5953,24 @@
   },
   {
     "dateStr": "2/4/22",
-    "cases": 10274653,
-    "deaths": 94235,
+    "cases": 10199716,
+    "deaths": 94040,
     "recovered": 150376,
-    "new": 74937,
-    "newDeaths": 195
+    "new": 0,
+    "newDeaths": 0
   },
   {
     "dateStr": "2/5/22",
-    "cases": 10274653,
-    "deaths": 94235,
+    "cases": 10199716,
+    "deaths": 94040,
     "recovered": 150376,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "2/6/22",
-    "cases": 10274653,
-    "deaths": 94235,
+    "cases": 10199716,
+    "deaths": 94040,
     "recovered": 150376,
     "new": 0,
     "newDeaths": 0
@@ -5980,8 +5980,8 @@
     "cases": 10395471,
     "deaths": 94570,
     "recovered": 150376,
-    "new": 120818,
-    "newDeaths": 335
+    "new": 195755,
+    "newDeaths": 530
   },
   {
     "dateStr": "2/8/22",
@@ -6054,5 +6054,13 @@
     "recovered": 150376,
     "new": 37108,
     "newDeaths": 444
+  },
+  {
+    "dateStr": "2/17/22",
+    "cases": 10778607,
+    "deaths": 97710,
+    "recovered": 150376,
+    "new": 34213,
+    "newDeaths": 360
   }
 ]
