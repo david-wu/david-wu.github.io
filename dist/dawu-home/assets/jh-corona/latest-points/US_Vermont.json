@@ -1,86 +1,86 @@
 {
   "Addison": {
-    "dateStr": "2/24/22",
-    "cases": 3998,
+    "dateStr": "2/28/22",
+    "cases": 4120,
     "deaths": 15,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 0
-  },
-  "Bennington": {
-    "dateStr": "2/24/22",
-    "cases": 8448,
-    "deaths": 60,
-    "recovered": 0,
-    "new": 21,
-    "newDeaths": 0
-  },
-  "Caledonia": {
-    "dateStr": "2/24/22",
-    "cases": 4494,
-    "deaths": 24,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  "Chittenden": {
-    "dateStr": "2/24/22",
-    "cases": 25474,
-    "deaths": 156,
     "recovered": 0,
     "new": 86,
     "newDeaths": 0
   },
+  "Bennington": {
+    "dateStr": "2/28/22",
+    "cases": 8953,
+    "deaths": 64,
+    "recovered": 0,
+    "new": 497,
+    "newDeaths": 2
+  },
+  "Caledonia": {
+    "dateStr": "2/28/22",
+    "cases": 4529,
+    "deaths": 24,
+    "recovered": 0,
+    "new": 30,
+    "newDeaths": 0
+  },
+  "Chittenden": {
+    "dateStr": "2/28/22",
+    "cases": 25935,
+    "deaths": 156,
+    "recovered": 0,
+    "new": 403,
+    "newDeaths": 0
+  },
   "Essex": {
-    "dateStr": "2/24/22",
-    "cases": 1093,
+    "dateStr": "2/28/22",
+    "cases": 1107,
     "deaths": 3,
     "recovered": 0,
-    "new": 2,
+    "new": 13,
     "newDeaths": 0
   },
   "Franklin": {
-    "dateStr": "2/24/22",
-    "cases": 8302,
-    "deaths": 62,
+    "dateStr": "2/28/22",
+    "cases": 8360,
+    "deaths": 63,
     "recovered": 0,
-    "new": 31,
-    "newDeaths": 0
+    "new": 41,
+    "newDeaths": 1
   },
   "Grand Isle": {
-    "dateStr": "2/24/22",
-    "cases": 868,
+    "dateStr": "2/28/22",
+    "cases": 875,
     "deaths": 4,
     "recovered": 0,
-    "new": 2,
+    "new": 7,
     "newDeaths": 0
   },
   "Lamoille": {
-    "dateStr": "2/24/22",
-    "cases": 3213,
-    "deaths": 15,
+    "dateStr": "2/28/22",
+    "cases": 3224,
+    "deaths": 16,
     "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
+    "new": 6,
+    "newDeaths": 1
   },
   "Orange": {
-    "dateStr": "2/24/22",
-    "cases": 3240,
+    "dateStr": "2/28/22",
+    "cases": 3269,
     "deaths": 11,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 0
+  },
+  "Orleans": {
+    "dateStr": "2/28/22",
+    "cases": 5092,
+    "deaths": 33,
     "recovered": 0,
     "new": 32,
     "newDeaths": 0
   },
-  "Orleans": {
-    "dateStr": "2/24/22",
-    "cases": 5032,
-    "deaths": 33,
-    "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
-  },
   "Out of VT": {
-    "dateStr": "2/24/22",
+    "dateStr": "2/28/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -88,15 +88,15 @@
     "newDeaths": 0
   },
   "Rutland": {
-    "dateStr": "2/24/22",
-    "cases": 11138,
+    "dateStr": "2/28/22",
+    "cases": 11357,
     "deaths": 66,
     "recovered": 0,
-    "new": 25,
+    "new": 206,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "2/24/22",
+    "dateStr": "2/28/22",
     "cases": 15457,
     "deaths": 18,
     "recovered": 0,
@@ -104,27 +104,27 @@
     "newDeaths": 0
   },
   "Washington": {
-    "dateStr": "2/24/22",
-    "cases": 8472,
+    "dateStr": "2/28/22",
+    "cases": 8570,
     "deaths": 44,
     "recovered": 0,
-    "new": 23,
+    "new": 86,
     "newDeaths": 0
   },
   "Windham": {
-    "dateStr": "2/24/22",
-    "cases": 5446,
+    "dateStr": "2/28/22",
+    "cases": 5560,
     "deaths": 34,
     "recovered": 0,
-    "new": 8,
+    "new": 111,
     "newDeaths": 0
   },
   "Windsor": {
-    "dateStr": "2/24/22",
-    "cases": 7206,
+    "dateStr": "2/28/22",
+    "cases": 7385,
     "deaths": 49,
     "recovered": 0,
-    "new": 16,
+    "new": 143,
     "newDeaths": 0
   }
 }
