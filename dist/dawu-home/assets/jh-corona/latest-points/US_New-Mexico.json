@@ -1,14 +1,14 @@
 {
   "Bernalillo": {
-    "dateStr": "3/8/22",
-    "cases": 145424,
-    "deaths": 1672,
+    "dateStr": "3/9/22",
+    "cases": 145504,
+    "deaths": 1675,
     "recovered": 0,
-    "new": 36,
-    "newDeaths": 8
+    "new": 80,
+    "newDeaths": 3
   },
   "Catron": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 410,
     "deaths": 13,
     "recovered": 0,
@@ -16,39 +16,39 @@
     "newDeaths": 0
   },
   "Chaves": {
-    "dateStr": "3/8/22",
-    "cases": 21290,
+    "dateStr": "3/9/22",
+    "cases": 21294,
     "deaths": 299,
     "recovered": 0,
-    "new": 2,
-    "newDeaths": 2
+    "new": 4,
+    "newDeaths": 0
   },
   "Cibola": {
-    "dateStr": "3/8/22",
-    "cases": 6845,
+    "dateStr": "3/9/22",
+    "cases": 6855,
     "deaths": 178,
+    "recovered": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  "Colfax": {
+    "dateStr": "3/9/22",
+    "cases": 2404,
+    "deaths": 64,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
-  "Colfax": {
-    "dateStr": "3/8/22",
-    "cases": 2399,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
   "Curry": {
-    "dateStr": "3/8/22",
-    "cases": 12503,
-    "deaths": 180,
+    "dateStr": "3/9/22",
+    "cases": 12508,
+    "deaths": 181,
     "recovered": 0,
-    "new": 1,
-    "newDeaths": 2
+    "new": 5,
+    "newDeaths": 1
   },
   "De Baca": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 568,
     "deaths": 5,
     "recovered": 0,
@@ -56,31 +56,31 @@
     "newDeaths": 0
   },
   "Dona Ana": {
-    "dateStr": "3/8/22",
-    "cases": 62434,
-    "deaths": 712,
+    "dateStr": "3/9/22",
+    "cases": 62472,
+    "deaths": 715,
     "recovered": 0,
-    "new": 18,
-    "newDeaths": 1
+    "new": 38,
+    "newDeaths": 3
   },
   "Eddy": {
-    "dateStr": "3/8/22",
-    "cases": 16956,
+    "dateStr": "3/9/22",
+    "cases": 16964,
     "deaths": 261,
     "recovered": 0,
-    "new": 2,
+    "new": 8,
     "newDeaths": 0
   },
   "Grant": {
-    "dateStr": "3/8/22",
-    "cases": 6573,
+    "dateStr": "3/9/22",
+    "cases": 6580,
     "deaths": 77,
     "recovered": 0,
-    "new": 10,
+    "new": 7,
     "newDeaths": 0
   },
   "Guadalupe": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 1101,
     "deaths": 17,
     "recovered": 0,
@@ -88,7 +88,7 @@
     "newDeaths": 0
   },
   "Harding": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 80,
     "deaths": 4,
     "recovered": 0,
@@ -96,55 +96,55 @@
     "newDeaths": 0
   },
   "Hidalgo": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 1083,
-    "deaths": 13,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Lea": {
-    "dateStr": "3/8/22",
-    "cases": 19143,
-    "deaths": 316,
-    "recovered": 0,
-    "new": 11,
-    "newDeaths": 1
-  },
-  "Lincoln": {
-    "dateStr": "3/8/22",
-    "cases": 5162,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Los Alamos": {
-    "dateStr": "3/8/22",
-    "cases": 2678,
     "deaths": 13,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Luna": {
-    "dateStr": "3/8/22",
-    "cases": 6673,
-    "deaths": 117,
+  "Lea": {
+    "dateStr": "3/9/22",
+    "cases": 19152,
+    "deaths": 316,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  "Lincoln": {
+    "dateStr": "3/9/22",
+    "cases": 5165,
+    "deaths": 64,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
-  "McKinley": {
-    "dateStr": "3/8/22",
-    "cases": 25596,
-    "deaths": 570,
+  "Los Alamos": {
+    "dateStr": "3/9/22",
+    "cases": 2682,
+    "deaths": 13,
     "recovered": 0,
-    "new": 6,
+    "new": 4,
+    "newDeaths": 0
+  },
+  "Luna": {
+    "dateStr": "3/9/22",
+    "cases": 6675,
+    "deaths": 117,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "McKinley": {
+    "dateStr": "3/9/22",
+    "cases": 25613,
+    "deaths": 571,
+    "recovered": 0,
+    "new": 17,
     "newDeaths": 1
   },
   "Mora": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 752,
     "deaths": 16,
     "recovered": 0,
@@ -152,15 +152,15 @@
     "newDeaths": 0
   },
   "Otero": {
-    "dateStr": "3/8/22",
-    "cases": 13272,
+    "dateStr": "3/9/22",
+    "cases": 13276,
     "deaths": 180,
     "recovered": 0,
-    "new": 5,
-    "newDeaths": 1
+    "new": 4,
+    "newDeaths": 0
   },
   "Out of NM": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -168,115 +168,115 @@
     "newDeaths": 0
   },
   "Quay": {
-    "dateStr": "3/8/22",
+    "dateStr": "3/9/22",
     "cases": 1975,
     "deaths": 49,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Rio Arriba": {
-    "dateStr": "3/8/22",
-    "cases": 9670,
-    "deaths": 124,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Roosevelt": {
-    "dateStr": "3/8/22",
-    "cases": 4969,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  "San Juan": {
-    "dateStr": "3/8/22",
-    "cases": 40380,
-    "deaths": 725,
-    "recovered": 0,
-    "new": 23,
-    "newDeaths": 2
-  },
-  "San Miguel": {
-    "dateStr": "3/8/22",
-    "cases": 5726,
-    "deaths": 51,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Sandoval": {
-    "dateStr": "3/8/22",
-    "cases": 33102,
-    "deaths": 385,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 1
-  },
-  "Santa Fe": {
-    "dateStr": "3/8/22",
-    "cases": 27849,
-    "deaths": 252,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 2
-  },
-  "Sierra": {
-    "dateStr": "3/8/22",
-    "cases": 2015,
-    "deaths": 70,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Socorro": {
-    "dateStr": "3/8/22",
-    "cases": 3780,
-    "deaths": 85,
+  "Rio Arriba": {
+    "dateStr": "3/9/22",
+    "cases": 9681,
+    "deaths": 126,
     "recovered": 0,
-    "new": 1,
+    "new": 11,
+    "newDeaths": 2
+  },
+  "Roosevelt": {
+    "dateStr": "3/9/22",
+    "cases": 4972,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 3,
     "newDeaths": 0
   },
+  "San Juan": {
+    "dateStr": "3/9/22",
+    "cases": 40403,
+    "deaths": 726,
+    "recovered": 0,
+    "new": 23,
+    "newDeaths": 1
+  },
+  "San Miguel": {
+    "dateStr": "3/9/22",
+    "cases": 5733,
+    "deaths": 51,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  "Sandoval": {
+    "dateStr": "3/9/22",
+    "cases": 33122,
+    "deaths": 388,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 3
+  },
+  "Santa Fe": {
+    "dateStr": "3/9/22",
+    "cases": 27903,
+    "deaths": 253,
+    "recovered": 0,
+    "new": 54,
+    "newDeaths": 1
+  },
+  "Sierra": {
+    "dateStr": "3/9/22",
+    "cases": 2017,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Socorro": {
+    "dateStr": "3/9/22",
+    "cases": 3780,
+    "deaths": 86,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 1
+  },
   "Taos": {
-    "dateStr": "3/8/22",
-    "cases": 5263,
+    "dateStr": "3/9/22",
+    "cases": 5267,
     "deaths": 89,
     "recovered": 0,
-    "new": 1,
+    "new": 4,
     "newDeaths": 0
   },
   "Torrance": {
-    "dateStr": "3/8/22",
-    "cases": 2657,
+    "dateStr": "3/9/22",
+    "cases": 2658,
     "deaths": 51,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "3/8/22",
-    "cases": 6694,
+    "dateStr": "3/9/22",
+    "cases": 6700,
     "deaths": 114,
     "recovered": 0,
-    "new": 2,
+    "new": 6,
     "newDeaths": 0
   },
   "Union": {
-    "dateStr": "3/8/22",
-    "cases": 777,
+    "dateStr": "3/9/22",
+    "cases": 778,
     "deaths": 15,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 1
+    "new": 1,
+    "newDeaths": 0
   },
   "Valencia": {
-    "dateStr": "3/8/22",
-    "cases": 18378,
+    "dateStr": "3/9/22",
+    "cases": 18391,
     "deaths": 251,
     "recovered": 0,
-    "new": 1,
+    "new": 13,
     "newDeaths": 0
   }
 }
