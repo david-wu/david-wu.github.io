@@ -577,10 +577,10 @@
   },
   {
     "dateStr": "4/3/20",
-    "cases": 4,
+    "cases": 5,
     "deaths": 0,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
@@ -588,7 +588,7 @@
     "cases": 5,
     "deaths": 0,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -617,14 +617,6 @@
   },
   {
     "dateStr": "4/8/20",
-    "cases": 6,
-    "deaths": 0,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/9/20",
     "cases": 9,
     "deaths": 0,
     "recovered": 0,
@@ -632,11 +624,19 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "4/10/20",
+    "dateStr": "4/9/20",
     "cases": 10,
     "deaths": 0,
     "recovered": 0,
     "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/10/20",
+    "cases": 10,
+    "deaths": 0,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -649,18 +649,18 @@
   },
   {
     "dateStr": "4/12/20",
-    "cases": 10,
+    "cases": 12,
     "deaths": 0,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "4/13/20",
-    "cases": 11,
+    "cases": 12,
     "deaths": 0,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -668,19 +668,11 @@
     "cases": 12,
     "deaths": 0,
     "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/15/20",
-    "cases": 12,
-    "deaths": 0,
-    "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
-    "dateStr": "4/16/20",
+    "dateStr": "4/15/20",
     "cases": 12,
     "deaths": 1,
     "recovered": 0,
@@ -688,7 +680,7 @@
     "newDeaths": 1
   },
   {
-    "dateStr": "4/17/20",
+    "dateStr": "4/16/20",
     "cases": 12,
     "deaths": 1,
     "recovered": 0,
@@ -696,11 +688,19 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "4/18/20",
+    "dateStr": "4/17/20",
     "cases": 13,
     "deaths": 1,
     "recovered": 0,
     "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/18/20",
+    "cases": 13,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -713,15 +713,15 @@
   },
   {
     "dateStr": "4/20/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "4/21/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -729,7 +729,7 @@
   },
   {
     "dateStr": "4/22/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -737,7 +737,7 @@
   },
   {
     "dateStr": "4/23/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -745,7 +745,7 @@
   },
   {
     "dateStr": "4/24/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -753,7 +753,7 @@
   },
   {
     "dateStr": "4/25/20",
-    "cases": 13,
+    "cases": 14,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -761,38 +761,6 @@
   },
   {
     "dateStr": "4/26/20",
-    "cases": 14,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/27/20",
-    "cases": 14,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/28/20",
-    "cases": 14,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/29/20",
-    "cases": 14,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/30/20",
     "cases": 15,
     "deaths": 1,
     "recovered": 0,
@@ -800,16 +768,48 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "5/1/20",
-    "cases": 16,
+    "dateStr": "4/27/20",
+    "cases": 15,
     "deaths": 1,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/28/20",
+    "cases": 15,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/29/20",
+    "cases": 15,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/30/20",
+    "cases": 17,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/1/20",
+    "cases": 17,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/2/20",
-    "cases": 16,
+    "cases": 17,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -817,7 +817,7 @@
   },
   {
     "dateStr": "5/3/20",
-    "cases": 16,
+    "cases": 17,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -828,7 +828,7 @@
     "cases": 17,
     "deaths": 1,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -857,182 +857,6 @@
   },
   {
     "dateStr": "5/8/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/9/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/10/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/11/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/12/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/13/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/14/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/15/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/16/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/17/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/18/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/19/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/20/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/21/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/22/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/23/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/24/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/25/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/26/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/27/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/28/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/29/20",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/30/20",
     "cases": 18,
     "deaths": 1,
     "recovered": 0,
@@ -1040,8 +864,184 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "5/31/20",
+    "dateStr": "5/9/20",
     "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/10/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/11/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/12/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/13/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/14/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/15/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/16/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/17/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/18/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/19/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/20/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/21/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/22/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/23/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/24/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/25/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/26/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/27/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/28/20",
+    "cases": 18,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/29/20",
+    "cases": 19,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/30/20",
+    "cases": 19,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/31/20",
+    "cases": 19,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1049,15 +1049,15 @@
   },
   {
     "dateStr": "6/1/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "6/2/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1065,7 +1065,7 @@
   },
   {
     "dateStr": "6/3/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1073,7 +1073,7 @@
   },
   {
     "dateStr": "6/4/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1081,7 +1081,7 @@
   },
   {
     "dateStr": "6/5/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1089,7 +1089,7 @@
   },
   {
     "dateStr": "6/6/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1097,7 +1097,7 @@
   },
   {
     "dateStr": "6/7/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1105,7 +1105,7 @@
   },
   {
     "dateStr": "6/8/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1113,7 +1113,7 @@
   },
   {
     "dateStr": "6/9/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1121,7 +1121,7 @@
   },
   {
     "dateStr": "6/10/20",
-    "cases": 18,
+    "cases": 21,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1129,18 +1129,18 @@
   },
   {
     "dateStr": "6/11/20",
-    "cases": 18,
+    "cases": 22,
     "deaths": 1,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/12/20",
-    "cases": 22,
+    "cases": 24,
     "deaths": 1,
     "recovered": 0,
-    "new": 4,
+    "new": 2,
     "newDeaths": 0
   },
   {
@@ -1148,7 +1148,7 @@
     "cases": 24,
     "deaths": 1,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -1169,15 +1169,15 @@
   },
   {
     "dateStr": "6/16/20",
-    "cases": 25,
+    "cases": 26,
     "deaths": 1,
     "recovered": 0,
-    "new": 1,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "6/17/20",
-    "cases": 25,
+    "cases": 26,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
@@ -1188,7 +1188,7 @@
     "cases": 26,
     "deaths": 1,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -1217,14 +1217,6 @@
   },
   {
     "dateStr": "6/22/20",
-    "cases": 26,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "6/23/20",
     "cases": 27,
     "deaths": 1,
     "recovered": 0,
@@ -1232,15 +1224,7 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "6/24/20",
-    "cases": 27,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "6/25/20",
+    "dateStr": "6/23/20",
     "cases": 28,
     "deaths": 1,
     "recovered": 0,
@@ -1248,7 +1232,7 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "6/26/20",
+    "dateStr": "6/24/20",
     "cases": 29,
     "deaths": 1,
     "recovered": 0,
@@ -1256,11 +1240,27 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "6/27/20",
-    "cases": 31,
+    "dateStr": "6/25/20",
+    "cases": 29,
     "deaths": 1,
     "recovered": 0,
-    "new": 2,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/26/20",
+    "cases": 30,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "6/27/20",
+    "cases": 30,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   },
   {
@@ -1268,36 +1268,36 @@
     "cases": 31,
     "deaths": 1,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/29/20",
-    "cases": 31,
+    "cases": 35,
     "deaths": 1,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "6/30/20",
-    "cases": 36,
+    "cases": 39,
     "deaths": 1,
     "recovered": 0,
-    "new": 5,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "7/1/20",
-    "cases": 39,
+    "cases": 40,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/2/20",
-    "cases": 41,
+    "cases": 42,
     "deaths": 1,
     "recovered": 0,
     "new": 2,
@@ -1305,42 +1305,42 @@
   },
   {
     "dateStr": "7/3/20",
-    "cases": 44,
+    "cases": 47,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "7/4/20",
-    "cases": 48,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/5/20",
-    "cases": 48,
+    "cases": 47,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/6/20",
+    "dateStr": "7/5/20",
     "cases": 51,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/6/20",
+    "cases": 53,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "7/7/20",
-    "cases": 54,
+    "cases": 58,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 5,
     "newDeaths": 0
   },
   {
@@ -1348,52 +1348,52 @@
     "cases": 62,
     "deaths": 1,
     "recovered": 0,
-    "new": 8,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "7/9/20",
-    "cases": 65,
+    "cases": 66,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "7/10/20",
-    "cases": 67,
+    "cases": 71,
     "deaths": 1,
     "recovered": 0,
-    "new": 2,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "7/11/20",
-    "cases": 69,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/12/20",
-    "cases": 70,
+    "cases": 72,
     "deaths": 1,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/13/20",
-    "cases": 72,
+    "dateStr": "7/12/20",
+    "cases": 74,
     "deaths": 1,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/14/20",
+    "dateStr": "7/13/20",
     "cases": 75,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/14/20",
+    "cases": 78,
     "deaths": 1,
     "recovered": 0,
     "new": 3,
@@ -1401,31 +1401,31 @@
   },
   {
     "dateStr": "7/15/20",
-    "cases": 77,
+    "cases": 79,
     "deaths": 1,
     "recovered": 0,
-    "new": 2,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/16/20",
-    "cases": 79,
+    "cases": 85,
     "deaths": 1,
     "recovered": 0,
-    "new": 2,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "7/17/20",
-    "cases": 87,
+    "cases": 91,
     "deaths": 1,
     "recovered": 0,
-    "new": 8,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "7/18/20",
-    "cases": 92,
+    "cases": 96,
     "deaths": 1,
     "recovered": 0,
     "new": 5,
@@ -1433,31 +1433,31 @@
   },
   {
     "dateStr": "7/19/20",
-    "cases": 96,
+    "cases": 102,
     "deaths": 1,
     "recovered": 0,
-    "new": 4,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "7/20/20",
-    "cases": 100,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/21/20",
-    "cases": 102,
+    "cases": 104,
     "deaths": 1,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
+    "dateStr": "7/21/20",
+    "cases": 115,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "7/22/20",
-    "cases": 106,
+    "cases": 119,
     "deaths": 1,
     "recovered": 0,
     "new": 4,
@@ -1465,302 +1465,262 @@
   },
   {
     "dateStr": "7/23/20",
-    "cases": 115,
+    "cases": 127,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/24/20",
+    "cases": 136,
     "deaths": 1,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/24/20",
-    "cases": 122,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "7/25/20",
-    "cases": 132,
+    "cases": 151,
     "deaths": 1,
     "recovered": 0,
-    "new": 10,
+    "new": 15,
     "newDeaths": 0
   },
   {
     "dateStr": "7/26/20",
-    "cases": 144,
+    "cases": 155,
     "deaths": 1,
     "recovered": 0,
-    "new": 12,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "7/27/20",
-    "cases": 148,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/28/20",
-    "cases": 152,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/29/20",
-    "cases": 160,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/30/20",
-    "cases": 165,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/31/20",
-    "cases": 190,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/1/20",
-    "cases": 203,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/2/20",
-    "cases": 207,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/3/20",
-    "cases": 213,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/4/20",
-    "cases": 221,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/5/20",
-    "cases": 224,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/6/20",
-    "cases": 229,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/7/20",
-    "cases": 239,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/8/20",
-    "cases": 247,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/9/20",
-    "cases": 248,
+    "cases": 156,
     "deaths": 1,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/10/20",
-    "cases": 254,
+    "dateStr": "7/28/20",
+    "cases": 164,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/29/20",
+    "cases": 168,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/30/20",
+    "cases": 191,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 23,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/31/20",
+    "cases": 205,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/1/20",
+    "cases": 211,
     "deaths": 1,
     "recovered": 0,
     "new": 6,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/11/20",
-    "cases": 254,
+    "dateStr": "8/2/20",
+    "cases": 216,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/3/20",
+    "cases": 229,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/4/20",
+    "cases": 229,
     "deaths": 1,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/12/20",
+    "dateStr": "8/5/20",
+    "cases": 237,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/6/20",
+    "cases": 252,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/7/20",
     "cases": 257,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/8/20",
+    "cases": 259,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/9/20",
+    "cases": 264,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/10/20",
+    "cases": 266,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/11/20",
+    "cases": 271,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/12/20",
+    "cases": 278,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 7,
     "newDeaths": 0
   },
   {
     "dateStr": "8/13/20",
-    "cases": 261,
+    "cases": 284,
     "deaths": 1,
     "recovered": 0,
-    "new": 4,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "8/14/20",
-    "cases": 264,
+    "cases": 288,
     "deaths": 1,
     "recovered": 0,
-    "new": 3,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "8/15/20",
-    "cases": 267,
+    "cases": 292,
+    "deaths": 1,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/16/20",
+    "cases": 295,
     "deaths": 1,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/16/20",
-    "cases": 271,
-    "deaths": 1,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "8/17/20",
-    "cases": 275,
+    "cases": 296,
     "deaths": 2,
     "recovered": 0,
-    "new": 4,
+    "new": 1,
     "newDeaths": 1
   },
   {
     "dateStr": "8/18/20",
-    "cases": 279,
+    "cases": 305,
     "deaths": 2,
     "recovered": 0,
-    "new": 4,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "8/19/20",
-    "cases": 284,
+    "cases": 306,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/20/20",
+    "cases": 311,
     "deaths": 2,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/20/20",
-    "cases": 288,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "8/21/20",
-    "cases": 292,
+    "cases": 312,
     "deaths": 2,
     "recovered": 0,
-    "new": 4,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "8/22/20",
-    "cases": 295,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/23/20",
-    "cases": 299,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/24/20",
-    "cases": 302,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/25/20",
-    "cases": 304,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/26/20",
-    "cases": 311,
+    "cases": 319,
     "deaths": 2,
     "recovered": 0,
     "new": 7,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/27/20",
-    "cases": 316,
-    "deaths": 2,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/28/20",
+    "dateStr": "8/23/20",
     "cases": 320,
     "deaths": 2,
     "recovered": 0,
-    "new": 4,
+    "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/29/20",
+    "dateStr": "8/24/20",
     "cases": 322,
     "deaths": 2,
     "recovered": 0,
@@ -1768,32 +1728,72 @@
     "newDeaths": 0
   },
   {
-    "dateStr": "8/30/20",
-    "cases": 325,
+    "dateStr": "8/25/20",
+    "cases": 326,
     "deaths": 2,
     "recovered": 0,
-    "new": 3,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/26/20",
+    "cases": 333,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/27/20",
+    "cases": 337,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/28/20",
+    "cases": 338,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/29/20",
+    "cases": 342,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/30/20",
+    "cases": 344,
+    "deaths": 2,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "8/31/20",
-    "cases": 328,
+    "cases": 345,
     "deaths": 2,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "9/1/20",
-    "cases": 328,
+    "cases": 349,
     "deaths": 3,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 1
   },
   {
     "dateStr": "9/2/20",
-    "cases": 333,
+    "cases": 354,
     "deaths": 3,
     "recovered": 0,
     "new": 5,
@@ -1801,55 +1801,55 @@
   },
   {
     "dateStr": "9/3/20",
-    "cases": 347,
-    "deaths": 3,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/4/20",
-    "cases": 351,
-    "deaths": 3,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/5/20",
-    "cases": 357,
+    "cases": 360,
     "deaths": 3,
     "recovered": 0,
     "new": 6,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/6/20",
-    "cases": 366,
-    "deaths": 3,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/7/20",
-    "cases": 369,
+    "dateStr": "9/4/20",
+    "cases": 363,
     "deaths": 3,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/8/20",
-    "cases": 369,
+    "dateStr": "9/5/20",
+    "cases": 372,
+    "deaths": 3,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/6/20",
+    "cases": 375,
+    "deaths": 3,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/7/20",
+    "cases": 375,
     "deaths": 3,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
+    "dateStr": "9/8/20",
+    "cases": 378,
+    "deaths": 3,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "9/9/20",
-    "cases": 370,
+    "cases": 379,
     "deaths": 3,
     "recovered": 0,
     "new": 1,
@@ -1857,39 +1857,39 @@
   },
   {
     "dateStr": "9/10/20",
-    "cases": 381,
+    "cases": 380,
     "deaths": 3,
     "recovered": 0,
-    "new": 11,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "9/11/20",
-    "cases": 384,
-    "deaths": 3,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/12/20",
-    "cases": 389,
+    "cases": 385,
     "deaths": 3,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/13/20",
-    "cases": 391,
+    "dateStr": "9/12/20",
+    "cases": 387,
     "deaths": 3,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
+    "dateStr": "9/13/20",
+    "cases": 390,
+    "deaths": 3,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "9/14/20",
-    "cases": 394,
+    "cases": 393,
     "deaths": 3,
     "recovered": 0,
     "new": 3,
@@ -1897,18 +1897,18 @@
   },
   {
     "dateStr": "9/15/20",
-    "cases": 396,
+    "cases": 398,
     "deaths": 3,
     "recovered": 0,
-    "new": 2,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "9/16/20",
-    "cases": 399,
+    "cases": 404,
     "deaths": 3,
     "recovered": 0,
-    "new": 3,
+    "new": 6,
     "newDeaths": 0
   },
   {
@@ -1916,15 +1916,15 @@
     "cases": 408,
     "deaths": 3,
     "recovered": 0,
-    "new": 9,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "9/18/20",
-    "cases": 412,
+    "cases": 413,
     "deaths": 3,
     "recovered": 0,
-    "new": 4,
+    "new": 5,
     "newDeaths": 0
   },
   {
@@ -1932,15 +1932,15 @@
     "cases": 415,
     "deaths": 3,
     "recovered": 0,
-    "new": 3,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "9/20/20",
-    "cases": 416,
+    "cases": 417,
     "deaths": 3,
     "recovered": 0,
-    "new": 1,
+    "new": 2,
     "newDeaths": 0
   },
   {
@@ -1948,23 +1948,23 @@
     "cases": 419,
     "deaths": 3,
     "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/22/20",
-    "cases": 421,
-    "deaths": 3,
-    "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/23/20",
-    "cases": 424,
+    "dateStr": "9/22/20",
+    "cases": 422,
     "deaths": 3,
     "recovered": 0,
     "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/23/20",
+    "cases": 427,
+    "deaths": 3,
+    "recovered": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
@@ -1972,20 +1972,20 @@
     "cases": 431,
     "deaths": 4,
     "recovered": 0,
-    "new": 7,
+    "new": 4,
     "newDeaths": 1
   },
   {
     "dateStr": "9/25/20",
-    "cases": 439,
+    "cases": 441,
     "deaths": 4,
     "recovered": 0,
-    "new": 8,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "9/26/20",
-    "cases": 446,
+    "cases": 448,
     "deaths": 4,
     "recovered": 0,
     "new": 7,
@@ -1993,15 +1993,15 @@
   },
   {
     "dateStr": "9/27/20",
-    "cases": 454,
+    "cases": 450,
     "deaths": 4,
     "recovered": 0,
-    "new": 8,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "9/28/20",
-    "cases": 456,
+    "cases": 452,
     "deaths": 4,
     "recovered": 0,
     "new": 2,
@@ -2009,7 +2009,7 @@
   },
   {
     "dateStr": "9/29/20",
-    "cases": 461,
+    "cases": 457,
     "deaths": 4,
     "recovered": 0,
     "new": 5,
@@ -2020,212 +2020,212 @@
     "cases": 467,
     "deaths": 4,
     "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/1/20",
-    "cases": 474,
-    "deaths": 4,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/2/20",
-    "cases": 483,
-    "deaths": 4,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/3/20",
-    "cases": 493,
-    "deaths": 4,
-    "recovered": 0,
     "new": 10,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/4/20",
-    "cases": 509,
-    "deaths": 4,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/5/20",
-    "cases": 522,
+    "dateStr": "10/1/20",
+    "cases": 480,
     "deaths": 4,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/6/20",
-    "cases": 545,
+    "dateStr": "10/2/20",
+    "cases": 488,
     "deaths": 4,
     "recovered": 0,
-    "new": 23,
+    "new": 8,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/7/20",
-    "cases": 570,
+    "dateStr": "10/3/20",
+    "cases": 501,
     "deaths": 4,
     "recovered": 0,
-    "new": 25,
+    "new": 13,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/8/20",
-    "cases": 615,
+    "dateStr": "10/4/20",
+    "cases": 512,
     "deaths": 4,
     "recovered": 0,
-    "new": 45,
+    "new": 11,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/9/20",
-    "cases": 635,
-    "deaths": 4,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/10/20",
-    "cases": 654,
+    "dateStr": "10/5/20",
+    "cases": 531,
     "deaths": 4,
     "recovered": 0,
     "new": 19,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/11/20",
-    "cases": 693,
+    "dateStr": "10/6/20",
+    "cases": 573,
     "deaths": 4,
     "recovered": 0,
-    "new": 39,
+    "new": 42,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/12/20",
-    "cases": 711,
+    "dateStr": "10/7/20",
+    "cases": 611,
     "deaths": 4,
     "recovered": 0,
-    "new": 18,
+    "new": 38,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/13/20",
-    "cases": 721,
-    "deaths": 5,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/14/20",
-    "cases": 747,
-    "deaths": 5,
-    "recovered": 0,
-    "new": 26,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/15/20",
-    "cases": 786,
-    "deaths": 6,
-    "recovered": 0,
-    "new": 39,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/16/20",
-    "cases": 796,
-    "deaths": 6,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/17/20",
-    "cases": 824,
-    "deaths": 6,
-    "recovered": 0,
-    "new": 28,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/18/20",
-    "cases": 849,
-    "deaths": 7,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/19/20",
-    "cases": 864,
-    "deaths": 7,
+    "dateStr": "10/8/20",
+    "cases": 626,
+    "deaths": 4,
     "recovered": 0,
     "new": 15,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/20/20",
-    "cases": 885,
-    "deaths": 7,
+    "dateStr": "10/9/20",
+    "cases": 653,
+    "deaths": 4,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/10/20",
+    "cases": 690,
+    "deaths": 4,
+    "recovered": 0,
+    "new": 37,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/11/20",
+    "cases": 707,
+    "deaths": 4,
+    "recovered": 0,
+    "new": 17,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/12/20",
+    "cases": 718,
+    "deaths": 4,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/13/20",
+    "cases": 738,
+    "deaths": 5,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/14/20",
+    "cases": 774,
+    "deaths": 5,
+    "recovered": 0,
+    "new": 36,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/15/20",
+    "cases": 795,
+    "deaths": 6,
     "recovered": 0,
     "new": 21,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/16/20",
+    "cases": 808,
+    "deaths": 6,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/17/20",
+    "cases": 837,
+    "deaths": 6,
+    "recovered": 0,
+    "new": 29,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/18/20",
+    "cases": 856,
+    "deaths": 7,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/19/20",
+    "cases": 883,
+    "deaths": 7,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/20/20",
+    "cases": 896,
+    "deaths": 7,
+    "recovered": 0,
+    "new": 13,
     "newDeaths": 0
   },
   {
     "dateStr": "10/21/20",
-    "cases": 899,
+    "cases": 901,
     "deaths": 7,
     "recovered": 0,
-    "new": 14,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "10/22/20",
-    "cases": 911,
+    "cases": 962,
     "deaths": 8,
     "recovered": 0,
-    "new": 12,
+    "new": 61,
     "newDeaths": 1
   },
   {
     "dateStr": "10/23/20",
-    "cases": 975,
+    "cases": 992,
     "deaths": 9,
-    "recovered": 0,
-    "new": 64,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/24/20",
-    "cases": 1000,
-    "deaths": 11,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "10/25/20",
-    "cases": 1030,
-    "deaths": 12,
     "recovered": 0,
     "new": 30,
     "newDeaths": 1
   },
   {
+    "dateStr": "10/24/20",
+    "cases": 1011,
+    "deaths": 11,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "10/25/20",
+    "cases": 1025,
+    "deaths": 12,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 1
+  },
+  {
     "dateStr": "10/26/20",
-    "cases": 1035,
+    "cases": 1030,
     "deaths": 12,
     "recovered": 0,
     "new": 5,
@@ -2233,31 +2233,31 @@
   },
   {
     "dateStr": "10/27/20",
-    "cases": 1044,
+    "cases": 1061,
     "deaths": 12,
     "recovered": 0,
-    "new": 9,
+    "new": 31,
     "newDeaths": 0
   },
   {
     "dateStr": "10/28/20",
-    "cases": 1071,
+    "cases": 1084,
     "deaths": 13,
     "recovered": 0,
-    "new": 27,
+    "new": 23,
     "newDeaths": 1
   },
   {
     "dateStr": "10/29/20",
-    "cases": 1104,
+    "cases": 1108,
     "deaths": 13,
     "recovered": 0,
-    "new": 33,
+    "new": 24,
     "newDeaths": 0
   },
   {
     "dateStr": "10/30/20",
-    "cases": 1116,
+    "cases": 1120,
     "deaths": 13,
     "recovered": 0,
     "new": 12,
@@ -2265,31 +2265,31 @@
   },
   {
     "dateStr": "10/31/20",
-    "cases": 1130,
+    "cases": 1120,
     "deaths": 13,
     "recovered": 0,
-    "new": 14,
+    "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "11/1/20",
-    "cases": 1133,
+    "cases": 1126,
     "deaths": 13,
     "recovered": 0,
-    "new": 3,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "11/2/20",
-    "cases": 1140,
+    "cases": 1136,
     "deaths": 13,
     "recovered": 0,
-    "new": 7,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "11/3/20",
-    "cases": 1149,
+    "cases": 1145,
     "deaths": 14,
     "recovered": 0,
     "new": 9,
@@ -2297,23 +2297,23 @@
   },
   {
     "dateStr": "11/4/20",
-    "cases": 1159,
+    "cases": 1154,
     "deaths": 14,
     "recovered": 0,
-    "new": 10,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "11/5/20",
-    "cases": 1176,
+    "cases": 1177,
     "deaths": 14,
     "recovered": 0,
-    "new": 17,
+    "new": 23,
     "newDeaths": 0
   },
   {
     "dateStr": "11/6/20",
-    "cases": 1192,
+    "cases": 1193,
     "deaths": 14,
     "recovered": 0,
     "new": 16,
@@ -2321,471 +2321,471 @@
   },
   {
     "dateStr": "11/7/20",
-    "cases": 1218,
+    "cases": 1209,
     "deaths": 15,
     "recovered": 0,
-    "new": 26,
+    "new": 16,
     "newDeaths": 1
   },
   {
     "dateStr": "11/8/20",
-    "cases": 1238,
+    "cases": 1232,
     "deaths": 15,
     "recovered": 0,
-    "new": 20,
+    "new": 23,
     "newDeaths": 0
   },
   {
     "dateStr": "11/9/20",
-    "cases": 1256,
+    "cases": 1235,
     "deaths": 16,
     "recovered": 0,
-    "new": 18,
+    "new": 3,
     "newDeaths": 1
   },
   {
     "dateStr": "11/10/20",
-    "cases": 1258,
+    "cases": 1240,
     "deaths": 17,
     "recovered": 0,
-    "new": 2,
+    "new": 5,
     "newDeaths": 1
   },
   {
     "dateStr": "11/11/20",
-    "cases": 1264,
+    "cases": 1263,
     "deaths": 17,
     "recovered": 0,
-    "new": 6,
+    "new": 23,
     "newDeaths": 0
   },
   {
     "dateStr": "11/12/20",
-    "cases": 1288,
+    "cases": 1270,
     "deaths": 17,
     "recovered": 0,
-    "new": 24,
+    "new": 7,
     "newDeaths": 0
   },
   {
     "dateStr": "11/13/20",
-    "cases": 1302,
+    "cases": 1283,
     "deaths": 18,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/14/20",
+    "cases": 1299,
+    "deaths": 19,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/15/20",
+    "cases": 1310,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/16/20",
+    "cases": 1332,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 22,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/17/20",
+    "cases": 1339,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/18/20",
+    "cases": 1355,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/19/20",
+    "cases": 1368,
+    "deaths": 20,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/20/20",
+    "cases": 1382,
+    "deaths": 21,
     "recovered": 0,
     "new": 14,
     "newDeaths": 1
   },
   {
-    "dateStr": "11/14/20",
-    "cases": 1319,
-    "deaths": 19,
+    "dateStr": "11/21/20",
+    "cases": 1429,
+    "deaths": 21,
     "recovered": 0,
-    "new": 17,
-    "newDeaths": 1
+    "new": 47,
+    "newDeaths": 0
   },
   {
-    "dateStr": "11/15/20",
-    "cases": 1329,
-    "deaths": 20,
+    "dateStr": "11/22/20",
+    "cases": 1448,
+    "deaths": 21,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/23/20",
+    "cases": 1455,
+    "deaths": 21,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/24/20",
+    "cases": 1465,
+    "deaths": 22,
     "recovered": 0,
     "new": 10,
     "newDeaths": 1
   },
   {
-    "dateStr": "11/16/20",
-    "cases": 1354,
-    "deaths": 20,
+    "dateStr": "11/25/20",
+    "cases": 1483,
+    "deaths": 23,
     "recovered": 0,
-    "new": 25,
-    "newDeaths": 0
+    "new": 18,
+    "newDeaths": 1
   },
   {
-    "dateStr": "11/17/20",
-    "cases": 1363,
-    "deaths": 20,
+    "dateStr": "11/26/20",
+    "cases": 1492,
+    "deaths": 23,
     "recovered": 0,
     "new": 9,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/18/20",
-    "cases": 1377,
-    "deaths": 20,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/19/20",
-    "cases": 1383,
-    "deaths": 20,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/20/20",
-    "cases": 1389,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "11/21/20",
-    "cases": 1421,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 32,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/22/20",
-    "cases": 1465,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 44,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/23/20",
-    "cases": 1476,
-    "deaths": 21,
-    "recovered": 0,
-    "new": 11,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/24/20",
-    "cases": 1483,
-    "deaths": 22,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "11/25/20",
-    "cases": 1500,
-    "deaths": 23,
-    "recovered": 0,
-    "new": 17,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "11/26/20",
+    "dateStr": "11/27/20",
     "cases": 1515,
     "deaths": 23,
     "recovered": 0,
-    "new": 15,
+    "new": 23,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/27/20",
-    "cases": 1527,
+    "dateStr": "11/28/20",
+    "cases": 1523,
+    "deaths": 23,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/29/20",
+    "cases": 1548,
+    "deaths": 23,
+    "recovered": 0,
+    "new": 25,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/30/20",
+    "cases": 1598,
+    "deaths": 23,
+    "recovered": 0,
+    "new": 50,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/1/20",
+    "cases": 1610,
     "deaths": 23,
     "recovered": 0,
     "new": 12,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/28/20",
-    "cases": 1542,
+    "dateStr": "12/2/20",
+    "cases": 1625,
     "deaths": 23,
     "recovered": 0,
     "new": 15,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/29/20",
-    "cases": 1552,
-    "deaths": 23,
+    "dateStr": "12/3/20",
+    "cases": 1652,
+    "deaths": 24,
     "recovered": 0,
-    "new": 10,
+    "new": 27,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/4/20",
+    "cases": 1681,
+    "deaths": 24,
+    "recovered": 0,
+    "new": 29,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/30/20",
-    "cases": 1603,
-    "deaths": 23,
+    "dateStr": "12/5/20",
+    "cases": 1698,
+    "deaths": 24,
     "recovered": 0,
-    "new": 51,
+    "new": 17,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/1/20",
-    "cases": 1631,
-    "deaths": 23,
+    "dateStr": "12/6/20",
+    "cases": 1726,
+    "deaths": 24,
     "recovered": 0,
     "new": 28,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/2/20",
-    "cases": 1637,
-    "deaths": 23,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/3/20",
-    "cases": 1653,
-    "deaths": 24,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "12/4/20",
-    "cases": 1685,
-    "deaths": 24,
-    "recovered": 0,
-    "new": 32,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/5/20",
-    "cases": 1712,
-    "deaths": 24,
-    "recovered": 0,
-    "new": 27,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/6/20",
-    "cases": 1730,
-    "deaths": 24,
-    "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "12/7/20",
-    "cases": 1781,
+    "cases": 1751,
     "deaths": 26,
     "recovered": 0,
-    "new": 51,
+    "new": 25,
     "newDeaths": 2
   },
   {
     "dateStr": "12/8/20",
-    "cases": 1790,
+    "cases": 1771,
     "deaths": 26,
     "recovered": 0,
-    "new": 9,
+    "new": 20,
     "newDeaths": 0
   },
   {
     "dateStr": "12/9/20",
-    "cases": 1817,
+    "cases": 1811,
     "deaths": 26,
     "recovered": 0,
-    "new": 27,
+    "new": 40,
     "newDeaths": 0
   },
   {
     "dateStr": "12/10/20",
-    "cases": 1858,
+    "cases": 1859,
     "deaths": 26,
     "recovered": 0,
-    "new": 41,
+    "new": 48,
     "newDeaths": 0
   },
   {
     "dateStr": "12/11/20",
-    "cases": 1899,
+    "cases": 1885,
     "deaths": 26,
-    "recovered": 0,
-    "new": 41,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/12/20",
-    "cases": 1914,
-    "deaths": 26,
-    "recovered": 0,
-    "new": 15,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/13/20",
-    "cases": 1988,
-    "deaths": 27,
-    "recovered": 0,
-    "new": 74,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "12/14/20",
-    "cases": 2037,
-    "deaths": 27,
-    "recovered": 0,
-    "new": 49,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/15/20",
-    "cases": 2084,
-    "deaths": 27,
-    "recovered": 0,
-    "new": 47,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/16/20",
-    "cases": 2141,
-    "deaths": 27,
-    "recovered": 0,
-    "new": 57,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/17/20",
-    "cases": 2194,
-    "deaths": 30,
-    "recovered": 0,
-    "new": 53,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "12/18/20",
-    "cases": 2232,
-    "deaths": 30,
-    "recovered": 0,
-    "new": 38,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/19/20",
-    "cases": 2232,
-    "deaths": 30,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/20/20",
-    "cases": 2303,
-    "deaths": 32,
-    "recovered": 0,
-    "new": 71,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "12/21/20",
-    "cases": 2352,
-    "deaths": 32,
-    "recovered": 0,
-    "new": 49,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/22/20",
-    "cases": 2477,
-    "deaths": 32,
-    "recovered": 0,
-    "new": 125,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/23/20",
-    "cases": 2477,
-    "deaths": 34,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "12/24/20",
-    "cases": 2503,
-    "deaths": 34,
     "recovered": 0,
     "new": 26,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/25/20",
-    "cases": 2503,
+    "dateStr": "12/12/20",
+    "cases": 1926,
+    "deaths": 26,
+    "recovered": 0,
+    "new": 41,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/13/20",
+    "cases": 1986,
+    "deaths": 27,
+    "recovered": 0,
+    "new": 60,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/14/20",
+    "cases": 2030,
+    "deaths": 27,
+    "recovered": 0,
+    "new": 44,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/15/20",
+    "cases": 2075,
+    "deaths": 27,
+    "recovered": 0,
+    "new": 45,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/16/20",
+    "cases": 2154,
+    "deaths": 27,
+    "recovered": 0,
+    "new": 79,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/17/20",
+    "cases": 2206,
+    "deaths": 30,
+    "recovered": 0,
+    "new": 52,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "12/18/20",
+    "cases": 2246,
+    "deaths": 30,
+    "recovered": 0,
+    "new": 40,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/19/20",
+    "cases": 2272,
+    "deaths": 30,
+    "recovered": 0,
+    "new": 26,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/20/20",
+    "cases": 2318,
+    "deaths": 32,
+    "recovered": 0,
+    "new": 46,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "12/21/20",
+    "cases": 2339,
+    "deaths": 32,
+    "recovered": 0,
+    "new": 21,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/22/20",
+    "cases": 2417,
+    "deaths": 32,
+    "recovered": 0,
+    "new": 78,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/23/20",
+    "cases": 2470,
     "deaths": 34,
     "recovered": 0,
-    "new": 0,
+    "new": 53,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "12/24/20",
+    "cases": 2519,
+    "deaths": 34,
+    "recovered": 0,
+    "new": 49,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/25/20",
+    "cases": 2558,
+    "deaths": 34,
+    "recovered": 0,
+    "new": 39,
     "newDeaths": 0
   },
   {
     "dateStr": "12/26/20",
-    "cases": 2579,
+    "cases": 2585,
     "deaths": 34,
     "recovered": 0,
-    "new": 76,
+    "new": 27,
     "newDeaths": 0
   },
   {
     "dateStr": "12/27/20",
-    "cases": 2611,
+    "cases": 2600,
     "deaths": 34,
     "recovered": 0,
-    "new": 32,
+    "new": 15,
     "newDeaths": 0
   },
   {
     "dateStr": "12/28/20",
-    "cases": 2620,
+    "cases": 2621,
     "deaths": 35,
     "recovered": 0,
-    "new": 9,
+    "new": 21,
     "newDeaths": 1
   },
   {
     "dateStr": "12/29/20",
-    "cases": 2673,
+    "cases": 2704,
     "deaths": 36,
     "recovered": 0,
-    "new": 53,
+    "new": 83,
     "newDeaths": 1
   },
   {
     "dateStr": "12/30/20",
-    "cases": 2711,
+    "cases": 2759,
     "deaths": 36,
     "recovered": 0,
-    "new": 38,
+    "new": 55,
     "newDeaths": 0
   },
   {
     "dateStr": "12/31/20",
-    "cases": 2782,
+    "cases": 2823,
     "deaths": 36,
     "recovered": 0,
-    "new": 71,
+    "new": 64,
     "newDeaths": 0
   },
   {
     "dateStr": "1/1/21",
-    "cases": 2782,
+    "cases": 2854,
     "deaths": 36,
     "recovered": 0,
-    "new": 0,
+    "new": 31,
     "newDeaths": 0
   },
   {
     "dateStr": "1/2/21",
-    "cases": 2883,
+    "cases": 2893,
     "deaths": 37,
     "recovered": 0,
-    "new": 101,
+    "new": 39,
     "newDeaths": 1
   },
   {
     "dateStr": "1/3/21",
-    "cases": 2893,
+    "cases": 2901,
     "deaths": 37,
     "recovered": 0,
-    "new": 10,
+    "new": 8,
     "newDeaths": 0
   },
   {
     "dateStr": "1/4/21",
-    "cases": 2898,
+    "cases": 2906,
     "deaths": 37,
     "recovered": 0,
     "new": 5,
@@ -2793,175 +2793,175 @@
   },
   {
     "dateStr": "1/5/21",
-    "cases": 2914,
+    "cases": 2940,
     "deaths": 38,
     "recovered": 0,
-    "new": 16,
+    "new": 34,
     "newDeaths": 1
   },
   {
     "dateStr": "1/6/21",
-    "cases": 2949,
+    "cases": 2993,
     "deaths": 38,
     "recovered": 0,
-    "new": 35,
+    "new": 53,
     "newDeaths": 0
   },
   {
     "dateStr": "1/7/21",
-    "cases": 2990,
+    "cases": 3026,
     "deaths": 39,
     "recovered": 0,
-    "new": 41,
+    "new": 33,
     "newDeaths": 1
   },
   {
     "dateStr": "1/8/21",
-    "cases": 3021,
+    "cases": 3042,
     "deaths": 39,
     "recovered": 0,
-    "new": 31,
+    "new": 16,
     "newDeaths": 0
   },
   {
     "dateStr": "1/9/21",
-    "cases": 3028,
+    "cases": 3078,
     "deaths": 39,
     "recovered": 0,
-    "new": 7,
+    "new": 36,
     "newDeaths": 0
   },
   {
     "dateStr": "1/10/21",
-    "cases": 3062,
+    "cases": 3086,
+    "deaths": 39,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/11/21",
+    "cases": 3119,
+    "deaths": 39,
+    "recovered": 0,
+    "new": 33,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/12/21",
+    "cases": 3153,
     "deaths": 39,
     "recovered": 0,
     "new": 34,
     "newDeaths": 0
   },
   {
-    "dateStr": "1/11/21",
-    "cases": 3073,
-    "deaths": 39,
-    "recovered": 0,
-    "new": 11,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/12/21",
-    "cases": 3096,
-    "deaths": 39,
-    "recovered": 0,
-    "new": 23,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "1/13/21",
-    "cases": 3116,
+    "cases": 3169,
     "deaths": 40,
     "recovered": 0,
-    "new": 20,
+    "new": 16,
     "newDeaths": 1
   },
   {
     "dateStr": "1/14/21",
-    "cases": 3146,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 30,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/15/21",
-    "cases": 3181,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 35,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/16/21",
     "cases": 3197,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/17/21",
-    "cases": 3239,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 42,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/18/21",
-    "cases": 3245,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/19/21",
-    "cases": 3258,
-    "deaths": 40,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/20/21",
-    "cases": 3286,
     "deaths": 40,
     "recovered": 0,
     "new": 28,
     "newDeaths": 0
   },
   {
-    "dateStr": "1/21/21",
-    "cases": 3329,
+    "dateStr": "1/15/21",
+    "cases": 3208,
     "deaths": 40,
     "recovered": 0,
-    "new": 43,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/16/21",
+    "cases": 3268,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 60,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/17/21",
+    "cases": 3274,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/18/21",
+    "cases": 3281,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/19/21",
+    "cases": 3315,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 34,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/20/21",
+    "cases": 3340,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 25,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/21/21",
+    "cases": 3378,
+    "deaths": 40,
+    "recovered": 0,
+    "new": 38,
     "newDeaths": 0
   },
   {
     "dateStr": "1/22/21",
-    "cases": 3349,
+    "cases": 3394,
     "deaths": 40,
     "recovered": 0,
-    "new": 20,
+    "new": 16,
     "newDeaths": 0
   },
   {
     "dateStr": "1/23/21",
-    "cases": 3364,
+    "cases": 3421,
     "deaths": 40,
     "recovered": 0,
-    "new": 15,
+    "new": 27,
     "newDeaths": 0
   },
   {
     "dateStr": "1/24/21",
-    "cases": 3384,
+    "cases": 3424,
     "deaths": 41,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "1/25/21",
-    "cases": 3387,
-    "deaths": 42,
     "recovered": 0,
     "new": 3,
     "newDeaths": 1
   },
   {
+    "dateStr": "1/25/21",
+    "cases": 3430,
+    "deaths": 42,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 1
+  },
+  {
     "dateStr": "1/26/21",
-    "cases": 3398,
+    "cases": 3441,
     "deaths": 42,
     "recovered": 0,
     "new": 11,
@@ -2969,311 +2969,311 @@
   },
   {
     "dateStr": "1/27/21",
-    "cases": 3402,
+    "cases": 3458,
     "deaths": 44,
     "recovered": 0,
-    "new": 4,
+    "new": 17,
     "newDeaths": 2
   },
   {
     "dateStr": "1/28/21",
-    "cases": 3424,
+    "cases": 3481,
     "deaths": 44,
     "recovered": 0,
-    "new": 22,
+    "new": 23,
     "newDeaths": 0
   },
   {
     "dateStr": "1/29/21",
-    "cases": 3445,
+    "cases": 3492,
     "deaths": 44,
     "recovered": 0,
-    "new": 21,
+    "new": 11,
     "newDeaths": 0
   },
   {
     "dateStr": "1/30/21",
-    "cases": 3460,
+    "cases": 3508,
     "deaths": 44,
-    "recovered": 0,
-    "new": 15,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/31/21",
-    "cases": 3470,
-    "deaths": 44,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/1/21",
-    "cases": 3477,
-    "deaths": 44,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/2/21",
-    "cases": 3486,
-    "deaths": 45,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/3/21",
-    "cases": 3495,
-    "deaths": 46,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/4/21",
-    "cases": 3509,
-    "deaths": 48,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "2/5/21",
-    "cases": 3529,
-    "deaths": 51,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "2/6/21",
-    "cases": 3550,
-    "deaths": 51,
-    "recovered": 0,
-    "new": 21,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/7/21",
-    "cases": 3555,
-    "deaths": 51,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/8/21",
-    "cases": 3556,
-    "deaths": 52,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/9/21",
-    "cases": 3574,
-    "deaths": 52,
-    "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/10/21",
-    "cases": 3586,
-    "deaths": 52,
-    "recovered": 0,
-    "new": 12,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/11/21",
-    "cases": 3613,
-    "deaths": 52,
-    "recovered": 0,
-    "new": 27,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/12/21",
-    "cases": 3619,
-    "deaths": 53,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/13/21",
-    "cases": 3639,
-    "deaths": 53,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/14/21",
-    "cases": 3668,
-    "deaths": 54,
-    "recovered": 0,
-    "new": 29,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/15/21",
-    "cases": 3690,
-    "deaths": 54,
-    "recovered": 0,
-    "new": 22,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/16/21",
-    "cases": 3706,
-    "deaths": 54,
     "recovered": 0,
     "new": 16,
     "newDeaths": 0
   },
   {
-    "dateStr": "2/17/21",
-    "cases": 3718,
-    "deaths": 54,
-    "recovered": 0,
-    "new": 12,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/18/21",
-    "cases": 3724,
-    "deaths": 55,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/19/21",
-    "cases": 3742,
-    "deaths": 55,
-    "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/20/21",
-    "cases": 3751,
-    "deaths": 57,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "2/21/21",
-    "cases": 3758,
-    "deaths": 58,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/22/21",
-    "cases": 3760,
-    "deaths": 58,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/23/21",
-    "cases": 3774,
-    "deaths": 58,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/24/21",
-    "cases": 3781,
-    "deaths": 58,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/25/21",
-    "cases": 3791,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "2/26/21",
-    "cases": 3796,
-    "deaths": 59,
+    "dateStr": "1/31/21",
+    "cases": 3513,
+    "deaths": 44,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "2/27/21",
-    "cases": 3800,
-    "deaths": 59,
+    "dateStr": "2/1/21",
+    "cases": 3523,
+    "deaths": 44,
     "recovered": 0,
-    "new": 4,
+    "new": 10,
     "newDeaths": 0
   },
   {
-    "dateStr": "2/28/21",
-    "cases": 3800,
-    "deaths": 59,
+    "dateStr": "2/2/21",
+    "cases": 3526,
+    "deaths": 45,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/3/21",
+    "cases": 3541,
+    "deaths": 46,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/4/21",
+    "cases": 3560,
+    "deaths": 48,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "2/5/21",
+    "cases": 3577,
+    "deaths": 51,
+    "recovered": 0,
+    "new": 17,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "2/6/21",
+    "cases": 3582,
+    "deaths": 51,
+    "recovered": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "3/1/21",
-    "cases": 3803,
+    "dateStr": "2/7/21",
+    "cases": 3588,
+    "deaths": 51,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/8/21",
+    "cases": 3608,
+    "deaths": 52,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/9/21",
+    "cases": 3629,
+    "deaths": 52,
+    "recovered": 0,
+    "new": 21,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/10/21",
+    "cases": 3635,
+    "deaths": 52,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/11/21",
+    "cases": 3645,
+    "deaths": 52,
+    "recovered": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/12/21",
+    "cases": 3656,
+    "deaths": 53,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/13/21",
+    "cases": 3669,
+    "deaths": 53,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/14/21",
+    "cases": 3671,
+    "deaths": 54,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/15/21",
+    "cases": 3673,
+    "deaths": 54,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/16/21",
+    "cases": 3687,
+    "deaths": 54,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/17/21",
+    "cases": 3697,
+    "deaths": 54,
+    "recovered": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/18/21",
+    "cases": 3712,
+    "deaths": 55,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/19/21",
+    "cases": 3717,
+    "deaths": 55,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/20/21",
+    "cases": 3731,
+    "deaths": 57,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "2/21/21",
+    "cases": 3733,
+    "deaths": 58,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/22/21",
+    "cases": 3748,
+    "deaths": 58,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/23/21",
+    "cases": 3753,
+    "deaths": 58,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/24/21",
+    "cases": 3762,
+    "deaths": 58,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/25/21",
+    "cases": 3767,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/26/21",
+    "cases": 3770,
     "deaths": 59,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "3/2/21",
-    "cases": 3804,
+    "dateStr": "2/27/21",
+    "cases": 3773,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/28/21",
+    "cases": 3774,
     "deaths": 59,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "3/3/21",
-    "cases": 3810,
+    "dateStr": "3/1/21",
+    "cases": 3775,
     "deaths": 59,
     "recovered": 0,
-    "new": 6,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/2/21",
+    "cases": 3779,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/3/21",
+    "cases": 3788,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "3/4/21",
-    "cases": 3818,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/5/21",
-    "cases": 3828,
+    "cases": 3798,
     "deaths": 59,
     "recovered": 0,
     "new": 10,
     "newDeaths": 0
   },
   {
+    "dateStr": "3/5/21",
+    "cases": 3802,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "3/6/21",
-    "cases": 3834,
+    "cases": 3808,
     "deaths": 59,
     "recovered": 0,
     "new": 6,
@@ -3281,39 +3281,39 @@
   },
   {
     "dateStr": "3/7/21",
-    "cases": 3837,
+    "cases": 3809,
     "deaths": 59,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "3/8/21",
-    "cases": 3837,
+    "cases": 3821,
     "deaths": 59,
     "recovered": 0,
-    "new": 0,
+    "new": 12,
     "newDeaths": 0
   },
   {
     "dateStr": "3/9/21",
-    "cases": 3851,
+    "cases": 3848,
     "deaths": 59,
     "recovered": 0,
-    "new": 14,
+    "new": 27,
     "newDeaths": 0
   },
   {
     "dateStr": "3/10/21",
-    "cases": 3868,
+    "cases": 3858,
     "deaths": 59,
     "recovered": 0,
-    "new": 17,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "3/11/21",
-    "cases": 3882,
+    "cases": 3872,
     "deaths": 59,
     "recovered": 0,
     "new": 14,
@@ -3321,127 +3321,127 @@
   },
   {
     "dateStr": "3/12/21",
-    "cases": 3895,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/13/21",
-    "cases": 3895,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/14/21",
-    "cases": 3895,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/15/21",
-    "cases": 3921,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 26,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/16/21",
-    "cases": 3929,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/17/21",
-    "cases": 3939,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/18/21",
-    "cases": 3946,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/19/21",
-    "cases": 3955,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/20/21",
-    "cases": 3955,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/21/21",
-    "cases": 3955,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/22/21",
-    "cases": 3964,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/23/21",
-    "cases": 3966,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/24/21",
-    "cases": 3983,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 17,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/25/21",
-    "cases": 3986,
-    "deaths": 59,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/26/21",
-    "cases": 3991,
+    "cases": 3877,
     "deaths": 59,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
+    "dateStr": "3/13/21",
+    "cases": 3879,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/14/21",
+    "cases": 3880,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/15/21",
+    "cases": 3893,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/16/21",
+    "cases": 3906,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 13,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/17/21",
+    "cases": 3915,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/18/21",
+    "cases": 3916,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/19/21",
+    "cases": 3922,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/20/21",
+    "cases": 3927,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/21/21",
+    "cases": 3930,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/22/21",
+    "cases": 3931,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/23/21",
+    "cases": 3949,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 18,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/24/21",
+    "cases": 3953,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/25/21",
+    "cases": 3958,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/26/21",
+    "cases": 3960,
+    "deaths": 59,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "3/27/21",
-    "cases": 3991,
+    "cases": 3960,
     "deaths": 59,
     "recovered": 0,
     "new": 0,
@@ -3449,904 +3449,904 @@
   },
   {
     "dateStr": "3/28/21",
-    "cases": 3991,
+    "cases": 3962,
     "deaths": 59,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "3/29/21",
-    "cases": 3997,
-    "deaths": 60,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "3/30/21",
-    "cases": 4003,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "3/31/21",
-    "cases": 4008,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/1/21",
-    "cases": 4013,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/2/21",
-    "cases": 4013,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/3/21",
-    "cases": 4013,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/4/21",
-    "cases": 4013,
-    "deaths": 61,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/5/21",
-    "cases": 4033,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "4/6/21",
-    "cases": 4033,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/7/21",
-    "cases": 4043,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/8/21",
-    "cases": 4050,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/9/21",
-    "cases": 4054,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/10/21",
-    "cases": 4054,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/11/21",
-    "cases": 4054,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/12/21",
-    "cases": 4062,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/13/21",
-    "cases": 4075,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/14/21",
-    "cases": 4075,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/15/21",
-    "cases": 4082,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/16/21",
-    "cases": 4084,
-    "deaths": 62,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "4/17/21",
-    "cases": 4084,
-    "deaths": 62,
+    "dateStr": "3/29/21",
+    "cases": 3966,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "3/30/21",
+    "cases": 3974,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/31/21",
+    "cases": 3980,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/1/21",
+    "cases": 3988,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/2/21",
+    "cases": 3995,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/3/21",
+    "cases": 3997,
+    "deaths": 60,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/4/21",
+    "cases": 3997,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "4/5/21",
+    "cases": 4003,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/6/21",
+    "cases": 4012,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/7/21",
+    "cases": 4020,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/8/21",
+    "cases": 4024,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/9/21",
+    "cases": 4024,
+    "deaths": 61,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
+    "dateStr": "4/10/21",
+    "cases": 4028,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/11/21",
+    "cases": 4030,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/12/21",
+    "cases": 4044,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/13/21",
+    "cases": 4045,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/14/21",
+    "cases": 4053,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/15/21",
+    "cases": 4055,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/16/21",
+    "cases": 4066,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/17/21",
+    "cases": 4067,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "4/18/21",
-    "cases": 4084,
-    "deaths": 62,
+    "cases": 4067,
+    "deaths": 61,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "4/19/21",
-    "cases": 4096,
-    "deaths": 62,
-    "recovered": 0,
-    "new": 12,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/20/21",
-    "cases": 4099,
-    "deaths": 62,
+    "cases": 4070,
+    "deaths": 61,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "4/21/21",
-    "cases": 4105,
-    "deaths": 62,
+    "dateStr": "4/20/21",
+    "cases": 4074,
+    "deaths": 61,
     "recovered": 0,
-    "new": 6,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/21/21",
+    "cases": 4079,
+    "deaths": 61,
+    "recovered": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "4/22/21",
-    "cases": 4112,
+    "cases": 4083,
     "deaths": 62,
     "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/23/21",
-    "cases": 4114,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 2,
+    "new": 4,
     "newDeaths": 1
   },
   {
-    "dateStr": "4/24/21",
-    "cases": 4114,
-    "deaths": 63,
+    "dateStr": "4/23/21",
+    "cases": 4087,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/24/21",
+    "cases": 4089,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "4/25/21",
-    "cases": 4114,
-    "deaths": 63,
+    "cases": 4089,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "4/26/21",
-    "cases": 4118,
-    "deaths": 63,
+    "cases": 4093,
+    "deaths": 62,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "4/27/21",
-    "cases": 4119,
-    "deaths": 63,
+    "cases": 4095,
+    "deaths": 62,
     "recovered": 0,
-    "new": 1,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "4/28/21",
-    "cases": 4124,
-    "deaths": 63,
+    "cases": 4105,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/29/21",
+    "cases": 4109,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "4/30/21",
+    "cases": 4114,
+    "deaths": 62,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "4/29/21",
-    "cases": 4132,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "4/30/21",
-    "cases": 4140,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "5/1/21",
-    "cases": 4140,
-    "deaths": 63,
+    "cases": 4114,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/2/21",
-    "cases": 4140,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/3/21",
-    "cases": 4143,
-    "deaths": 63,
+    "cases": 4117,
+    "deaths": 62,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "5/4/21",
-    "cases": 4151,
-    "deaths": 63,
+    "dateStr": "5/3/21",
+    "cases": 4122,
+    "deaths": 62,
     "recovered": 0,
-    "new": 8,
+    "new": 5,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/4/21",
+    "cases": 4125,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "5/5/21",
-    "cases": 4152,
-    "deaths": 63,
+    "cases": 4128,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/6/21",
+    "cases": 4129,
+    "deaths": 62,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "5/6/21",
-    "cases": 4154,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "5/7/21",
-    "cases": 4154,
-    "deaths": 63,
+    "cases": 4130,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "5/8/21",
-    "cases": 4154,
-    "deaths": 63,
+    "cases": 4133,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "5/9/21",
-    "cases": 4154,
-    "deaths": 63,
+    "cases": 4133,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/10/21",
-    "cases": 4157,
-    "deaths": 63,
+    "cases": 4143,
+    "deaths": 62,
     "recovered": 0,
-    "new": 3,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "5/11/21",
-    "cases": 4168,
-    "deaths": 63,
+    "cases": 4145,
+    "deaths": 62,
     "recovered": 0,
-    "new": 11,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "5/12/21",
-    "cases": 4171,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/13/21",
-    "cases": 4175,
-    "deaths": 63,
+    "cases": 4149,
+    "deaths": 62,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
   {
-    "dateStr": "5/14/21",
-    "cases": 4175,
-    "deaths": 63,
+    "dateStr": "5/13/21",
+    "cases": 4149,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/14/21",
+    "cases": 4151,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "5/15/21",
-    "cases": 4175,
-    "deaths": 63,
+    "cases": 4153,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "5/16/21",
-    "cases": 4175,
-    "deaths": 63,
+    "cases": 4153,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/17/21",
-    "cases": 4178,
-    "deaths": 63,
+    "cases": 4156,
+    "deaths": 62,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "5/18/21",
-    "cases": 4181,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 3,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/19/21",
-    "cases": 4182,
-    "deaths": 63,
+    "cases": 4157,
+    "deaths": 62,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
-    "dateStr": "5/20/21",
-    "cases": 4184,
-    "deaths": 63,
+    "dateStr": "5/19/21",
+    "cases": 4160,
+    "deaths": 62,
     "recovered": 0,
-    "new": 2,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/20/21",
+    "cases": 4163,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "5/21/21",
-    "cases": 4186,
-    "deaths": 63,
+    "cases": 4168,
+    "deaths": 62,
     "recovered": 0,
-    "new": 2,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "5/22/21",
-    "cases": 4186,
-    "deaths": 63,
+    "cases": 4168,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/23/21",
-    "cases": 4186,
-    "deaths": 63,
+    "cases": 4170,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "5/24/21",
-    "cases": 4193,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "5/25/21",
-    "cases": 4197,
-    "deaths": 63,
+    "cases": 4174,
+    "deaths": 62,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
   {
-    "dateStr": "5/26/21",
-    "cases": 4200,
-    "deaths": 63,
+    "dateStr": "5/25/21",
+    "cases": 4175,
+    "deaths": 62,
     "recovered": 0,
-    "new": 3,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "5/26/21",
+    "cases": 4177,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "5/27/21",
-    "cases": 4200,
-    "deaths": 63,
+    "cases": 4177,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/28/21",
-    "cases": 4200,
-    "deaths": 63,
+    "cases": 4177,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/29/21",
-    "cases": 4200,
-    "deaths": 63,
+    "cases": 4177,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "5/30/21",
-    "cases": 4200,
-    "deaths": 63,
+    "cases": 4178,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "5/31/21",
-    "cases": 4200,
-    "deaths": 63,
+    "cases": 4178,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/1/21",
-    "cases": 4201,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
-    "new": 1,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "6/2/21",
-    "cases": 4202,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/3/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
-    "new": 1,
+    "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/4/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/5/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/6/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/7/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/8/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/9/21",
-    "cases": 4203,
-    "deaths": 63,
+    "cases": 4180,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/10/21",
-    "cases": 4203,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "6/11/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4182,
+    "deaths": 62,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
+    "dateStr": "6/11/21",
+    "cases": 4183,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "6/12/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4183,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/13/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4183,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/14/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4184,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/15/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4184,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/16/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4185,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/17/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4187,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "6/18/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4187,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/19/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4187,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/20/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4187,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/21/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4188,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/22/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4189,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/23/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "6/24/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/25/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/26/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/27/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/28/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/29/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "6/30/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/1/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4190,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/2/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4191,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/3/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4191,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/4/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4191,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/5/21",
-    "cases": 4205,
-    "deaths": 63,
+    "cases": 4191,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/6/21",
-    "cases": 4205,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/7/21",
-    "cases": 4205,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/8/21",
-    "cases": 4207,
-    "deaths": 63,
+    "cases": 4193,
+    "deaths": 62,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/9/21",
-    "cases": 4212,
-    "deaths": 63,
+    "dateStr": "7/7/21",
+    "cases": 4202,
+    "deaths": 62,
     "recovered": 0,
-    "new": 5,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/8/21",
+    "cases": 4206,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/9/21",
+    "cases": 4209,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "7/10/21",
-    "cases": 4212,
-    "deaths": 63,
+    "cases": 4209,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/11/21",
-    "cases": 4212,
-    "deaths": 63,
+    "cases": 4210,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/12/21",
-    "cases": 4216,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/13/21",
-    "cases": 4218,
-    "deaths": 63,
+    "cases": 4212,
+    "deaths": 62,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/14/21",
-    "cases": 4218,
-    "deaths": 63,
+    "dateStr": "7/13/21",
+    "cases": 4212,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
+    "dateStr": "7/14/21",
+    "cases": 4213,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  {
     "dateStr": "7/15/21",
-    "cases": 4219,
-    "deaths": 63,
+    "cases": 4214,
+    "deaths": 62,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/16/21",
-    "cases": 4219,
-    "deaths": 63,
+    "cases": 4221,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 7,
     "newDeaths": 0
   },
   {
     "dateStr": "7/17/21",
-    "cases": 4219,
-    "deaths": 63,
+    "cases": 4222,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "7/18/21",
-    "cases": 4219,
-    "deaths": 63,
+    "cases": 4222,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
@@ -4354,1038 +4354,1038 @@
   {
     "dateStr": "7/19/21",
     "cases": 4226,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/20/21",
-    "cases": 4230,
-    "deaths": 63,
+    "deaths": 62,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/21/21",
-    "cases": 4233,
-    "deaths": 63,
+    "dateStr": "7/20/21",
+    "cases": 4229,
+    "deaths": 62,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/22/21",
-    "cases": 4235,
-    "deaths": 63,
+    "dateStr": "7/21/21",
+    "cases": 4231,
+    "deaths": 62,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/23/21",
-    "cases": 4235,
-    "deaths": 63,
+    "dateStr": "7/22/21",
+    "cases": 4231,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/23/21",
+    "cases": 4245,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 14,
     "newDeaths": 0
   },
   {
     "dateStr": "7/24/21",
-    "cases": 4235,
-    "deaths": 63,
+    "cases": 4248,
+    "deaths": 62,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "7/25/21",
-    "cases": 4235,
-    "deaths": 63,
+    "cases": 4248,
+    "deaths": 62,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "7/26/21",
-    "cases": 4251,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "7/27/21",
-    "cases": 4256,
-    "deaths": 63,
+    "cases": 4253,
+    "deaths": 62,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/28/21",
-    "cases": 4264,
-    "deaths": 63,
+    "dateStr": "7/27/21",
+    "cases": 4261,
+    "deaths": 62,
     "recovered": 0,
     "new": 8,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/29/21",
-    "cases": 4269,
-    "deaths": 63,
+    "dateStr": "7/28/21",
+    "cases": 4267,
+    "deaths": 62,
     "recovered": 0,
-    "new": 5,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/29/21",
+    "cases": 4280,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 13,
     "newDeaths": 0
   },
   {
     "dateStr": "7/30/21",
-    "cases": 4282,
+    "cases": 4288,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "7/31/21",
+    "cases": 4294,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/1/21",
+    "cases": 4297,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/2/21",
+    "cases": 4303,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/3/21",
+    "cases": 4305,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/4/21",
+    "cases": 4325,
+    "deaths": 62,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/5/21",
+    "cases": 4352,
+    "deaths": 63,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "8/6/21",
+    "cases": 4365,
     "deaths": 63,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
   },
   {
-    "dateStr": "7/31/21",
-    "cases": 4282,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/1/21",
-    "cases": 4282,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/2/21",
-    "cases": 4299,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 17,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/3/21",
-    "cases": 4306,
+    "dateStr": "8/7/21",
+    "cases": 4372,
     "deaths": 63,
     "recovered": 0,
     "new": 7,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/4/21",
-    "cases": 4306,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/5/21",
-    "cases": 4326,
-    "deaths": 63,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/6/21",
-    "cases": 4352,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 26,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "8/7/21",
-    "cases": 4352,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "8/8/21",
-    "cases": 4352,
-    "deaths": 64,
+    "cases": 4377,
+    "deaths": 63,
     "recovered": 0,
-    "new": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "8/9/21",
-    "cases": 4379,
-    "deaths": 64,
+    "cases": 4399,
+    "deaths": 63,
     "recovered": 0,
-    "new": 27,
+    "new": 22,
     "newDeaths": 0
   },
   {
     "dateStr": "8/10/21",
-    "cases": 4396,
-    "deaths": 64,
+    "cases": 4416,
+    "deaths": 63,
     "recovered": 0,
     "new": 17,
     "newDeaths": 0
   },
   {
     "dateStr": "8/11/21",
-    "cases": 4413,
-    "deaths": 64,
+    "cases": 4441,
+    "deaths": 63,
     "recovered": 0,
-    "new": 17,
+    "new": 25,
     "newDeaths": 0
   },
   {
     "dateStr": "8/12/21",
-    "cases": 4442,
-    "deaths": 64,
+    "cases": 4460,
+    "deaths": 63,
     "recovered": 0,
-    "new": 29,
+    "new": 19,
     "newDeaths": 0
   },
   {
     "dateStr": "8/13/21",
-    "cases": 4460,
-    "deaths": 64,
+    "cases": 4479,
+    "deaths": 63,
     "recovered": 0,
-    "new": 18,
+    "new": 19,
     "newDeaths": 0
   },
   {
     "dateStr": "8/14/21",
-    "cases": 4460,
-    "deaths": 64,
+    "cases": 4511,
+    "deaths": 63,
     "recovered": 0,
-    "new": 0,
+    "new": 32,
     "newDeaths": 0
   },
   {
     "dateStr": "8/15/21",
-    "cases": 4460,
-    "deaths": 64,
+    "cases": 4520,
+    "deaths": 63,
     "recovered": 0,
-    "new": 0,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "8/16/21",
-    "cases": 4519,
-    "deaths": 64,
+    "cases": 4579,
+    "deaths": 63,
     "recovered": 0,
     "new": 59,
     "newDeaths": 0
   },
   {
     "dateStr": "8/17/21",
-    "cases": 4576,
-    "deaths": 64,
+    "cases": 4595,
+    "deaths": 63,
     "recovered": 0,
-    "new": 57,
+    "new": 16,
     "newDeaths": 0
   },
   {
     "dateStr": "8/18/21",
-    "cases": 4594,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 18,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/19/21",
-    "cases": 4613,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 19,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/20/21",
-    "cases": 4658,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 45,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/21/21",
-    "cases": 4658,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/22/21",
-    "cases": 4658,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/23/21",
-    "cases": 4738,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 80,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/24/21",
-    "cases": 4768,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 30,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/25/21",
-    "cases": 4768,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "8/26/21",
-    "cases": 4829,
-    "deaths": 66,
-    "recovered": 0,
-    "new": 61,
-    "newDeaths": 2
-  },
-  {
-    "dateStr": "8/27/21",
-    "cases": 4851,
-    "deaths": 66,
+    "cases": 4617,
+    "deaths": 63,
     "recovered": 0,
     "new": 22,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/28/21",
-    "cases": 4851,
-    "deaths": 66,
+    "dateStr": "8/19/21",
+    "cases": 4657,
+    "deaths": 63,
     "recovered": 0,
-    "new": 0,
+    "new": 40,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/29/21",
-    "cases": 4851,
-    "deaths": 66,
+    "dateStr": "8/20/21",
+    "cases": 4684,
+    "deaths": 63,
     "recovered": 0,
-    "new": 0,
+    "new": 27,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/30/21",
-    "cases": 4952,
-    "deaths": 66,
+    "dateStr": "8/21/21",
+    "cases": 4723,
+    "deaths": 63,
     "recovered": 0,
-    "new": 101,
+    "new": 39,
     "newDeaths": 0
   },
   {
-    "dateStr": "8/31/21",
-    "cases": 4973,
-    "deaths": 66,
+    "dateStr": "8/22/21",
+    "cases": 4736,
+    "deaths": 63,
     "recovered": 0,
-    "new": 21,
+    "new": 13,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/1/21",
-    "cases": 5016,
-    "deaths": 66,
+    "dateStr": "8/23/21",
+    "cases": 4767,
+    "deaths": 63,
+    "recovered": 0,
+    "new": 31,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/24/21",
+    "cases": 4784,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 17,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "8/25/21",
+    "cases": 4827,
+    "deaths": 65,
     "recovered": 0,
     "new": 43,
     "newDeaths": 0
   },
   {
-    "dateStr": "9/2/21",
-    "cases": 5080,
-    "deaths": 66,
+    "dateStr": "8/26/21",
+    "cases": 4843,
+    "deaths": 65,
     "recovered": 0,
-    "new": 64,
+    "new": 16,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/27/21",
+    "cases": 4884,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 41,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/28/21",
+    "cases": 4910,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 26,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/29/21",
+    "cases": 4949,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 39,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/30/21",
+    "cases": 4969,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "8/31/21",
+    "cases": 5008,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 39,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/1/21",
+    "cases": 5074,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 66,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/2/21",
+    "cases": 5086,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 12,
     "newDeaths": 0
   },
   {
     "dateStr": "9/3/21",
-    "cases": 5090,
+    "cases": 5098,
     "deaths": 66,
     "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
+    "new": 12,
+    "newDeaths": 1
   },
   {
     "dateStr": "9/4/21",
-    "cases": 5090,
+    "cases": 5174,
     "deaths": 66,
     "recovered": 0,
-    "new": 0,
+    "new": 76,
     "newDeaths": 0
   },
   {
     "dateStr": "9/5/21",
-    "cases": 5090,
+    "cases": 5244,
     "deaths": 66,
     "recovered": 0,
-    "new": 0,
+    "new": 70,
     "newDeaths": 0
   },
   {
     "dateStr": "9/6/21",
-    "cases": 5090,
+    "cases": 5309,
     "deaths": 66,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/7/21",
-    "cases": 5304,
-    "deaths": 67,
-    "recovered": 0,
-    "new": 214,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "9/8/21",
-    "cases": 5314,
-    "deaths": 67,
-    "recovered": 0,
-    "new": 10,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/9/21",
-    "cases": 5360,
-    "deaths": 68,
-    "recovered": 0,
-    "new": 46,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "9/10/21",
-    "cases": 5422,
-    "deaths": 68,
-    "recovered": 0,
-    "new": 62,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/11/21",
-    "cases": 5422,
-    "deaths": 68,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/12/21",
-    "cases": 5422,
-    "deaths": 68,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/13/21",
-    "cases": 5579,
-    "deaths": 69,
-    "recovered": 0,
-    "new": 157,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "9/14/21",
-    "cases": 5633,
-    "deaths": 69,
-    "recovered": 0,
-    "new": 54,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/15/21",
-    "cases": 5713,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 80,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "9/16/21",
-    "cases": 5794,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 81,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/17/21",
-    "cases": 5888,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 94,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/18/21",
-    "cases": 5888,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/19/21",
-    "cases": 5888,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/20/21",
-    "cases": 5984,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 96,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/21/21",
-    "cases": 5984,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/22/21",
-    "cases": 6030,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 46,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/23/21",
-    "cases": 6072,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 42,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/24/21",
-    "cases": 6197,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 125,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/25/21",
-    "cases": 6197,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/26/21",
-    "cases": 6197,
-    "deaths": 70,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/27/21",
-    "cases": 6384,
-    "deaths": 71,
-    "recovered": 0,
-    "new": 187,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "9/28/21",
-    "cases": 6426,
-    "deaths": 71,
-    "recovered": 0,
-    "new": 42,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/29/21",
-    "cases": 6463,
-    "deaths": 71,
-    "recovered": 0,
-    "new": 37,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "9/30/21",
-    "cases": 6528,
-    "deaths": 71,
     "recovered": 0,
     "new": 65,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/1/21",
-    "cases": 6568,
-    "deaths": 71,
+    "dateStr": "9/7/21",
+    "cases": 5317,
+    "deaths": 66,
     "recovered": 0,
-    "new": 40,
+    "new": 8,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/2/21",
-    "cases": 6568,
-    "deaths": 71,
+    "dateStr": "9/8/21",
+    "cases": 5352,
+    "deaths": 67,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/3/21",
-    "cases": 6568,
-    "deaths": 71,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/4/21",
-    "cases": 6656,
-    "deaths": 72,
-    "recovered": 0,
-    "new": 88,
+    "new": 35,
     "newDeaths": 1
   },
   {
-    "dateStr": "10/5/21",
-    "cases": 6670,
-    "deaths": 72,
+    "dateStr": "9/9/21",
+    "cases": 5415,
+    "deaths": 67,
     "recovered": 0,
-    "new": 14,
+    "new": 63,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/6/21",
-    "cases": 6707,
-    "deaths": 73,
+    "dateStr": "9/10/21",
+    "cases": 5485,
+    "deaths": 68,
     "recovered": 0,
-    "new": 37,
+    "new": 70,
     "newDeaths": 1
   },
   {
-    "dateStr": "10/7/21",
-    "cases": 6741,
-    "deaths": 74,
+    "dateStr": "9/11/21",
+    "cases": 5565,
+    "deaths": 68,
     "recovered": 0,
-    "new": 34,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/8/21",
-    "cases": 6790,
-    "deaths": 75,
-    "recovered": 0,
-    "new": 49,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "10/9/21",
-    "cases": 6790,
-    "deaths": 75,
-    "recovered": 0,
-    "new": 0,
+    "new": 80,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/10/21",
-    "cases": 6790,
-    "deaths": 75,
+    "dateStr": "9/12/21",
+    "cases": 5586,
+    "deaths": 68,
     "recovered": 0,
-    "new": 0,
+    "new": 21,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/11/21",
-    "cases": 6842,
-    "deaths": 75,
+    "dateStr": "9/13/21",
+    "cases": 5642,
+    "deaths": 68,
+    "recovered": 0,
+    "new": 56,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/14/21",
+    "cases": 5721,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 79,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "9/15/21",
+    "cases": 5782,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 61,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/16/21",
+    "cases": 5876,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 94,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/17/21",
+    "cases": 5928,
+    "deaths": 69,
     "recovered": 0,
     "new": 52,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/12/21",
-    "cases": 6892,
-    "deaths": 78,
-    "recovered": 0,
-    "new": 50,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "10/13/21",
-    "cases": 6923,
-    "deaths": 79,
+    "dateStr": "9/18/21",
+    "cases": 5959,
+    "deaths": 69,
     "recovered": 0,
     "new": 31,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/19/21",
+    "cases": 5970,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/20/21",
+    "cases": 5988,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 18,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/21/21",
+    "cases": 6017,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 29,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/22/21",
+    "cases": 6059,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 42,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/23/21",
+    "cases": 6187,
+    "deaths": 69,
+    "recovered": 0,
+    "new": 128,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/24/21",
+    "cases": 6275,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 88,
     "newDeaths": 1
   },
   {
-    "dateStr": "10/14/21",
-    "cases": 6953,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 30,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/15/21",
-    "cases": 6993,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 40,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/16/21",
-    "cases": 6993,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/17/21",
-    "cases": 6993,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/18/21",
-    "cases": 7060,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 67,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/19/21",
-    "cases": 7117,
-    "deaths": 79,
+    "dateStr": "9/25/21",
+    "cases": 6332,
+    "deaths": 70,
     "recovered": 0,
     "new": 57,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/20/21",
-    "cases": 7142,
+    "dateStr": "9/26/21",
+    "cases": 6361,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 29,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/27/21",
+    "cases": 6406,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 45,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/28/21",
+    "cases": 6439,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 33,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/29/21",
+    "cases": 6501,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 62,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "9/30/21",
+    "cases": 6542,
+    "deaths": 70,
+    "recovered": 0,
+    "new": 41,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/1/21",
+    "cases": 6576,
+    "deaths": 71,
+    "recovered": 0,
+    "new": 34,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/2/21",
+    "cases": 6617,
+    "deaths": 71,
+    "recovered": 0,
+    "new": 41,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/3/21",
+    "cases": 6631,
+    "deaths": 71,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/4/21",
+    "cases": 6677,
+    "deaths": 71,
+    "recovered": 0,
+    "new": 46,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/5/21",
+    "cases": 6700,
+    "deaths": 72,
+    "recovered": 0,
+    "new": 23,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/6/21",
+    "cases": 6731,
+    "deaths": 73,
+    "recovered": 0,
+    "new": 31,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/7/21",
+    "cases": 6768,
+    "deaths": 74,
+    "recovered": 0,
+    "new": 37,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/8/21",
+    "cases": 6788,
+    "deaths": 74,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/9/21",
+    "cases": 6803,
+    "deaths": 75,
+    "recovered": 0,
+    "new": 15,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/10/21",
+    "cases": 6809,
+    "deaths": 75,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/11/21",
+    "cases": 6864,
+    "deaths": 78,
+    "recovered": 0,
+    "new": 55,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "10/12/21",
+    "cases": 6890,
     "deaths": 79,
     "recovered": 0,
-    "new": 25,
+    "new": 26,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "10/13/21",
+    "cases": 6926,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 36,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/14/21",
+    "cases": 6968,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 42,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/15/21",
+    "cases": 7003,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 35,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/16/21",
+    "cases": 7015,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 12,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/17/21",
+    "cases": 7029,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/18/21",
+    "cases": 7087,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 58,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/19/21",
+    "cases": 7115,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 28,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/20/21",
+    "cases": 7138,
+    "deaths": 79,
+    "recovered": 0,
+    "new": 23,
     "newDeaths": 0
   },
   {
     "dateStr": "10/21/21",
-    "cases": 7172,
-    "deaths": 79,
-    "recovered": 0,
-    "new": 30,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/22/21",
-    "cases": 7183,
+    "cases": 7149,
     "deaths": 80,
     "recovered": 0,
     "new": 11,
     "newDeaths": 1
   },
   {
-    "dateStr": "10/23/21",
-    "cases": 7183,
+    "dateStr": "10/22/21",
+    "cases": 7159,
     "deaths": 80,
     "recovered": 0,
-    "new": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/23/21",
+    "cases": 7168,
+    "deaths": 80,
+    "recovered": 0,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "10/24/21",
-    "cases": 7183,
+    "cases": 7172,
     "deaths": 80,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "10/25/21",
-    "cases": 7183,
+    "cases": 7187,
     "deaths": 80,
     "recovered": 0,
-    "new": 0,
+    "new": 15,
     "newDeaths": 0
   },
   {
     "dateStr": "10/26/21",
-    "cases": 7217,
-    "deaths": 80,
-    "recovered": 0,
-    "new": 34,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "10/27/21",
-    "cases": 7233,
+    "cases": 7203,
     "deaths": 80,
     "recovered": 0,
     "new": 16,
     "newDeaths": 0
   },
   {
-    "dateStr": "10/28/21",
-    "cases": 7257,
+    "dateStr": "10/27/21",
+    "cases": 7229,
     "deaths": 80,
     "recovered": 0,
-    "new": 24,
+    "new": 26,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "10/28/21",
+    "cases": 7235,
+    "deaths": 80,
+    "recovered": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "10/29/21",
-    "cases": 7268,
-    "deaths": 80,
+    "cases": 7247,
+    "deaths": 81,
     "recovered": 0,
-    "new": 11,
-    "newDeaths": 0
+    "new": 12,
+    "newDeaths": 1
   },
   {
     "dateStr": "10/30/21",
-    "cases": 7268,
-    "deaths": 80,
+    "cases": 7253,
+    "deaths": 81,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "10/31/21",
-    "cases": 7268,
-    "deaths": 80,
+    "cases": 7256,
+    "deaths": 81,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "11/1/21",
     "cases": 7268,
-    "deaths": 80,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/2/21",
-    "cases": 7297,
     "deaths": 83,
     "recovered": 0,
-    "new": 29,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "11/3/21",
-    "cases": 7300,
-    "deaths": 85,
-    "recovered": 0,
-    "new": 3,
+    "new": 12,
     "newDeaths": 2
   },
   {
-    "dateStr": "11/4/21",
-    "cases": 7320,
+    "dateStr": "11/2/21",
+    "cases": 7272,
+    "deaths": 85,
+    "recovered": 0,
+    "new": 4,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "11/3/21",
+    "cases": 7290,
     "deaths": 86,
     "recovered": 0,
-    "new": 20,
+    "new": 18,
     "newDeaths": 1
   },
   {
-    "dateStr": "11/5/21",
-    "cases": 7330,
+    "dateStr": "11/4/21",
+    "cases": 7299,
     "deaths": 86,
     "recovered": 0,
-    "new": 10,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/5/21",
+    "cases": 7307,
+    "deaths": 86,
+    "recovered": 0,
+    "new": 8,
     "newDeaths": 0
   },
   {
     "dateStr": "11/6/21",
-    "cases": 7330,
+    "cases": 7312,
     "deaths": 86,
     "recovered": 0,
-    "new": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "11/7/21",
-    "cases": 7330,
+    "cases": 7315,
     "deaths": 86,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "11/8/21",
-    "cases": 7330,
-    "deaths": 86,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/9/21",
-    "cases": 7351,
+    "cases": 7323,
     "deaths": 87,
     "recovered": 0,
-    "new": 21,
+    "new": 8,
     "newDeaths": 1
   },
   {
-    "dateStr": "11/10/21",
-    "cases": 7385,
+    "dateStr": "11/9/21",
+    "cases": 7353,
     "deaths": 87,
     "recovered": 0,
-    "new": 34,
+    "new": 30,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/11/21",
-    "cases": 7385,
-    "deaths": 87,
+    "dateStr": "11/10/21",
+    "cases": 7363,
+    "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 10,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/11/21",
+    "cases": 7372,
+    "deaths": 88,
+    "recovered": 0,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "11/12/21",
-    "cases": 7396,
+    "cases": 7380,
     "deaths": 88,
     "recovered": 0,
-    "new": 11,
-    "newDeaths": 1
+    "new": 8,
+    "newDeaths": 0
   },
   {
     "dateStr": "11/13/21",
-    "cases": 7396,
+    "cases": 7383,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "11/14/21",
-    "cases": 7396,
+    "cases": 7389,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "11/15/21",
-    "cases": 7416,
-    "deaths": 88,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/16/21",
-    "cases": 7429,
+    "cases": 7402,
     "deaths": 88,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/17/21",
-    "cases": 7446,
+    "dateStr": "11/16/21",
+    "cases": 7418,
     "deaths": 88,
     "recovered": 0,
-    "new": 17,
+    "new": 16,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/18/21",
-    "cases": 7456,
+    "dateStr": "11/17/21",
+    "cases": 7428,
     "deaths": 88,
     "recovered": 0,
     "new": 10,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/19/21",
-    "cases": 7468,
+    "dateStr": "11/18/21",
+    "cases": 7446,
     "deaths": 88,
     "recovered": 0,
-    "new": 12,
+    "new": 18,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/19/21",
+    "cases": 7452,
+    "deaths": 88,
+    "recovered": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "11/20/21",
-    "cases": 7468,
+    "cases": 7456,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 4,
     "newDeaths": 0
   },
   {
     "dateStr": "11/21/21",
-    "cases": 7468,
+    "cases": 7459,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   {
     "dateStr": "11/22/21",
-    "cases": 7483,
-    "deaths": 88,
-    "recovered": 0,
-    "new": 15,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "11/23/21",
-    "cases": 7495,
+    "cases": 7471,
     "deaths": 88,
     "recovered": 0,
     "new": 12,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/24/21",
-    "cases": 7508,
+    "dateStr": "11/23/21",
+    "cases": 7485,
     "deaths": 88,
     "recovered": 0,
-    "new": 13,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/24/21",
+    "cases": 7494,
+    "deaths": 88,
+    "recovered": 0,
+    "new": 9,
     "newDeaths": 0
   },
   {
     "dateStr": "11/25/21",
-    "cases": 7508,
+    "cases": 7494,
     "deaths": 88,
     "recovered": 0,
     "new": 0,
@@ -5393,768 +5393,768 @@
   },
   {
     "dateStr": "11/26/21",
-    "cases": 7508,
+    "cases": 7495,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   {
     "dateStr": "11/27/21",
-    "cases": 7508,
+    "cases": 7497,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "11/28/21",
-    "cases": 7508,
+    "cases": 7499,
     "deaths": 88,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   {
     "dateStr": "11/29/21",
-    "cases": 7523,
-    "deaths": 88,
+    "cases": 7517,
+    "deaths": 89,
+    "recovered": 0,
+    "new": 18,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/30/21",
+    "cases": 7533,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 16,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "12/1/21",
+    "cases": 7547,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/2/21",
+    "cases": 7556,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/3/21",
+    "cases": 7576,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 20,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/4/21",
+    "cases": 7582,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/5/21",
+    "cases": 7592,
+    "deaths": 92,
+    "recovered": 0,
+    "new": 10,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/6/21",
+    "cases": 7611,
+    "deaths": 93,
+    "recovered": 0,
+    "new": 19,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/7/21",
+    "cases": 7625,
+    "deaths": 93,
+    "recovered": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/8/21",
+    "cases": 7633,
+    "deaths": 93,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/9/21",
+    "cases": 7645,
+    "deaths": 93,
+    "recovered": 0,
+    "new": 12,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/10/21",
+    "cases": 7652,
+    "deaths": 94,
+    "recovered": 0,
+    "new": 7,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/11/21",
+    "cases": 7667,
+    "deaths": 94,
     "recovered": 0,
     "new": 15,
     "newDeaths": 0
   },
   {
-    "dateStr": "11/30/21",
-    "cases": 7543,
-    "deaths": 89,
-    "recovered": 0,
-    "new": 20,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "12/1/21",
-    "cases": 7559,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "12/2/21",
-    "cases": 7572,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 13,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/3/21",
-    "cases": 7581,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/4/21",
-    "cases": 7581,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/5/21",
-    "cases": 7581,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/6/21",
-    "cases": 7617,
-    "deaths": 92,
-    "recovered": 0,
-    "new": 36,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/7/21",
-    "cases": 7633,
-    "deaths": 93,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "12/8/21",
-    "cases": 7650,
-    "deaths": 93,
-    "recovered": 0,
-    "new": 17,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/9/21",
-    "cases": 7650,
-    "deaths": 93,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/10/21",
-    "cases": 7669,
-    "deaths": 93,
-    "recovered": 0,
-    "new": 19,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/11/21",
-    "cases": 7669,
-    "deaths": 93,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "12/12/21",
-    "cases": 7669,
-    "deaths": 93,
+    "cases": 7673,
+    "deaths": 94,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "12/13/21",
-    "cases": 7693,
+    "cases": 7691,
     "deaths": 94,
     "recovered": 0,
-    "new": 24,
-    "newDeaths": 1
+    "new": 18,
+    "newDeaths": 0
   },
   {
     "dateStr": "12/14/21",
-    "cases": 7709,
-    "deaths": 94,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "12/15/21",
-    "cases": 7743,
+    "cases": 7719,
     "deaths": 95,
     "recovered": 0,
-    "new": 34,
+    "new": 28,
     "newDeaths": 1
   },
   {
-    "dateStr": "12/16/21",
-    "cases": 7752,
+    "dateStr": "12/15/21",
+    "cases": 7727,
     "deaths": 95,
     "recovered": 0,
-    "new": 9,
+    "new": 8,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/17/21",
-    "cases": 7764,
+    "dateStr": "12/16/21",
+    "cases": 7740,
     "deaths": 96,
     "recovered": 0,
-    "new": 12,
+    "new": 13,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/17/21",
+    "cases": 7758,
+    "deaths": 97,
+    "recovered": 0,
+    "new": 18,
     "newDeaths": 1
   },
   {
     "dateStr": "12/18/21",
     "cases": 7764,
-    "deaths": 96,
+    "deaths": 97,
     "recovered": 0,
-    "new": 0,
+    "new": 6,
     "newDeaths": 0
   },
   {
     "dateStr": "12/19/21",
-    "cases": 7764,
-    "deaths": 96,
+    "cases": 7774,
+    "deaths": 97,
     "recovered": 0,
-    "new": 0,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "12/20/21",
-    "cases": 7794,
-    "deaths": 97,
+    "cases": 7791,
+    "deaths": 98,
     "recovered": 0,
-    "new": 30,
+    "new": 17,
     "newDeaths": 1
   },
   {
     "dateStr": "12/21/21",
-    "cases": 7813,
+    "cases": 7808,
     "deaths": 98,
     "recovered": 0,
-    "new": 19,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "12/22/21",
-    "cases": 7829,
-    "deaths": 98,
-    "recovered": 0,
-    "new": 16,
+    "new": 17,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/23/21",
-    "cases": 7854,
+    "dateStr": "12/22/21",
+    "cases": 7831,
     "deaths": 121,
     "recovered": 0,
-    "new": 25,
+    "new": 23,
     "newDeaths": 23
   },
   {
-    "dateStr": "12/24/21",
-    "cases": 7854,
+    "dateStr": "12/23/21",
+    "cases": 7845,
     "deaths": 121,
     "recovered": 0,
-    "new": 0,
+    "new": 14,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/24/21",
+    "cases": 7860,
+    "deaths": 121,
+    "recovered": 0,
+    "new": 15,
     "newDeaths": 0
   },
   {
     "dateStr": "12/25/21",
-    "cases": 7854,
-    "deaths": 121,
+    "cases": 7865,
+    "deaths": 122,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 5,
+    "newDeaths": 1
   },
   {
     "dateStr": "12/26/21",
-    "cases": 7854,
-    "deaths": 121,
+    "cases": 7868,
+    "deaths": 126,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 3,
+    "newDeaths": 4
   },
   {
     "dateStr": "12/27/21",
-    "cases": 7891,
-    "deaths": 126,
-    "recovered": 0,
-    "new": 37,
-    "newDeaths": 5
-  },
-  {
-    "dateStr": "12/28/21",
-    "cases": 7951,
+    "cases": 7931,
     "deaths": 128,
     "recovered": 0,
-    "new": 60,
+    "new": 63,
     "newDeaths": 2
   },
   {
-    "dateStr": "12/29/21",
-    "cases": 7989,
+    "dateStr": "12/28/21",
+    "cases": 7970,
     "deaths": 128,
+    "recovered": 0,
+    "new": 39,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/29/21",
+    "cases": 8007,
+    "deaths": 128,
+    "recovered": 0,
+    "new": 37,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/30/21",
+    "cases": 8049,
+    "deaths": 128,
+    "recovered": 0,
+    "new": 42,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "12/31/21",
+    "cases": 8076,
+    "deaths": 128,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/1/22",
+    "cases": 8103,
+    "deaths": 128,
+    "recovered": 0,
+    "new": 27,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/2/22",
+    "cases": 8136,
+    "deaths": 128,
+    "recovered": 0,
+    "new": 33,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/3/22",
+    "cases": 8161,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 25,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/4/22",
+    "cases": 8211,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 50,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/5/22",
+    "cases": 8305,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 94,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/6/22",
+    "cases": 8424,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 119,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/7/22",
+    "cases": 8449,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 25,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/8/22",
+    "cases": 8475,
+    "deaths": 129,
+    "recovered": 0,
+    "new": 26,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/9/22",
+    "cases": 8513,
+    "deaths": 129,
     "recovered": 0,
     "new": 38,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/30/21",
-    "cases": 8026,
-    "deaths": 128,
+    "dateStr": "1/10/22",
+    "cases": 8563,
+    "deaths": 130,
+    "recovered": 0,
+    "new": 50,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/11/22",
+    "cases": 8650,
+    "deaths": 130,
+    "recovered": 0,
+    "new": 87,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/12/22",
+    "cases": 8745,
+    "deaths": 130,
+    "recovered": 0,
+    "new": 95,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/13/22",
+    "cases": 8860,
+    "deaths": 132,
+    "recovered": 0,
+    "new": 115,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "1/14/22",
+    "cases": 8963,
+    "deaths": 132,
+    "recovered": 0,
+    "new": 103,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/15/22",
+    "cases": 9029,
+    "deaths": 132,
+    "recovered": 0,
+    "new": 66,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/16/22",
+    "cases": 9082,
+    "deaths": 132,
+    "recovered": 0,
+    "new": 53,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/17/22",
+    "cases": 9188,
+    "deaths": 132,
+    "recovered": 0,
+    "new": 106,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/18/22",
+    "cases": 9292,
+    "deaths": 133,
+    "recovered": 0,
+    "new": 104,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/19/22",
+    "cases": 9422,
+    "deaths": 133,
+    "recovered": 0,
+    "new": 130,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/20/22",
+    "cases": 9595,
+    "deaths": 134,
+    "recovered": 0,
+    "new": 173,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/21/22",
+    "cases": 9789,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 194,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/22/22",
+    "cases": 9848,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 59,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/23/22",
+    "cases": 9905,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 57,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/24/22",
+    "cases": 10098,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 193,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/25/22",
+    "cases": 10206,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 108,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/26/22",
+    "cases": 10286,
+    "deaths": 135,
+    "recovered": 0,
+    "new": 80,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "1/27/22",
+    "cases": 10456,
+    "deaths": 136,
+    "recovered": 0,
+    "new": 170,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/28/22",
+    "cases": 10577,
+    "deaths": 137,
+    "recovered": 0,
+    "new": 121,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "1/29/22",
+    "cases": 10614,
+    "deaths": 137,
     "recovered": 0,
     "new": 37,
     "newDeaths": 0
   },
   {
-    "dateStr": "12/31/21",
-    "cases": 8026,
-    "deaths": 128,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/1/22",
-    "cases": 8026,
-    "deaths": 128,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/2/22",
-    "cases": 8026,
-    "deaths": 128,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/3/22",
-    "cases": 8157,
-    "deaths": 128,
-    "recovered": 0,
-    "new": 131,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/4/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 1
-  },
-  {
-    "dateStr": "1/5/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/6/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/7/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/8/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/9/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/10/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/11/22",
-    "cases": 8182,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/12/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 317,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/13/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/14/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/15/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/16/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/17/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/18/22",
-    "cases": 8499,
-    "deaths": 129,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/19/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 553,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "1/20/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/21/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/22/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/23/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/24/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/25/22",
-    "cases": 9052,
-    "deaths": 132,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/26/22",
-    "cases": 9870,
-    "deaths": 135,
-    "recovered": 0,
-    "new": 818,
-    "newDeaths": 3
-  },
-  {
-    "dateStr": "1/27/22",
-    "cases": 9870,
-    "deaths": 135,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/28/22",
-    "cases": 9870,
-    "deaths": 135,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "1/29/22",
-    "cases": 9870,
-    "deaths": 135,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
     "dateStr": "1/30/22",
-    "cases": 9870,
-    "deaths": 135,
+    "cases": 10663,
+    "deaths": 137,
     "recovered": 0,
-    "new": 0,
+    "new": 49,
     "newDeaths": 0
   },
   {
     "dateStr": "1/31/22",
-    "cases": 9870,
-    "deaths": 135,
+    "cases": 10769,
+    "deaths": 138,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 106,
+    "newDeaths": 1
   },
   {
     "dateStr": "2/1/22",
-    "cases": 9870,
-    "deaths": 135,
+    "cases": 10879,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 110,
+    "newDeaths": 1
   },
   {
     "dateStr": "2/2/22",
-    "cases": 9870,
-    "deaths": 135,
+    "cases": 10942,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
+    "new": 63,
     "newDeaths": 0
   },
   {
     "dateStr": "2/3/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11047,
+    "deaths": 139,
     "recovered": 0,
-    "new": 762,
-    "newDeaths": 3
+    "new": 105,
+    "newDeaths": 0
   },
   {
     "dateStr": "2/4/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11118,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
+    "new": 71,
     "newDeaths": 0
   },
   {
     "dateStr": "2/5/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11174,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
+    "new": 56,
     "newDeaths": 0
   },
   {
     "dateStr": "2/6/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11186,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
+    "new": 12,
     "newDeaths": 0
   },
   {
     "dateStr": "2/7/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11240,
+    "deaths": 139,
     "recovered": 0,
-    "new": 0,
+    "new": 54,
     "newDeaths": 0
   },
   {
     "dateStr": "2/8/22",
-    "cases": 10632,
-    "deaths": 138,
+    "cases": 11285,
+    "deaths": 140,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/9/22",
-    "cases": 11189,
-    "deaths": 139,
-    "recovered": 0,
-    "new": 557,
+    "new": 45,
     "newDeaths": 1
   },
   {
-    "dateStr": "2/10/22",
-    "cases": 11189,
-    "deaths": 139,
+    "dateStr": "2/9/22",
+    "cases": 11356,
+    "deaths": 140,
     "recovered": 0,
-    "new": 0,
+    "new": 71,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "2/10/22",
+    "cases": 11398,
+    "deaths": 140,
+    "recovered": 0,
+    "new": 42,
     "newDeaths": 0
   },
   {
     "dateStr": "2/11/22",
-    "cases": 11189,
-    "deaths": 139,
+    "cases": 11436,
+    "deaths": 141,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 38,
+    "newDeaths": 1
   },
   {
     "dateStr": "2/12/22",
-    "cases": 11189,
-    "deaths": 139,
+    "cases": 11449,
+    "deaths": 141,
     "recovered": 0,
-    "new": 0,
+    "new": 13,
     "newDeaths": 0
   },
   {
     "dateStr": "2/13/22",
-    "cases": 11189,
-    "deaths": 139,
+    "cases": 11475,
+    "deaths": 141,
     "recovered": 0,
-    "new": 0,
+    "new": 26,
     "newDeaths": 0
   },
   {
     "dateStr": "2/14/22",
-    "cases": 11189,
-    "deaths": 139,
+    "cases": 11507,
+    "deaths": 143,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/15/22",
-    "cases": 11189,
-    "deaths": 139,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  {
-    "dateStr": "2/16/22",
-    "cases": 11456,
-    "deaths": 141,
-    "recovered": 0,
-    "new": 267,
+    "new": 32,
     "newDeaths": 2
   },
   {
-    "dateStr": "2/17/22",
-    "cases": 11456,
-    "deaths": 141,
+    "dateStr": "2/15/22",
+    "cases": 11541,
+    "deaths": 144,
     "recovered": 0,
-    "new": 0,
+    "new": 34,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/16/22",
+    "cases": 11590,
+    "deaths": 145,
+    "recovered": 0,
+    "new": 49,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "2/17/22",
+    "cases": 11632,
+    "deaths": 145,
+    "recovered": 0,
+    "new": 42,
     "newDeaths": 0
   },
   {
     "dateStr": "2/18/22",
-    "cases": 11456,
-    "deaths": 141,
+    "cases": 11681,
+    "deaths": 145,
     "recovered": 0,
-    "new": 0,
+    "new": 49,
     "newDeaths": 0
   },
   {
     "dateStr": "2/19/22",
-    "cases": 11456,
-    "deaths": 141,
+    "cases": 11693,
+    "deaths": 145,
     "recovered": 0,
-    "new": 0,
+    "new": 12,
     "newDeaths": 0
   },
   {
     "dateStr": "2/20/22",
-    "cases": 11456,
-    "deaths": 141,
+    "cases": 11715,
+    "deaths": 145,
     "recovered": 0,
-    "new": 0,
+    "new": 22,
     "newDeaths": 0
   },
   {
     "dateStr": "2/21/22",
-    "cases": 11456,
-    "deaths": 141,
+    "cases": 11767,
+    "deaths": 145,
     "recovered": 0,
-    "new": 0,
+    "new": 52,
     "newDeaths": 0
   },
   {
     "dateStr": "2/22/22",
-    "cases": 11456,
-    "deaths": 141,
+    "cases": 11820,
+    "deaths": 146,
     "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
+    "new": 53,
+    "newDeaths": 1
   },
   {
     "dateStr": "2/23/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11872,
+    "deaths": 150,
     "recovered": 0,
-    "new": 238,
+    "new": 52,
     "newDeaths": 4
   },
   {
     "dateStr": "2/24/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11902,
+    "deaths": 150,
     "recovered": 0,
-    "new": 0,
+    "new": 30,
     "newDeaths": 0
   },
   {
     "dateStr": "2/25/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11912,
+    "deaths": 150,
     "recovered": 0,
-    "new": 0,
+    "new": 10,
     "newDeaths": 0
   },
   {
     "dateStr": "2/26/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11917,
+    "deaths": 150,
     "recovered": 0,
-    "new": 0,
+    "new": 5,
     "newDeaths": 0
   },
   {
     "dateStr": "2/27/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11917,
+    "deaths": 150,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "2/28/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11917,
+    "deaths": 150,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
   {
     "dateStr": "3/1/22",
-    "cases": 11694,
-    "deaths": 145,
+    "cases": 11917,
+    "deaths": 150,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
@@ -6164,8 +6164,8 @@
     "cases": 11917,
     "deaths": 150,
     "recovered": 0,
-    "new": 223,
-    "newDeaths": 5
+    "new": 0,
+    "newDeaths": 0
   },
   {
     "dateStr": "3/3/22",
@@ -6222,5 +6222,21 @@
     "recovered": 0,
     "new": 93,
     "newDeaths": 3
+  },
+  {
+    "dateStr": "3/10/22",
+    "cases": 12010,
+    "deaths": 153,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "3/11/22",
+    "cases": 12010,
+    "deaths": 153,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
   }
 ]
