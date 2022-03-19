@@ -1,86 +1,86 @@
 {
   "Baker": {
-    "dateStr": "3/11/22",
-    "cases": 3200,
+    "dateStr": "3/18/22",
+    "cases": 3204,
     "deaths": 46,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 0
+  },
+  "Benton": {
+    "dateStr": "3/18/22",
+    "cases": 14976,
+    "deaths": 65,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Clackamas": {
+    "dateStr": "3/18/22",
+    "cases": 59674,
+    "deaths": 565,
+    "recovered": 0,
+    "new": 22,
+    "newDeaths": 3
+  },
+  "Clatsop": {
+    "dateStr": "3/18/22",
+    "cases": 4564,
+    "deaths": 41,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Benton": {
-    "dateStr": "3/11/22",
-    "cases": 14946,
-    "deaths": 64,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
-  "Clackamas": {
-    "dateStr": "3/11/22",
-    "cases": 59482,
-    "deaths": 549,
-    "recovered": 0,
-    "new": 27,
-    "newDeaths": 2
-  },
-  "Clatsop": {
-    "dateStr": "3/11/22",
-    "cases": 4545,
-    "deaths": 39,
-    "recovered": 0,
-    "new": 4,
-    "newDeaths": 0
-  },
   "Columbia": {
-    "dateStr": "3/11/22",
-    "cases": 7499,
-    "deaths": 76,
+    "dateStr": "3/18/22",
+    "cases": 7526,
+    "deaths": 78,
     "recovered": 0,
     "new": 5,
     "newDeaths": 0
   },
   "Coos": {
-    "dateStr": "3/11/22",
-    "cases": 10557,
-    "deaths": 145,
-    "recovered": 0,
-    "new": 8,
-    "newDeaths": 0
-  },
-  "Crook": {
-    "dateStr": "3/11/22",
-    "cases": 6019,
-    "deaths": 77,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
-  "Curry": {
-    "dateStr": "3/11/22",
-    "cases": 3311,
-    "deaths": 45,
+    "dateStr": "3/18/22",
+    "cases": 10596,
+    "deaths": 146,
     "recovered": 0,
     "new": 2,
     "newDeaths": 0
   },
-  "Deschutes": {
-    "dateStr": "3/11/22",
-    "cases": 45531,
-    "deaths": 254,
+  "Crook": {
+    "dateStr": "3/18/22",
+    "cases": 6029,
+    "deaths": 77,
     "recovered": 0,
-    "new": 30,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Curry": {
+    "dateStr": "3/18/22",
+    "cases": 3320,
+    "deaths": 46,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 1
+  },
+  "Deschutes": {
+    "dateStr": "3/18/22",
+    "cases": 45682,
+    "deaths": 260,
+    "recovered": 0,
+    "new": 27,
     "newDeaths": 0
   },
   "Douglas": {
-    "dateStr": "3/11/22",
-    "cases": 19599,
-    "deaths": 373,
+    "dateStr": "3/18/22",
+    "cases": 19656,
+    "deaths": 378,
     "recovered": 0,
-    "new": 25,
+    "new": 6,
     "newDeaths": 0
   },
   "Gilliam": {
-    "dateStr": "3/11/22",
+    "dateStr": "3/18/22",
     "cases": 283,
     "deaths": 5,
     "recovered": 0,
@@ -88,127 +88,127 @@
     "newDeaths": 0
   },
   "Grant": {
-    "dateStr": "3/11/22",
-    "cases": 1609,
+    "dateStr": "3/18/22",
+    "cases": 1647,
     "deaths": 18,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Harney": {
-    "dateStr": "3/11/22",
-    "cases": 1594,
-    "deaths": 37,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Hood River": {
-    "dateStr": "3/11/22",
-    "cases": 3506,
-    "deaths": 42,
-    "recovered": 0,
-    "new": 2,
-    "newDeaths": 0
-  },
-  "Jackson": {
-    "dateStr": "3/11/22",
-    "cases": 42356,
-    "deaths": 500,
-    "recovered": 0,
-    "new": 14,
-    "newDeaths": 0
-  },
-  "Jefferson": {
-    "dateStr": "3/11/22",
-    "cases": 7178,
-    "deaths": 85,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 1
-  },
-  "Josephine": {
-    "dateStr": "3/11/22",
-    "cases": 16178,
-    "deaths": 315,
-    "recovered": 0,
-    "new": 16,
-    "newDeaths": 0
-  },
-  "Klamath": {
-    "dateStr": "3/11/22",
-    "cases": 14012,
-    "deaths": 200,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
+  "Harney": {
+    "dateStr": "3/18/22",
+    "cases": 1599,
+    "deaths": 37,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Hood River": {
+    "dateStr": "3/18/22",
+    "cases": 3521,
+    "deaths": 42,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Jackson": {
+    "dateStr": "3/18/22",
+    "cases": 42462,
+    "deaths": 503,
+    "recovered": 0,
+    "new": 17,
+    "newDeaths": 1
+  },
+  "Jefferson": {
+    "dateStr": "3/18/22",
+    "cases": 7189,
+    "deaths": 86,
+    "recovered": 0,
+    "new": 3,
+    "newDeaths": 0
+  },
+  "Josephine": {
+    "dateStr": "3/18/22",
+    "cases": 16250,
+    "deaths": 318,
+    "recovered": 0,
+    "new": 8,
+    "newDeaths": 1
+  },
+  "Klamath": {
+    "dateStr": "3/18/22",
+    "cases": 14054,
+    "deaths": 206,
+    "recovered": 0,
+    "new": 6,
+    "newDeaths": 2
+  },
   "Lake": {
-    "dateStr": "3/11/22",
-    "cases": 1389,
+    "dateStr": "3/18/22",
+    "cases": 1396,
     "deaths": 25,
     "recovered": 0,
-    "new": 0,
+    "new": 2,
     "newDeaths": 0
   },
   "Lane": {
-    "dateStr": "3/11/22",
-    "cases": 56677,
-    "deaths": 480,
+    "dateStr": "3/18/22",
+    "cases": 56882,
+    "deaths": 490,
     "recovered": 0,
-    "new": 31,
-    "newDeaths": 3
+    "new": 23,
+    "newDeaths": 1
   },
   "Lincoln": {
-    "dateStr": "3/11/22",
-    "cases": 6969,
-    "deaths": 78,
+    "dateStr": "3/18/22",
+    "cases": 6984,
+    "deaths": 79,
     "recovered": 0,
-    "new": 10,
+    "new": 2,
     "newDeaths": 0
   },
   "Linn": {
-    "dateStr": "3/11/22",
-    "cases": 26253,
-    "deaths": 239,
+    "dateStr": "3/18/22",
+    "cases": 26314,
+    "deaths": 243,
     "recovered": 0,
-    "new": 16,
+    "new": 7,
     "newDeaths": 0
   },
   "Malheur": {
-    "dateStr": "3/11/22",
-    "cases": 8190,
-    "deaths": 101,
+    "dateStr": "3/18/22",
+    "cases": 8194,
+    "deaths": 105,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Marion": {
-    "dateStr": "3/11/22",
+    "dateStr": "3/18/22",
     "cases": 68578,
-    "deaths": 673,
-    "recovered": 0,
-    "new": 25,
-    "newDeaths": 3
-  },
-  "Morrow": {
-    "dateStr": "3/11/22",
-    "cases": 2946,
-    "deaths": 32,
+    "deaths": 685,
     "recovered": 0,
     "new": 0,
+    "newDeaths": 1
+  },
+  "Morrow": {
+    "dateStr": "3/18/22",
+    "cases": 2950,
+    "deaths": 32,
+    "recovered": 0,
+    "new": 3,
     "newDeaths": 0
   },
   "Multnomah": {
-    "dateStr": "3/11/22",
-    "cases": 111747,
-    "deaths": 1098,
+    "dateStr": "3/18/22",
+    "cases": 112182,
+    "deaths": 1108,
     "recovered": 0,
-    "new": 103,
-    "newDeaths": 4
+    "new": 66,
+    "newDeaths": 0
   },
   "Out of OR": {
-    "dateStr": "3/11/22",
+    "dateStr": "3/18/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -216,39 +216,39 @@
     "newDeaths": 0
   },
   "Polk": {
-    "dateStr": "3/11/22",
-    "cases": 15164,
+    "dateStr": "3/18/22",
+    "cases": 15198,
     "deaths": 127,
     "recovered": 0,
-    "new": 8,
+    "new": 5,
     "newDeaths": 0
   },
   "Sherman": {
-    "dateStr": "3/11/22",
-    "cases": 316,
+    "dateStr": "3/18/22",
+    "cases": 317,
     "deaths": 4,
-    "recovered": 0,
-    "new": 0,
-    "newDeaths": 0
-  },
-  "Tillamook": {
-    "dateStr": "3/11/22",
-    "cases": 3606,
-    "deaths": 58,
     "recovered": 0,
     "new": 1,
     "newDeaths": 0
   },
-  "Umatilla": {
-    "dateStr": "3/11/22",
-    "cases": 22270,
-    "deaths": 205,
+  "Tillamook": {
+    "dateStr": "3/18/22",
+    "cases": 3622,
+    "deaths": 59,
     "recovered": 0,
-    "new": 3,
+    "new": 9,
+    "newDeaths": 0
+  },
+  "Umatilla": {
+    "dateStr": "3/18/22",
+    "cases": 22289,
+    "deaths": 206,
+    "recovered": 0,
+    "new": 0,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "3/11/22",
+    "dateStr": "3/18/22",
     "cases": 1,
     "deaths": 1,
     "recovered": 0,
@@ -256,39 +256,39 @@
     "newDeaths": 0
   },
   "Union": {
-    "dateStr": "3/11/22",
-    "cases": 5007,
+    "dateStr": "3/18/22",
+    "cases": 5009,
     "deaths": 74,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Wallowa": {
-    "dateStr": "3/11/22",
-    "cases": 1241,
-    "deaths": 15,
     "recovered": 0,
     "new": 0,
     "newDeaths": 0
   },
-  "Wasco": {
-    "dateStr": "3/11/22",
-    "cases": 5086,
-    "deaths": 57,
+  "Wallowa": {
+    "dateStr": "3/18/22",
+    "cases": 1249,
+    "deaths": 15,
     "recovered": 0,
-    "new": 3,
-    "newDeaths": 1
+    "new": 2,
+    "newDeaths": 0
+  },
+  "Wasco": {
+    "dateStr": "3/18/22",
+    "cases": 5102,
+    "deaths": 58,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
   },
   "Washington": {
-    "dateStr": "3/11/22",
-    "cases": 84650,
-    "deaths": 531,
+    "dateStr": "3/18/22",
+    "cases": 84813,
+    "deaths": 538,
     "recovered": 0,
-    "new": 19,
-    "newDeaths": 1
+    "new": 0,
+    "newDeaths": 0
   },
   "Wheeler": {
-    "dateStr": "3/11/22",
+    "dateStr": "3/18/22",
     "cases": 243,
     "deaths": 3,
     "recovered": 0,
@@ -296,11 +296,11 @@
     "newDeaths": 0
   },
   "Yamhill": {
-    "dateStr": "3/11/22",
-    "cases": 17626,
-    "deaths": 200,
+    "dateStr": "3/18/22",
+    "cases": 17663,
+    "deaths": 203,
     "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
+    "new": 6,
+    "newDeaths": 1
   }
 }
