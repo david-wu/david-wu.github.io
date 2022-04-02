@@ -1,94 +1,94 @@
 {
   "Allegany": {
-    "dateStr": "3/31/22",
+    "dateStr": "4/1/22",
     "cases": 17110,
     "deaths": 357,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  "Anne Arundel": {
+    "dateStr": "4/1/22",
+    "cases": 89215,
+    "deaths": 1061,
+    "recovered": 0,
+    "new": 47,
+    "newDeaths": 0
+  },
+  "Baltimore": {
+    "dateStr": "4/1/22",
+    "cases": 131668,
+    "deaths": 2458,
+    "recovered": 0,
+    "new": 53,
+    "newDeaths": 2
+  },
+  "Baltimore City": {
+    "dateStr": "4/1/22",
+    "cases": 111622,
+    "deaths": 1763,
+    "recovered": 0,
+    "new": 64,
+    "newDeaths": 1
+  },
+  "Calvert": {
+    "dateStr": "4/1/22",
+    "cases": 11106,
+    "deaths": 142,
     "recovered": 0,
     "new": 6,
     "newDeaths": 0
   },
-  "Anne Arundel": {
-    "dateStr": "3/31/22",
-    "cases": 89168,
-    "deaths": 1061,
-    "recovered": 0,
-    "new": 36,
-    "newDeaths": 0
-  },
-  "Baltimore": {
-    "dateStr": "3/31/22",
-    "cases": 131615,
-    "deaths": 2456,
-    "recovered": 0,
-    "new": 40,
-    "newDeaths": 0
-  },
-  "Baltimore City": {
-    "dateStr": "3/31/22",
-    "cases": 111558,
-    "deaths": 1762,
-    "recovered": 0,
-    "new": 66,
-    "newDeaths": 0
-  },
-  "Calvert": {
-    "dateStr": "3/31/22",
-    "cases": 11100,
-    "deaths": 142,
-    "recovered": 0,
-    "new": 5,
-    "newDeaths": 0
-  },
   "Caroline": {
-    "dateStr": "3/31/22",
+    "dateStr": "4/1/22",
     "cases": 6045,
     "deaths": 80,
     "recovered": 0,
-    "new": 3,
+    "new": 0,
     "newDeaths": 0
   },
   "Carroll": {
-    "dateStr": "3/31/22",
-    "cases": 21350,
+    "dateStr": "4/1/22",
+    "cases": 21356,
     "deaths": 397,
     "recovered": 0,
-    "new": 10,
+    "new": 6,
     "newDeaths": 0
   },
   "Cecil": {
-    "dateStr": "3/31/22",
-    "cases": 15424,
+    "dateStr": "4/1/22",
+    "cases": 15437,
     "deaths": 258,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Charles": {
-    "dateStr": "3/31/22",
-    "cases": 27852,
-    "deaths": 350,
-    "recovered": 0,
-    "new": 9,
-    "newDeaths": 0
-  },
-  "Dorchester": {
-    "dateStr": "3/31/22",
-    "cases": 7705,
-    "deaths": 107,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "Frederick": {
-    "dateStr": "3/31/22",
-    "cases": 45520,
-    "deaths": 517,
     "recovered": 0,
     "new": 13,
     "newDeaths": 0
   },
+  "Charles": {
+    "dateStr": "4/1/22",
+    "cases": 27863,
+    "deaths": 350,
+    "recovered": 0,
+    "new": 11,
+    "newDeaths": 0
+  },
+  "Dorchester": {
+    "dateStr": "4/1/22",
+    "cases": 7705,
+    "deaths": 107,
+    "recovered": 0,
+    "new": 0,
+    "newDeaths": 0
+  },
+  "Frederick": {
+    "dateStr": "4/1/22",
+    "cases": 45529,
+    "deaths": 517,
+    "recovered": 0,
+    "new": 9,
+    "newDeaths": 0
+  },
   "Garrett": {
-    "dateStr": "3/31/22",
+    "dateStr": "4/1/22",
     "cases": 5715,
     "deaths": 115,
     "recovered": 0,
@@ -96,39 +96,39 @@
     "newDeaths": 0
   },
   "Harford": {
-    "dateStr": "3/31/22",
-    "cases": 38130,
+    "dateStr": "4/1/22",
+    "cases": 38145,
     "deaths": 572,
     "recovered": 0,
-    "new": 14,
+    "new": 15,
     "newDeaths": 0
   },
   "Howard": {
-    "dateStr": "3/31/22",
-    "cases": 43596,
+    "dateStr": "4/1/22",
+    "cases": 43618,
     "deaths": 374,
     "recovered": 0,
-    "new": 23,
+    "new": 22,
     "newDeaths": 0
   },
   "Kent": {
-    "dateStr": "3/31/22",
-    "cases": 3039,
+    "dateStr": "4/1/22",
+    "cases": 3042,
     "deaths": 66,
     "recovered": 0,
-    "new": 0,
+    "new": 3,
     "newDeaths": 0
   },
   "Montgomery": {
-    "dateStr": "3/31/22",
-    "cases": 167111,
+    "dateStr": "4/1/22",
+    "cases": 167221,
     "deaths": 2024,
     "recovered": 0,
-    "new": 128,
-    "newDeaths": 4
+    "new": 110,
+    "newDeaths": 0
   },
   "Out of MD": {
-    "dateStr": "3/31/22",
+    "dateStr": "4/1/22",
     "cases": 0,
     "deaths": 0,
     "recovered": 0,
@@ -136,47 +136,47 @@
     "newDeaths": 0
   },
   "Prince George's": {
-    "dateStr": "3/31/22",
-    "cases": 169916,
+    "dateStr": "4/1/22",
+    "cases": 169974,
     "deaths": 2134,
     "recovered": 0,
-    "new": 43,
+    "new": 58,
     "newDeaths": 0
   },
   "Queen Anne's": {
-    "dateStr": "3/31/22",
-    "cases": 7077,
+    "dateStr": "4/1/22",
+    "cases": 7080,
     "deaths": 110,
-    "recovered": 0,
-    "new": 6,
-    "newDeaths": 0
-  },
-  "Somerset": {
-    "dateStr": "3/31/22",
-    "cases": 5186,
-    "deaths": 73,
-    "recovered": 0,
-    "new": 1,
-    "newDeaths": 0
-  },
-  "St. Mary's": {
-    "dateStr": "3/31/22",
-    "cases": 18844,
-    "deaths": 212,
     "recovered": 0,
     "new": 3,
     "newDeaths": 0
   },
+  "Somerset": {
+    "dateStr": "4/1/22",
+    "cases": 5188,
+    "deaths": 73,
+    "recovered": 0,
+    "new": 2,
+    "newDeaths": 0
+  },
+  "St. Mary's": {
+    "dateStr": "4/1/22",
+    "cases": 18849,
+    "deaths": 212,
+    "recovered": 0,
+    "new": 5,
+    "newDeaths": 0
+  },
   "Talbot": {
-    "dateStr": "3/31/22",
-    "cases": 5557,
+    "dateStr": "4/1/22",
+    "cases": 5558,
     "deaths": 86,
     "recovered": 0,
-    "new": 0,
+    "new": 1,
     "newDeaths": 0
   },
   "Unassigned": {
-    "dateStr": "3/31/22",
+    "dateStr": "4/1/22",
     "cases": 7,
     "deaths": 340,
     "recovered": 0,
@@ -184,27 +184,27 @@
     "newDeaths": 0
   },
   "Washington": {
-    "dateStr": "3/31/22",
-    "cases": 35049,
+    "dateStr": "4/1/22",
+    "cases": 35053,
     "deaths": 582,
-    "recovered": 0,
-    "new": 7,
-    "newDeaths": 1
-  },
-  "Wicomico": {
-    "dateStr": "3/31/22",
-    "cases": 19627,
-    "deaths": 326,
     "recovered": 0,
     "new": 4,
     "newDeaths": 0
   },
-  "Worcester": {
-    "dateStr": "3/31/22",
-    "cases": 8625,
-    "deaths": 156,
+  "Wicomico": {
+    "dateStr": "4/1/22",
+    "cases": 19632,
+    "deaths": 326,
     "recovered": 0,
-    "new": 2,
+    "new": 5,
     "newDeaths": 0
+  },
+  "Worcester": {
+    "dateStr": "4/1/22",
+    "cases": 8626,
+    "deaths": 157,
+    "recovered": 0,
+    "new": 1,
+    "newDeaths": 1
   }
 }
