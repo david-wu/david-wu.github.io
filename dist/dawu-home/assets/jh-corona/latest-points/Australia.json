@@ -1,66 +1,66 @@
 {
   "Australian Capital Territory": {
-    "dateStr": "4/1/22",
-    "cases": 79515,
-    "deaths": 42,
+    "dateStr": "4/16/22",
+    "cases": 92330,
+    "deaths": 47,
     "recovered": 121,
-    "new": 819,
+    "new": 0,
     "newDeaths": 0
   },
   "New South Wales": {
-    "dateStr": "4/1/22",
-    "cases": 1863375,
-    "deaths": 2444,
+    "dateStr": "4/16/22",
+    "cases": 2117659,
+    "deaths": 2612,
     "recovered": 2997,
-    "new": 20297,
-    "newDeaths": 344
-  },
-  "Northern Territory": {
-    "dateStr": "4/1/22",
-    "cases": 50713,
-    "deaths": 36,
-    "recovered": 193,
-    "new": 335,
-    "newDeaths": 1
-  },
-  "Queensland": {
-    "dateStr": "4/1/22",
-    "cases": 785417,
-    "deaths": 746,
-    "recovered": 1727,
-    "new": 9406,
+    "new": 9647,
     "newDeaths": 6
   },
-  "South Australia": {
-    "dateStr": "4/1/22",
-    "cases": 263402,
-    "deaths": 261,
-    "recovered": 841,
-    "new": 5835,
-    "newDeaths": 2
-  },
-  "Tasmania": {
-    "dateStr": "4/1/22",
-    "cases": 93192,
-    "deaths": 31,
-    "recovered": 221,
-    "new": 1840,
+  "Northern Territory": {
+    "dateStr": "4/16/22",
+    "cases": 57297,
+    "deaths": 36,
+    "recovered": 193,
+    "new": 340,
     "newDeaths": 0
   },
+  "Queensland": {
+    "dateStr": "4/16/22",
+    "cases": 907686,
+    "deaths": 798,
+    "recovered": 1727,
+    "new": 4850,
+    "newDeaths": 0
+  },
+  "South Australia": {
+    "dateStr": "4/16/22",
+    "cases": 350464,
+    "deaths": 298,
+    "recovered": 841,
+    "new": 3952,
+    "newDeaths": 0
+  },
+  "Tasmania": {
+    "dateStr": "4/16/22",
+    "cases": 119854,
+    "deaths": 43,
+    "recovered": 221,
+    "new": 1198,
+    "newDeaths": 1
+  },
   "Victoria": {
-    "dateStr": "4/1/22",
-    "cases": 1302047,
-    "deaths": 2752,
+    "dateStr": "4/16/22",
+    "cases": 1446613,
+    "deaths": 2840,
     "recovered": 20061,
-    "new": 9000,
-    "newDeaths": 3
+    "new": 7878,
+    "newDeaths": 2
   },
   "Western Australia": {
-    "dateStr": "4/1/22",
-    "cases": 190502,
-    "deaths": 53,
+    "dateStr": "4/16/22",
+    "cases": 292712,
+    "deaths": 105,
     "recovered": 1039,
-    "new": 7565,
-    "newDeaths": 1
+    "new": 11273,
+    "newDeaths": 15
   }
 }
