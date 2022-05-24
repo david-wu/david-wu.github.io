@@ -25,7 +25,7 @@ export class FirebaseAuthService {
   public defaultUiConfig = {
     signInSuccessUrl: '#/auth-success',
     callbacks: {
-      signInSuccess: () => false,
+      // signInSuccess: () => true,
     },
     signInOptions: [
       this.firebaseService.firebase.auth.GoogleAuthProvider.PROVIDER_ID,
@@ -94,11 +94,15 @@ export class FirebaseAuthService {
     return this.user$;
   }
 
+  public getFirebaseAuthUI(): firebaseui.auth.AuthUI {
+    return firebaseui.auth.AuthUI.getInstance() || new this.FirebaseAuthUI(this.firebaseAuth);
+  }
+
   public renderLogin(hostEl: HTMLElement): Observable<User> {
-    const firebaseAuthUI = firebaseui.auth.AuthUI.getInstance() || new this.FirebaseAuthUI(this.firebaseAuth);
-    // firebaseAuthUI.start(hostEl, {
-      // ...this.defaultUiConfig,
-    // });
+    const firebaseAuthUI = this.getFirebaseAuthUI();
+    firebaseAuthUI.start(hostEl, {
+      ...this.defaultUiConfig,
+    });
     return this.user$.asObservable();
   }
 

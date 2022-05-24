@@ -4,6 +4,10 @@ import {
   ViewChild,
 } from '@angular/core';
 import {
+  FirebaseAuthService,
+  FirebaseFirestoreService,
+} from '@services/index';
+import {
   select,
   Store,
 } from '@ngrx/store';
@@ -40,6 +44,7 @@ export class UserLoginComponent {
   constructor(
     public store: Store<any>,
     public hostEl: ElementRef,
+    public authService: FirebaseAuthService,
   ) {
     this.user$ = this.store.pipe(select(getUser$));
     this.authLoading$ = this.store.pipe(select(getAuthLoading$));
@@ -47,9 +52,17 @@ export class UserLoginComponent {
   }
 
   public ngOnInit() {
-    this.store.dispatch(AuthActions.renderLogin({
-      nativeEl: this.loginRef.nativeElement
-    }));
+    const firebaseAuthUI = this.authService.getFirebaseAuthUI();
+    firebaseAuthUI.start(this.loginRef.nativeElement, {
+      ...this.authService.defaultUiConfig,
+    });
+
+    // this.authService.renderLogin(this.loginRef.nativeElement)//.subscribe((user) => {
+      // this.store.dispatch(AuthActions.setUser({ payload: user}));
+    //});
+    // this.store.dispatch(AuthActions.renderLogin({
+    //   nativeEl: this.loginRef.nativeElement
+    // }));
   }
 
   public signOut() {
