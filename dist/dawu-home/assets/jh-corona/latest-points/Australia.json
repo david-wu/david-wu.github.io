@@ -1,66 +1,66 @@
 {
   "Australian Capital Territory": {
-    "dateStr": "6/12/22",
-    "cases": 140519,
-    "deaths": 68,
+    "dateStr": "6/17/22",
+    "cases": 145457,
+    "deaths": 74,
     "recovered": 121,
-    "new": 0,
+    "new": 860,
     "newDeaths": 0
   },
   "New South Wales": {
-    "dateStr": "6/12/22",
-    "cases": 2667026,
-    "deaths": 3319,
+    "dateStr": "6/17/22",
+    "cases": 2704914,
+    "deaths": 3385,
     "recovered": 2997,
-    "new": 4561,
-    "newDeaths": 3
+    "new": 8095,
+    "newDeaths": 24
   },
   "Northern Territory": {
-    "dateStr": "6/12/22",
-    "cases": 74317,
+    "dateStr": "6/17/22",
+    "cases": 75469,
     "deaths": 52,
     "recovered": 193,
-    "new": 108,
+    "new": 487,
     "newDeaths": 0
   },
   "Queensland": {
-    "dateStr": "6/12/22",
-    "cases": 1224031,
-    "deaths": 1120,
+    "dateStr": "6/17/22",
+    "cases": 1245043,
+    "deaths": 1171,
     "recovered": 1727,
-    "new": 2530,
-    "newDeaths": 1
+    "new": 4023,
+    "newDeaths": 8
   },
   "South Australia": {
-    "dateStr": "6/12/22",
-    "cases": 548777,
-    "deaths": 476,
+    "dateStr": "6/17/22",
+    "cases": 559972,
+    "deaths": 496,
     "recovered": 841,
-    "new": 4138,
-    "newDeaths": 1
-  },
-  "Tasmania": {
-    "dateStr": "6/12/22",
-    "cases": 172237,
-    "deaths": 80,
-    "recovered": 221,
-    "new": 452,
+    "new": 0,
     "newDeaths": 0
   },
+  "Tasmania": {
+    "dateStr": "6/17/22",
+    "cases": 176261,
+    "deaths": 85,
+    "recovered": 221,
+    "new": 850,
+    "newDeaths": 1
+  },
   "Victoria": {
-    "dateStr": "6/12/22",
-    "cases": 1988216,
-    "deaths": 3630,
+    "dateStr": "6/17/22",
+    "cases": 2023704,
+    "deaths": 3731,
     "recovered": 20061,
-    "new": 4311,
-    "newDeaths": 3
+    "new": 6539,
+    "newDeaths": 29
   },
   "Western Australia": {
-    "dateStr": "6/12/22",
-    "cases": 819864,
-    "deaths": 313,
+    "dateStr": "6/17/22",
+    "cases": 847823,
+    "deaths": 338,
     "recovered": 1039,
-    "new": 4780,
-    "newDeaths": 2
+    "new": 3989,
+    "newDeaths": 1
   }
 }
