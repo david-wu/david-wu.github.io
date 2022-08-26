@@ -39,6 +39,20 @@ import {
   getUser$,
 } from '@src/app/store/index';
 
+function chunk(file, chunkSize = (1048576 * 2)) {
+  const chunks = [];
+  while((chunks.length * chunkSize) < file.size) {
+    const start = chunks.length * chunkSize;
+    const end = Math.min(start + chunkSize, file.size);
+    chunks.push(file.slice(start, end));
+  }
+  return chunks;
+}
+
+function unchunk(chunks, name = '') {
+  return new File(chunks, name);
+}
+
 @Injectable()
 export class ImageSourcesEffects {
 
@@ -71,11 +85,20 @@ export class ImageSourcesEffects {
       switchMap(([action, user]) => {
         const sourceId = action.selectedImageSourceId;
         const file = action.file;
+        console.log(file);
+
+        const chunks = chunk(file);
+        const sum = chunks.reduce((memo, chunk) => memo + chunk.size, 0);
+        console.log('sum', sum, file.size);
+
+
+        debugger;
         if (!sourceId || !user) {
           return of(ImageSourcesActions.uploadImageSourceFileFailure({ payload: 'no user or source' }));
         }
         return from(this.imageSourcesService.uploadImageSourceFile(file, user, sourceId)).pipe(
           map((uploadedImage) => {
+            console.log('uploadedImage', uploadedImage);
             return ImageSourcesActions.uploadImageSourceFileSuccess({
               selectedImageSourceId: sourceId,
             });

@@ -28,7 +28,10 @@ export class ImageSourceImagesComponent {
   constructor(public store: Store) {
     this.images$ = this.store.pipe(
       select(getImagesBySourceId$),
-      map((imagesBySourceId: Record<string, any[]>) => imagesBySourceId[this.selectedImageSourceId] || []),
+      map((imagesBySourceId: Record<string, any[]>) => {
+        console.log('imagesBySourceId', imagesBySourceId);
+        return imagesBySourceId[this.selectedImageSourceId] || [];
+      }),
     );
   }
 

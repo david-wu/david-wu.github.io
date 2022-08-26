@@ -34,7 +34,6 @@ export class FileUploaderComponent {
   }
 
   public upload() {
-    // this.fss.uploadZip(this.file);
     this.fileUpload.emit(this.file);
   }
 }
