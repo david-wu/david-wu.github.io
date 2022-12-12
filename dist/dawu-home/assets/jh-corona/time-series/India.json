@@ -8153,8 +8153,288 @@
   },
   {
     "dateStr": "11/6/22",
-    "cases": 44660579,
-    "deaths": 530500,
+    "cases": 44661504,
+    "deaths": 530509,
+    "recovered": 30974748,
+    "new": 925,
+    "newDeaths": 9
+  },
+  {
+    "dateStr": "11/7/22",
+    "cases": 44661504,
+    "deaths": 530509,
+    "recovered": 30974748,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/8/22",
+    "cases": 44661504,
+    "deaths": 530509,
+    "recovered": 30974748,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/9/22",
+    "cases": 44661504,
+    "deaths": 530509,
+    "recovered": 30974748,
+    "new": 0,
+    "newDeaths": 0
+  },
+  {
+    "dateStr": "11/10/22",
+    "cases": 44664810,
+    "deaths": 530520,
+    "recovered": 30974748,
+    "new": 3306,
+    "newDeaths": 11
+  },
+  {
+    "dateStr": "11/11/22",
+    "cases": 44665643,
+    "deaths": 530528,
+    "recovered": 30974748,
+    "new": 833,
+    "newDeaths": 8
+  },
+  {
+    "dateStr": "11/12/22",
+    "cases": 44666372,
+    "deaths": 530531,
+    "recovered": 30974748,
+    "new": 729,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "11/13/22",
+    "cases": 44666924,
+    "deaths": 530532,
+    "recovered": 30974748,
+    "new": 552,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/14/22",
+    "cases": 44667390,
+    "deaths": 530533,
+    "recovered": 30974748,
+    "new": 466,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/15/22",
+    "cases": 44667900,
+    "deaths": 530535,
+    "recovered": 30974748,
+    "new": 510,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "11/16/22",
+    "cases": 44668535,
+    "deaths": 530546,
+    "recovered": 30974748,
+    "new": 635,
+    "newDeaths": 11
+  },
+  {
+    "dateStr": "11/17/22",
+    "cases": 44668535,
+    "deaths": 530553,
+    "recovered": 30974748,
+    "new": 0,
+    "newDeaths": 7
+  },
+  {
+    "dateStr": "11/18/22",
+    "cases": 44669748,
+    "deaths": 530570,
+    "recovered": 30974748,
+    "new": 1213,
+    "newDeaths": 17
+  },
+  {
+    "dateStr": "11/19/22",
+    "cases": 44670240,
+    "deaths": 530574,
+    "recovered": 30974748,
+    "new": 492,
+    "newDeaths": 4
+  },
+  {
+    "dateStr": "11/20/22",
+    "cases": 44670646,
+    "deaths": 530586,
+    "recovered": 30974748,
+    "new": 406,
+    "newDeaths": 12
+  },
+  {
+    "dateStr": "11/21/22",
+    "cases": 44670940,
+    "deaths": 530591,
+    "recovered": 30974748,
+    "new": 294,
+    "newDeaths": 5
+  },
+  {
+    "dateStr": "11/22/22",
+    "cases": 44671300,
+    "deaths": 530596,
+    "recovered": 30974748,
+    "new": 360,
+    "newDeaths": 5
+  },
+  {
+    "dateStr": "11/23/22",
+    "cases": 44671708,
+    "deaths": 530601,
+    "recovered": 30974748,
+    "new": 408,
+    "newDeaths": 5
+  },
+  {
+    "dateStr": "11/24/22",
+    "cases": 44672048,
+    "deaths": 530604,
+    "recovered": 30974748,
+    "new": 340,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "11/25/22",
+    "cases": 44672442,
+    "deaths": 530608,
+    "recovered": 30974748,
+    "new": 394,
+    "newDeaths": 4
+  },
+  {
+    "dateStr": "11/26/22",
+    "cases": 44672787,
+    "deaths": 530612,
+    "recovered": 30974748,
+    "new": 345,
+    "newDeaths": 4
+  },
+  {
+    "dateStr": "11/27/22",
+    "cases": 44673078,
+    "deaths": 530614,
+    "recovered": 30974748,
+    "new": 291,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "11/28/22",
+    "cases": 44673293,
+    "deaths": 530615,
+    "recovered": 30974748,
+    "new": 215,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "11/29/22",
+    "cases": 44673567,
+    "deaths": 530620,
+    "recovered": 30974748,
+    "new": 274,
+    "newDeaths": 5
+  },
+  {
+    "dateStr": "11/30/22",
+    "cases": 44673863,
+    "deaths": 530622,
+    "recovered": 30974748,
+    "new": 296,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "12/1/22",
+    "cases": 44674138,
+    "deaths": 530624,
+    "recovered": 30974748,
+    "new": 275,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "12/2/22",
+    "cases": 44674390,
+    "deaths": 530627,
+    "recovered": 30974748,
+    "new": 252,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "12/3/22",
+    "cases": 44674616,
+    "deaths": 530628,
+    "recovered": 30974748,
+    "new": 226,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/4/22",
+    "cases": 44674842,
+    "deaths": 530630,
+    "recovered": 30974748,
+    "new": 226,
+    "newDeaths": 2
+  },
+  {
+    "dateStr": "12/5/22",
+    "cases": 44675006,
+    "deaths": 530633,
+    "recovered": 30974748,
+    "new": 164,
+    "newDeaths": 3
+  },
+  {
+    "dateStr": "12/6/22",
+    "cases": 44675172,
+    "deaths": 530638,
+    "recovered": 30974748,
+    "new": 166,
+    "newDeaths": 5
+  },
+  {
+    "dateStr": "12/7/22",
+    "cases": 44675413,
+    "deaths": 530647,
+    "recovered": 30974748,
+    "new": 241,
+    "newDeaths": 9
+  },
+  {
+    "dateStr": "12/8/22",
+    "cases": 44675662,
+    "deaths": 530653,
+    "recovered": 30974748,
+    "new": 249,
+    "newDeaths": 6
+  },
+  {
+    "dateStr": "12/9/22",
+    "cases": 44675872,
+    "deaths": 530654,
+    "recovered": 30974748,
+    "new": 210,
+    "newDeaths": 1
+  },
+  {
+    "dateStr": "12/10/22",
+    "cases": 44676045,
+    "deaths": 530658,
+    "recovered": 30974748,
+    "new": 173,
+    "newDeaths": 4
+  },
+  {
+    "dateStr": "12/11/22",
+    "cases": 44676045,
+    "deaths": 530658,
     "recovered": 30974748,
     "new": 0,
     "newDeaths": 0
