@@ -1,9 +1,0 @@
-@import 'mixins';
-
-:host {
-  @include standard-demo-page;
-  .legend-container {
-    display: flex;
-    padding: 1rem;
-  }
-}

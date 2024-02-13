@@ -1,9 +1,0 @@
-@import 'mixins';
-
-:host {
-  height: 100%;
-  width: 100%;
-  .wide-button {
-    @include light-mini-button;
-  }
-}
