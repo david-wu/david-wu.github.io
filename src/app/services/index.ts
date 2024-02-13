@@ -5,6 +5,7 @@ import { FirebaseFirestoreService } from '@src/app/services/firebase-firestore.s
 import { FirebaseFunctionsService } from '@src/app/services/firebase-functions.service';
 import { FirebaseStorageService } from '@src/app/services/firebase-storage.service';
 import { ImageProcessingService } from '@src/app/services/image-processing.service';
+import { CamAppService } from '@src/app/services/cam-app.service';
 
 export const APP_SERVICES = [
   FirebaseService,
@@ -14,6 +15,7 @@ export const APP_SERVICES = [
   FirebaseFirestoreService,
   ExifService,
   ImageProcessingService,
+  CamAppService,
 ];
 
 export * from '@src/app/services/firebase.service';
@@ -23,6 +25,7 @@ export * from './firebase-firestore.service';
 export * from '@src/app/services/firebase-functions.service';
 export * from  './exif.service';
 export * from  './image-processing.service';
+export * from  './cam-app.service';
 
 // import { ExifService } from './exif.service';
 // import { PhotoGalleryService } from './photo-gallery.service';

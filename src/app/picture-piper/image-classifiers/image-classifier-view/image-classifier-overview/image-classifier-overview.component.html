@@ -23,4 +23,14 @@
     <div>mostRecentImage: {{ selectedImageClassifier }}</div>
     <div>upload count over time</div>
   </div>
+
+
+
+<div class="grid-container">
+  <dwu-image-grid
+    [files]="classifierImages$ | async"
+    [zoomLevel]="zoomLevel"
+  ></dwu-image-grid>
+</div>
+
 </ng-container>

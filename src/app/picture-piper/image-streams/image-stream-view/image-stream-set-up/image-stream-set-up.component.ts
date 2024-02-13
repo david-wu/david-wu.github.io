@@ -10,6 +10,7 @@ import {
   ImageStreamsActions,
 } from '@pp/image-streams/store/index';
 import { Observable } from 'rxjs';
+import { getUser$ } from '@app/store';
 
 @Component({
   selector: 'dwu-image-stream-set-up',
@@ -19,11 +20,13 @@ import { Observable } from 'rxjs';
 export class ImageStreamSetUpComponent {
 
   public selectedImageStream$: Observable<any>;
+  public user$: Observable<User>;
 
   constructor(
     public store: Store,
   ) {
     this.selectedImageStream$ = this.store.pipe(select(getSelectedImageStream$));
+    this.user$ = this.store.pipe(select(getUser$));
   }
 
 }

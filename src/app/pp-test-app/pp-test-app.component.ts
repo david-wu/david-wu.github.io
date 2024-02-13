@@ -1,5 +1,6 @@
 import {
   Component,
+  Input,
   ViewChild,
 } from '@angular/core';
 import {
@@ -7,15 +8,18 @@ import {
   Store,
 } from '@ngrx/store';
 import { Observable } from 'rxjs';
+import {
+  ExifService,
+  FirebaseFirestoreService,
+  FirebaseStorageService,
+  CamAppService,
+  ImageProcessingService,
+} from '@services/index';
 
-// import { }
-// const tf = require('@tensorflow/tfjs');
+
 import * as tf from '@tensorflow/tfjs';
 import * as mobilenet from '@tensorflow-models/mobilenet';
-
-// const mobilenet = require('@tensorflow-models/mobilenet');
-
-// webcam = await tf.data.webcam(webcamElement);
+import * as poseDetection from '@tensorflow-models/pose-detection';
 
 @Component({
   selector: 'dwu-pp-test-app',
@@ -23,119 +27,86 @@ import * as mobilenet from '@tensorflow-models/mobilenet';
   styleUrls: ['./pp-test-app.component.scss']
 })
 export class PpTestAppComponent {
+  @Input() user;
+  @Input() streamId = '';
+  @Input() classifierId = 'on3KXitewjIBjBCdtfqq';
 
   public selectedImageSource$: Observable<any>;
-  // @ViewChild('videoEl', { static: true }) videoEl;
   @ViewChild('webCamEl', { static: true }) webCamEl;
 
-  public results: any[];
+  public results: any[] = [];
   public webCamStopper;
 
   constructor(
+    public cas: CamAppService,
     public store: Store,
   ) {
-    // this.selectedImageSource$ = this.store.pipe(select(getSelectedImageSource$));
   }
 
   public ngOnInit() {
-    // console.log(this.videoEl)
-
+    console.log('this.cas', this.cas);
   }
 
   public ngOnDestroy() {
-    this.stopVideo(this.webCamEl.nativeElement);
+    this.onDisableCamera();
   }
 
-  public stopVideo(video) {
-    const stream = video.srcObject;
-    const tracks = (stream && stream.getTracks()) || [];
-    tracks.forEach((track) => track.stop());
-    // this.stopStream(video.srcObject);
-    video.srcObject = null;
-  }
+  public captureImageBlob(videoEl) {
+    const canvas = document.createElement('canvas');
 
-  // public stopStream(stream) {
-  //   const tracks = (stream && stream.getTracks()) || [];
-  //   tracks.forEach((track) => track.stop());
-  // }
+    canvas.width = 1920;
+    canvas.height = 1080;
+
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage( videoEl, 0, 0, canvas.width, canvas.height );
+    return new Promise((res, rej) => {
+      canvas.toBlob(res);
+    });
+  }
 
   public async onEnableCamera() {
     if (navigator.mediaDevices.getUserMedia) {
-      // this.webCamStopper = await this.runClassifierOnStream();
-      navigator.mediaDevices.getUserMedia({ video: true })
-        .then((stream) => {
-          console.log('stream', stream)
-          this.webCamEl.nativeElement.srcObject = stream;
-          // this.runClassifierOnStream();
-        })
-        .catch((error) => {
-          console.log("Something went wrong!", error);
-        });
+      this.webCamStopper = await this.runClassifierOnWebCam();
     }
-  }
-
-  public async runClassifierOnStream(stream?: any) {
-    const net = await mobilenet.load();
-
-    const webcam = await tf.data.webcam(this.webCamEl.nativeElement, {
-      resizeWidth: 320,
-      resizeHeight: 160,
-    });
-    console.log('webcam', webcam);
-
-    const interval = setInterval(async () => {
-      const img = await webcam.capture();
-      const results = await net.classify(img);
-      this.results = results;
-      // console.log('results', results)
-      // document.getElementById('console').innerText = `
-      //   prediction: ${result[0].className}\n
-      //   probability: ${result[0].probability}
-      // `;
-      // Dispose the tensor to release the memory.
-      img.dispose();
-
-      // Give some breathing room by waiting for the next animation frame to
-      // fire.
-      await tf.nextFrame();
-    }, 1000);
-
-    return () => {
-      webcam.stop();
-      clearInterval(interval);
-    };
-
-    // while (true) {
-      // const img = await webcam.capture();
-      // const result = await net.classify(img);
-
-      // console.log('result', result);
-      // // document.getElementById('console').innerText = `
-      // //   prediction: ${result[0].className}\n
-      // //   probability: ${result[0].probability}
-      // // `;
-      // // Dispose the tensor to release the memory.
-      // img.dispose();
-
-      // // Give some breathing room by waiting for the next animation frame to
-      // // fire.
-      // await tf.nextFrame();
-    // }
-
   }
 
   public onDisableCamera() {
     this.webCamStopper && this.webCamStopper();
     this.results = [];
-    this.stopVideo(this.webCamEl.nativeElement);
   }
 
-  public onLabelChange(imageSourceId: string, label: string) {
-    // this.store.dispatch(ImageSourcesActions.updateImageSource({ imageSourceId, patch: { label } }));
+  public async runClassifierOnWebCam() {
+    await tf.ready();
+    const webcam = await tf.data.webcam(this.webCamEl.nativeElement, {
+      resizeWidth: 320,
+      resizeHeight: 160,
+    });
+    const model = poseDetection.SupportedModels.MoveNet;
+    const detector = await poseDetection.createDetector(model);
+    const poseInterval = setInterval(async () => {
+      const image = await webcam.capture();
+      const poses = await detector.estimatePoses(image);
+      if (poses.length && this.user && this.streamId && this.classifierId) {
+        const file = await this.captureImageBlob(this.webCamEl.nativeElement);
+        console.log('uploading file', file);
+        this.cas.uploadFile(file, this.user, this.streamId, this.classifierId);
+      }
+      this.results = poses;
+    }, 3000);
+
+    return () => {
+      this.stopVideo(this.webCamEl.nativeElement);
+      webcam.stop();
+      clearInterval(poseInterval);
+    };
   }
 
-  public onDescriptionChange(imageSourceId: string, description: string) {
-    // this.store.dispatch(ImageSourcesActions.updateImageSource({ imageSourceId, patch: { description } }));
+  public stopVideo(video) {
+    const stream = video.srcObject;
+    const tracks = (stream && stream.getTracks()) || [];
+    console.log('tracks', tracks);
+    tracks.forEach((track) => track.stop());
+    video.srcObject = null;
   }
 
 }

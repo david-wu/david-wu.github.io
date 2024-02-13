@@ -1,12 +1,12 @@
 <ng-container *ngIf="selectedImageStream$ | async as selectedImageStream">
   <h3>
-    {{ selectedImageStream.label || selectedImageStream.id }}
+    Simulating {{ selectedImageStream.label || selectedImageStream.id }}
   </h3>
   <p>
-    Quick web test app
+    This runs the Device in this browser.  For improved performance, download the app from on the device.
   </p>
   <div class="phone-demo">
-    <router-outlet></router-outlet>
+    <dwu-pp-test-app [user]="user$ | async" [streamId]="(selectedImageStream$ | async)?.id"></dwu-pp-test-app>
   </div>
   <p>
     <a [routerLink]="['/pp/pp-test-app']">Click here to go to the full-size app</a>

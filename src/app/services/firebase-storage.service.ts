@@ -7,24 +7,24 @@ import 'firebase/storage';
 })
 export class FirebaseStorageService {
 
-  public firebaseStorage = this.firebaseService.firebase.storage();
+  public storage = this.firebaseService.firebase.storage();
 
   constructor(public firebaseService: FirebaseService) {}
 
-  public uploadFile(file: File, fileName: string= 'image.jpg') {
-    const storageRef = this.firebaseStorage.ref();
-    const imageRef = storageRef.child('uploads').child(fileName);
+  public uploadFile(file: File, fileName: string= 'image.jpg', dir = 'uploads') {
+    const storageRef = this.storage.ref();
+    const imageRef = storageRef.child(dir).child(fileName);
     return imageRef.put(file);
   }
 
   public uploadZip(file: File, fileName: string= 'file.zip') {
-    const storageRef = this.firebaseStorage.ref();
+    const storageRef = this.storage.ref();
     const imageRef = storageRef.child('uploadZips').child(fileName);
     return imageRef.put(file);
   }
 
   public async deleteFile(fileName: string= 'image.jpg') {
-    const storageRef = this.firebaseStorage.ref();
+    const storageRef = this.storage.ref();
     const imageRef = storageRef.child(`uploads/${fileName}`);
     return imageRef.delete()
       .catch((error) => {

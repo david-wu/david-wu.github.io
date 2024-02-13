@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { PpTestAppComponent } from '@app/pp-test-app/pp-test-app.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PpTestAppComponent,
-  },
+  // {
+  //   path: '',
+  //   component: PpTestAppComponent,
+  // },
 ];
 
 @NgModule({

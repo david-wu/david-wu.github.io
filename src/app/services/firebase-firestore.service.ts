@@ -73,11 +73,11 @@ export class FirebaseFirestoreService {
    * @param {User} user
    * @return {Promise<DocumentReference>} docRef
    */
-  public async insertUploadDoc(uploadDoc: any): Promise<any> {
+  public async insertUploadDoc(uploadDoc: any, dir = 'uploads'): Promise<any> {
     const timestamp = this.firestoreTimestamp();
     uploadDoc.createdAt = timestamp;
     uploadDoc.updatedAt = timestamp;
-    return await this.db.collection('uploads').add(uploadDoc);
+    return await this.db.collection(dir).add(uploadDoc);
   }
 
   /**
@@ -85,8 +85,8 @@ export class FirebaseFirestoreService {
    * @param {string} fileId
    * @param {any} uploadMeta
    */
-  public async registerFileUploaded(fileId: string, uploadMeta: any) {
-    const uploadIndexDoc = this.db.doc(`uploads/${fileId}`);
+  public async registerFileUploaded(fileId: string, uploadMeta: any, dir = 'uploads') {
+    const uploadIndexDoc = this.db.doc(`${dir}/${fileId}`);
     return await uploadIndexDoc.update({
       isUploaded: true,
       uploadMeta,

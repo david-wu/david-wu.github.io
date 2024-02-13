@@ -7,10 +7,10 @@ const routes: Routes = [
     path: '',
     component: ImageStreamSetUpComponent,
     children: [
-      {
-        path: '',
-        loadChildren: () => import('@app/pp-test-app/pp-test-app.module').then(m => m.PpTestAppModule)
-      },
+      // {
+      //   path: '',
+      //   loadChildren: () => import('@app/pp-test-app/pp-test-app.module').then(m => m.PpTestAppModule)
+      // },
     ],
   },
 ];

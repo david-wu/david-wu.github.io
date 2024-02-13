@@ -9,7 +9,9 @@ import {
   getSelectedImageClassifier$,
   ImageClassifiersActions,
 } from '@pp/image-classifiers/store/index';
-import { Observable } from 'rxjs';
+import {PicturePiperService} from '@pp/services/index';
+import { of, Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'dwu-image-classifier-overview',
@@ -19,11 +21,21 @@ import { Observable } from 'rxjs';
 export class ImageClassifierOverviewComponent {
 
   public selectedImageClassifier$: Observable<any>;
+  public classifierImages$;
 
   constructor(
     public store: Store,
+    public ppService: PicturePiperService,
   ) {
     this.selectedImageClassifier$ = this.store.pipe(select(getSelectedImageClassifier$));
+    this.classifierImages$ = this.selectedImageClassifier$.pipe(
+      switchMap((imageClassifier) => {
+        console.log('imageClassifier', imageClassifier);
+        if(!imageClassifier) return of([]);
+        return this.ppService.getImagesForClassifier$(imageClassifier.id);
+      }));
+
+    this.classifierImages$.subscribe(console.log);
   }
 
   public onLabelChange(imageClassifierId: string, label: string) {
