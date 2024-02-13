@@ -84,10 +84,10 @@ export class PpTestAppComponent {
     const model = poseDetection.SupportedModels.MoveNet;
     const detector = await poseDetection.createDetector(model);
     const poseInterval = setInterval(async () => {
-      const image = await webcam.capture();
+      const image = await webcam.capture() as any;
       const poses = await detector.estimatePoses(image);
       if (poses.length && this.user && this.streamId && this.classifierId) {
-        const file = await this.captureImageBlob(this.webCamEl.nativeElement);
+        const file = await this.captureImageBlob(this.webCamEl.nativeElement) as any;
         console.log('uploading file', file);
         this.cas.uploadFile(file, this.user, this.streamId, this.classifierId);
       }
