@@ -26,7 +26,7 @@ export class CamAppService {
       isUploaded: false,
       imageStreamId,
       imageClassifierId,
-    } as UploadFile;
+    };
     const insertedUploadDocRef = await this.store.insertUploadDoc(uploadDoc, 'ppUploads');
     const insertedUploadDoc = {
       ...uploadDoc,

@@ -11,6 +11,7 @@ import {
 } from '@pp/image-streams/store/index';
 import { Observable } from 'rxjs';
 import { getUser$ } from '@app/store';
+import { User } from '@models/index';
 
 @Component({
   selector: 'dwu-image-stream-set-up',
